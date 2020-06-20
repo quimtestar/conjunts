@@ -1,0 +1,1113 @@
+Doncs potser.
+Quote Tweet
+    @PloraEtLabora
+    Dispensi, no sé si podría fer un filet que expliqui els 'asuntus' sobre el concepte d'infinit a Cantor i Dedekind. Allò de que hi ha infinits més grans que d'altres i aquestes coses. Si ho vol, és clar.
+
+Hi he estat pensant i em sembla que abans d'entrar en el que és la transfinitud en si hauríem de donar una volta per tot el que serien les bases generals de la TEORIA DE CONJUNTS Firework sparklerFireworksFirecrackerFire
+
+Comencem pel començament: un CONJUNT és una col·lecció de coses que en diem ELEMENTS.
+
+Plot twist: no totes les col·leccions de coses són conjunts.
+
+Va haver-hi un temps que hom creia que més o menys sí que ho són. Volent dir aquest "més o menys" que tampoc és que ningú s'hagués plantejat mai el tema amb gaire profunditat. Es tenia la noció intuïtiva que els conjunts són col·leccions de coses i s'anava fent.
+
+En concret, al segle XIX, que és quan en Cantor i en Dedekind per qui em demanaven abans operaven, la cosa anava així.
+
+En particular, s'acceptava tàcitament la validesa del que després s'ha vingut a anomenar "axioma de comprensió sense restriccions": donada una propietat qualsevol que poden tenir les coses, existeix el conjunt de coses que la satisfan.
+
+Existeix el conjunt de nombres primers que conté precisament aquelles coses que compleixen la propietat "ser un nombre primer". Existeix el conjunt de coses de color blau que conté precisament aquelles coses que compleixen la propietat "ser de color blau".
+
+També existeixen el conjunt buit que respon a una propietat abstracta que no compleix cap cosa i per tant no té cap element i el conjunt universal que respon a una propietat abstracta que compleixen totes les coses i per tant totes les coses en són elements.
+
+Després van venir el segle XX i un paio que es deia Bertrand Russell que es va posar a pensar molt fort sobre aquesta noció.
+
+Considerem un moment el conjunt universal que hem esmentat fa una estona. Hem dit que és aquell conjunt tal que totes les coses en són elements. I en particular, com que ell mateix és també una cosa doncs tenim que serà un element de si mateix.
+
+Això que un conjunt sigui un element d'ell mateix pot semblar exòtic però és una propietat com qualsevol altra que segons l'axioma de comprensió que hem vist tindran alguns conjunts com el conjunt universal, el conjunt de tots els conjunts i molts altres.
+
+Considerem ara la propietat complementària a aquesta. Els conjunts que *no* es tenen a ells mateixos com a element. Segons l'axioma de comprensió sense restriccions, aquesta propietat també ens defineix un conjunt: el conjunt de conjunts que no són element d'ells mateixos.
+
+Anomenarem a aquest conjunt, jo què sé, K. I ens preguntem a continuació si K és un element d'ell mateix.
+
+Suposant que efectivament K és un element d'ell mateix, per la pròpia definició de K això implica que no és un element d'ell mateix, cosa que contradiu la hipòtesi.
+
+I si en canvi suposem que no ho és això vol dir que no compleix la propietat de no ser un element d'ell mateix, cose que implica que sí que ho és, contradient altre cop la hipòtesi.
+
+La mateixa existència del conjunt K, per tant, ens aboca a una contradicció. Hem trobat una col·lecció de coses que no pot existir com a conjunt.
+
+No sé si en Bertrand Russell va ser el primer en topar amb aquesta idea, però segurament sí que va ser el primer en adonar-se que representava un problema molt greu. I per això s'anomena "la paradoxa de Russell".
+
+El problema és que si tenim una matemàtica que pot demostrar coses que són òbviament mentida com l'existència d'aquest conjunt K, aleshores cap resultat que ens proporcioni aquesta ciència té cap valor perquè aquest podria ser tant veritat com mentida.
+
+La cosa a més té una importància especial perquè el concepte de conjunt és absolutament ubic en les matemàtiques. Seria molt difícil trobar un text matemàtic modern en que no fes aparició en algun moment.
+
+Tant és així que de fet es pot arribar a desenvolupar tota la matemàtica a partir només de la teoria de conjunts i sense fer servir essencialment cap altre concepte que el de conjunt pur. Un conjunt pur és un conjunt tal que tots els seus elements són alhora conjunts purs.
+
+Però tornem al problema de la inconsistència descobert per Russell. La manera com en general s'ha adreçat la qüestió és restringint la idea intuïtiva de conjunt per mitjà d'unes regles estrictes que no donin lloc a contradiccions.
+
+Per arribar a afirmar "existeix el conjunt A amb totes les coses que compleixen la propietat P" necessitarem justificar aquesta existència seguint aquestes regles, entre les que de ben segur no hi haurà l'axioma que deia que ho podíem afirmar directament.
+
+D'aquests jocs de regles en diem "sistemes axiomàtics" i se n'han anat proposant diversos des d'aleshores. De les teories de conjunts basades en aquests sistemes en diem "teoria axiomàtica de conjunts".
+
+De la teoria de conjunts amb la que treballaven els matemàtics del segle XIX o que s'ensenya encara avui dia als nens de primària, basada únicament en la noció intuïtiva de conjunt, en diem "teoria de conjunts naïf".
+
+D'un sistema axiomàtic per la teoria de conjunts voldrem bàsicament tres coses:
+  1. Que l'entitat que descrigui es correspongui a la nostra noció intuïtiva de conjunt.
+  2. Que sigui consistent: que no ens pugui dur alhora a afirmar una cosa i la contrària com amb lo de Russell.
+
+i 3. Que sigui complet: que doni resposta a totes les qüestions que ens puguem plantejar sobre teoria de conjunts. O dit d'una altra manera, que donat qualsevol enunciat en el que apareguin conjunts, o ell o bé la seva negació es puguin demostrar a partir dels axiomes.
+
+El punt 1 és subjectiu perquè d'intuïció cadascú té la seva i a tot al que podem aspirar és a un conveni. Hi ha una multiplicitat de teories de conjunts on en cadascuna el concepte "conjunt" té uns matisos diferents i una que convenim que dona lloc a les matemàtiques "estàndard'.
+
+A més aquí hi entren posicionaments filosòfics que són una qüestió bàsicament prematemàtica i que jo tot i tenir personalment triat el meu els trobo fruit d'una discussió més propera a la religió que a una altra cosa.
+
+Hi ha per exemple una secta que es diuen els FINITISTES que rebutgen l'existència de conjunts infinits perquè la troben HERÈTICA o algo.
+
+De fet tampoc és que sigui un posicionament tan descabellat, si vas a mirar. Estem dient que el que fem és plasmar la nostra intuïció de conjunt com un joc de regles formals i   l'infinit en si és un concepte que té ramificacions que desafien la intuïció.
+
+Per exemple l'Hotel Infinit de Hilbert. Parlem un moment de l'Hotel Infinit de Hilbert.
+
+Posem que ens trobem treballant a la recepció d'un hotel que té infinites habitacions. I que estem amb l'hotel ple fins la bandera. Totes les habitacions ocupades. En aquell moment arriba un client nou que vol una habitació.
+
+La nostra experiència limitada als hotels finits ens diu que si tenim un hotel complet i arriba un client nou, no el podrem acomodar i li hem de dir que sentint-ho molt s'haurà de buscar un altre establiment.
+
+Però en un hotel infinit sí que podrem obtenir una habitació lliure per ell encara que partim de tenir-les totes ocupades. Tot el que hem de fer és agafar cada client de l'habitació n i moure'l cap a la n+1 i després donar-li l'habitació 0 que ha quedat lliure al nou hoste.
+
+Un finitista ens dirà que aquest resultat contraintuïtiu entra en conflicte amb el punt 1 dels que hem dit abans i per tant en la nostra teoria de conjunts no hi ha d'haver infinits.
+
+Per altra banda, una matemàtica construïda només sobre conjunts finits és difícil que arribi a assolir la potència que té la normal de tota la vida. Com fas per exemple geometria analítica si no pots dir que un segment està format per infinits punts? Doncs ni idea.
+
+Els punts 2 i 3, és a dir, que el sistema axiomàtic que adoptem per la teoria de conjunts a sigui consistent i complet, en canvi, sí que són qüestions perfectament objectivables. Però aquí entren Kurt Godel i els seus teoremes d'incompletesa.
+
+Godel es va adonar que donat un sistema de la mena que estem tractant que sigui prou potent com per respondre qüestions aritmètiques bàsiques, seria possible traduïr una afirmació com "aquesta afirmació no és demostrable en aquest sistema" en forma d'equació aritmètica que
+
+a continuació podríem introduir dins del propi sistema perquè ens proporcionés una resposta, generant una paradoxa de l'estil de la que hem vist abans amb Russell.
+
+Per tant no és possible que si el nostre sistema és consistent sigui alhora complet i pugui resoldre totes les qüestions que li plantegem. Sempre hi haurà coses que des dels nostres axiomes no podrem ni demostrar ni refutar. Terrible.
+
+La part d'expressar una oració en llenguatge natural com "aquesta afirmació no és demostrable en aquest sistema" en forma de proposició processable per un sistema axiomàtic formal es diu molt ràpid però és una liada en ella mateixa bastant important.
+
+En llenguatge natural podem referir-nos a "aquesta frase" dins de la mateixa frase a la que ens estem referint saltant alegrement entre nivells de metallenguatge i el receptor ho entén sense més problema perquè el cervell humà és molt pràctic i té facilitat per aquestes coses.
+
+Per exemple, podem dir "aquesta frase és mentida" creant una paradoxa d'autorreferència i qui ho sent de seguida entén la broma sense que el cervell li entri en un bucle infinit en processar-ho ni agafar-li una embòlia ni morir-se ni res.
+
+Però fer-li aquest mateix joc a un sistema formal fet per distingir allò veritable d'allò fals d'una manera ben fonamentada és força més complicat. No tindrem manera de dir "aquesta frase" o "aquest sistema" així amb un adjectiu demostratiu i a cascar-la.
+
+Haurem de buscar-nos la vida per declarar els conceptes de manera explícita. Es una mica com la llengua dels ents.
+
+El que va haver de fer en Godel per dur a terme això va ser d'alguna manera "programar" sobre paper en forma d'equacions aritmètiques el comportament d'un sistema axiomàtic mínim que pogués resoldre aquelles mateixes equacions aritmètiques.
+
+El cop d'intuïció que devia fer falta per afrontar tota aquesta feinada avorridíssima amb la convicció que al final hi ha una conclusió formal valuosa és una cosa que sempre m'ha admirat bastant.
+
+Una altra conseqüència dels teoremes d'incompletesa de Godel és que la consistència d'un d'aquests sistemes no es pot arribar a demostrar d'una manera matemàtica.
+
+I per tant mai podrem estar realment segurs que els axiomes que haguem escollit per parlar de conjunts no ens portin a una contradicció com va passar amb la teoria de conjunts naïf del segle XIX i la paradoxa de Russell.
+
+Recapitulant doncs, de les tres coses que voldríem per un sistema axiomàtic que ens permeti discórrer amb rigor per la teoria de conjunts i, per extensió, per tota la matemàtica: una és subjectiva, l'altra no la podem tenir garantida i la tercera és impossible. Joder, no?
+
+Existeix un conjunt d'axiomes concret, però, que donat que sembla que a la seva manera satisfà _prou_ tots tres punts s'ha pres per conveni general com que representa la teoria de conjunts (i per extensió la matemàtica) "estàndard".
+
+Se'l coneix com a ZFC, per Zermelo i Fraenkel, que són dos senyors, i la C de "axiom of choice".  Quan parlem de conjunts sense dir res més s'entén que ens referim exactament a aquells ens que compleixen aquests axiomes i no a una altra cosa.
+
+El sistema axiomàtic ZFC consta de nou axiomes i em temo que tuiter no és un lloc gaire adequat per entrar a detallar-los un per un, ja que seria una cosa feixuga i avorridíssima.
+
+És exactament el que faré.
+
+L'axioma d'extensionalitat diu que dos conjunts iguals són el mateix conjunt.
+
+Això d'entrada pot semblar que no digui gran cosa però aquí darrere hi ha una característica bastant profunda que separa el món immutable de les idees i les abstraccions matemàtiques del món sensible de les coses on ens veiem lamentablement forçats existir nosaltres.
+
+Quan diem "2+2 és igual a 4", inherentment a això va lligat que a qualsevol proposició on veiem un 2+2 el podem substituir per un 4 i la seva validesa no es veu afectada pel canvi, perquè són la mateixa cosa i tenen exactament les mateixes propietats.
+
+Aquest fet és una part essencial del discórrer matemàtic, de fet. En canvi, en el món sensible si veiem un cotxe igual pel nostre no necessàriament ha de ser el nostre i si fem amb ell el que fariem amb el nostre podem tenir problemes amb la justícia.
+
+És obvi que a causa d'això discórrer en el món sensible ha de ser per força molt més esgotador, feixuc i desagradable. No saps mai si dues coses iguals són la mateixa o no, hòstia puta.
+
+Tornant als conjunts, direm que dos conjunts són iguals quan tinguin exactament els mateixos elements i per l'axioma d'extensionalitat qualsevol propietat que tingui un també la tindrà l'altre.
+
+Per exemple, la propietat de ser un element d'un tercer conjunt donat. Si A=B, i A∈C, podem estar segurs que B∈C. I això és en virtud d'aquest primer axioma. Saludem tots a l'axioma d'extensionalitat.
+
+L'axioma d'emparellament diu que donats dos elements qualssevol a i b (no necessàriament diferents) existeix un conjunt {a, b} que format per precisament aquests dos elements.
+
+L'existència dl conjunt d'un sol element queda subsumida en aquest axioma, quan a i b siguin la mateixa cosa. Tots els elements de {a, a} són element de {a} i viceversa, per tant tenen els mateixos elements, per tant són iguals, i per tant, per l'anterior axioma d'extensionalitat
+
+són el mateix conjunt. Aquest raonament seria una mica formalitzar la idea que els conjunts són col·leccions sense ordre ni repetició, pel cas de parells de la forma {a, a}.
+
+L'emparellament d'elements ens permet construir algunes estructures interessants amb conjunts. Per exemple, si tenim dos elements a i b podem formar els conjunts {a} i {a, b} i després emparellar aquests per formar {{a}, {a, b}}.
+
+Aquesta estructura ens interessa per la seva asimetria. No és el mateix {{a}, {a, b}} que {{b}, {b, a}}. I com que és asimètrica podem definir-hi un ordre, dir que un element va davant de l'altre. Per això en diem "parell ordenat" i ho escrivim amb la notació (a, b)={{a}, {a,b}}
+
+Els parells ordenats són una cosa que es fa servir bastant, per exemple per jugar a barcos.
+
+Amb parells ordenats podem construir alhora llistes finites d'elements: [a, b, c, d, e]=((((a, b), c), d), e). Tot i que en matemàtiques normalment en diem tuples i les escrivim en la forma (a, b, c, d, e).
+
+El que és interessant d'això és que totes aquestes estructures les podem tractar matemàticament, manipular-les i formular teoremes sobre elles fent servir res més que la teoria de conjunts que surt d'aquests axiomes, donat que no són res més que un tipus particular de conjunt.
+
+L'axioma de la unió diu que donat un conjunt que els seus elements són altres conjunts aleshores els elements d'aquests conjunts units formen un conjunt.
+
+És a dir que si tenim el conjunt {{a, b}, {c, d}, {e}} aleshores existeix el conjunt unió {a, b, c, d, e}.
+
+Combinant els axiomes d'emparellament i de unió podem fer l'operació d'únió binària de tota la vida, o sigui, l'operació que pren dos conjunts i uneix els seus elements en un de sol:  donats els conjunts A i B, existeix el conjunt parella {A,B} i d'aquest la unió ∪({A,B}) = A∪B
+
+Aquesta operació d'unió binària dona lloc a una altra construcció interessant. Amb ella podem definir la funció s(X) = X∪{X}. És a dir, donat un conjunt qualsevol, construïm un nou conjunt prenent aquest i afegint-li ell mateix com a element.
+
+Per exemple, aplicada al conjunt {a,b}: s({a,b}) = s({a,b,{a,b}}). D'aquesta funció en diem "successor" i diríem que el successor de {a,b} és {a,b,{a,b}}.
+
+Si apliquem la funció successor al conjunt buit ∅, aquell conjunt que no té cap element, tenim que s(∅)=∅∪{∅}={∅}. D'aquest conjunt, que només té un element que és el conjunt buit, en diem "1".
+
+Si apliquem ara la funció successor al conjunt 1, tenim que s(1)=1∪{1}={∅,1}. Obtenim un nou conjunt amb els dos elements ∅ i 1 i d'aquest en diem "2".
+
+Aplicant ara la funció successor a 2, obtenim s(2)=2∪{2}={∅,1,2}, un conjunt amb tres elements que en diem "3".
+
+I així, amics, és com neixen els nombres Red heart
+
+L'axioma de l'infinit diu que existeix un conjunt I = {0,1,2,3,4,5....} que conté tots els nombres que surten d'aplicacions successives de la funció successor al conjunt buit tal com l'hem definit abans.
+
+Més formalment, existeix un conjunt I tal que ∅ ∈ I i que a més donat qualsevol element x ∈ I  tenim que també x∪{x} ∈ I.
+
+Dels elements d'aquest conjunt I i de tots els que tenen la mateixa cardinalitat en diem "conjunts finits". De tots els altres, inclòs el mateix conjunt I, en diem "conjunts infinits".
+
+I aquesta simplement és la definició de la dicotomia finit/infinit que es sol fer anar quan es treballa amb el sistema d'axiomes ZFC. Però per comprendre-la ens faltaria saber què vol dir això de "tenir la mateixa cardinalitat". I per això haurem d'aprendre a comptar.
+
+La cardinalitat és la mesura de la quantitat d'elements que té un conjunt. Que dos conjunt tinguin la mateixa cardinalitat vol dir que tenen la mateixa quantitat d'elements.
+
+Per saber si dos conjunts tenen la mateixa quantitat d'elements el que fem és mirar d'establir entre ells una correspondència un a un que se'n diu "bijecció". Si som capaços d'establir-la, aleshores diem que els dos conjunts tenen la mateixa cardinalitat. [figura]
+
+Així doncs, si en un conjunt podem establir-hi una bijecció amb algun dels elements del conjunt I = {0,1,2,3,4,5,....}, direm que aquest conjunt és finit.
+
+Com hem vist abans, aquests elements són conjunts que inclouen alhora tots els conjunts que han anat sortint abans en l'aplicació successiva de la funció successor a partir del conjunt buit 0, és a dir 3 = {0,1,2}, 4= {0,1,2,3}, 5 = {0,1,2,3,4} i així successivament.
+
+Si tenim per exemple el conjunt {a,b,c,d,e} veiem que podem establir una bijecció amb el conjunt 5 = {0,1,2,3,4} de la següent manera (entre moltes altres):
+a -> 0
+b -> 1
+c -> 2
+d -> 3
+e -> 4
+
+Per tant sabem que el conjunt {a,b,c,d,e} és finit i direm que té una cardinalitat de 5. Els elements de I els farem servir com a mesura estàndard de la cardinalitat dels conjunts finits. En direm "nombres naturals(*)".
+
+De fet tot aquest procés és exactament el que fa un nen quan compta els elements d'un conjunt qualsevol d'ítems concrets que té al davant. Els va assenyalant un per un assignant-los nombres consecutius i al final sap amb quin dels elements de I pot establir-hi una bijecció.
+
+Recordeu l'Hotel Infinit de Hilbert?
+Quote Tweet
+    Però en un hotel infinit sí que podrem obtenir una habitació lliure per ell encara que partim de tenir-les totes ocupades. Tot el que hem de fer és agafar cada client de l'habitació n i moure'l cap a la n+1 i després donar-li l'habitació 0 que ha quedat lliure al nou hoste.
+
+En aquella maniobra de fer còrrer tots els clients de l'habitació n cap a la n+1 estàvem de fet establint una bijecció entre el conjunt I i el conjunt I sense l'element 0, per tal de poder encabir el nou client en l'habitació 0.
+
+En altres paraules, estem demostrant que I té la mateixa quantitat d'elements que I traient-li un element, segons la definició de "tenir la mateixa quantitat d'elements" que hem donat.
+
+Això amb els conjunts finits no passa. Si a un conjunt finit li treiem un element, el resultat té estrictament menys elements que l'original. El que vindria a ser al que estem acostumats que passi a la nostra quotidianitat finita.
+
+Al segle XIX, abans de tot això de l'axiomatització, un senyor que es deia Richard Dedekind buscava una manera de caracteritzar l'infinitat que fos purament interna a la teoria de conjunts; que no fes referència a cap concepte extern, com per exemple, els nombres naturals.
+
+La definició que va desenvolupar va ser precisament aquesta propietat de la que estem parlant: un conjunt és infinit quan es pot posar en bijecció (té la mateixa quantitat d'elements) amb una de les seves parts pròpies, o sia, un subconjunt diferent d'ell mateix.
+
+En ZFC es pot demostrar que els conjunts que caracteritza són exactament els mateixos que els de la definició que hem dit abans que fariem servir (els conjunts que no es poden posar en bijecció amb algun element de I), però això no té perquè ser així en altres sistemes axiomàtics
+
+I això és perquè, encara que sempre fem servir la paraula "conjunt", sistemes axiomàtics diferents poden estar parlant de coses (lleugerament) diferents.
+
+De fet, ni tant sols en ZFC fem servir la definició de Dedekind perquè per demostrar l'equivalència amb l'altra necessitem un axioma particular que és el de l'elecció (la C de ZFC), que és controvertit, sempre es deixa pel final i s'evita si es pot evitar.
+
+Això també vol dir que per demostrar molts teoremes on intervingués l'infinitat hauriem de fer servir aquest axioma de l'elecció i ens agrada mantenir tanta matemàtica com sigui possible dins de ZF. Quan arribem a l'axioma de l'elecció (no sé quan) veurem per què.
+
+A nosaltres no ens importa com a Dedekind fer servir els naturals per definir l'infinitat perquè com que els hem desenvolupat com un tipus particular de conjunt ja no són una cosa externa a la teoria de conjunts, sinó una part d'ella mateixa.
+
+Dels conjunts que són infinits segons la definició de Dedekind (i que poden ser o no infinits segons el sistema axiomàtic en el que estiguem treballant) avui dia en diem Dedekind-infinits.
+
+De l'axioma de l'infinit (i possiblement l'ajut d'algun altre que encara devem tenir pendent) es deriva una cosa força important que és el principi d'inducció matemàtica.
+
+Així en general la inducció és un tipus de raonament que consisteix en la construcció d'una regla general a partir de l'observació d'un conjunt de casos concrets. Veiem passar quatre o cinc corbs negres i concloem que tots els corbs són negres. Amb dos collons.
+
+En matemàtiques també volem arribar a conclusions generals d'una manera anàloga però:
+a) Necessitem rigor i per tant estar segurs que podem parlar per tots els corbs.
+b) Els nostres conjunts de corbs són en general infinits.
+c) Les nostres demostracions són necessàriament finites
+
+Per això fem servir coses com l'anomenat "principi d'inducció matemàtica"; si tenim una propietat P aplicada als nombres naturals on podem validar que:
+*) Es dóna P(0).
+*) Donada qualsevol n∈ℕ tal que es doni P(n) aleshores també es donarà P(n+1).
+
+Donat que sabem que serà cert que P(0), i d'aquí podrem deduïr consecutivament P(1), P(2), P(3)... podrem concloure que P es donarà per totes les n∈ℕ.
+
+Podem demostrar, doncs, infinites coses (que P es dóna per cadascun dels infinits nombres naturals) amb una demostració finita, un raonament format per un conjunt finit de passos lògics. I això és una eina potentíssima.
+
+Aquest principi el necessitem per demostrar coses tan bàsiques com la validesa de la commutativitat de la suma, que a+b = b+a. I la validesa del principi, alhora, es demostra partint de l'axioma de l'infinit, així com la construcció de funcions recursives com la suma mateixa.
+
+El que no sé jo és com es convencen a ells mateixos d'aquestes coses (la validesa de la commutativitat de la suma, per exemple) els finitistes de qui vaig estar parlant fa un temps (escup al terra). Possiblement admetin la inducció com a axioma en ell mateix, però ni idea.
+
+L'axioma d'especificació diu que donat un conjunt A i una propietat P que els seus elements poden tenir o no tenir, existeix un conjunt B format per tots aquells elements del conjunt A que satisfan la propietat P.
+
+Aquest axioma és interessant perquè s'assembla bastant a l'axioma de comprensió sense restriccions, del que vam parlar gairebé al principi del fil, i que havia provocat tot el pollastre de la paradoxa de Russell.
+Quote Tweet
+    En particular, s'acceptava tàcitament la validesa del que després s'ha vingut a anomenar "axioma de comprensió sense restriccions": donada una propietat qualsevol que poden tenir les coses, existeix el conjunt de coses que la satisfan.
+
+Però aquesta vegada, en operar dins d'un conjunt que és preexistent, ens evitem caure en paradoxes de l'estil "tenim el conjunt de conjunts que no es pertanyen a ells mateixos".
+
+Quan un element no pertanyi a un conjunt generat per aquest axioma, no podrem concloure directament que satisfan la negació de la propietat P. També podria ser que no pertanyessin al conjunt inicial A.
+
+Així esquivem conclusions que ens podrien dur a contradiccions de l'estil paradoxa de Russell que ens tornarien a dur a la inconsistència de tot el sistema.
+
+I tanmateix podem definir coses com "el conjunt del nombres naturals que són primers", sempre i quan poguem prèviament demostrar l'existència del conjunt dels nombres naturals, que ja hem fet a partir de l'axioma de l'infinit.
+
+Per això de fet voliem l'axioma de comprensió, no per generar contradiccions que ens féssin replantejar els fonaments de tota la matemàtica i la solidesa de la seva connexió amb la veritat.
+
+Amb l'axioma d'especificació també podem definir coses l'operació binària d'intersecció de tota la vida: A∩B = { a∈A : a∈B }, és a dir, els elements de A que tenen la propietat de ser alhora un element de B.
+
+O el conjunt complement: A-B = { a∈A : a∉B }; el conjunt d'elements de A que tenen la propietat de *no* ser un element de B.
+
+Per fer servir aquest axioma d'especificació per crear una paradoxa a l'estil Russell hauriem de fer alguna cosa com K = { A∈U : A∉A }, on U és el conjunt universal, aquell que ho conté *tot* com a element.
+
+Necessitariem demostrar prèviament l'existència d'aquest conjunt universal U, i això amb ZFC no es pot fer. De fet es pot demostrar la *no* existència de l'universal, però per això ens farà falta el següent axioma.
+
+(no, ara m'adono que de fet no ens fa falta en realitat, però m'anava tan bé per introduir-lo que)
+
+L'axioma de regularitat té una formulació una mica estranya perquè d'aquesta manera serveix per descartar l'existència de tota una tipologia de conjunts que la seva existència ens fa nosa.
+
+Diu: tot conjunt que no sigui buit té un element que és disjunt amb ell. Disjunt vol dir que no en comparteix cap element, que la intersecció és el conjunt buit.
+
+Suposem un conjunt A que sigui un element d'ell mateix. És a dir A∈A. Amb l'axioma d'emparellament podem construir el conjunt que només el té a ell com element, el seu singletó {A}.
+
+Aquest {A} no és el conjunt buit perquè té un element i aquest únic element A no és disjunt amb ell, ja que  A∈{A} i alhora A∈A. Per tant per l'axioma de regularitat no poden existir ni {A} ni tampoc A. Ni cap altre conjunt que sigui element d'ell mateix.
+
+Una característica del conjunt universal U és que en tenir-ho tot com a element per definició també s'hi ha de tenir a ell mateix, però com que en ZFC no poden existir conjunts que es tinguin a ells mateixos com a elements tampoc hi pot existir U.
+
+(de fet tampoc podria existir sense l'axioma de regularitat perquè l'existència de U converteix l'axioma d'especificació en el de comprensió sense restriccions i això ja vam veure que ens porta a una contradicció, la paradoxa de Russell).
+
+Seguint un raonament molt semblant, l'axioma de regularitat també ens descarta estructures com A∈B∈A, A∈B∈C∈A, i en general cicles de qualsevol llargària.
+
+I encara més, ens descarta qualsevol seqüéncia infinita de la forma A_0 ∋ A_1 ∋ A_2 ∋ A_3 ∋ A_4 ∋ A_5 ∋.. encara que el cicle no es repeteixi mai. Tota seqüència de descens que es faci seguint la relació "∈" entre conjunts ha d'anar a parar forçosament al conjunt buit.
+
+De la prohibició de A∈A es deriva que l'aplicacció repetida de la funció successor que havíem parlat abans no pot tornar a portar a un element per el que ja hem passat.
+Quote Tweet
+    Aquesta operació d'unió binària dona lloc a una altra construcció interessant. Amb ella podem definir la funció s(X) = X∪{X}. És a dir, donat un conjunt qualsevol, construïm un nou conjunt prenent aquest i afegint-li ell mateix com a element.
+
+I d'aquí es deriva que construccions com la dels nombres naturals, que construim fent servir aquesta funció tenen una estructura ordenada: donats dos elements que no siguin el mateix sempre podem dir que un dels dos va abans que l'altre.
+
+D'això se'n diu una relació antisimètrica; ≤ és una relació antisimètrica perquè si tenim que a≤b i b≤a aleshores a=b. Les relacions d'ordre com ≤ tenen la propietat antisimètrica (entre d'altres que ara no venen al cas).
+
+Tal com vam definir els nombres naturals, on era n={0,1,2,3,... n-1}, la relació ≤ entre nombres naturals és exactament la mateixa que ⊆ (ser un subconjunt de): n≤m si i només sí {0,1,2,3,... n-1} ⊆ {0,1,2,3,... m-1}.
+
+La relació ⊆ entre conjunts també és antisimètrica, de fet: si A⊆B i B⊆A aleshores A=B.
+
+L'axioma de reemplaçament diu que si tenim un conjunt domini qualsevol i una funció que puguem definir mitjançant construccions dins la teoria de conjunts aleshores també existeix el conjunt imatge format pels resultats de la funció aplicats a cada element del domini.
+
+O sigui, que si tenim per exemple el conjunt A={a,b,c,d} i la funció f(x)={x}, que donat un element ens retorna el conjunt format només per aquell element, que podíem construir amb l'axioma d'emparellament, aleshores també ha d'existir el conjunt f(A)={{a},{b},{c},{d}}.
+
+Una altra cosa que també podem fer amb aquest axioma és aplicar-ho a un conjunt A={a0,a1,a2} i a la funció f(x)=(x,b), fent servir aquells parells ordenats que també havíem construit quan parlàvem de l'axioma d'emparellament i un element b arbitrari.
+
+Això ens donaria el conjunt de parells f(A)={(a0,b),(a1,b),(a2,b)}. I com que això és alhora una construcció que fem amb teoria de conjunts també podríem definir una funció que ens donés això prenent com a paràmetre t'element b, o sigui g(b)={(a0,b),(a1,b),(a2,b)}.
+
+Aplicant ara l'axioma de reemplaçament a un conjunt B={b0,b1} amb aquesta funció g tindríem que existeix g(B)={{(a0,b0),(a1,b0),(a2,b0)},{(a0,b1),(a1,b1),(a2,b1)}}.
+
+Si a aquest conjunt li apliquem l'axioma de l'unió obtenim {(a0,b0),(a1,b0),(a2,b0),(a0,b1),(a1,b1),(a2,b1)}. Això és, el conjunt de tots els parells ordenats que podem formar amb un element de A i un element de B.
+
+D'això se'n diu producte cartesià i és un altre dels conceptes importantíssims en matemàtiques. Per exemple, per jugar a barcos. Les jugades són parells ordenats i el taulells són productes cartesians.
+
+Fa uns quants tuits havíem vist que comptar consisteix bàsicament en trobar bijeccions entre conjunts. Anem a veure què passa quan comptem els elements dels productes cartesians.
+
+Per exemple, si fem el producte cartesià del conjunt 3 = {0,1,2} i 2= {0,1}, veiem que el podem posar en bijecció amb el conjunt 6 = {0,1,2,3,4,5}:
+(0,0) -> 0
+(0,1) -> 1
+(1,0) -> 2
+(1,1) -> 3
+(2,0) -> 4
+(2,1) -> 5
+
+És a dir, la cardinalitat del producte cartesià entre el conjunt 3 i el conjunt 2 és la mateixa que la cardinalitat del conjunt 6. O, expressat en notació: | 3 × 2 | = | 6 |. 
+(notació:  |A| vol dir "la cardinalitat de A" i "A×B" vol dir el producte cartesià de A i B).
+
+És fàcil veure que en conjunts finits es compleix que |A×B| = |A| × |B|. Podríem de fet desenvolupar uns rudiments d'aritmètica a partir dels axiomes que hem anat veient i demostrar que és una conseqüència lògica i impepinable de la teoria de conjunts.
+
+Anem a mirar què passa quan ho fem amb conjunt infinits. Amb ℕ×3 podem fer la bijecció:
+(0,0) -> 0
+(0,1) -> 1
+(0,2) -> 2
+(1,0) -> 3
+(1,1) -> 4
+(1,2) -> 5
+(2,0) -> 6
+....
+(5342,1) -> 16027
+(5342,2) -> 16028
+(5343,0) -> 16029
+
+No podem llistar infinits ítems però sí que podem copsar com podem establir una correspondència 1 a 1 entre tots els elements de ℕ×3 i els de ℕ sense ometre'n ni repetir-ne cap a les dues bandes.
+
+I per tant encara que a primer cop d'ull ens pogués semblar alguna altra cosa podem dir que tenen exactament la mateixa quantitat d'elements: | ℕ×3 | = | ℕ |
+
+Comptar els elements de | ℕ×ℕ | se'ns complica una mica més. No podem fer la bijecció amb ℕ tal com l'hem fet abans perquè no passaríem mai de la primera "fila":
+(0,0) -> 0
+(0,1) -> 1
+(0,2) -> 2 
+....
+(0,6423) -> 6423
+....
+
+I per tant estaríem ometent tots elements de ℕ×ℕ on el primer component del parell ordenat és diferent de zero i per tant no sería una bijecció. Però això no vol dir que la bijecció no existeixi, per trobar-la hem de ser una mica més creatius.
+
+Si enlloc d'anar fila per fila com hem estat fent anem diagonal per diagonal, sí que podrem completar la bijecció: 
+(0,0) -> 0
+(0,1) -> 1
+(1,0) -> 2
+(0,2) -> 3
+(1,1) -> 4
+(2,0) -> 5
+(0,3) -> 6
+.....
+[Figura]
+
+I per tant també podrem establir una correspondència un a un entre tots els elements de ℕ×ℕ i els elements de ℕ que no ometi ni repeteixi cap element a les dues bandes. I per tant el conjunt ℕ×ℕ també tindrà la mateixa cardinalitat que ℕ: |ℕ×ℕ| = |ℕ|.
+
+En aquest moment un es comença a preguntar si aquesta capaçitat absorbent de les cardinalitats infinites arriba fins a que tots els conjunts infinits tinguin la mateixa cardinalitat i simplement haguem de ser més o menys enginyosos per trobar la bijecció que els relaciona.
+
+I el fet que donats dos conjunts no siguem capaços de trobar aquesta bijecció no vol dir que aquesta no existeixi. L'absència d'evidència no equival a l'evidència d'absència a la vida en general i en les matemàtiques especialment.
+
+Per demostrar que la bijecció entre dos conjunts no existeix més enllà de la nostra capacitat de trobar-la o imaginar-nos-la ens cal alguna mena d'argument més fort i rigorós. I això és el que va descobrir en Georg Cantor. Però abans ens caldrà parlar del següent axioma.
+
+L'axioma del conjunt potència diu que donat un conjunt qualsevol existeix el conjunt dels seus subconjunts.
+
+És a dir, si tenim per exemple el conjunt {a,b}, aleshores també ha d'existir el conjunt de conjunts {Ø,{a},{b},{a,b}} format per tots aquells S⊆{a,b}.
+
+Si afegim un nou element c al conjunt {a,b} el nou conjunt potència de {a,b,c} tindrà com element tots els subconjunts del conjunt anterior i després a més a més altre cop tots aquests mateixos subconjunts amb el nou element c afegit.
+
+És a dir que el conjunt potència de {a,b,c} serà:
+{Ø,  {a},     {b},   {a,b},  i llavors
+ {c}, {a,c}, {b,c}, {a,b,c}}
+
+O sigui, que quan afegim un element la cardinalitat del conjunt potència, si més no en conjunts finits, se'ns duplica.
+
+El conjunt potència del conjunt buit serà el conjunt format per l'únic subconjunt possible del conjunt buit que és ell mateix, o sigui el conjunt amb un sol element {∅}.
+
+Aplicant la inducció a aquests dos fets podem deduir que en els conjunts finits la cardinalitat del conjunt potència serà igual a 2 elevat a la cardinalitat del conjunt inicial.
+
+No exactament per això, sinó per una qüestió de fet més general però fortament relacionada amb aquesta, la notació que modernament es fa servir per indicar el conjunt potència del conjunt A és "2^A".
+
+Així doncs, posant el que hem vist en notació, per conjunts finits tenim que:
+ | 2 ^ A | = 2 ^ | A | Ok hand
+
+Com que en l'aritmètica de ℕ sabem que 2^n > n per qualsevol n doncs podem deduir que en el que es refereix a conjunts finits  | 2 ^ A | > | A |.
+
+Si volguessim generalitzar això a qualsevol tipus de conjunt finit o infinit podem veure d'entrada que hi ha una bijecció trivial entre qualsevol conjunt A={a0,a1,a2...} i el conjunt de singletons {{a0},{a1],{a2},...} que és un subconjunt de 2^A i per tant:
+| 2 ^ A | ≥ | A |.
+
+Anem a explorar la possibilitat | 2 ^ A | = | A |, és a dir, que el conjunt potència d'un conjunt tingui la mateixa cardinalitat que aquest conjunt i per tant que poguem establir una bijecció entre ells.
+
+Posem un conjunt A amb elements {a,b,c,d,e,f....} i una bijecció φ que per cadascun dels  subconjunts de A ens dona un element de A de manera unívoca i exhaustiva. Alguna cosa com:
+φ({d,e}) = a
+φ({c,b,f,...}) = b
+φ(∅) = c
+φ({a,d,f}) = d
+.....
+
+De totes aquestes correspondències en algunes es donarà el cas que φ(W)∈W i en d'altres no. En la mostra d'exemple que he posat es donaria per la segona i la quarta i no es donaria en la segona i la tercera. I podem construir un conjunt K amb totes les φ(W) tals que φ(W)∉W.
+
+Aquest conjunt K és un subconjunt de A i per tant un element de 2^A i per tant té la seva φ(K) que pot pertànyer o no pertànyer a K.
+
+Que φ(K)∈K tal com hem definit el conjunt K voldria dir que K és d'aquells elements de 2^A tals que φ(K)∉K. I que φ(K)∉K voldria dir que és d'aquells tals que φ(K)∈K. Això és una contradicció i per tant la hipòtesi que existia una bijecció entre 2^A i A ha de ser falsa.
+
+Per tant doncs, com que hem vist abans que | 2 ^ A | ≥ | A |  i ara veiem que | 2 ^ A | ≠ | A |, podem concloure que  | 2 ^ A | > | A |. O sigui que donat un conjunt qualsevol sempre existeix un altre conjunt amb una cardinalitat estrictament més gran.
+
+Fins i tot per un conjunt infinit com ℕ tenim que | 2 ^ ℕ | > | ℕ |.
+
+I també tindrem un 2^(2^ℕ) que serà un altre infinit més gran que l'infinit de 2^ℕ. I així successivament infinites vegades.
+
+I més enllà, de fet. Ja que els infinits ℕ, 2^ℕ, 2^(2^ℕ), 2^(2^(2^ℕ)),... els podem unir en un sol conjunt amb l'axioma de la unió. I aquest conjunt enorme fins i tot dins l'espècie dels conjunts infinits també tindrà un conjunt potència que serà estrictament més gran.
+
+Tornant a l'argument que hem vist pel que 2^A no el podem posar en bijecció amb A, això és el que es coneix com a "diagonalització de Cantor".
+
+Al cole es sol explicar restringit al cas de ℕ i intentant posar-lo en bijecció no amb la seva potència sinó amb el conjunt dels nombres reals i construint-la fent una cosa rara amb els dígits. Però és que allà no foten mai res bé.
+
+Per veure que aquest conjunt de nombres reals ℝ té efectivament la mateixa cardinalitat de 2^ℕ primer hauríem de saber què carai és això dels nombres reals.
+
+Hem vist fins ara els nombres naturals que són cadascun com el representant de tots els conjunts finits d'una cardinalitat donada.
+
+Hem vist que un nombre natural és en realitat un conjunt que construïm per mitjà d'aplicacions successives de la funció successor s(x) = x ∪ { x } sobre el conjunt buit ∅ que és el nombre zero.
+
+Podem definir les relacions d'ordre < i ≤ entre nombres naturals com les relacions entre conjunts ∈ i ⊆, respectivament.
+
+Un cop tenim això ens podem pràcticament oblidar de l'estructura interna d'aquests nombres naturals en tant que conjunts i tractar-los com els hem vist sempre abans de saber que eren de fet conjunts:
+
+Com entitats abstractes de les que només ens interessen les seves propietats "externes".
+
+A partir d'aquí podem fer coses com per exemple demostrar fent servir els axiomes que hem vist i la deducció purament lògica que per cada nombre natural n existeix una 
+única funció fₙ(m) definida sobre els naturals que compleixi que:
+    fₙ(0) = n
+    fₙ(s(m)) = s(fₙ(m))
+
+Per exemple f₅(3) = f₅(s(2)) = s(f₅(2)) = s(f₅(s(1))) = s(s(f₅(1)))= s(s(f₅(s(0)))) = s(s(s(f₅(0)))) = s(s(s(5))) = s(s(6)) = s(7) = 8
+
+Sí amics, la funció fₙ(m) no és altra cosa que la suma n+m. Acabem de descobrir la suma.
+
+La suma és una funció molt interessant perquè ens dona la cardinalitat de la unió de dos conjunts disjunts a partir només de les seves respectives cardinalitats.
+
+És a dir, que si sé que dins d'aquesta mà tinc dues caniques i en l'altra n'hi tinc tres puc saber que quan ajunti les dues mans en tindré cinc sense necessitat de visualitzar mentalment els conjunts de dues i tres caniques unint-se,
+
+visualitzar a continuació el conjunt de totes les caniques juntes i després fer mentalment el comptatge d'aquestes cinc caniques. Puc fer-ho oblidant-me de fet de les caniques en si i pensant només en aquestes entitats abstractes que es diuen nombres i l'aritmètica que els manega
+
+Això es diu abstracció i és una eina poderosíssima. És bàsicament al que es dedica la matemàtica.
+
+L'abstracció ens dóna accés a un coneixement que sense ella seria senzillament impossible quan intervenen conjunts mínimament grans.
+
+Jo sóc absolutament incapaç de crear-me una imatge mental d'un conjunt de 4332 carxofes amb més precisió que un piló així indeterminat.
+
+Però fent servir l'aritmètica sé gairebé instantàniament que puc dividir el piló en tres pilons més petits de la mateixa quantitat cadascun perquè 4332 és múltiple de 3 perquè els seus dígits compleixen allò que sumats són un múltiple de 3.
+
+A partir de la funció suma podríem definir una altra funció derivada d'aquesta tal com "donats dos nombres 'a' i 'b', aquell nombre 'c' que caldria sumar a 'a' perquè ens donés 'b"". D'això en diem "resta" i també és força útil per fer coses de comptables.
+
+No obstant té el problema que el nombre 'c' que surt a la definició no sempre existeix donats qualssevol 'a' i 'b'. Per exemple, no hi ha cap nombre natural que poguem sumar a 7 perquè ens doni 4.
+
+Els matemàtics expressen aquest fet dient que els nombres naturals no són *tancats* respecte a l'operació de resta. Com sí que ho són respecte l'operació de suma.
+
+Això fa que els nombres naturals no em serveixin per representar conceptes com el balanç de carxofes que tinc si ara mateix en disposo de 4 i estic compromès a entregar-ne 7.
+
+Necessitaríem una altra mena de nombres que poguéssin representar aquest concepte que és més ampli que el de purament la cardinalitat d'un conjunt finit.
+
+Però que alhora mantinguessin totes les propietats que tenen els nombres naturals, ja que ens interessa seguir fent amb ells tot el que hem estat fent amb els nombres naturals. Només volem extendre'ls per representar una mena de concepte més sofisticat però que inclou l'anterior.
+
+Com que el que volem és que la resta de dos d'aquesta nova mena de nombres ens doni, a diferència del que passava amb els naturals, un altre nombre d'aquesta mateixa mena el que fem és representar-los precisament com una resta de naturals de manera abstracta: "a - b".
+
+Els nombres naturals quedaran representats en aquesta nova categoria amb restes de la forma "a - 0".
+
+Així, la resta que hem vist abans que no podíem fer dins dels naturals 4 - 7 ara seria la resta entre els nombres "4 - 0" i "7 - 0" i ens donaria simplement el nombre "4 - 7".
+
+En l'aritmètica dels nombres naturals hi ha la propietat (que podríem demostrar aplicant la deducció a ZFC, etc etc) que (a+c)-(b+c) = a-b.  Aquest fet es trasllada cap aquest nou tipus de nombres de manera que el nombre "4-7" és exactament el mateix que "5-8" que "0-3".
+
+El que podem fer és escollir un representant canònic per cada nombre-resta en el que almenys un dels dos components és zero, cosa que farà que aquest representat sigui únic per cada nombre. Pel cas "4-7" seria "0-3".
+
+De fet, a l'hora d'escriure els nombres per fer aritmètica aquests zeros s'ometen i quan és al primer component simplement s'escriu "-3" i en diem "nombres negatius".
+
+Quan és al segon component posem el natural que és equivalent tal qual o de vegades en la forma "+a". D'això en diem "nombres positius".
+
+D'aquests nous nombres-resta en diem "nombres enters", els podem representar a nivell de teoria de conjunts com a parells ordenats amb els dos components naturals de la resta (un d'ells zero), i el conjunt que formen l'escrivim ℤ.
+
+Com que un subconjunt seu (els positius) té una correspondència u a u amb els naturals tenim per una banda que |ℕ| ≤ |ℤ|. Com que el representem amb parells ordenats de ℕ per l'altra banda tenim que |ℤ| ≤ |ℕ×ℕ|.
+
+Però com que hem vist abans que |ℕ×ℕ|=|ℕ|, doncs resulta que  |ℤ| ≤ |ℕ|. I si |ℕ| ≤ |ℤ| i alhora |ℤ| ≤ |ℕ| llavors ha de passar que  |ℤ| = |ℕ|. O sigui que el conjunt de nombres enters té exactament la mateixa cardinalitat que el de nombres naturals. Ves per on.
+
+Seguint un procediment anàleg a aquest però buscant el tancament de l'operació de divisió d'enters, arribem al conjunt de nombres racionals ℚ, els QUEBRATS.
+
+Els nombres racionals representen quantitats fraccionàries i proporcions enteres. Si tenim tres pastissos i els hem de repartir entre quatre amics, doncs hem de donar 3/4 de pastís a cadascú. Bé.
+
+Respecte a la seva cardinalitat, pel mateix raonament que abans, també serà exactament la mateixa que |ℕ|. Un racional s'expressa com la divisió d'un parell d'enters a/b i en la teoria de conjunts es representarà amb un parell ordenat d'aquests dos enters.
+
+De tots els parells a i b que poden representar el mateix racional s'agafa aquell en que els dos nombres no tenen cap factor comú i per tant són més petits, la fracció irreductible.
+
+Uns grans amants de la proporció van ser el geòmetres grecs. El seu sentit de l'estètica els feia voler expressar qualsevol mesura en forma de fracció entera. També van ser capaços d'adonar-se que en general això no pot ser i aquest fet els va fer petar bastant el cap.
+
+Imaginem un quadrat de costat 1. Pel teorema de pitàgores el quadrat de la longitud de la diagonal hauria de ser igual a 2. [Figura]
+
+Posem que volem expressar aquesta longitud en forma de fracció irreductible a/b. Per tant, volem dos enters a i b tals que (a/b)² = 2. O sigui a² = 2·b².
+
+Com que a² és 2 multiplicat per algo a² és un nombre parell. I quan el quadrat d'un nombre és parell aquest nombre ha de ser parell. Per tant a és parell i per tant el doble d'un altre nombre: a = 2·a'. A partir d'aquí (2·a')²=2·b² ⇒ 4·a'²=2·b² ⇒ 2·a'²=b².
+
+I com que b² és 2 multiplicat per algo aleshores b també ha de ser un nombre parell. I com que tant a com b són nombres parells resulta que la fracció a/b no és irreductible contradint la hipòtesi.
+
+I això vol dir que no es pot expressar una cosa tant simple com la longitud de la diagonal d'un quadrat amb un nombre racional, una proporció entera amb la longitud del seu costat.
+
+D'això els grecs se'n van adonar i es van preguntar a veure què polles està passant aquí. I no van ser capaços de respondre. Aquesta qüestió no començaria a respondre's adequadament fins la il·lustració. Newton, Leibniz i tota la mandanga. Quedaven uns 2000 anys encara, LOL.
+
+L'eina que necessitem per modelar l'espai que ens envolta, que és el que volien en definitiva aquests geòmetres de la Grècia antiga, és alguna mena de nombres amb els que puguem representar la noció intuïtiva que tenim dels punts d'una recta.
+
+I els nombres racionals *gairebé* serveixen per aixó. Tenen el que es diu un ordre total igual que tenen els punts d'una recta i són densos igual que ho són els punts d'una recta.
+
+Un ordre total és una relació ≤ que compleix:
+    a≤a (reflectivitat)
+    si a≤b i b≤c aleshores a≤c (transitivitat)
+    si a≤b i b≤a aleshores a=b (antisimetria)
+    Per qualssevol a i b, a≤b o b≤a (totalitat)
+
+Un ordre és dens si per cada a<b tenim un c tal que a<c<b.
+
+Aquestes propietats les compleixen tant els punts de la recta com els nombres racionals. I això despista molt.
+
+El problema és que els punts d'una recta tal com els intuïm tenen una altra propietat subtil que els grecs tot i que apropar-s'hi bastant no van atinar a copsar del tot. Perquè és una cosa difícil d'abstreure i aïllar com a element fonamental.
+
+Imaginem un conjunt A de punts (no necessàriament finit) que estigui acotat. És a dir, que no s'extenguin per tota la recta sinó que existeixi una _cota_ a partir de la que no hi hagi punts del conjunt en direcció a l'extrem de la recta. Tots estan a l'altre costat de la cota.
+
+En aquesta situació existirà un punt de la recta que essent més gran o igual que tots els punts de A serà més petit o igual que totes les cotes superiors de A. D'aquest punt en diem "suprem". [Figura]
+
+Quan el conjunt A sigui finit aquest suprem concidirà amb el punt màxim del conjunt A, però en conjunts infinits no ha de ser necessàriament un punt de A. El que sí serà sempre que A estigui acotat és un punt determinat de la recta.
+
+D'aquesta propietat se'n diu completesa i els nombres racionals no la tenen.
+
+Suposem que A és el conjunt de racionals q tals que q²≤2. El suprem d'aquest conjunt hauria de ser √2, però hem demostrat abans que no existeix cap racional que elevat al quadrat doni 2. √2 no és un racional i el subconjunt A⊆ℚ, que certament és acotat, no té suprem.
+
+Un grec que es va apropar molt a identificar el problema va ser Zenó d'Elea. Allò d'Aquil·les no aconseguint atrapar mai la tortuga. [Figura]
+
+Les successives distàncies entre Aquil·les i la tortuga seria el conjunt A i l'esdeveniment d'atrapar-la el suprem que estem trobant. Dins el seu cap grec de nombres racionals aquest esdeveniment no arribava mai.
+
+Però en el món físic i en la també seva intuïció de la recta real sí que arriba a atrapar-lo. Això els tornava loquíssims, pobra gent.
+
+Així, doncs, el que ens fa falta per representar els punts de la recta és alguna mena de nombre que tingui les propietats dels racionals i que a més el suprem de qualsevol conjunt acotat d'aquests nombres resulti en un altre nombre de la mateixa mena.
+
+Un conjunt que sigui tancat respecte el suprem, en definitiva. A un conjunt amb aquestes característiques en diem un continu. Ni els naturals, ni els enters, ni els racionals són conjunts continus. D'aquests en diem discrets.
+
+El procediment és el mateix que quan hem volgut tancar els naturals respecte la resta per obtenir els enters o els enters respecte la divisió per obtenir els racionals.
+
+Com que l'operació suprem opera sobre conjunts en comptes de sobre parells com ho fan les operacions de resta o la divisió, aquests nous nombres els representarem fent servir conjunts de racionals, elements de 2^ℚ.
+
+És a dir, que cada nombre _real_ (se'n diuen així), el definim com el suprem d'un conjunt acotat de nombres enters.
+
+Igual que ens havia passat amb la resta i la divisió, el suprem de conjunts diferents ens pot resultar en el mateix nombre real.
+
+Per fer una representació precisa escollirem un únic representant canònic d'entre tots els que ens donen el mateix real. De la mateixa manera que en els enters vam escollir aquells parells on hi havia un zero o en els racionals els que feien una fracció irreductible.
+
+Aquest cop no serà tan fàcil de fer això perquè d'entrada estem tractant amb conjunts infinits en comptes de parells. Una manera d'escollir aquest representant únic són el que se'n diu talls de Dedekind. Sí, el mateix Dedekind que abans. Ai quina gràcia.
+
+Un tall de Dedekind és un conjunt de racionals A tal que:
+      *) No és buit.
+      *) No és tots els racionals.
+      *) Si p∈A, aleshores tot q<p també q∈A
+      *) Si p∈A, aleshores algun q>p també q∈A
+
+Tots els conjunts que compleixen aquestes característiques són acotats per dalt i cadascun ens resulta en un suprem que és diferent que el que resulta dels altres. I aquesta serà la representació dels nombres reals en la teoria de conjunts.
+
+Això vol dir que el nombre real 3 de fet el podem veure en teoria de conjunts el conjunt de tots els nombres racionals que són estrictament més petits que 3. I el nombre real √2 com tots els nombres racionals que són estrictament més petits que √2.
+
+I qualsevol tractament matemàtic que es fa amb ells es pot fer en darrera instància amb teoremes i operacions de teoria de conjunts estrictament. En cert sentit, tota aquella mandanga de límits, derivades i integrals és només un branca de la teoria de conjunts. Molt gros.
+
+En notació, del conjunt dels nombres reals en diem ℝ. Com que els representem fent servir conjunts de racionals la seva cardinalitat ha de ser com a màxim la del conjunt dels conjunts de racionals, o siguis |ℝ| ≤ |2^ℚ|. I com que ja sabem que |ℚ| = |ℕ|, doncs |ℝ| ≤ |2^ℕ|
+
+Per veure que alhora |2^ℕ| ≤ |ℝ| ens caldrà una bijecció entre 2^ℕ (el conjunt dels conjunts de naturals), i algun subconjunt de ℝ.
+
+Aquesta bijecció la podem construir de la següent manera: suposem un conjunt de naturals qualsevol A={a₀, a₁, a₂, a₃, ...}. Per cadascun dels seus elements aᵢ existeix un nombre racional de la forma 1/10^(aᵢ+1).
+
+És a dir, que al natural 0 li correspondria el racional 1/10, al natural 1 el racional 1/100, al 2 el racional 1/1000, etc...
+
+Tots aquests racionals calculats a partir del conjunt de naturals A els podem col·locar formant una seqüència de la forma [q₀, q₁, q₂, q₃, ...] on tal com hem dit cada qᵢ=1/10^(aᵢ+1).
+
+D'aquesta seqüència de racionals [q₀, q₁, q₂, q₃, ...]  en podem fer la suma acumulativa que és una altra seqüencia de la forma [q₀, q₀+q₁, q₀+q₁+q₂, q₀+q₁+q₂+q₃, ...].
+
+El conjunt d'elements d'aquesta suma acumulativa és un conjunt de racionals que es pot demostrar acotat (tots els seus elements han de ser més petits que 1). Per tant el seu suprem serà un nombre real.
+
+Aquesta funció definida d'aquesta manera tan complicada ens dona per exemple pel conjunt {0,1} el real 0.11, pel conjunt {2,3,5} el real 0.001101, pel conjunt buit el real 0.
+
+Pel conjunt de nombres parells {0,2,4,6,8...} ens dona el real 0.010101010101... i pel conjunt de nombres primers {2,3,5,7,11...} el real 0.00110101000101...
+
+Suposo que es veu el patró. És un real amb l'expansió decimal zero coma i llavors zeros i uns en funció de si la posició del dígit corresponent és present o no en el conjunt de naturals de partida.
+
+Passa que hem hagut de declarar aquesta funció de manera ben fonamentada amb les eines matemàtiques que hem desenvolupat fins ara. Fer-ho d'una altra manera hagués estat trampa i a nosaltres no ens és permès de fer-ne.
+
+L'important és que tenim una funció que agafa un conjunt de naturals, o sigui un element de 2^ℕ i a partir d'ell ens genera un element de ℝ sense col·lisió. Cada conjunt de naturals diferents ens donarà un real diferent.
+
+Per tant és el cas que |2^ℕ| ≤ |ℝ|. I com que alhora |ℝ| ≤ |2^ℕ| doncs aleshores |ℝ| = |2^ℕ| com volíem demostrar. El conjunt dels reals té la mateixa cardinalitat que el conjunt potència dels naturals.
+
+Aquest fet i particularment la desigualtat |ℕ| < |ℝ| que se'n deriva té conseqüències profundes més enllà de la matemàtica.
+
+Per una banda el món físic en el que vivim immersos se'ns presenta en formes que gairebé sempre inclouen directa o indirectament nombres reals. O potser més ben dit aquella noció de recta formada per punts que ens ha creat la necessitat de descobrir-los.
+
+La distància que separa dos punts de l'espai físic és un nombre real, el temps que transcorre entre dos esdeveniments és un nombre real. Les variables dels models que creem per representar el comportament de qualsevol sistema físic gairebé sempre són nombres reals o derivats.
+
+Per altra banda, els llenguatges que som capaços de crear nosaltres per descriure'ns i discórrer sobre el món són en darrer terme encadenaments de conjunts finits de símbols. I com a tals el conjunt de discursos que podem generar amb ells està limitat a la cardinalitat de ℕ.
+
+Dit d'una altra manera, podríem establir una bijecció entre tots els infinits llibres que podrien arribar a ser escrits en qualsevol llengua sobre qualsevol cosa i els nombres naturals, simplement codificant el text en forma de dígits.
+
+I això inclou el llenguatge natural, qualsevol notació matemàtica formal, els llenguatges formals amb els que programem ordinadors i representem les seves dades, la manera com especifiquem els plànols per construir una màquina, etc.
+
+Res d'això ens serveix per tractar adequadament amb la totalitat del conjunt dels nombres reals i per tant amb la realitat. Senzillament n'hi ha massa.
+
+Ens conformem amb treballar amb un subconjunt numerable i aproximacions més o menys bones de la cosa real. En computació això vindria a ser el que es diu l'aritmètica de punt flotant.
+
+Recapitulem una mica. Hem estat veient que hi ha conjunts finits, que per definició són equipotents amb un nombre natural, o sigui un element de ℕ.
+
+I després que hi ha alguns conjunts infinits que són equipotents amb ℕ com ℤ o ℚ. D'aquesta mena de conjunts en diem "numerables".
+
+I a continuació que hi ha uns altres conjunts equipotents amb 2^ℕ com ℝ que són estrictament més grans. I després conjunts encara més i més estrictament grans que podem construir tot aplicant l'operació de potència de conjunts als conjunts que tinguem.
+
+El que no sabem és si existeixen altres cardinalitats intermèdies al començament d'aquesta jerarquia de conjunts infinits.
+
+És a dir: existeix algun conjunt X infinit tal que |X|<|ℕ|? I algun Y tal que |ℕ|<|Y|<|ℝ|?
+
+La primera qüestió és força assequible si partim de la definició d'infinitat de Dedekind que vam veure.
+
+Suposem un conjunt X que és Dedekind-infinit. És a dir, que existeix un subconjunt propi A⊊X i una bijecció f entre X i A
+
+Com que X≠A, ha d'existir almenys un x₀∈X-A. Un element de X que *no* sigui alhora element de A.
+
+Com que el codomini de f és A, f(x₀)∈A i per tant ha de ser diferent que x₀. En direm x₁=f(x₀).
+
+De la mateixa manera, farem x₂=f(x₁)=f(f(x₀)). Aquest x₂ ha de ser diferent que x₀ pel mateix motiu que abans. Tampoc pot ser igual a x₁ perquè x₂=x₁ →f(x₁)=f(x₀) →x₁=x₀, donat que f és una bijecció.
+
+Així, podem definir una seqüència de xₙ en la que per tot n∈ℕ, xₙ₊₁=f(xₙ), on tot xₙ∈X i  cada xₙ és diferent de tots els altres.
+
+Aquesta seqüència funciona com una bijecció entre ℕ i un subconjunt de X. Per tant |ℕ|≤|X|: ℕ té la cardinalitat mínima que pot tenir un conjunt Dedekind-infinit. ∎
+
+L'altra qüestió, si ℝ té la cardinalitat més petita d'entre les que són estrictament superiors que la de ℕ, té més ENHÚNDIA.
+
+Cantor va anomenar a aquesta proposició la "hipòtesi del continu" i va dedicar anys a intentar demostrar-la. No ho va aconseguir i es va quedar com una de les qüestions matemàtiques obertes per resoldre de cara al segle XX.
+
+Fa un parell de mesos en aquest mateix fil vam parlar de la incompletesa dels sistemes axiomàtics que va demostrar Gödel: en qualsevol sistema axiomàtic que sigui consistent tindrà qüestions que no s'hi podran demostrar ni refutar.
+
+Doncs bé, el mateix Gödel va contribuir a demostrar que aquest és el cas de la hipòtesi del continu en el sistema ZFC. Però la prova completa d'això no va arribar fins als anys 60 del segle XX. Normal que el pobre Cantor no se'n sortís.
+
+Això vol dir que ZFC no ens respondrà si existeix o no una cardinalitat entre ℕ i ℝ però que si tenim moltes ganes que no existeixi podem introduir la seva inexistència com a axioma i fer el nou sistema axiomàtic ZFC+CH, que seria tant consistent com ZFC.
+
+I si, en canvi, tenim moltes ganes que existeixi podem fer el sistema axiomàtic ZFC+¬CH i també serà tant consistent com ZFC.
+
+Una altra manera de veure-ho és que existeixen dos ens abstractes separats als que podem anomenar indistintament "conjunts", que ZFC és una teoria que descriu ambdues de manera ambigüa i que la introducció de CH o de ¬CH a la teoria desfà l'ambigüitat en un sentit o un altre.
+
+Això ja depèn molt de si adoptem una postura filosòfica formalista o realista respecte la naturalesa última de la matemàtica i els seus objectes. Però jo no em veig pas capacitat per parlar de filosofia de les matemàtiques. Si vol algun filòsef que ho entomi a partir d'aquí.
+
+Com ja vam dir, la tria entre un sistema axiomàtic i un altre que se suposen consistents és una pura qüestió de conveni. En el cas de la hipòtesi del continu no ha calgut establir cap conveni perquè resulta que ara com ara no hi ha grans qüestions matemàtiques que en depenguin.
+
+Si algun dia es troba que alguna gran conjectura necessita de la HC o de la seva negació per ser demostrada i es decideix que convé que aquesta conjectura tingui una demostració dins de la matemàtica estàndard, doncs possiblement es revisi aquest conveni i ja no fem servir ZFC.
+
+De fet, això és vindria a ser el que succeí amb el darrer axioma que ens falta, l'axioma de l'elecció.
+
+Es va trobar que era independent del sistema axiomàtic format pel conjunt d'axiomes que hem vist fins ara, ZF, i va resultar que és necessari per sostenir part de la matemàtica que es va considerar de és desitjable que sigui sostinguda.
+
+Tot això amb certa controvèrsia; a alguns matemàtics aquest axioma els semblava molt rebuscat i poc auto-evident, característiques que són poc desitjables en un axioma.
+
+Per altra banda, aquest axioma el necessitem per demostrar coses com que si tenim dos conjunts qualssevol A i B, és el cas que |A|≤|B| o bé |A|≥|B|. I aquest teorema (la totalitat de la relació d'ordre de les cardinalitats) alhora el volem per demostrar moltes altres coses.
+
+Diu l'axioma de l'elecció que si tenim un conjunt X de conjunts no buits, existeix una funció f tal que per tota A∈X, f(A)∈A.
+
+És a dir, que la funció f(X) elegeix un element per cada conjunt dels que formen X. Si ens restringíssim a conjunts finits, podriem construir aquesta funció fent servir l'axioma de l'infinit a través de la inducció matemàtica i no ens caldria un axioma especial per fer-ho.
+
+Però en el cas de X infinites, necessitem assegurar l'existència de la funció de tria amb l'axioma de l'elecció.
+
+De la mateixa manera que amb l'axioma de l'elecció podem demostrar teoremes que intuïm intensament com a veritat i per tant en volem poder fer una demostració, també ens porta a resultats que són fortament antiintuïtius.
+
+Trobo que el dia matí del dia de reis, la màgia i els regals és molt adequat per parlar d'un d'aquests resultats que és especialment vistós: la paradoxa de Banach-Tarski Wrapped present
+
+Suposem que tenim una bola en l'espai de tres dimensions habitual. És a dir, el volum d'espai sòlid que està tancat dins d'una esfera.
+
+Diu aquest teorema que és possible dividir aquest sòlid tallant-lo en un conjunt finit de trossos (veig a la viquipèdia que es pot arribar a fer en cinc parts) de manera que llavors es poden prendre aquests trossos i fent-los només desplaçaments i rotacions rígides...
+
+...acabar muntant dues boles separades cadascuna d'elles exactament idèntica a la bola original.
+
+Com deia això contradiu fortament la nostra intuïció degut a la nostra experiència física tallant i rearmant sòlids a l'espai, i per això se'n diu "paradoxa".
+
+Però és un resultat matemàtic perfectament vàlid i consistent a partir de l'axioma de l'elecció. No és una paradoxa en el sentit que ho era la de Russell que invalidava tota la matemàtica i s'havia de refundar de nou. És simplement un teorema "raro".
+
+La matèria física que ens envolta no la podem duplicar màgicament com les boles matemàticament idealitzades d'aquest teorema perquè d'entrada els talls que hem de fer són d'una delicadesa infinita (hauriem de separar la substància pràcticament punt a punt)
+
+i la substància de les boles de billar a partir d'una certa escala microscòpica comença a fer coses que s'aparten de l'ideal d'espai tridimensional del que parteix el teorema. Quan ens trobem coses partícules elementals i física quàntica deixem de poder aplicar el teorema.
+
+Respecte a la demostració en si, són matemàtiques massa avançades i jo no em veig capacitat per exposar-vos-la però aquest youtuber atabalat en fa un esboç que em sembla que està bastant bé. https://youtube.com/watch?v=s86-Z-CbaHA
+
+Una altra cosa menys marciana i més concordant amb la nostra intuïció de les coses que podem demostrar a partir de l'axioma de l'elecció (i sense ell no) és l'equivalència entre la definició estàndard d'infinit i la de Dedekind.
+
+Havíem comentat en el seu moment que no es pren la de Dedekind com a definició estàndard del concepte d'infinit perquè fer-ho ens obligaria a fer servir massa aquest axioma i això no ens barrufa.
+
+Empalmant aquesta equivalència amb el que hem demostrat abans sobre que ℕ és més petit o igual que qualsevol conjunt Dedekind-infinit tindríem que també ho és que qualsevol conjunt infinit a seques.
+
+Mica en mica hem anat descobrint una complexitat important en el món que hi ha a l'altre costat del llindar de la infinitat.
+
+Hem vist que els conjunts no són infinits i ja està sinó que dintre d'aquesta infinitat n'hi ha de més grans i de més petits, igual com passa entre els finits.
+
+També vam veure que per manegar aquesta complexitat amb els conjunts finits fem servir uns objectes abstractes que es diuen "nombres".
+
+Quan parlem del nombre "tres" estem en certa manera parlant de tots els conjunts que tenen tres elements i podem aplicar les conclusions a les que arribem a tots els conjunts de tres elements.
+
+Tot i amb això, mentre ho fem ens oblidem d'aquest fet i dediquem tota la nostra capacitat mental a l'abstracció pura, sense malgastar pensament en particularitats irrellevants. Això ens permet arribar a llocs que serien altrament impensables. Però d'això ja en vam parlar.
+
+De la mateixa manera que generalitzant els nombres naturals vam descobrir altres tipus de nombres que ens poden servir per abstreure conceptes més amplis que el que és la cardinalitat dels conjunts finits,
+
+voldríem ara alguna mena de nombres que ens permetés abstreure sobre conceptes la cardinalitat de també els conjunts infinits.
+
+És per això que en els següents tuits intentarem parlar dels Firework sparklernombres transfinitsFirework sparkler.
+
+Havíem vist en capítols anteriors que els nombres naturals els construïm aplicant successivament la funció successor s(x)=x∪{x} sobre el conjunt buit. Això fa que cada nombre sigui de fet el conjunt de tots els nombres anteriors: 5 = s(4) = 4∪{4} = {0,1,2,3}∪{4} ={0,1,2,3,4}.
+
+També havíem vist la definició del que és un ordre total quan vam estar parlant dels nombres racionals:
+Quote Tweet
+    Un ordre total és una relació ≤ que compleix:
+        a≤a (reflectivitat)
+        si a≤b i b≤c aleshores a≤c (transitivitat)
+        si a≤b i b≤a aleshores a=b (antisimetria)
+        Per qualssevol a i b, a≤b o b≤a (totalitat)
+
+La relació ≤ entre naturals (que de fet és la mateixa que ⊂, el ser un subconjunt un de l'altre) també compleix aquestes propietats de l'ordre total. Igual que la ≤ entre enters, racionals o reals.
+
+Però a més té una altra propietat que aquests altres conjunts ordenats no tenen: tots els conjunts de nombres naturals tenen un element mínim, més petit que tots els altres elements del conjunt. El mínim del conjunt de nombres primers {2,3,5,7...} per exemple és 2.
+
+Mentre que conjunts com el d'enters parells {...,-4,-2,0,2,4,6...} o l'interval obert real (0,1) no han de tenir necessàriament un element mínim segons la relació d'ordre habitual tal com s'entén quan diem "tal nombre és més petit que tal altre".
+
+De vegades es poden definir relacions d'ordre alternatives que sí la tenen. Per exemple, podríem ordenar els enters d'alguna manera com aquesta <0,-1,1,-2,2,-3,3,-4,4...> i llavors segons aquesta relació d'ordre sí que tots els conjunts d'enters tindrien un mínim.
+
+I el mínim absolut de tots els enters segons aquest ordre seria el zero. Amb els reals no està tan clar com podríem definir un ordre alternatiu que tingués aquesta propietat. En parlarem més endavant.
+
+Bé doncs. Quan una relació d'ordre total té aquesta propietat que tots els subconjunts no buits tenen un element mínim, es diu que és un "bon ordre". Els nombres naturals formen un conjunt "ben ordenat".
+
+També havíem parlat que el procediment de comptar els elements d'un conjunt finit consistia en establir una bijecció entre aquest conjunt i els nombres naturals. Etiquetar cada element amb un nombre consecutiu.
+
+Havíem obviat però que aquesta bijecció la podem fer de moltes maneres diferents. El conjunt {a,b,c} podem comptar-lo aíxí:
+0 <-> a
+1 <-> b
+2 <-> c
+o així: 
+0 <-> b
+1 <-> a
+2 <-> c
+
+Cadascuna d'aquestes possibles bijeccions ens determina de fet una relació bon ordre diferent en el conjunt {a,b,c}.
+
+I viceversa. Si partim d'una relació de bon ordre ja definida ens queda determinada una única bijecció amb el nombre natural corresponent de manera que sigui consistent amb ambdós ordres en el sentit que x≤y → f(x)≤f(y). Ordenar és comptar.
+
+D'aquestes bijeccions entre conjunts ordenats que són consistents amb l'ordre se'n diuen "isomorfismes d'ordre".
+
+Les dues propietats dels nombres naturals que hem vist (ser ben ordenats i que cadascun sigui el conjunt de tots els que són més petits que ell) es poden generalitzar i extendre a una classe de conjunts molt més general que els que es poden generar aplicant la funció successor.
+
+Tots els nombres naturals d'entrada formaran part d'aquesta classe perquè hem vist que compleixen aquestes propietats, però a més:
+
+El mateix conjunt de tots els nombres naturals, ℕ={0,1,2,3...}, també seria un conjunt d'aquest tipus. Un objecte que en el bon ordre vindria just després de tota la sèrie infinita de naturals, ja que els té com a elements i per tant són estrictament menors.
+
+En aquest context d'aquest conjunt no en diem ℕ sinó nombre ω (omega). Per allò d'estar al final, suposo.
+
+Però potser no perquè de fet no està al final ni de conya. A aquest ω li podem aplicar la funció successor i obtenim ω+1={0, 1, 2, 3... ω}, que també és un conjunt d'aquesta classe.
+
+I tornant a aplicar repetidament la funció successor obtindríem altre cop infinits ω+2, ω+3,.... que anirien just a continuació de tots els altres que hem generat abans en l'ordre.
+
+I el conjunt de tots ells formarien un nou element al final de tot que en diem ω+ω=ω·2.
+
+A aquest ω·2 també podem aplicar-hi el successor iterativament fins a generar ω·3. I després ω·4. I fent això infinites vegades arribar fins a ω·ω=ω^2. I després seguir fins a ω^3, ω^4..., ω^ω,...  ω^(ω^ω),... ω^(ω^(ω^...))),...
+
+De fet a qualsevol notació que ens poguem inventar per representar elements més i més grans li passarà el mateix que quan parlàvem de la dels nombres reals. Que només pot representar una quantitat numerable de coses i n'hi ha moltes més per representar.
+
+La quantitat d'objectes d'aquesta classe que hi ha és absurdament gran. I això és bastant literal en el sentit que ZFC no ens serveix per parlar d'aquesta categoria de quantitats.
+
+Això és així perquè no podem agafar-los tots i tancar-los en un conjunt. Aquest conjunt hauria de ser per definició un altre objecte d'aquesta classe i per tant ser element d'ell mateix. I això ho tenim prohibit per l'axioma de regularitat.
+
+D'aquesta mena de conjunts en diem "nombres ordinals" i són bastant anàlegs funcionalment al concepte de numeral ordinal en lingüística.
+
+Tot conjunt ben ordenat (finit o infinit) té isomorfisme d'ordre amb exactament un nombre ordinal. És a dir, que es poden etiquetar ordenadament els seus elements amb nombres ordinals consecutius i això es pot fer d'una sola manera.
+
+Com ja vam apuntar fa setmanes, el procediment informal de comptar coses és exactament això. Anem etiquetant els objectes amb un nombre (ordinal) de manera ordenada fins que els esgotem. Ara tenim eines per fer aquesta part també en conjunts infinits que estiguin ben ordenats.
+
+Quan vam parlar de comptar conjunts finits fent servir nombres naturals, però, vam obviar l'ordre en què els comptàvem i la bijecció particular que fèiem servir per descartar-ho com a irrellevant i quedar-nos únicament amb el nombre final que obteníem, la cardinalitat.
+
+Això ens ho podíem permetre aleshores perquè tots els conjunts finits es poden ordenar d'alguna manera i totes les maneres en què es pot ordenar un conjunt finit són isomòrfiques.
+
+És a dir, no importa l'ordre en que comptem els elements d'un conjunt finit, el conjunt d'ordinals (en aquest cas naturals) que acabarem fent servir per etiquetar els seus elements serà el mateix.
+
+I per tant podríem fer servir aquest conjunt (alhora un altre ordinal que en aquest cas també és un nombre natural) per representar la seva cardinalitat. De fet és el que fem.
+
+Amb els nombres infinits això no passa i el comptatge és sensible a l'ordre particular en que ens trobem el conjunt.
+
+Per exemple, si comptem els nombres naturals mateixos en el seu ordre natural (valgui la tal), farem:
+0 <-> 0
+1 <-> 1
+2 <-> 2
+....
+I tindrem que ℕ ordenat d'aquesta manera és isomòrfic amb ω, cosa que com que de fet són el mateix conjunt no és cap sorpresa.
+
+Però també els podríem ordenar posant el zero al final, així com [1,2,3,4....,0]. Aleshores l'assignació d'ordinals ens quedaria:
+1 <-> 0
+2 <-> 1
+3 <-> 2
+....
+0 <-> ω
+I tenim que ℕ ordenat d'aquesta manera és isomòrfic amb ω+1, que és un ordinal diferent.
+
+Per tant els ordinals tal qual no serveixen per representar la cardinalitat dels conjunts infinits donat que la cardinalitat per definició és independent de l'ordre particular en que comptem els elements.
+
+Per començar ara com ara no sabem ni tant sols si tots els conjunts es poden arribar a ordenar d'*alguna* manera per poder-ne fer la bijecció amb *algun* ordinal.
+
+Quan hem definit el que era un bon ordre no hem vist una manera evident d'ordenar els nombres reals de manera que qualsevol subconjunt no buit tingui un mínim definit de manera consistent.
+
+Amb els que són numerables no hi ha problema perquè la bijecció amb els naturals que per definició existeix es pot fer servir per definir un ordre que serà igual de ben ordenat que ho són els nombres naturals.
+
+Per tota la resta es pot demostrar que es pot definir com a mínim un bon ordre fent servir l'axioma de l'elecció.
+
+Els detalls són un xic complexos, però la funció d'elecció generada i manipulada hàbilment es pot fer servir per determinar quin serà el mínim de cada subconjunt d'aquest ordre de manera consistent.
+
+De manera que sense tenir necessàriament idea d'exactament com és en detall, amb l'axioma de l'elecció sabem que un bon ordre per els reals i qualsevol altre conjunt com a mínim existeix.
+
+Igual que l'axioma de l'elecció no ens diu com és la funció d'elecció, només que una *existeix*.
+
+Tot això al que ens porta és a que qualsevol conjunt es pot posar en bijecció amb diversos ordinals diferents però sempre com a mínim a un.
+
+Si d'aquest conjunt no buit de nombres ordinals que són equipotents amb el conjunt en podem escollir un sistemàticament el podrem fer servir per representar la cardinalitat.
+
+Per exemple, donat que els ordinals són ben ordenats, podem agafar-ne el que és mínim. I això serien ni més ni menys que els nombres cardinals.
+
+En el cas dels conjunts finits, el conjunt d'ordinals equipotents amb cadascun està format per un sol element, que és exactament el nombre natural que havíem dit que representaria la cardinalitat quan ho limitàvem a conjunts finits.
+
+De manera que els nombres cardinals finits seran altre cop els mateixos naturals 0, 1, 2, 3... de manera consistent a com ja havíem dit que representàvem les cardinalitats finites.
+
+Els nombres corresponents a les cardinalitats infinites es representen fent servir la lletra hebrea àlef (ℵ) amb un subíndex.
+
+Els més petits dels conjunts infinits, els numerables com ℕ, ℤ, ℚ, ℕ×ℕ..., tenen una cardinalitat representada pel nombre cardinal infinit ℵ₀.
+
+El nombre cardinal immediatament superior seria ℵ₁, i el següent ℵ₂ i així successivament.
+
+La hipòtesi del continu que volia demostrar Cantor consistia precisament en que la cardinalitat dels conjunts com 2^ℕ i ℝ era precisament aquest ℵ₁ o sigui que una manera succinta d'expressarla seria: |ℝ| = ℵ₁
+
+Però tal com vam dir, el sistema ZFC per ell mateix no ens permet demostrar-la ni refutar-la. El que sí que ens permet és dir que |ℝ| és igual a algun ℵᵢ amb i∈ℕ, i>0.
+
+Hi ha conjunts que tenen una cardinalitat encara més gran que la de tots aquests nombres àlef que hem enumerat amb un índex natural ℵ₀, ℵ₁, ℵ₂,... Perquè de fet l'índex de ℵ pot ser qualsevol nombre ordinal, no només naturals.
+
+Així, el més petit dels nombres cardinals que són més gran que tots els ℵᵢ amb i∈ℕ en diem ℵ_ω (àlef sub omega; unicode aquí m'has fallat). I després tindriem ℵ_(ω+1), ℵ_(ω+2),... ℵ_(ω·2), ℵ_(ω·3),... ℵ_(ω^2),... ℵ_(ω^ω) i així amb tota la sèrie inacabable d'ordinals.
+
+És demostrable en ZFC que tots els conjunts infinits tenen la cardinalitat d'algun nombre ℵᵢ per algun i ordinal. I per tant els nombres cardinals són tots els nombres naturals (representant les cardinalitats finites) i després tots els àlef (representant les infinites).
+
+En general donat algun concret com ℝ no podrem determinar quin ℵᵢ li correspon sense adoptar axiomes addicionals a més dels de ZFC com la hipòtesi del continu, però sí que podrem donar-los-hi una certa acotació tipus ℵ₀ < |ℝ| < ℵ_ω només en base a ZFC.
+
+Havíem vist que una manera de generar conjunts amb cardinalitats estrictament més grans que ell és el conjunt potència. Donat un conjunt A tindrem el conjunt 2^A format per tots els subconjunts de A del que amb la diagonalització de Cantor podem saber com a mínim que |2^A| > |A|.
+
+Si posem per cas |A|=ℵ₀, aleshores 2^A tindrà la cardinalitat 2^ℵ₀ que és la de 2^ℕ que és la de ℝ que estem dient que no sabem ben bé quina és i això potser és un problema a l'hora d'expressar segons quins conceptes que ens queden aixins com indeterminats.
+
+Per encarar aquesta mena de problemes els matemàtics el que solen fer és inventar-se un símbol nou i així si més no poden expressar la cosa de manera succinta i sintètica. Per què no.
+
+Una forma alternativa de designar els cardinals infinits és amb la lletra hebrea bet ℶ. Els nombres bet es defineixen recursivament sobre els ordinals de la següent manera:
+ℶ₀=ℵ₀
+ℶᵢ₊₁=2^(ℶᵢ)
+ℶ_λ=sup{ℶᵢ : i<λ}
+
+Aquestes fòrmules volen dir que ℶ₀ és |ℕ| igual que ℵ₀, ℶ₁ és |2^ℕ|, ℶ₂ és |2^(2^ℕ)|,... ℶ_ω el més petit dels cardinals superiors que tots els ℶᵢ amb i<ω, i així per tota la resta d'ordinals.
+
+Els nombres bet els podem construir i determinar-ne les propietats amb precisió fent servir la maquinària de ZFC, amb eines com el conjunt potència; no com amb els nombres àlef que els conjunts exactes que tenen aquelles cardinalitats estan com indeterminats.
+
+Però per altra banda, la sèrie de nombres bet no cobreix necessàriament tots els cardinals infinits exhaustivament com sí que ho fa àlef. No sabem si hi ha altres cardinals entre ℶ₀ i ℶ₁ mentre que entre ℵ₀ i ℵ₁ per definició no n'hi ha. No es pot tenir tot.
+
+Així doncs, una nova manera d'expressar la nostra ja entranyable hipòtesi del continu podria ser ℵ₁=ℶ₁.
+
+Hi ha una generalització de la hipòtesi del continu que extén aquesta fòrmula a tots els subíndexs ordinals, o sigui  ℵᵢ=ℶᵢ per tot 'i' ordinal. D'una manera molt creativa se l'anomena "hipòtesi del continu generalitzada".
+
+Igual que l'altra hipòtesi del continu restringida, aquesta tampoc té demostració ni refutació en ZFC. Però sí que s'ha trobat que amb ella i ZF sense sense axioma de l'elecció es pot demostrar l'axioma de l'elecció.
+
+Això vol dir que en un sistema axiomàtic format per ZF+GCH es pot demostrar tot el que es demostra en ZFC i algunes coses més i alhora és consistent si també ho és ZFC.
+
+Hi ha una gent que es dedica a buscar aquesta mena de relacions entre els diferents axiomes/hipòtesis/conjectures i determinar la potència i les característiques dels diversos sistemes axiomàtics que es poden formar amb ells i les teories de conjunts a que donen peu.
+
+Perquè pot molt ben ser que per qüestions matemàtiques que romanen obertes, algunes fins i tot amb utilitat pràctica, les matemàtiques "normals" senzillament no estiguin suficientment dotades per resoldre-les, com en el seu moment va passar amb la hipòtesi del continu de Cantor.
+
+I llavors la manera de donar resposta a aquestes qüestions és "què caldria incorporar a les matemàtiques per poder demostrar que això és veritat i quines altres implicacions tindria fer-ho".
+
+Tot això sabent que mai les podrem dotar lo suficient com per resoldre-ho tot.
+
+L'aritmètica dels nombres naturals es pot extendre cap als transfinits de manera consistent a la semàntica que hem anat descrivint.
+
+La suma de dos nombres cardinals és, doncs, la corresponent a la cardinalitat de la unió disjunta de dos conjunts amb les cardinalitats donades, igual que quan ho limitàvem a nombres naturals i cardinalitats finites.
+
+Si tenim un conjunt amb 7 elements i un altre conjunt amb 4 elements tals que un i altre no tenen cap element en comú, en ajuntar-los en un sol conjunt resulta que aquest tindrà 7+4=11 elements.
+
+Quan extenem aquesta idea tan avançada als cardinals infinits ens trobem que sota ZFC resulta que el cardinal infinit més gran "absorbeix" el petit: ℵ₀+69=ℵ₀, ℵ₆+ℵ₄=ℵ₆, ℵ₂+ℵ₂=ℵ₂, ℶ₁+ℶ₉=ℶ₉,...
+
+ℵ₂+ℶ₁ no està determinat perquè sota ZFC tampoc ho està quin dels dos si ℵ₂ o ℶ₁ és més gran, però sí que està determinat que el resultat de la suma serà igual a un dels dos.
+
+D'una manera semblant, la suma de nombres ordinals és l'ordinal que representa el conjunt ordenat resultant de posar dos conjunts ordenats disjunts un a continuació de l'altre. O sigui:
+
+Si tenim per un costat el nombre ordinal infinit ω que representa l'ordre del conjunt {a_0, a_1,a_2,a_3,...} i per l'altre el nombre ordinal finit 3 que representa l'ordre del conjunt {b_0,b_1,b_2}, en unir-los ordenadament obtenim
+
+un conjunt ordenat amb la forma {a_0,a_1,a_2,a_3,a_4,...., b_0,b_1,b_2} que seria isomòrfic amb l'ordinal {0,1,2,3,4,...,ω, ω+1, ω+2} i que de fet en notació l'expressem tal qual com ω+3.
+
+En canvi, si els col·loquèssim a l'inrevés, primer el 3 i després el ω, ens sortiria el conjunt  {b_0,b_1,b_2, a_0,a_1,a_2,a_3,a_4,...., } que és isomòrfic amb {0,1,2,3,4,5,6,7,...} que és igual a ω. O sigui, que 3+ω = ω ≠ ω+3.
+
+O sigui, que la suma d'ordinals no és commutativa i, a diferència que amb els cardinals,  els infinits no sempre absorbeixen els finits.
+
+El producte de dos nombres cardinals és el corresponent a la cardinalitat del producte cartesià de dos conjunts amb les cardinalitats donades. O sigui, quants parells ordenats podem formar amb un element d'un i un element de l'altre.
+
+Igual que amb la suma, en ZFC cardinals infinits grans absorbeixen els petits i els infinits als finits: ℵ₀·3 = ℵ₀, ℵ₆·ℵ₀ = ℵ₆, ℵ₆·ℵ_ω = ℵ_ω
+
+El producte d'ordinals també és anàleg a la suma però fent servir el producte cartesià en comptes de la unió disjunta: s'ordenen tots els parells ordenats per components de dreta a esquerra. És a dir:
+
+Si multipliquem els ordinals 3={0,1,2} i 2={0,1} tenim aquest un conjunt de parells ordenats que segueix aquest ordre:
+(0,0)
+(1,0)
+(2,0)
+(0,1)
+(1,1)
+(2,1)
+Que és isomòrfic amb l'ordinal 6={0,1,2,3,4,5} i per tant aquest és el resultat de la multiplicació.
+
+Si multipliquem els ordinals ω={0,1,2,3,4,5...} i 2={0,1} els parells ordenats que tenim són:
+(0,0)
+(1,0)
+(2,0)
+....
+(0,1)
+(1,1)
+(2,1)
+....
+I l'ordinal corresponent és al que anomenem ω·2 que de fet és igual que ω+ω.
+
+(perquè les propietats aritmètiques que porten a que x·2 = x+x les seguim tenint en els nombres transfinits).
+
+En canvi, si fem la multiplicació a l'inrevés 2·ω, tenim els parells ordenats seguint l'ordre:
+(0,0)
+(1,0)
+(0,1)
+(1,1)
+(0,2)
+(1,2)
+(0,3)
+....
+Aquest conjunt ben ordenat tot i tenir la mateixa cardinalitat que el ω·2 d'abans és isomòrfic amb l'ordinal ω.
+
+Per tant 2·ω = ω ≠ ω·2. El producte d'ordinals, igual que la suma, tampoc és commutatiu.
+
+Una operació de la que encara no em parlat (directament) és la potenciació de conjunts.
+
+Donats dos conjunts qualssevol A i B la potència A^B es defineix com el conjunt de funcions que van de B cap a A.
+
+O sigui, si A={a₀, a₁, a₂, a₃, a₄} i B={b₀, b₁, b₂}, la funció f:B→A definida com:
+f(b₀) = a₂
+f(b₁) = a₀
+f(b₂) = a₂
+...és un element de A^B (A elevat a B). I també totes les altres funcions que puguem definir de la mateixa manera.
+
+El conjunt de totes funcions reals de variable real és doncs ℝ^ℝ.
+
+Les operacions naturals aritmètiques de suma, multiplicació, resta i divisió vistes com funcions de dues variables són elements del conjunt ℕ^(ℕ×ℕ).
+
+Un parell ordenat (a,b) pot ser considerat com una funció f que té com a domini el conjunt 2={0,1} tal que f(0)=a i f(1)=b.
+
+Així, una altra manera d'expressar el producte cartesià A×A, que és el conjunt de parells ordenats formats per dos elements de A, seria en forma de la potència A^2, el conjunt de totes les funcions f:2→A.
+
+I de la mateixa manera, podem expressar el producte A×A×A en la forma A^3, i A×A×...×A en la forma A^n: el producte i potència de conjunts és consistent amb el producte i potència dels nombres que coneixem.
+
+Donat un conjunt A, qualsevol dels seus subconjunts A' es pot veure com una funció f de A cap a 2={0,1} tal que f(a)=0 si a∉A' i f(a)=1 si a∈A'.
+
+Així, el conjunt de tots els subconjunts del conjunt A el podem considerar com el conjunt de totes les funcions f:A→2, que seria 2^A.
+
+Això és precisament el que haviem definit com a conjunt potència en parlar de l'axioma del conjunt potència i que havíem expressat en notació com a 2^A. Resulta que aquella notació ve de la idea més general de potenciació de conjunts.
+
+La cardinalitat d'aquest conjunt de funcions entre B i A quan són finits és un problema de combinatoria conegut i resulta que és igual a precisament la potenciació de les cardinalitats de A i B.
+
+És a dir que per A i B finits |A ^ B| = |A| ^ |B|. D'aquí prové el fet d'anomenar a aquest concepte "potenciació de conjunts", en consistència amb el de potenciació de nombres naturals.
+
+Això es generalitza a cardinalitats infinites: el nombre de funcions naturals de variable natural és | ℕ ^ ℕ | = |ℕ| ^ |ℕ|  = ℵ₀ ^ ℵ₀.
+
+Es pot demostrar que aquesta cardinalitat és igual a la dels nombres reals ℝ; podem codificar cada funció natural de variable natural f de la següent manera:
+
+Si tenim una funció f tal que per exemple: 
+f(0) = 7
+f(1) = 3
+f(2) = 123
+f(3) = 0
+f(4) = 3
+....
+Podem agafar la seqüencia d'imatges ordenadament [f(0), f(1), f(2), ...] i convertir-la a base binària [111, 11, 1111011, 0, 11, ...]
+
+A continuació podem agafar aquesta seqüència de nombres en base 2 i concatenar-los fent servir el dígit 2 com a separador: 111211211110112211...
+I després posar-los a continuació d'un "0."; o sigui 0.111211211110112211...
+
+Això resulta en un nombre real que serà únic per cada funció f:ℕ→ℕ. 
+Per tant |ℕ ^ ℕ| ≤ |ℝ|  i d'aquí  ℵ₀^ℵ₀ ≤ 2^ℵ₀ = ℶ₁.
+Per altra banda també tenim que ℵ₀^ℵ₀ ≥ 2^ℵ₀ ja que ℵ₀ ≥ 2. 
+I d'aquí ℵ₀^ℵ₀ = 2^ℵ₀ = ℶ₁.
+
+El conjunt de funcions reals de variable real és ℝ^ℝ i la seva cardinalitat la podem deduïr fent servir aritmètica cardinal i prou: |ℝ^ℝ| = |ℝ| ^ |ℝ| = ℶ₁^ ℶ₁ = (2^ℵ₀)^ ℶ₁ = 2^(ℵ₀·ℶ₁) = 2^ℶ₁ = ℶ₂ ∎
+
+Però portar l'operació de potenciació cap als nombres ordinals no ho podem fer de la mateixa manera que ho hem fet abans amb les operacions de suma i multiplicació.
+
+Abans el que hem fet és agafar el resultat de l'operació entre conjunts, establir-hi una mena d'ordre "natural" a partir dels ordres dels operands i dir: el resultat de l'operació és l'ordinal que representa aquest ordre.
+
+Amb la potenciació de conjunts ens passa que no existeix en general cap bon ordre  que poguem establir en el resultat d'una manera ben definida.
+
+No sabem ordenar les funcions entre naturals de manera que qualsevol conjunt de funcions tingui un element mínim. Igual com tampoc ho sabem fer amb els nombres reals, de fet.
+
+En l'ordre considerat natural dels nombres reals conjunts com l'interval obert (0,1) no tenen element mínim i per tant no és un bon ordre. El mateix passaria amb qualsevol ordre de volguéssim definir explícitament.
+
+Per això de fet s'introdueix l'axioma de l'elecció dins de ZFC. Per assegurar que cada conjunt té un bon ordre encara que no siguem capaços de definir explícitament quin és.
+
+Però per definir una operació amb nombres ordinals el que ens caldria és un bon ordre definit explícitament i això no ho tenim.
+
+a manera com es defineixen en general les funcions ordinals és una altra. Recordem com vam definir la suma de naturals:
+a + 0 = a
+a + (b+1) = (a+b) + 1
+O la multiplicació:
+a · 0 = 0
+a · (b+1) = a·b + a
+O la potenciació:
+a ^ 0 = 1
+a ^ (b+1) = a^b · a
+
+Aquestes definicions recursives funcionen perquè existeix el principi d'inducció del que també vam parlar.
+
+Amb el principi d'inducció podem demostrar que una definició així realment descriu una funció que existeix i que és única, i també amb ell podem demostrar les propietats de les funcions que definim així.
+
+El que ens cal per poder definir funcions d'una manera similar a aquesta sobre els ordinals és una extensió del principi d'inducció que operi sobre  els nombres ordinals en comptes dels naturals.
+
+D'això se'n diu "principi d'inducció transfinita".
+
+La inducció normal a seques consistia en, donada una propietat P sobre els nombres naturals, verificar que per una banda que es compleix pel zero i per l'altra que es compleix pel successor d'un nombre en el supòsit que ja s'està complint per aquell nombre.
+
+Els nombres ordinals també tenen zero i també tenen successors, però hi ha un tercer tipus d'ordinal que haurem de cobrir per completar la inducció: els ordinals límit.
+
+Un ordinal límit és allò que ve després d'aplicar el successor infinites vegades. És a dir, després de 0, 0+1 = 1, 1+1 = 2, 2+1 = 3, 3+1 = 4,... 53312 + 1 = 53313, ...  ve un ordinal límit que n'havíem dit ω.
+
+I després de ω, ω+1, (ω+1)+1 = ω+2, (ω+2)+1 = ω+3,... ve un altre ordinal límit que n'havíem dit ω·2. Aquesta mena de nombres ordinals no són successor de cap nombre ni tampoc són zero.
+
+El pas d'inducció per aquests nombres consistirà en verificar que si la propietat P es dóna per tota la seqüència d'ordinals anteriors a ell aleshores també la té ell.
+
+Recapitulant, el principi d'inducció transfinita consisteix en que si una propietat P(α) sobre els nombres ordinals compleix que: 
+   *) P(0)
+   *) ∀α ordinal, P(α) →P(α+1)
+   *) ∀λ ordinal límit, (∀α<λ P(α)) →P(λ)
+...llavors podem dir que ∀α ordinal, P(α).
+
+Tot i dir-se'n "principi" com si fos una cosa especial i particular en l'àmbit de ZFC és un teorema com qualsevol altre que es segueix i es demostra a partir dels axiomes com qualsevol altre.
+
+Com també ho són de fet els anomenats "corol·laris" i "lemes". La distinció entre uns i altres és una cosa subjectiva que no té cap rellevància formal.
+
+En realitat només hi ha axiomes, que es prenen sense demostració, i teoremes, que es demostren a partir d'axiomes i altres teoremes. I de tots plegats en diem "proposicions".
+
+Anàlogament a com havíem vist amb els naturals, amb la inducció transfinita podem definir funcions sobre els ordinals fent servir el resultat de la mateixa funció aplicada a altres arguments talment com:
+f(0) = Φ
+∀α ord, f(α+1) = Χ(f(α))
+∀λ ord límit f(λ) = Ψ({f(α) : α<λ})
+
+De fet aquesta esquema és precisament el que vam fer servir quan vam definir els nombres cardinals infinits àlef i bet; si haguéssim volgut procedir d'una manera ben fonamentada hauriem d'haver passat per la inducció transfinita primer:
+Quote Tweet
+    Una forma alternativa de designar els cardinals infinits és amb la lletra hebrea bet ℶ. Els nombres bet es defineixen recursivament sobre els ordinals de la següent manera:
+    ℶ₀=ℵ₀
+    ℶᵢ₊₁=2^(ℶᵢ)
+    ℶ_λ=sup{ℶᵢ : i<λ}
+    
+I també el podem fer servir per extendre les definicions de les operacions bàsiques sobre naturals cap als nombres ordinals:
+Quote Tweet
+    La manera com es defineixen en general les funcions ordinals és una altra. Recordem com vam definir la suma de naturals:
+    a + 0 = a
+    a + (b+1) = (a+b) + 1
+    O la multiplicació:
+    a · 0 = 0
+    a · (b+1) = a·b + a
+    O la potenciació:
+    a ^ 0 = 1
+    a ^ (b+1) = a^b · a
+    
+La suma d'ordinals queda definida doncs així: 
+∀α ord, α + 0 = α
+∀α ord, ∀β ord, α + (β+1) = (α+β) + 1
+∀α ord, ∀λ ord límit, α + λ = sup { α + i : i < λ }
+
+I la multiplicació: 
+∀α ord, α · 0 = 0
+∀α ord, ∀β ord, α · (β+1) = α·β + α
+∀α ord, ∀λ ord límit, α · λ = sup { α · i : i < λ }
+
+Aquestes definicions fan la suma i la multiplicació d'ordinals consistents amb les de naturals que coneixem i a més coincideix amb la que vam donar més informalment aquí i aquí: https://twitter.com/quimtestar/status/1086529917687349248
+https://twitter.com/quimtestar/status/1089830095982903296. Defineixen la mateixa cosa.
+Quote Tweet
+    El producte d'ordinals també és anàleg a la suma però fent servir el producte cartesià en comptes de la unió disjunta: s'ordenen tots els parells ordenats per components de dreta a esquerra. És a dir:
+    
+La potenciació d'ordinals queda definida com: 
+∀α ord, α ^ 0 = 1
+∀α ord, ∀β ord, α ^ (β+1) = α^β · α
+∀α ord, ∀λ ord límit, α ^ λ = sup { α ^ i : i < λ }
+I també és una extensió de la potenciació de nombres naturals entesa com una multiplicació repetida.
+
+És interessant que en aquest cas aquesta operació és inconsistent amb la potenciació de nombres cardinals tal com l'havíem definit: 
+Per una banda, 2 ^ ω = sup { 2 ^ i : i < ω } = sup { 1, 2, 4, 8, 16, 32 ....} = ω
+Mentre que 2 ^ | ω | =  2 ^ ℵ₀ = ℶ₁ > | ω |
+
+La potenciació de nombres ordinals i la de nombres cardinals són ambdues extensions de la de nombres naturals, la primera entesa com a multiplicació iterada i l'altra com a cardinalitat del conjunt potència, però resulten ser operacions completament diferents.
+
+I bé, fins aquí jo crec que ja he arribat a mostrar una mica com s'ha treballat el concepte d'infinit des de la matemàtica tal com em van preguntar fa uns quatre mesos.
+Quote Tweet
+    Doncs potser. https://twitter.com/PloraEtLabora/status/1051204424109043713
+    
+Naturalment, queden moltíssimes coses per explicar però en algun lloc ens hem d'aturar i aviat arribaríem a terrenys que no tinc prou ben estudiats com per explicar-los.
+
+Em vaig proposar d'anar exposant la qüestió de la manera més ben fonamentada que fos capaç i sense pressuposar cap coneixement inicial.
+
+Això volia dir començar totes les matemàtiques des de zero i anar creant pel camí tots els conceptes necessaris, fins i tot alguns de considerats bàsics com el de nombre.
+
+Hi ha una il·lustració d'un tal Martin Kuppe que m'agrada molt perquè encaixa amb com és la meva percepció de tot això: un lloc que existeix independentment de nosaltres i que simplement visitem i explorem i posem nom a allò que ens hi trobem. No una cosa que "construïm". [Figura]
+
+És una idea de paradís que m'agrada perquè en aquest no hi ha gent.
+
+Tant de bo anar-hi quan em mori.
