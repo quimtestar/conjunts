@@ -1,0 +1,1792 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\begin_modules
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language catalan
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="63" columns="2">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="100text%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hi he estat pensant i em sembla que abans d'entrar en el que és la 
+\shape italic
+transfinitud
+\shape default
+ en si hauríem de donar una volta per tot el que serien les bases generals
+ de la 
+\series bold
+\shape smallcaps
+teoria de conjunts
+\series default
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Comencem pel començament: un 
+\shape italic
+conjunt
+\shape default
+ és una col·lecció de coses que en diem 
+\shape italic
+elements
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Plot twist: no totes les col·leccions de coses són conjunts.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Va haver-hi un temps que hom creia que més o menys sí que ho són.
+ Volent dir aquest ``més o menys'' que tampoc és que ningú s'hagués plantejat
+ mai el tema amb gaire profunditat.
+ Es tenia la noció intuïtiva que els conjunts són col·leccions de coses
+ i s'anava fent.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+En concret, al segle XIX, que és quan en Cantor i en Dedekind per qui em
+ demanaven abans operaven, la cosa anava així.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+En particular, s'acceptava tàcitament la validesa del que després s'ha vingut
+ a anomenar 
+\shape italic
+``axioma de comprensió sense restriccions''
+\shape default
+: donada una propietat qualsevol que poden tenir les coses, existeix el
+ conjunt de coses que la satisfan.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Existeix el conjunt de nombres primers que conté precisament aquelles coses
+ que compleixen la propietat ``ser un nombre primer''.
+ Existeix el conjunt de coses de color blau que conté precisament aquelles
+ coses que compleixen la propietat ``ser de color blau''.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+També existeixen el 
+\shape italic
+conjunt buit
+\shape default
+ que respon a una propietat abstracta que no compleix cap cosa i per tant
+ no té cap element i el 
+\shape italic
+conjunt universal
+\shape default
+ que respon a una propietat abstracta que compleixen totes les coses i per
+ tant totes les coses en són elements.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Després van venir el segle XX i un paio que es deia Bertrand Russell que
+ es va posar a pensar molt fort sobre aquesta noció.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Considerem un moment el conjunt universal que hem esmentat fa una estona.
+ Hem dit que és aquell conjunt tal que totes les coses en són elements.
+ I en particular, com que ell mateix és també una cosa doncs tenim que serà
+ un element de si mateix.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Això que un conjunt sigui un element d'ell mateix pot semblar exòtic però
+ és una propietat com qualsevol altra que segons l'axioma de comprensió
+ que hem vist tindran alguns conjunts com el conjunt universal, el conjunt
+ de tots els conjunts i molts altres.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Considerem ara la propietat complementària a aquesta.
+ Els conjunts que 
+\series bold
+no
+\series default
+ es tenen a ells mateixos com a element.
+ Segons l'axioma de comprensió sense restriccions, aquesta propietat també
+ ens defineix un conjunt: el conjunt de conjunts que no són element d'ells
+ mateixos.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anomenarem a aquest conjunt, jo què sé, 
+\shape italic
+K
+\shape default
+.
+ I ens preguntem a continuació si 
+\shape italic
+K
+\shape default
+ és un element d'ell mateix.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Suposant que efectivament 
+\shape italic
+K
+\shape default
+ és un element d'ell mateix, per la pròpia definició de 
+\shape italic
+K
+\shape default
+ això implica que no és un element d'ell mateix, cosa que contradiu la hipòtesi.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I si en canvi suposem que no ho és això vol dir que no compleix la propietat
+ de no ser un element d'ell mateix, cosa que implica que sí que ho és, contradin
+t altre cop la hipòtesi.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+La mateixa existència del conjunt 
+\shape italic
+K
+\shape default
+, per tant, ens aboca a una contradicció.
+ Hem trobat una col·lecció de coses que no pot existir com a conjunt.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No sé si en Bertrand Russell va ser el primer en topar amb aquesta idea,
+ però segurament sí que va ser el primer en adonar-se que representava un
+ problema molt greu.
+ I per això s'anomena 
+\shape italic
+``la paradoxa de Russell''
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El problema és que si tenim una matemàtica que pot demostrar coses que són
+ òbviament mentida com l'existència d'aquest conjunt 
+\shape italic
+K
+\shape default
+, aleshores cap resultat que ens proporcioni aquesta ciència té cap valor
+ perquè aquest podria ser tant veritat com mentida.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+19.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+La cosa a més té una importància especial perquè el concepte de conjunt
+ és absolutament ubic en les matemàtiques.
+ Seria molt difícil trobar un text matemàtic modern en que no fes aparició
+ en algun moment.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tant és així que de fet es pot arribar a desenvolupar tota la matemàtica
+ a partir només de la teoria de conjunts i sense fer servir essencialment
+ cap altre concepte que el de 
+\shape italic
+conjunt pur
+\shape default
+.
+ Un conjunt pur és un conjunt tal que tots els seus elements són alhora
+ conjunts purs.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Però tornem al problema de la inconsistència descobert per Russell.
+ La manera com en general s'ha adreçat la qüestió és restringint la idea
+ intuïtiva de conjunt per mitjà d'unes regles estrictes que no donin lloc
+ a contradiccions.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+22.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per arribar a afirmar ``existeix el conjunt 
+\shape italic
+A
+\shape default
+ amb totes les coses que compleixen la propietat 
+\shape italic
+P
+\shape default
+'' necessitarem justificar aquesta existència seguint aquestes regles, entre
+ les que de ben segur no hi haurà l'axioma que deia que ho podíem afirmar
+ directament.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+23.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D'aquests jocs de regles en diem 
+\shape italic
+``sistemes axiomàtics''
+\shape default
+ i se n'han anat proposant diversos des d'aleshores.
+ De cadascuna de les teories de conjunts basades en aquests sistemes en
+ diem una
+\shape italic
+ ``teoria axiomàtica de conjunts''
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+24.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+De la teoria de conjunts amb la que treballaven els matemàtics del segle
+ XIX o que s'ensenya encara avui dia als nens de primària, basada únicament
+ en la noció intuïtiva de conjunt, en diem 
+\shape italic
+``teoria de conjunts naïf''
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D'un sistema axiomàtic per la teoria de conjunts voldrem bàsicament tres
+ coses:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:intuicio"
+
+\end_inset
+
+Que l'entitat que descrigui es correspongui a la nostra noció intuïtiva
+ de conjunt.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:consistencia"
+
+\end_inset
+
+Que sigui consistent: que no ens pugui dur alhora a afirmar una cosa i la
+ contrària com amb lo de Russell.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:complet"
+
+\end_inset
+
+Que sigui complet: que doni resposta a totes les qüestions que ens puguem
+ plantejar sobre teoria de conjunts.
+ O dit d'una altra manera, que donat qualsevol enunciat en el que apareguin
+ conjunts, o ell o bé la seva negació es puguin demostrar a partir dels
+ axiomes.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+26.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El punt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:intuicio"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ és subjectiu perquè d'intuïció cadascú té la seva i a tot al que podem
+ aspirar és a un conveni.
+ Hi ha una multiplicitat de teories de conjunts on en cadascuna el concepte
+ ``conjunt'' té uns matisos diferents i una que convenim que dona lloc a
+ les matemàtiques ``estàndard''.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+27.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A més aquí hi entren posicionaments filosòfics que són una qüestió bàsicament
+ prematemàtica i que jo tot i tenir personalment triat el meu els trobo
+ fruit d'una discussió més propera a la religió que a una altra cosa.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+28.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hi ha per exemple una secta que es diuen els 
+\shape italic
+finitistes
+\shape default
+ que rebutgen l'existència de conjunts infinits perquè la troben herètica
+ o algo.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+29.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+De fet tampoc és que sigui un posicionament tan descabellat, si vas a mirar.
+ Estem dient que el que fem és plasmar la nostra intuïció de conjunt com
+ un joc de regles formals i l'infinit en si és un concepte que té ramificacions
+ que desafien la intuïció.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per exemple l'
+\shape italic
+Hotel Infinit de Hilbert
+\shape default
+.
+ Parlem un moment de l'Hotel Infinit de Hilbert.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+31.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Posem que ens trobem treballant a la recepció d'un hotel que té infinites
+ habitacions.
+ I que estem amb l'hotel ple fins la bandera.
+ Totes les habitacions ocupades.
+ En aquell moment arriba un client nou que vol una habitació.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+32.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+La nostra experiència limitada als hotels finits ens diu que si tenim un
+ hotel complet i arriba un client nou, no el podrem acomodar i li hem de
+ dir que sentint-ho molt s'haurà de buscar un altre establiment.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+33.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Però en un hotel infinit sí que podrem obtenir una habitació lliure per
+ ell encara que partim de tenir-les totes ocupades.
+ Tot el que hem de fer és agafar cada client de l'habitació 
+\shape italic
+n
+\shape default
+ i moure'l cap a la 
+\shape italic
+n+1
+\shape default
+ i després donar-li l'habitació 
+\shape italic
+0
+\shape default
+ que ha quedat lliure al nou hoste.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+34.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Un finitista ens dirà que aquest resultat contraintuïtiu entra en conflicte
+ amb el punt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:intuicio"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ dels que hem dit abans i per tant en la nostra teoria de conjunts no hi
+ ha d'haver infinits.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per altra banda, una matemàtica construïda només sobre conjunts finits és
+ difícil que arribi a assolir la potència que té la normal de tota la vida.
+ Com fas per exemple geometria analítica si no pots dir que un segment està
+ format per infinits punts? Doncs ni idea.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+36.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Els punts 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:consistencia"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ i 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:complet"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, és a dir, que el sistema axiomàtic que adoptem per la teoria de conjunts
+ a sigui consistent i complet, en canvi, sí que són qüestions perfectament
+ objectivables.
+ Però aquí entren Kurt Gödel i els seus teoremes d'incompletesa.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+37.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gödel es va adonar que donat un sistema de la mena que estem tractant que
+ sigui prou potent com per respondre qüestions aritmètiques bàsiques, seria
+ possible traduïr una afirmació com ``aquesta afirmació no és demostrable
+ en aquest sistema'' en forma d'equació aritmètica que a continuació podríem
+ introduir dins del propi sistema perquè ens proporcionés una resposta,
+ generant una paradoxa de l'estil de la que hem vist abans amb Russell.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+38.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per tant no és possible que si el nostre sistema és consistent sigui alhora
+ complet i pugui resoldre totes les qüestions que li plantegem.
+ Sempre hi haurà coses que des dels nostres axiomes no podrem ni demostrar
+ ni refutar.
+ Terrible.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+39.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+La part d'expressar una oració en llenguatge natural com ``aquesta afirmació
+ no és demostrable en aquest sistema'' en forma de proposició processable
+ per un sistema axiomàtic formal es diu molt ràpid però és una liada en
+ ella mateixa bastant important.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+40.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+En llenguatge natural podem referir-nos a ``aquesta frase'' dins de la mateixa
+ frase a la que ens estem referint saltant alegrement entre nivells de metalleng
+uatge i el receptor ho entén sense més problema perquè el cervell humà és
+ molt pràctic i té facilitat per aquestes coses.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+41.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per exemple, podem dir ``aquesta frase és mentida'' creant una paradoxa
+ d'autorreferència i qui ho sent de seguida entén la broma sense que el
+ cervell li entri en un bucle infinit en processar-ho ni agafar-li una embòlia
+ ni morir-se ni res.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+42.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Però fer-li aquest mateix joc a un sistema formal fet per distingir allò
+ veritable d'allò fals d'una manera ben fonamentada és força més complicat.
+ No tindrem manera de dir ``aquesta frase'' o ``aquest sistema'' així amb
+ un adjectiu demostratiu i a cascar-la.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+43.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Haurem de buscar-nos la vida per declarar els conceptes de manera explícita.
+ Es una mica com la llengua dels ents.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+44.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El que va haver de fer en Gödel per dur a terme això va ser d'alguna manera
+ ``programar'' sobre paper en forma d'equacions aritmètiques el comportament
+ d'un sistema axiomàtic mínim que pogués resoldre aquelles mateixes equacions
+ aritmètiques.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+45.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El cop d'intuïció que devia fer falta per afrontar tota aquesta feinada
+ avorridíssima amb la convicció que al final hi ha una conclusió formal
+ valuosa és una cosa que sempre m'ha admirat bastant.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+46.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Una altra conseqüència dels teoremes d'incompletesa de Gödel és que la consistèn
+cia d'un d'aquests sistemes no es pot arribar a demostrar d'una manera matemàtic
+a.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+47.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I per tant mai podrem estar realment segurs que els axiomes que haguem escollit
+ per parlar de conjunts no ens portin a una contradicció com va passar amb
+ la teoria de conjunts naïf del segle XIX i la paradoxa de Russell.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+48.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Recapitulant doncs, de les tres coses que voldríem per un sistema axiomàtic
+ que ens permeti discórrer amb rigor per la teoria de conjunts i, per extensió,
+ per tota la matemàtica: una és subjectiva, l'altra no la podem tenir garantida
+ i la tercera és impossible.
+ Joder, no?
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+49.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Existeix un conjunt d'axiomes concret, però, que donat que sembla que a
+ la seva manera satisfà 
+\shape italic
+prou
+\shape default
+ tots tres punts s'ha pres per conveni general com que representa la teoria
+ de conjunts (i per extensió la matemàtica) 
+\shape italic
+``estàndard''
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+50.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Se'l coneix com a 
+\shape italic
+ZFC
+\shape default
+, amb les Z i F per Zermelo i Fraenkel, que són dos senyors, i la C de 
+\shape italic
+``axiom of choice''
+\shape default
+.
+ Quan parlem de conjunts sense dir res més s'entén que ens referim exactament
+ a aquells ens que compleixen aquests axiomes i no a una altra cosa.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+51.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El sistema axiomàtic ZFC consta de nou axiomes i em temo que tuiter no és
+ un lloc gaire adequat per entrar a detallar-los un per un, ja que seria
+ una cosa feixuga i avorridíssima.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+52.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+És exactament el que faré.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+53.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L'
+\shape italic
+axioma d'extensionalitat
+\shape default
+ diu que dos conjunts iguals són el mateix conjunt.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+54.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Això d'entrada pot semblar que no digui gran cosa però aquí darrere hi ha
+ una característica bastant profunda que separa el món immutable de les
+ idees i les abstraccions matemàtiques del món sensible de les coses on
+ ens veiem lamentablement forçats existir nosaltres.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+55.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quan diem 
+\shape italic
+``2+2 és igual a 4''
+\shape default
+, inherentment a això va lligat que a qualsevol proposició on veiem un 
+\shape italic
+2+2
+\shape default
+ el podem substituir per un 
+\shape italic
+4
+\shape default
+ i la seva validesa no es veu afectada pel canvi, perquè són la mateixa
+ cosa i tenen exactament les mateixes propietats.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+56.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aquest fet és una part essencial del discórrer matemàtic, de fet.
+ En canvi, en el món sensible si veiem un cotxe igual pel nostre no necessàriame
+nt ha de ser el nostre i si fem amb ell el que fariem amb el nostre podem
+ tenir problemes amb la justícia.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+57.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+És obvi que a causa d'això discórrer en el món sensible ha de ser per força
+ molt més esgotador, feixuc i desagradable.
+ No saps mai si dues coses iguals són la mateixa o no, hòstia puta.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+58.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tornant als conjunts, direm que dos conjunts són iguals quan tinguin exactament
+ els mateixos elements i per l'axioma d'extensionalitat qualsevol propietat
+ que tingui un també la tindrà l'altre.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+59.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per exemple, la propietat de ser un element d'un tercer conjunt donat.
+ Si 
+\shape italic
+A=B
+\shape default
+, i 
+\shape italic
+A∈C
+\shape default
+, podem estar segurs que 
+\shape italic
+B∈C
+\shape default
+.
+ I això és en virtut d'aquest primer axioma.
+ Saludem tots a l'axioma d'extensionalitat.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+60.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L'
+\shape italic
+axioma d'emparellament
+\shape default
+ diu que donats dos elements qualssevol 
+\shape italic
+a
+\shape default
+ i 
+\shape italic
+b
+\shape default
+ (no necessàriament diferents) existeix un conjunt 
+\shape italic
+{a, b}
+\shape default
+ format per precisament aquests dos elements.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+61.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L'existència del conjunt d'un sol element queda subsumida en aquest axioma,
+ quan 
+\shape italic
+a
+\shape default
+ i 
+\shape italic
+b
+\shape default
+ siguin la mateixa cosa.
+ Tots els elements de 
+\shape italic
+{a, a}
+\shape default
+ són element de 
+\shape italic
+{a}
+\shape default
+ i viceversa, per tant tenen els mateixos elements, per tant són iguals,
+ i per tant, per l'anterior axioma d'extensionalitat són el mateix conjunt.
+ Aquest raonament seria una mica formalitzar la idea que els conjunts són
+ col·leccions sense ordre ni repetició, pel cas de parells de la forma 
+\shape italic
+{a, a}
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+62.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L'emparellament d'elements ens permet construir algunes estructures interessants
+ amb conjunts.
+ Per exemple, si tenim dos elements 
+\shape italic
+a
+\shape default
+ i 
+\shape italic
+b
+\shape default
+ podem formar els conjunts 
+\shape italic
+{a}
+\shape default
+ i 
+\shape italic
+{a, b}
+\shape default
+ i després emparellar aquests per formar 
+\shape italic
+{{a}, {a, b}}
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+63.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aquesta estructura ens interessa per la seva asimetria.
+ No és el mateix 
+\shape italic
+{{a}, {a, b}}
+\shape default
+ que 
+\shape italic
+{{b}, {b, a}}
+\shape default
+.
+ I com que és asimètrica podem definir-hi un ordre, dir que un element va
+ davant de l'altre.
+ Per això en diem ``parell ordenat'' i ho escrivim amb la notació 
+\shape italic
+(a, b)={{a}, {a,b}}
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
