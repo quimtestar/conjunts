@@ -7,6 +7,9 @@
 \textclass article
 \use_default_options true
 \begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
 enumitem
 \end_modules
 \maintain_unincluded_children false
@@ -33,7 +36,16 @@ enumitem
 \index_command default
 \paperfontsize default
 \spacing single
-\use_hyperref false
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
 \papersize default
 \use_geometry false
 \use_package amsmath 1
@@ -70,7 +82,7 @@ enumitem
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
-\paperpagestyle default
+\paperpagestyle empty
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -82,7 +94,7 @@ enumitem
 
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="63" columns="2">
+<lyxtabular version="3" rows="142" columns="2">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="100text%">
@@ -180,8 +192,15 @@ Plot twist: no totes les col·leccions de coses són conjunts.
 
 \begin_layout Plain Layout
 Va haver-hi un temps que hom creia que més o menys sí que ho són.
- Volent dir aquest ``més o menys'' que tampoc és que ningú s'hagués plantejat
- mai el tema amb gaire profunditat.
+ Volent dir aquest 
+\begin_inset Quotes fls
+\end_inset
+
+més o menys
+\begin_inset Quotes frs
+\end_inset
+
+ que tampoc és que ningú s'hagués plantejat mai el tema amb gaire profunditat.
  Es tenia la noció intuïtiva que els conjunts són col·leccions de coses
  i s'anava fent.
 \end_layout
@@ -227,10 +246,25 @@ En concret, al segle XIX, que és quan en Cantor i en Dedekind per qui em
 En particular, s'acceptava tàcitament la validesa del que després s'ha vingut
  a anomenar 
 \shape italic
-``axioma de comprensió sense restriccions''
+
+\begin_inset Quotes fls
+\end_inset
+
+axioma de comprensió sense restriccions
 \shape default
+
+\begin_inset Quotes frs
+\end_inset
+
 : donada una propietat qualsevol que poden tenir les coses, existeix el
  conjunt de coses que la satisfan.
+\begin_inset CommandInset label
+LatexCommand label
+name "comprensio"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -251,9 +285,25 @@ En particular, s'acceptava tàcitament la validesa del que després s'ha vingut
 
 \begin_layout Plain Layout
 Existeix el conjunt de nombres primers que conté precisament aquelles coses
- que compleixen la propietat ``ser un nombre primer''.
+ que compleixen la propietat 
+\begin_inset Quotes fls
+\end_inset
+
+ser un nombre primer
+\begin_inset Quotes frs
+\end_inset
+
+.
  Existeix el conjunt de coses de color blau que conté precisament aquelles
- coses que compleixen la propietat ``ser de color blau''.
+ coses que compleixen la propietat 
+\begin_inset Quotes fls
+\end_inset
+
+ser de color blau
+\begin_inset Quotes frs
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -275,15 +325,37 @@ Existeix el conjunt de nombres primers que conté precisament aquelles coses
 \begin_layout Plain Layout
 També existeixen el 
 \shape italic
-conjunt buit
+conjunt buit 
+\begin_inset Formula $\emptyset$
+\end_inset
+
+
 \shape default
  que respon a una propietat abstracta que no compleix cap cosa i per tant
- no té cap element i el 
+ no té cap element
+\begin_inset CommandInset label
+LatexCommand label
+name "buit"
+
+\end_inset
+
+ i el 
 \shape italic
-conjunt universal
+conjunt universal 
+\begin_inset Formula $𝕌$
+\end_inset
+
+
 \shape default
  que respon a una propietat abstracta que compleixen totes les coses i per
  tant totes les coses en són elements.
+\begin_inset CommandInset label
+LatexCommand label
+name "universal"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -370,6 +442,12 @@ Això que un conjunt sigui un element d'ell mateix pot semblar exòtic però
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "russell"
+
+\end_inset
+
 Considerem ara la propietat complementària a aquesta.
  Els conjunts que 
 \series bold
@@ -456,8 +534,8 @@ K
 
 \begin_layout Plain Layout
 I si en canvi suposem que no ho és això vol dir que no compleix la propietat
- de no ser un element d'ell mateix, cosa que implica que sí que ho és, contradin
-t altre cop la hipòtesi.
+ de no ser un element d'ell mateix, cosa que implica que sí que ho és, contradie
+nt altre cop la hipòtesi.
 \end_layout
 
 \end_inset
@@ -507,8 +585,16 @@ No sé si en Bertrand Russell va ser el primer en topar amb aquesta idea,
  problema molt greu.
  I per això s'anomena 
 \shape italic
-``la paradoxa de Russell''
+
+\begin_inset Quotes fls
+\end_inset
+
+la paradoxa de Russell
 \shape default
+
+\begin_inset Quotes frs
+\end_inset
+
 .
 \end_layout
 
@@ -629,7 +715,11 @@ Però tornem al problema de la inconsistència descobert per Russell.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Per arribar a afirmar ``existeix el conjunt 
+Per arribar a afirmar 
+\begin_inset Quotes fls
+\end_inset
+
+existeix el conjunt 
 \shape italic
 A
 \shape default
@@ -637,7 +727,11 @@ A
 \shape italic
 P
 \shape default
-'' necessitarem justificar aquesta existència seguint aquestes regles, entre
+
+\begin_inset Quotes frs
+\end_inset
+
+ necessitarem justificar aquesta existència seguint aquestes regles, entre
  les que de ben segur no hi haurà l'axioma que deia que ho podíem afirmar
  directament.
 \end_layout
@@ -661,13 +755,29 @@ P
 \begin_layout Plain Layout
 D'aquests jocs de regles en diem 
 \shape italic
-``sistemes axiomàtics''
+
+\begin_inset Quotes fls
+\end_inset
+
+sistemes axiomàtics
+\begin_inset Quotes frs
+\end_inset
+
+
 \shape default
  i se n'han anat proposant diversos des d'aleshores.
  De cadascuna de les teories de conjunts basades en aquests sistemes en
  diem una
 \shape italic
- ``teoria axiomàtica de conjunts''
+ 
+\begin_inset Quotes fls
+\end_inset
+
+teoria axiomàtica de conjunts
+\begin_inset Quotes frs
+\end_inset
+
+
 \shape default
 .
 \end_layout
@@ -693,7 +803,15 @@ De la teoria de conjunts amb la que treballaven els matemàtics del segle
  XIX o que s'ensenya encara avui dia als nens de primària, basada únicament
  en la noció intuïtiva de conjunt, en diem 
 \shape italic
-``teoria de conjunts naïf''
+
+\begin_inset Quotes fls
+\end_inset
+
+teoria de conjunts naïf
+\begin_inset Quotes frs
+\end_inset
+
+
 \shape default
 .
 \end_layout
@@ -738,7 +856,7 @@ name "enu:consistencia"
 \end_inset
 
 Que sigui consistent: que no ens pugui dur alhora a afirmar una cosa i la
- contrària com amb lo de Russell.
+ contrària com amb la paradoxa de Russell.
 \end_layout
 
 \begin_layout Enumerate
@@ -785,8 +903,24 @@ noprefix "false"
  és subjectiu perquè d'intuïció cadascú té la seva i a tot al que podem
  aspirar és a un conveni.
  Hi ha una multiplicitat de teories de conjunts on en cadascuna el concepte
- ``conjunt'' té uns matisos diferents i una que convenim que dona lloc a
- les matemàtiques ``estàndard''.
+ 
+\begin_inset Quotes fls
+\end_inset
+
+conjunt
+\begin_inset Quotes frs
+\end_inset
+
+ té uns matisos diferents i una que convenim que dona lloc a les matemàtiques
+ 
+\begin_inset Quotes fls
+\end_inset
+
+estàndard
+\begin_inset Quotes frs
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -833,7 +967,14 @@ Hi ha per exemple una secta que es diuen els
 finitistes
 \shape default
  que rebutgen l'existència de conjunts infinits perquè la troben herètica
- o algo.
+ o quelcom semblant.
+\begin_inset CommandInset label
+LatexCommand label
+name "finitistes"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -951,17 +1092,36 @@ Però en un hotel infinit sí que podrem obtenir una habitació lliure per
  ell encara que partim de tenir-les totes ocupades.
  Tot el que hem de fer és agafar cada client de l'habitació 
 \shape italic
-n
+
+\begin_inset Formula $n$
+\end_inset
+
+
 \shape default
  i moure'l cap a la 
 \shape italic
-n+1
+
+\begin_inset Formula $n+1$
+\end_inset
+
+
 \shape default
  i després donar-li l'habitació 
 \shape italic
-0
+
+\begin_inset Formula $0$
+\end_inset
+
+
 \shape default
  que ha quedat lliure al nou hoste.
+\begin_inset CommandInset label
+LatexCommand label
+name "hilbert"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1081,10 +1241,17 @@ noprefix "false"
 \begin_layout Plain Layout
 Gödel es va adonar que donat un sistema de la mena que estem tractant que
  sigui prou potent com per respondre qüestions aritmètiques bàsiques, seria
- possible traduïr una afirmació com ``aquesta afirmació no és demostrable
- en aquest sistema'' en forma d'equació aritmètica que a continuació podríem
- introduir dins del propi sistema perquè ens proporcionés una resposta,
- generant una paradoxa de l'estil de la que hem vist abans amb Russell.
+ possible traduir una afirmació com 
+\begin_inset Quotes fls
+\end_inset
+
+aquesta afirmació no és demostrable en aquest sistema
+\begin_inset Quotes frs
+\end_inset
+
+ en forma d'equació aritmètica que a continuació podríem introduir dins
+ del propi sistema perquè ens proporcionés una resposta, generant una paradoxa
+ de l'estil de la que hem vist abans amb Russell.
 \end_layout
 
 \end_inset
@@ -1128,10 +1295,16 @@ Per tant no és possible que si el nostre sistema és consistent sigui alhora
 \begin_inset Text
 
 \begin_layout Plain Layout
-La part d'expressar una oració en llenguatge natural com ``aquesta afirmació
- no és demostrable en aquest sistema'' en forma de proposició processable
- per un sistema axiomàtic formal es diu molt ràpid però és una liada en
- ella mateixa bastant important.
+La part d'expressar una oració en llenguatge natural com 
+\begin_inset Quotes fls
+\end_inset
+
+aquesta afirmació no és demostrable en aquest sistema
+\begin_inset Quotes frs
+\end_inset
+
+ en forma de proposició processable per un sistema axiomàtic formal es diu
+ molt ràpid però és una liada en ella mateixa bastant important.
 \end_layout
 
 \end_inset
@@ -1151,10 +1324,17 @@ La part d'expressar una oració en llenguatge natural com ``aquesta afirmació
 \begin_inset Text
 
 \begin_layout Plain Layout
-En llenguatge natural podem referir-nos a ``aquesta frase'' dins de la mateixa
- frase a la que ens estem referint saltant alegrement entre nivells de metalleng
-uatge i el receptor ho entén sense més problema perquè el cervell humà és
- molt pràctic i té facilitat per aquestes coses.
+En llenguatge natural podem referir-nos a 
+\begin_inset Quotes fls
+\end_inset
+
+aquesta frase
+\begin_inset Quotes frs
+\end_inset
+
+ dins de la mateixa frase a la que ens estem referint saltant alegrement
+ entre nivells de metallenguatge i el receptor ho entén sense més problema
+ perquè el cervell humà és molt pràctic i té facilitat per aquestes coses.
 \end_layout
 
 \end_inset
@@ -1174,10 +1354,17 @@ uatge i el receptor ho entén sense més problema perquè el cervell humà és
 \begin_inset Text
 
 \begin_layout Plain Layout
-Per exemple, podem dir ``aquesta frase és mentida'' creant una paradoxa
- d'autorreferència i qui ho sent de seguida entén la broma sense que el
- cervell li entri en un bucle infinit en processar-ho ni agafar-li una embòlia
- ni morir-se ni res.
+Per exemple, podem dir 
+\begin_inset Quotes fls
+\end_inset
+
+aquesta frase és mentida
+\begin_inset Quotes frs
+\end_inset
+
+ creant una paradoxa d'autoreferència i qui ho sent de seguida entén la
+ broma sense que el cervell li entri en un bucle infinit en processar-ho
+ ni agafar-li una embòlia ni morir-se ni res.
 \end_layout
 
 \end_inset
@@ -1199,8 +1386,23 @@ Per exemple, podem dir ``aquesta frase és mentida'' creant una paradoxa
 \begin_layout Plain Layout
 Però fer-li aquest mateix joc a un sistema formal fet per distingir allò
  veritable d'allò fals d'una manera ben fonamentada és força més complicat.
- No tindrem manera de dir ``aquesta frase'' o ``aquest sistema'' així amb
- un adjectiu demostratiu i a cascar-la.
+ No tindrem manera de dir 
+\begin_inset Quotes fls
+\end_inset
+
+aquesta frase
+\begin_inset Quotes frs
+\end_inset
+
+ o 
+\begin_inset Quotes fls
+\end_inset
+
+aquest sistema
+\begin_inset Quotes frs
+\end_inset
+
+ així amb un adjectiu demostratiu i a cascar-la.
 \end_layout
 
 \end_inset
@@ -1242,9 +1444,16 @@ Haurem de buscar-nos la vida per declarar els conceptes de manera explícita.
 
 \begin_layout Plain Layout
 El que va haver de fer en Gödel per dur a terme això va ser d'alguna manera
- ``programar'' sobre paper en forma d'equacions aritmètiques el comportament
- d'un sistema axiomàtic mínim que pogués resoldre aquelles mateixes equacions
- aritmètiques.
+ 
+\begin_inset Quotes fls
+\end_inset
+
+programar
+\begin_inset Quotes frs
+\end_inset
+
+ sobre paper en forma d'equacions aritmètiques el comportament d'un sistema
+ axiomàtic mínim que pogués resoldre aquelles mateixes equacions aritmètiques.
 \end_layout
 
 \end_inset
@@ -1334,7 +1543,7 @@ Recapitulant doncs, de les tres coses que voldríem per un sistema axiomàtic
  que ens permeti discórrer amb rigor per la teoria de conjunts i, per extensió,
  per tota la matemàtica: una és subjectiva, l'altra no la podem tenir garantida
  i la tercera és impossible.
- Joder, no?
+ Ai las.
 \end_layout
 
 \end_inset
@@ -1362,7 +1571,15 @@ prou
  tots tres punts s'ha pres per conveni general com que representa la teoria
  de conjunts (i per extensió la matemàtica) 
 \shape italic
-``estàndard''
+
+\begin_inset Quotes fls
+\end_inset
+
+estàndard
+\begin_inset Quotes frs
+\end_inset
+
+
 \shape default
 .
 \end_layout
@@ -1390,7 +1607,19 @@ ZFC
 \shape default
 , amb les Z i F per Zermelo i Fraenkel, que són dos senyors, i la C de 
 \shape italic
-``axiom of choice''
+
+\begin_inset Quotes fls
+\end_inset
+
+axiom of 
+\series bold
+c
+\series default
+hoice
+\begin_inset Quotes frs
+\end_inset
+
+
 \shape default
 .
  Quan parlem de conjunts sense dir res més s'entén que ens referim exactament
@@ -1505,15 +1734,55 @@ Això d'entrada pot semblar que no digui gran cosa però aquí darrere hi ha
 \begin_layout Plain Layout
 Quan diem 
 \shape italic
-``2+2 és igual a 4''
+
+\begin_inset Quotes fls
+\end_inset
+
+
+\begin_inset Formula $2+2$
+\end_inset
+
+ és igual a 
+\begin_inset Formula $4$
+\end_inset
+
+
 \shape default
+
+\begin_inset Quotes frs
+\end_inset
+
 , inherentment a això va lligat que a qualsevol proposició on veiem un 
 \shape italic
-2+2
+
+\begin_inset Quotes fls
+\end_inset
+
+
+\begin_inset Formula $2+2$
+\end_inset
+
+
+\begin_inset Quotes frs
+\end_inset
+
+
 \shape default
  el podem substituir per un 
 \shape italic
-4
+
+\begin_inset Quotes fls
+\end_inset
+
+
+\begin_inset Formula $4$
+\end_inset
+
+
+\begin_inset Quotes frs
+\end_inset
+
+
 \shape default
  i la seva validesa no es veu afectada pel canvi, perquè són la mateixa
  cosa i tenen exactament les mateixes propietats.
@@ -1538,7 +1807,7 @@ Quan diem
 \begin_layout Plain Layout
 Aquest fet és una part essencial del discórrer matemàtic, de fet.
  En canvi, en el món sensible si veiem un cotxe igual pel nostre no necessàriame
-nt ha de ser el nostre i si fem amb ell el que fariem amb el nostre podem
+nt ha de ser el nostre i si fem amb ell el que faríem amb el nostre podem
  tenir problemes amb la justícia.
 \end_layout
 
@@ -1606,15 +1875,27 @@ Tornant als conjunts, direm que dos conjunts són iguals quan tinguin exactament
 Per exemple, la propietat de ser un element d'un tercer conjunt donat.
  Si 
 \shape italic
-A=B
+
+\begin_inset Formula $A=B$
+\end_inset
+
+
 \shape default
 , i 
 \shape italic
-A∈C
+
+\begin_inset Formula $A∈C$
+\end_inset
+
+
 \shape default
 , podem estar segurs que 
 \shape italic
-B∈C
+
+\begin_inset Formula $B∈C$
+\end_inset
+
+
 \shape default
 .
  I això és en virtut d'aquest primer axioma.
@@ -1644,16 +1925,24 @@ axioma d'emparellament
 \shape default
  diu que donats dos elements qualssevol 
 \shape italic
-a
+
+\begin_inset Formula $a$
+\end_inset
+
+
 \shape default
  i 
 \shape italic
-b
+
+\begin_inset Formula $b$
+\end_inset
+
+
 \shape default
  (no necessàriament diferents) existeix un conjunt 
-\shape italic
-{a, b}
-\shape default
+\begin_inset Formula $\left\{ a,b\right\} $
+\end_inset
+
  format per precisament aquests dos elements.
 \end_layout
 
@@ -1677,27 +1966,43 @@ b
 L'existència del conjunt d'un sol element queda subsumida en aquest axioma,
  quan 
 \shape italic
-a
+
+\begin_inset Formula $a$
+\end_inset
+
+
 \shape default
  i 
 \shape italic
-b
+
+\begin_inset Formula $b$
+\end_inset
+
+
 \shape default
  siguin la mateixa cosa.
  Tots els elements de 
 \shape italic
-{a, a}
+
+\begin_inset Formula $\left\{ a,a\right\} $
+\end_inset
+
+
 \shape default
  són element de 
-\shape italic
-{a}
-\shape default
+\begin_inset Formula $\left\{ a\right\} $
+\end_inset
+
  i viceversa, per tant tenen els mateixos elements, per tant són iguals,
  i per tant, per l'anterior axioma d'extensionalitat són el mateix conjunt.
  Aquest raonament seria una mica formalitzar la idea que els conjunts són
  col·leccions sense ordre ni repetició, pel cas de parells de la forma 
 \shape italic
-{a, a}
+
+\begin_inset Formula $\left\{ a,a\right\} $
+\end_inset
+
+
 \shape default
 .
 \end_layout
@@ -1723,25 +2028,2785 @@ L'emparellament d'elements ens permet construir algunes estructures interessants
  amb conjunts.
  Per exemple, si tenim dos elements 
 \shape italic
-a
+
+\begin_inset Formula $a$
+\end_inset
+
+
 \shape default
  i 
 \shape italic
-b
+
+\begin_inset Formula $b$
+\end_inset
+
+
 \shape default
  podem formar els conjunts 
 \shape italic
-{a}
+
+\begin_inset Formula $\left\{ a\right\} $
+\end_inset
+
+
 \shape default
  i 
 \shape italic
-{a, b}
+
+\begin_inset Formula $\left\{ a,b\right\} $
+\end_inset
+
+
 \shape default
  i després emparellar aquests per formar 
+\begin_inset Formula $\left\{ \left\{ a\right\} ,\left\{ a,b\right\} \right\} $
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+63.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aquesta estructura ens interessa per la seva asimetria.
+ No és el mateix 
+\begin_inset Formula $\left\{ \left\{ a\right\} ,\left\{ a,b\right\} \right\} $
+\end_inset
+
+ que 
+\begin_inset Formula $\left\{ \left\{ b\right\} ,\left\{ b,a\right\} \right\} $
+\end_inset
+
+.
+ I com que és asimètrica podem definir-hi un ordre, dir que un element va
+ davant de l'altre.
+ Per això en diem 
+\begin_inset Quotes fls
+\end_inset
+
+parell ordenat
+\begin_inset Quotes frs
+\end_inset
+
+ i ho escrivim amb la notació 
+\begin_inset Formula $(a,b)=\left\{ \left\{ a\right\} ,\left\{ a,b\right\} \right\} $
+\end_inset
+
+.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Corregit fins aquí
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+64.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Els parells ordenats són una cosa que es fa servir bastant, per exemple
+ per jugar a barcos.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+65.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Amb parells ordenats podem construir alhora llistes finites d'elements:
+ 
+\begin_inset Formula $[a,b,c,d,e]$
+\end_inset
+
+ = 
+\begin_inset Formula $((((a,b),c),d),e)$
+\end_inset
+
+.
+ Tot i que en matemàtiques normalment en diem 
 \shape italic
-{{a}, {a, b}}
+tuples
+\shape default
+ i les escrivim en la forma 
+\begin_inset Formula $(a,b,c,d,e)$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+66.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El que és interessant d'això és que totes aquestes estructures les podem
+ tractar matemàticament, manipular-les i formular teoremes sobre elles fent
+ servir res més que la teoria de conjunts que surt d'aquests axiomes, donat
+ que les hem definit com res més que un tipus particular de conjunt.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+67.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L'
+\shape italic
+axioma de la unió
+\shape default
+ diu que donat un conjunt tal que els seus elements són altres conjunts
+ aleshores els elements d'aquests conjunts units constitueixen alhora un
+ conjunt.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+68.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+És a dir que si tenim el conjunt 
+\begin_inset Formula $\left\{ \left\{ a,b\right\} ,\left\{ c,d\right\} ,\left\{ e\right\} \right\} $
+\end_inset
+
+ aleshores existeix el conjunt unió 
+\begin_inset Formula $\bigcup\left\{ \left\{ a,b\right\} ,\left\{ c,d\right\} ,\left\{ e\right\} \right\} =\left\{ a,b,c,d,e\right\} $
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+69.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Combinant els axiomes d'emparellament i d'unió podem fer l'operació d'únió
+ binària de tota la vida, o sigui, l'operació que pren dos conjunts i uneix
+ els seus elements en un de sol: donats els conjunts 
+\begin_inset Formula $A$
+\end_inset
+
+ i 
+\begin_inset Formula $B$
+\end_inset
+
+, existeix el conjunt parella 
+\begin_inset Formula $\left\{ A,B\right\} $
+\end_inset
+
+ i d'aquest la unió 
+\begin_inset Formula $\bigcup\left\{ A,B\right\} =A\cup B$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+70.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aquesta operació d'unió binària dona lloc a una altra construcció interessant.
+ Amb ella podem definir la funció 
+\begin_inset Formula $S(X)=X\cup\left\{ X\right\} $
+\end_inset
+
+.
+ És a dir, donat un conjunt qualsevol 
+\begin_inset Formula $X$
+\end_inset
+
+, construïm un nou conjunt prenent aquest i afegint-li ell mateix com a
+ element.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+71.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per exemple, aplicada al conjunt 
+\begin_inset Formula $\left\{ a,b\right\} $
+\end_inset
+
+: 
+\begin_inset Formula $S(\left\{ a,b\right\} )=\left\{ a,b,\left\{ a,b\right\} \right\} $
+\end_inset
+
+.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "successor"
+
+\end_inset
+
+D'aquesta funció en diem 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+successor
+\begin_inset Quotes frs
+\end_inset
+
+
+\shape default
+ i direm que el successor del conjunt 
+\begin_inset Formula $\left\{ a,b\right\} $
+\end_inset
+
+ és 
+\begin_inset Formula $\left\{ a,b,\left\{ a,b\right\} \right\} $
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+72.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Si apliquem la funció successor al conjunt buit 
+\begin_inset Formula $\emptyset$
+\end_inset
+
+
+
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[buit]{(8)}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\lang catalan
+, aquell conjunt que no té cap element, tenim que 
+\begin_inset Formula $S(\emptyset)=\emptyset\cup\left\{ \emptyset\right\} =\left\{ \emptyset\right\} $
+\end_inset
+
+.
+ En aquest context, al conjunt buit l'anomenarem 
+\begin_inset Formula $\boldsymbol{0}$
+\end_inset
+
+ (
+\shape italic
+zero
+\shape default
+) i del resultat d'aplicar-li la funció successor, el conjunt d'un sol element
+ que és el conjunt buit, en direm 
+\begin_inset Formula $\boldsymbol{1}$
+\end_inset
+
+
+\shape italic
+ 
+\shape default
+(
+\shape italic
+u
+\shape default
+).
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+73.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Si apliquem ara la funció successor al conjunt 
+\begin_inset Formula $\mathbf{1}$
+\end_inset
+
+, tenim que 
+\begin_inset Formula $S(\boldsymbol{1})=\boldsymbol{1}\cup\left\{ \boldsymbol{1}\right\} =\left\{ \boldsymbol{0},\boldsymbol{1}\right\} $
+\end_inset
+
+.
+ Obtenim un nou conjunt amb els dos elements 
+\begin_inset Formula $\boldsymbol{0}$
+\end_inset
+
+ i 
+\begin_inset Formula $\boldsymbol{1}$
+\end_inset
+
+ i d'aquest en diem 
+\begin_inset Formula $\boldsymbol{2}$
+\end_inset
+
+ (
+\shape italic
+dos
+\shape default
+).
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+74.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aplicant ara la funció successor a 
+\begin_inset Formula $\boldsymbol{2}$
+\end_inset
+
+, obtenim 
+\begin_inset Formula $S(\boldsymbol{2})=\boldsymbol{2}\cup\left\{ \boldsymbol{2}\right\} =\left\{ \boldsymbol{0},\boldsymbol{1},\boldsymbol{2}\right\} $
+\end_inset
+
+, un conjunt amb tres elements que en diem 
+\begin_inset Formula $\boldsymbol{3}$
+\end_inset
+
+ (
+\shape italic
+tres
+\shape default
+).
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+75.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I així, amics, és com neixen els nombres ♥.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+76.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L'
+\shape italic
+axioma de l'infinit
+\shape default
+ diu que existeix un conjunt 
+\begin_inset Formula $I=\left\{ \boldsymbol{0},\boldsymbol{1},\boldsymbol{2},\boldsymbol{3},\boldsymbol{4},\boldsymbol{5},\ldots\right\} $
+\end_inset
+
+ que conté tots els nombres que surten d'aplicacions successives de la funció
+ successor al conjunt buit tal com els hem definit abans.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+77.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Més formalment, existeix un conjunt 
+\begin_inset Formula $I$
+\end_inset
+
+ tal que 
+\begin_inset Formula $\emptyset∈I$
+\end_inset
+
+ i que a més donat qualsevol element 
+\begin_inset Formula $x∈I$
+\end_inset
+
+ tenim que també 
+\begin_inset Formula $x\cup\left\{ x\right\} ∈I$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+78.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dels elements d'aquest conjunt 
+\begin_inset Formula $I$
+\end_inset
+
+ i de tots els que tenen la mateixa cardinalitat en diem 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+conjunts finits
+\begin_inset Quotes frs
+\end_inset
+
+
 \shape default
 .
+ De tots els altres, inclòs el mateix conjunt 
+\begin_inset Formula $I$
+\end_inset
+
+, en diem 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+conjunts infinits
+\begin_inset Quotes frs
+\end_inset
+
+
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+79.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I aquesta simplement és la definició de la dicotomia finit/infinit que es
+ sol fer anar quan es treballa amb el sistema d'axiomes ZFC.
+ Però per a realment comprendre-la ens mancaria primer saber ben bé què
+ vol dir això de 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+tenir la mateixa cardinalitat
+\begin_inset Quotes frs
+\end_inset
+
+
+\shape default
+.
+ I per això haurem d'aprendre a comptar.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+80.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+La cardinalitat és la mesura de la quantitat d'elements que té un conjunt.
+ Que dos conjunts tinguin la mateixa cardinalitat vol dir que tenen la mateixa
+ quantitat d'elements.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+81.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per saber si dos conjunts tenen la mateixa quantitat d'elements el que fem
+ és mirar d'establir entre ells una correspondència 
+\shape italic
+un a un
+\shape default
+ que se'n diu 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+bijecció
+\begin_inset Quotes frs
+\end_inset
+
+
+\shape default
+.
+ Si som capaços d'establir-la, aleshores diem que els dos conjunts tenen
+ la mateixa cardinalitat.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bijection.svg
+	width 100bp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+81.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Així doncs, si en un conjunt podem establir-hi una bijecció amb algun dels
+ elements del conjunt 
+\begin_inset Formula $I=\left\{ 0,1,2,3,4,5,\ldots\right\} $
+\end_inset
+
+, direm que aquest conjunt és finit.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+82.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Com hem vist abans, aquests elements són conjunts que inclouen alhora tots
+ els conjunts que han anat sortint abans en l'aplicació successiva de la
+ funció successor a partir del conjunt buit 
+\begin_inset Formula $0=\emptyset$
+\end_inset
+
+, és a dir 
+\begin_inset Formula $1=\left\{ 0\right\} $
+\end_inset
+
+, 
+\begin_inset Formula $2=\left\{ 0,1\right\} $
+\end_inset
+
+, 
+\begin_inset Formula $3=\left\{ 0,1,2\right\} $
+\end_inset
+
+, 
+\begin_inset Formula $4=\left\{ 0,1,2,3\right\} $
+\end_inset
+
+, 
+\begin_inset Formula $5=\left\{ 0,1,2,3,4\right\} $
+\end_inset
+
+ i així successivament.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+83.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Si tenim per exemple el conjunt 
+\begin_inset Formula $\left\{ a,b,c,d,e\right\} $
+\end_inset
+
+ veiem que podem establir una bijecció amb el conjunt 
+\begin_inset Formula $5=\left\{ 0,1,2,3,4\right\} $
+\end_inset
+
+ de la següent manera (entre moltes altres):
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{array}{c}
+a\rightarrow0\\
+b\rightarrow1\\
+c\rightarrow2\\
+d\rightarrow3\\
+e\rightarrow4
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+84.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per tant sabem que el conjunt 
+\begin_inset Formula $\left\{ a,b,c,d,e\right\} $
+\end_inset
+
+ és finit i direm que té una cardinalitat de 5.
+ Els elements de 
+\begin_inset Formula $I$
+\end_inset
+
+ els farem servir com a mesura estàndard de la cardinalitat dels conjunts
+ finits.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "naturals"
+
+\end_inset
+
+En direm 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+nombres naturals
+\begin_inset Quotes frs
+\end_inset
+
+
+\shape default
+ i en aquest context ens referirem a ell mitjançant el símbol 
+\begin_inset Formula $\mathbb{N}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+85.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+De fet tot aquest procés és exactament el que fa un nen quan compta els
+ elements d'un conjunt qualsevol d'ítems concrets que té al davant.
+ Els va assenyalant un per un assignant-los nombres consecutius i al final
+ sap amb quin dels elements de 
+\begin_inset Formula $\mathbb{N}$
+\end_inset
+
+ pot establir-hi una bijecció.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+86.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Recordeu l'Hotel Infinit de Hilbert
+
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[hilbert]{(33)}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\lang catalan
+?
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+87.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+En aquella maniobra de fer còrrer tots els clients de l'habitació 
+\begin_inset Formula $n$
+\end_inset
+
+ cap a la 
+\begin_inset Formula $n+1$
+\end_inset
+
+ estàvem de fet establint una bijecció entre el conjunt 
+\begin_inset Formula $I$
+\end_inset
+
+ i el conjunt 
+\begin_inset Formula $I$
+\end_inset
+
+ sense l'element 
+\begin_inset Formula $0$
+\end_inset
+
+, per tal de poder encabir el nou client en l'habitació 
+\begin_inset Formula $0$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+88.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+En altres paraules, estem demostrant que 
+\begin_inset Formula $I$
+\end_inset
+
+ té la mateixa quantitat d'elements que 
+\begin_inset Formula $I$
+\end_inset
+
+ traient-li un element, segons la definició de 
+\begin_inset Quotes fls
+\end_inset
+
+tenir la mateixa quantitat d'elements
+\begin_inset Quotes frs
+\end_inset
+
+ que hem donat.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+89.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Això amb els conjunts finits no passa.
+ Si a un conjunt finit li treiem un element, el resultat té estrictament
+ menys elements que l'original.
+ El que vindria a ser al que estem acostumats que passi a la nostra quotidianita
+t finita.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+90.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Al segle XIX, abans de tot això de l'axiomatització, un senyor que es deia
+ Richard Dedekind buscava una manera de caracteritzar la infinitat que fos
+ purament interna a la teoria de conjunts; que no fes referència a cap concepte
+ extern, com per exemple són els nombres naturals.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+91.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+La definició que va desenvolupar va ser precisament aquesta propietat de
+ la que estem parlant: un conjunt és infinit quan es pot posar en bijecció
+ (té la mateixa quantitat d'elements) amb una de les seves parts pròpies,
+ o sia, un subconjunt estricte d'ell mateix.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+92.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+En ZFC es pot demostrar que els conjunts que caracteritza aquesta definició
+ són exactament els mateixos que els de la definició que hem dit abans que
+ fariem servir (els conjunts que no es poden posar en bijecció amb algun
+ element de 
+\begin_inset Formula $I$
+\end_inset
+
+), però això no té perquè ser així en altres sistemes axiomàtics.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+93.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I això és perquè, encara que sempre fem servir la paraula 
+\begin_inset Quotes fls
+\end_inset
+
+conjunt
+\begin_inset Quotes frs
+\end_inset
+
+, sistemes axiomàtics diferents poden estar parlant de coses (lleugerament)
+ diferents.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+94.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+De fet, ni tant sols en ZFC fem servir la definició de Dedekind perquè per
+ demostrar l'equivalència amb la que hem donat inicialment necessitem un
+ axioma particular que és el de l'elecció (la C de ZFC), que és controvertit,
+ sempre es deixa pel final i s'evita si es pot evitar.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+95.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fer servir la definició d'infinit de Dedekind implicaria que per demostrar
+ molts teoremes on intervé d'alguna manera la infinitat necessitariem recòrrer
+ a l'axioma de l'elecció; i resulta que ens agrada mantenir tanta matemàtica
+ com sigui possible dins de ZF sense la C.
+ Quan arribem a l'axioma de l'elecció (no sé quan) veurem per què.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+96.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A nosaltres no ens preocupa com a Dedekind el fet de fer servir els nombres
+ naturals per a definir el concepte d'infinitat perquè com que els hem desenvolu
+pat com un tipus particular de conjunt ja no són una cosa 
+\shape italic
+externa
+\shape default
+ a la teoria de conjunts, sinó una part d'ella mateixa.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+97.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dels conjunts que són infinits segons la definició de Dedekind (i que poden
+ ser o no infinits segons el sistema axiomàtic en el que estiguem treballant)
+ avui dia en diem 
+\shape italic
+Dedekind-infinits
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+98.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+De l'axioma de l'infinit (i possiblement l'ajut d'algun altre que encara
+ devem tenir pendent) es deriva una cosa força important que és el 
+\shape italic
+principi d'inducció matemàtica
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+99.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Així en general la inducció és un tipus de raonament que consisteix en la
+ construcció d'una regla general a partir de l'observació d'un conjunt de
+ casos concrets.
+ Veiem passar quatre o cinc corbs negres i concloem que tots els corbs són
+ negres.
+ 
+\strikeout on
+Amb dos collons.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+En matemàtiques també volem arribar a conclusions generals d'una manera
+ anàloga però:
+\end_layout
+
+\begin_layout Itemize
+Requerim un total rigor i per tant hem d'estar estrictament segurs que podem
+ parlar per tots els corbs.
+\end_layout
+
+\begin_layout Itemize
+Els nostres conjunts de corbs són generalment infinits.
+\end_layout
+
+\begin_layout Itemize
+Les nostres demostracions són necessàriament finites.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+101.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per això fem servir coses com l'anomenat 
+\begin_inset Quotes fls
+\end_inset
+
+principi d'inducció matemàtica
+\begin_inset Quotes frs
+\end_inset
+
+; si tenim una propietat 
+\begin_inset Formula $P$
+\end_inset
+
+ aplicada als nombres naturals on podem validar que:
+\end_layout
+
+\begin_layout Itemize
+Es dóna 
+\begin_inset Formula $P(0)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Donada qualsevol 
+\begin_inset Formula $n∈ℕ$
+\end_inset
+
+ tal que es doni 
+\begin_inset Formula $P(n)$
+\end_inset
+
+ aleshores també es donarà 
+\begin_inset Formula $P(n+1)$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+102.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Donat que sabem que serà cert que 
+\begin_inset Formula $P(0)$
+\end_inset
+
+, i d'aquí podrem deduïr consecutivament 
+\begin_inset Formula $P(1)$
+\end_inset
+
+, 
+\begin_inset Formula $P(2)$
+\end_inset
+
+, 
+\begin_inset Formula $P(3)$
+\end_inset
+
+, \SpecialChar ldots
+ podrem concloure que 
+\begin_inset Formula $P$
+\end_inset
+
+ es donarà per totes les 
+\begin_inset Formula $n∈ℕ$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+103.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Podem demostrar, doncs, infinites coses (que 
+\begin_inset Formula $P$
+\end_inset
+
+ es dóna per cadascun dels infinits nombres naturals) amb una demostració
+ finita, un raonament format per un conjunt finit de passos lògics.
+ I això és una eina potentíssima.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+104.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aquest principi el necessitem per demostrar coses tan bàsiques com la validesa
+ de la commutativitat de la suma, que 
+\begin_inset Formula $a+b=b+a$
+\end_inset
+
+.
+ I la validesa del principi, alhora, es demostra partint de l'axioma de
+ l'infinit, així com la construcció de funcions recursives com la suma mateixa.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+105.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El que no sé jo és com es convencen ells mateixos d'aquestes coses (la validesa
+ de la commutativitat de la suma, per exemple) els finitistes de qui he
+ estat parlant abans
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[finitistes]{(28)}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\strikeout on
+(escup al terra)
+\strikeout default
+.
+ Possiblement admetin la inducció com a axioma en ell mateix, però ni idea.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+106.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L'
+\shape italic
+axioma d'especificació
+\shape default
+ diu que donat un conjunt 
+\begin_inset Formula $A$
+\end_inset
+
+ i una propietat 
+\begin_inset Formula $P$
+\end_inset
+
+ que els seus elements poden tenir o no tenir, existeix un conjunt 
+\begin_inset Formula $B$
+\end_inset
+
+ format per tots aquells elements del conjunt 
+\begin_inset Formula $A$
+\end_inset
+
+ que satisfan la propietat 
+\begin_inset Formula $P$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+107.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aquest axioma és interessant perquè s'assembla bastant a l'axioma de comprensió
+ sense restriccions, del que vam parlar gairebé al començament
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[comprensio]{(6)}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ , i que havia provocat tot el pollastre de la paradoxa de Russell.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+108.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Però aquesta vegada, en operar dins d'un conjunt que ja és preexistent,
+ ens evitem caure en paradoxes de l'estil 
+\begin_inset Quotes fls
+\end_inset
+
+tenim el conjunt de conjunts que no es pertanyen a ells mateixos
+\begin_inset Quotes frs
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+109.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quan un element no pertanyi a un conjunt generat per aquest axioma, no podrem
+ concloure directament que satisfan la negació de la propietat 
+\begin_inset Formula $P$
+\end_inset
+
+.
+ També podria ser que no pertanyessin al conjunt inicial 
+\begin_inset Formula $A$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+110.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Així esquivem conclusions que ens podrien dur a contradiccions de l'estil
+ paradoxa de Russell que ens tornarien a dur a la inconsistència de tot
+ el sistema.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+111.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I tanmateix podem definir coses com 
+\begin_inset Quotes fls
+\end_inset
+
+el conjunt del nombres naturals que són primers
+\begin_inset Quotes frs
+\end_inset
+
+, sempre i quan poguem prèviament demostrar l'existència del conjunt dels
+ nombres naturals, cosa que ja hem fet a partir de l'axioma de l'infinit.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+112.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per això de fet voliem l'axioma de comprensió, no per generar contradiccions
+ que ens féssin replantejar els fonaments de tota la matemàtica i la solidesa
+ de la seva connexió amb la veritat.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+113.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Amb l'axioma d'especificació també podem definir coses l'operació binària
+ d'intersecció de tota la vida: 
+\begin_inset Formula $A\cap B=\left\{ a∈A\mid a∈B\right\} $
+\end_inset
+
+, és a dir, els elements de 
+\begin_inset Formula $A$
+\end_inset
+
+ que tenen la propietat de ser alhora un element de 
+\begin_inset Formula $B$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+114.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+O el conjunt complement: 
+\begin_inset Formula $A\setminus B=\left\{ a∈A\mid a∉B\right\} $
+\end_inset
+
+; el conjunt d'elements de 
+\begin_inset Formula $A$
+\end_inset
+
+ que tenen la propietat de 
+\series bold
+no
+\series default
+ ser un element de 
+\begin_inset Formula $B$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+115.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per fer servir aquest axioma d'especificació per crear una paradoxa a l'estil
+ Russell hauriem de fer alguna cosa com 
+\begin_inset Formula $K=\left\{ A∈𝕌\mid A∉A\right\} $
+\end_inset
+
+, on 
+\begin_inset Formula $𝕌$
+\end_inset
+
+ és el conjunt universal
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[universal]{(8)}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, aquell que ho conté 
+\series bold
+tot
+\series default
+ com a element.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+116.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Necessitariem demostrar prèviament l'existència d'aquest conjunt universal
+ 
+\begin_inset Formula $𝕌$
+\end_inset
+
+, i això amb ZFC no es pot fer.
+ De fet veurem que es pot demostrar la 
+\series bold
+no
+\series default
+ existència de l'universal.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+117.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Si comencem suposant que existeix un conjunt universal, l'axioma de comprensió
+ sense restriccions esdevé un corol·lari l'axioma d'especificació queda
+ reduït al de comprensió sense restriccions, simplement fent 
+\begin_inset Formula $A=𝕌$
+\end_inset
+
+.
+ I aquest axioma hem vist abans que ens porta a la paradoxa de Russell
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[russell]{(12)}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, un contrasentit.
+ Per tant la hipòtesi que existeix un conjunt universal ha de ser forçosament
+ falsa.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Demostració?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+118.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D'aquesta mena d'argument (prendre una hipòtesi com a certa, veure que ens
+ porta a una contradicció i concloure per tant que la hipòtesi falsa) se'n
+ diu 
+\shape italic
+reducció a l'absurd
+\shape default
+ i és un recurs bàsic i habitual en les demostracions matemàtiques.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+119.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L'
+\shape italic
+axioma de regularitat
+\shape default
+ té una formulació una mica estranya perquè d'aquesta manera serveix per
+ descartar l'existència de tota una tipologia de conjunts que la seva existència
+ ens fa nosa.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+120.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diu: tot conjunt que no sigui buit té un element que és disjunt amb ell.
+ Disjunt vol dir que no en comparteix cap element, que la seva intersecció
+ és el conjunt buit.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+121.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Suposem un conjunt 
+\begin_inset Formula $A$
+\end_inset
+
+ que sigui un element d'ell mateix.
+ És a dir 
+\begin_inset Formula $A∈A$
+\end_inset
+
+.
+ Amb l'axioma d'emparellament podem construir el conjunt que només el té
+ a ell com element, el seu conjunt singletó 
+\begin_inset Formula $\left\{ A\right\} $
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+122.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aquest 
+\begin_inset Formula $\left\{ A\right\} $
+\end_inset
+
+ no és el conjunt buit perquè té un element i aquest únic element 
+\begin_inset Formula $A$
+\end_inset
+
+ no és disjunt amb ell, ja que 
+\begin_inset Formula $A∈\left\{ A\right\} $
+\end_inset
+
+ i alhora 
+\begin_inset Formula $A∈A$
+\end_inset
+
+.
+ Per tant per l'axioma de regularitat no poden existir ni 
+\begin_inset Formula $\left\{ A\right\} $
+\end_inset
+
+ ni tampoc 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ Ni cap altre conjunt que sigui element d'ell mateix.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+123.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Una característica del conjunt universal 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $𝕌$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ és que en tenir-ho tot com a element per definició també s'hi ha de tenir
+ a ell mateix, i per tant pel que acabem de veure l'axioma de regularitat
+ també descarta la seva existència, talment com ho feia (per un altre argument)
+ el d'especificació.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+124.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Seguint un raonament molt semblant a l'anterior, l'axioma de regularitat
+ també ens descarta estructures com 
+\begin_inset Formula $A∈B∈A$
+\end_inset
+
+, 
+\begin_inset Formula $A∈B∈C∈A$
+\end_inset
+
+, i en general cicles de qualsevol llargària.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+125.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I encara més, ens descarta qualsevol seqüència infinita de la forma 
+\begin_inset Formula $A_{0}\ni A_{1}\ni A_{2}\ni A_{3}\ni A_{4}\ni\ldots$
+\end_inset
+
+ encara que el cicle no es repeteixi mai.
+ Tota seqüència de descens que es faci seguint la relació 
+\begin_inset Quotes fls
+\end_inset
+
+
+\begin_inset Formula $\in$
+\end_inset
+
+
+\begin_inset Quotes frs
+\end_inset
+
+ 
+\shape italic
+(és element de)
+\shape default
+ entre conjunts ha d'anar a parar forçosament al conjunt buit.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+126.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+De la 
+\begin_inset Quotes fls
+\end_inset
+
+prohibició
+\begin_inset Quotes frs
+\end_inset
+
+ que es doni 
+\begin_inset Formula $A∈A$
+\end_inset
+
+ se'n deriva que l'aplicació iterada de la funció successor
+
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[successor]{(71)}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\lang catalan
+ no pot tornar a portar a un element per el que ja hem passat.
+ És a dir, que per qualsevol conjunt 
+\begin_inset Formula $A$
+\end_inset
+
+, 
+\begin_inset Formula $S(S(S(\ldots S(A))))\neq A$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+127.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I d'aquí es deriva que construccions basades en aquesta funció com la dels
+ nombres natural tenen una estructura 
+\shape italic
+ordenada
+\shape default
+: donats dos elements que no siguin el mateix sempre podem dir que un dels
+ dos va abans que l'altre.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+128.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D'això se'n diu una 
+\shape italic
+relació antisimètrica
+\shape default
+; 
+\begin_inset Formula $≤$
+\end_inset
+
+ és una relació antisimètrica perquè si tenim que 
+\begin_inset Formula $a≤b$
+\end_inset
+
+ i 
+\begin_inset Formula $b≤a$
+\end_inset
+
+ aleshores 
+\begin_inset Formula $a=b$
+\end_inset
+
+.
+ Les relacions d'ordre com 
+\begin_inset Formula $≤$
+\end_inset
+
+ tenen la propietat antisimètrica (entre d'altres que aniran sortint més
+ endavant).
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+129.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tal com vam definir els nombres naturals
+
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[successor]{(84)}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\lang catalan
+, on cada 
+\begin_inset Formula $n\in\mathbb{N}$
+\end_inset
+
+ és 
+\begin_inset Formula $n=\left\{ 0,1,2,3,\ldots,n-1\right\} $
+\end_inset
+
+, la relació 
+\begin_inset Formula $≤$
+\end_inset
+
+ entre nombres naturals és exactament la mateixa que 
+\begin_inset Formula $\subseteq$
+\end_inset
+
+ 
+\shape italic
+(és un subconjunt de)
+\shape default
+: 
+\begin_inset Formula $n≤m$
+\end_inset
+
+ si i només sí 
+\begin_inset Formula $\left\{ 0,1,2,3,\ldots,n-1\right\} \subseteq\left\{ 0,1,2,3,\ldots,m-1\right\} $
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+130.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+La relació 
+\begin_inset Formula $\subseteq$
+\end_inset
+
+ considerada entre conjunts de qualsevol mena manté la propietat antisimètrica,
+ de fet: si 
+\begin_inset Formula $A\subseteq B$
+\end_inset
+
+ i 
+\begin_inset Formula $B\subseteq A$
+\end_inset
+
+ aleshores 
+\begin_inset Formula $A=B$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -1752,7 +4817,7 @@ b
 \begin_inset Text
 
 \begin_layout Plain Layout
-63.
+
 \end_layout
 
 \end_inset
@@ -1761,21 +4826,7 @@ b
 \begin_inset Text
 
 \begin_layout Plain Layout
-Aquesta estructura ens interessa per la seva asimetria.
- No és el mateix 
-\shape italic
-{{a}, {a, b}}
-\shape default
- que 
-\shape italic
-{{b}, {b, a}}
-\shape default
-.
- I com que és asimètrica podem definir-hi un ordre, dir que un element va
- davant de l'altre.
- Per això en diem ``parell ordenat'' i ho escrivim amb la notació 
-\shape italic
-(a, b)={{a}, {a,b}}
+
 \end_layout
 
 \end_inset
