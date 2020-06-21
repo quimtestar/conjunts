@@ -2828,7 +2828,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-81.
+82.
 \end_layout
 
 \end_inset
@@ -2853,7 +2853,7 @@ Així doncs, si en un conjunt podem establir-hi una bijecció amb algun dels
 \begin_inset Text
 
 \begin_layout Plain Layout
-82.
+83.
 \end_layout
 
 \end_inset
@@ -2899,7 +2899,7 @@ Com hem vist abans, aquests elements són conjunts que inclouen alhora tots
 \begin_inset Text
 
 \begin_layout Plain Layout
-83.
+84.
 \end_layout
 
 \end_inset
@@ -2944,7 +2944,7 @@ e\rightarrow4
 \begin_inset Text
 
 \begin_layout Plain Layout
-84.
+85.
 \end_layout
 
 \end_inset
@@ -2998,7 +2998,7 @@ nombres naturals
 \begin_inset Text
 
 \begin_layout Plain Layout
-85.
+86.
 \end_layout
 
 \end_inset
@@ -3025,7 +3025,7 @@ De fet tot aquest procés és exactament el que fa un nen quan compta els
 \begin_inset Text
 
 \begin_layout Plain Layout
-86.
+87.
 \end_layout
 
 \end_inset
@@ -3069,7 +3069,7 @@ hyperref[hilbert]{(33)}
 \begin_inset Text
 
 \begin_layout Plain Layout
-87.
+88.
 \end_layout
 
 \end_inset
@@ -3113,7 +3113,7 @@ En aquella maniobra de fer còrrer tots els clients de l'habitació
 \begin_inset Text
 
 \begin_layout Plain Layout
-88.
+89.
 \end_layout
 
 \end_inset
@@ -3149,7 +3149,7 @@ tenir la mateixa quantitat d'elements
 \begin_inset Text
 
 \begin_layout Plain Layout
-89.
+90.
 \end_layout
 
 \end_inset
@@ -3173,7 +3173,7 @@ t finita.
 \begin_inset Text
 
 \begin_layout Plain Layout
-90.
+91.
 \end_layout
 
 \end_inset
@@ -3196,7 +3196,7 @@ Al segle XIX, abans de tot això de l'axiomatització, un senyor que es deia
 \begin_inset Text
 
 \begin_layout Plain Layout
-91.
+92.
 \end_layout
 
 \end_inset
@@ -3219,7 +3219,7 @@ La definició que va desenvolupar va ser precisament aquesta propietat de
 \begin_inset Text
 
 \begin_layout Plain Layout
-92.
+93.
 \end_layout
 
 \end_inset
@@ -3246,7 +3246,7 @@ En ZFC es pot demostrar que els conjunts que caracteritza aquesta definició
 \begin_inset Text
 
 \begin_layout Plain Layout
-93.
+94.
 \end_layout
 
 \end_inset
@@ -3275,7 +3275,7 @@ conjunt
 \begin_inset Text
 
 \begin_layout Plain Layout
-94.
+95.
 \end_layout
 
 \end_inset
@@ -3298,7 +3298,7 @@ De fet, ni tant sols en ZFC fem servir la definició de Dedekind perquè per
 \begin_inset Text
 
 \begin_layout Plain Layout
-95.
+96.
 \end_layout
 
 \end_inset
@@ -3322,7 +3322,7 @@ Fer servir la definició d'infinit de Dedekind implicaria que per demostrar
 \begin_inset Text
 
 \begin_layout Plain Layout
-96.
+97.
 \end_layout
 
 \end_inset
@@ -3348,7 +3348,7 @@ externa
 \begin_inset Text
 
 \begin_layout Plain Layout
-97.
+98.
 \end_layout
 
 \end_inset
@@ -3374,7 +3374,7 @@ Dedekind-infinits
 \begin_inset Text
 
 \begin_layout Plain Layout
-98.
+99.
 \end_layout
 
 \end_inset
@@ -3399,7 +3399,7 @@ principi d'inducció matemàtica
 \begin_inset Text
 
 \begin_layout Plain Layout
-99.
+100.
 \end_layout
 
 \end_inset
@@ -3426,7 +3426,7 @@ Amb dos collons.
 \begin_inset Text
 
 \begin_layout Plain Layout
-100.
+101.
 \end_layout
 
 \end_inset
@@ -3460,7 +3460,7 @@ Les nostres demostracions són necessàriament finites.
 \begin_inset Text
 
 \begin_layout Plain Layout
-101.
+102.
 \end_layout
 
 \end_inset
@@ -3516,7 +3516,7 @@ Donada qualsevol
 \begin_inset Text
 
 \begin_layout Plain Layout
-102.
+103.
 \end_layout
 
 \end_inset
@@ -3561,7 +3561,7 @@ Donat que sabem que serà cert que
 \begin_inset Text
 
 \begin_layout Plain Layout
-103.
+104.
 \end_layout
 
 \end_inset
@@ -3587,7 +3587,7 @@ Podem demostrar, doncs, infinites coses (que
 \begin_inset Text
 
 \begin_layout Plain Layout
-104.
+105.
 \end_layout
 
 \end_inset
@@ -3614,7 +3614,7 @@ Aquest principi el necessitem per demostrar coses tan bàsiques com la validesa
 \begin_inset Text
 
 \begin_layout Plain Layout
-105.
+106.
 \end_layout
 
 \end_inset
@@ -3662,7 +3662,7 @@ hyperref[finitistes]{(28)}
 \begin_inset Text
 
 \begin_layout Plain Layout
-106.
+107.
 \end_layout
 
 \end_inset
@@ -3706,7 +3706,7 @@ axioma d'especificació
 \begin_inset Text
 
 \begin_layout Plain Layout
-107.
+108.
 \end_layout
 
 \end_inset
@@ -3748,7 +3748,7 @@ hyperref[comprensio]{(6)}
 \begin_inset Text
 
 \begin_layout Plain Layout
-108.
+109.
 \end_layout
 
 \end_inset
@@ -3777,7 +3777,7 @@ tenim el conjunt de conjunts que no es pertanyen a ells mateixos
 \begin_inset Text
 
 \begin_layout Plain Layout
-109.
+110.
 \end_layout
 
 \end_inset
@@ -3807,7 +3807,7 @@ Quan un element no pertanyi a un conjunt generat per aquest axioma, no podrem
 \begin_inset Text
 
 \begin_layout Plain Layout
-110.
+111.
 \end_layout
 
 \end_inset
@@ -3829,7 +3829,7 @@ Així esquivem conclusions que ens podrien dur a contradiccions de l'estil
 \begin_inset Text
 
 \begin_layout Plain Layout
-111.
+112.
 \end_layout
 
 \end_inset
@@ -3858,7 +3858,7 @@ el conjunt del nombres naturals que són primers
 \begin_inset Text
 
 \begin_layout Plain Layout
-112.
+113.
 \end_layout
 
 \end_inset
@@ -3880,7 +3880,7 @@ Per això de fet voliem l'axioma de comprensió, no per generar contradiccions
 \begin_inset Text
 
 \begin_layout Plain Layout
-113.
+114.
 \end_layout
 
 \end_inset
@@ -3913,7 +3913,7 @@ Amb l'axioma d'especificació també podem definir coses l'operació binària
 \begin_inset Text
 
 \begin_layout Plain Layout
-114.
+115.
 \end_layout
 
 \end_inset
@@ -3949,7 +3949,7 @@ no
 \begin_inset Text
 
 \begin_layout Plain Layout
-115.
+116.
 \end_layout
 
 \end_inset
@@ -4003,7 +4003,7 @@ tot
 \begin_inset Text
 
 \begin_layout Plain Layout
-116.
+117.
 \end_layout
 
 \end_inset
@@ -4033,7 +4033,7 @@ no
 \begin_inset Text
 
 \begin_layout Plain Layout
-117.
+118.
 \end_layout
 
 \end_inset
@@ -4093,7 +4093,7 @@ Demostració?
 \begin_inset Text
 
 \begin_layout Plain Layout
-118.
+119.
 \end_layout
 
 \end_inset
@@ -4119,7 +4119,7 @@ reducció a l'absurd
 \begin_inset Text
 
 \begin_layout Plain Layout
-119.
+120.
 \end_layout
 
 \end_inset
@@ -4145,7 +4145,7 @@ axioma de regularitat
 \begin_inset Text
 
 \begin_layout Plain Layout
-120.
+121.
 \end_layout
 
 \end_inset
@@ -4167,7 +4167,7 @@ Diu: tot conjunt que no sigui buit té un element que és disjunt amb ell.
 \begin_inset Text
 
 \begin_layout Plain Layout
-121.
+122.
 \end_layout
 
 \end_inset
@@ -4202,7 +4202,7 @@ Suposem un conjunt
 \begin_inset Text
 
 \begin_layout Plain Layout
-122.
+123.
 \end_layout
 
 \end_inset
@@ -4248,7 +4248,7 @@ Aquest
 \begin_inset Text
 
 \begin_layout Plain Layout
-123.
+124.
 \end_layout
 
 \end_inset
@@ -4301,7 +4301,7 @@ Una característica del conjunt universal
 \begin_inset Text
 
 \begin_layout Plain Layout
-124.
+125.
 \end_layout
 
 \end_inset
@@ -4330,7 +4330,7 @@ Seguint un raonament molt semblant a l'anterior, l'axioma de regularitat
 \begin_inset Text
 
 \begin_layout Plain Layout
-125.
+126.
 \end_layout
 
 \end_inset
@@ -4371,7 +4371,7 @@ I encara més, ens descarta qualsevol seqüència infinita de la forma
 \begin_inset Text
 
 \begin_layout Plain Layout
-126.
+127.
 \end_layout
 
 \end_inset
@@ -4436,7 +4436,7 @@ hyperref[successor]{(71)}
 \begin_inset Text
 
 \begin_layout Plain Layout
-127.
+128.
 \end_layout
 
 \end_inset
@@ -4462,7 +4462,7 @@ ordenada
 \begin_inset Text
 
 \begin_layout Plain Layout
-128.
+129.
 \end_layout
 
 \end_inset
@@ -4508,7 +4508,7 @@ relació antisimètrica
 \begin_inset Text
 
 \begin_layout Plain Layout
-129.
+130.
 \end_layout
 
 \end_inset
@@ -4529,7 +4529,7 @@ status open
 
 
 \backslash
-hyperref[successor]{(84)}
+hyperref[naturals]{(85)}
 \end_layout
 
 \end_inset
@@ -4580,7 +4580,7 @@ hyperref[successor]{(84)}
 \begin_inset Text
 
 \begin_layout Plain Layout
-130.
+131.
 \end_layout
 
 \end_inset
