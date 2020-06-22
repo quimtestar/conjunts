@@ -5,6 +5,10 @@
 \save_transient_properties true
 \origin unavailable
 \textclass article
+\begin_preamble
+\usepackage{colortbl}
+\usepackage{xcolor}
+\end_preamble
 \use_default_options true
 \begin_modules
 theorems-ams
@@ -93,6 +97,19 @@ enumitem
 \begin_body
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+arrayrulecolor{lightgray}
+\end_layout
+
+\end_inset
+
+
 \begin_inset Tabular
 <lyxtabular version="3" rows="142" columns="2">
 <features islongtable="true" longtabularalignment="center">
