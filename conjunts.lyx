@@ -5,6 +5,10 @@
 \save_transient_properties true
 \origin unavailable
 \textclass article
+\begin_preamble
+\usepackage{colortbl}
+\usepackage{xcolor}
+\end_preamble
 \use_default_options true
 \begin_modules
 theorems-ams
@@ -103,6 +107,20 @@ enumitem
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+arrayrulecolor{lightgray}
+\backslash
+hline
+\end_layout
+
+\end_inset
+
 1.
 \end_layout
 
