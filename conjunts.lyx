@@ -4,7 +4,7 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass amsart
+\textclass article
 \begin_preamble
 \usepackage{colortbl}
 \usepackage{xcolor}
@@ -42,6 +42,10 @@ enumitem
 \paperfontsize default
 \spacing single
 \use_hyperref true
+\pdf_title "El fil de tuiter sobre teoria de conjunts™"
+\pdf_author "@quimtestar"
+\pdf_subject "Teoria de conjunts"
+\pdf_keywords "twitter, teoria, conjunts"
 \pdf_bookmarks true
 \pdf_bookmarksnumbered false
 \pdf_bookmarksopen false
@@ -112,7 +116,7 @@ arrayrulecolor{taula}
 
 
 \begin_inset Tabular
-<lyxtabular version="3" rows="190" columns="2">
+<lyxtabular version="3" rows="191" columns="2">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="100text%">
@@ -4643,7 +4647,7 @@ La relació
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+132.
 \end_layout
 
 \end_inset
@@ -4670,7 +4674,7 @@ axioma de reemplaçament
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+133.
 \end_layout
 
 \end_inset
@@ -4724,7 +4728,7 @@ hyperref[emparellament]{(60)}
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+134.
 \end_layout
 
 \end_inset
@@ -4758,7 +4762,7 @@ Una altra cosa que també podríem fer amb aquest axioma és aplicar-ho a un
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+135.
 \end_layout
 
 \end_inset
@@ -4799,7 +4803,7 @@ Això ens donaria el conjunt de parells ordenats
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+136.
 \end_layout
 
 \end_inset
@@ -4831,7 +4835,7 @@ Aplicant ara l'axioma de reemplaçament a un conjunt
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+137.
 \end_layout
 
 \end_inset
@@ -4886,7 +4890,7 @@ hyperref[unio]{(67)}
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+138.
 \end_layout
 
 \end_inset
@@ -4912,7 +4916,7 @@ producte cartesià
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+139.
 \end_layout
 
 \end_inset
@@ -4934,7 +4938,7 @@ Havíem vist anteriorment que comptar consisteix bàsicament en trobar bijeccion
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+140.
 \end_layout
 
 \end_inset
@@ -4984,7 +4988,7 @@ Per exemple, si fem el producte cartesià del conjunt
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+141.
 \end_layout
 
 \end_inset
@@ -5044,6 +5048,8 @@ la cardinalitat de A
 \end_inset
 
  vol dir 
+\shape italic
+
 \begin_inset Quotes fls
 \end_inset
 
@@ -5051,6 +5057,8 @@ el producte cartesià de A i B
 \begin_inset Quotes frs
 \end_inset
 
+
+\shape default
 ).
 \end_layout
 
@@ -5062,7 +5070,7 @@ el producte cartesià de A i B
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+142.
 \end_layout
 
 \end_inset
@@ -5089,7 +5097,7 @@ el producte cartesià de A i B
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+143.
 \end_layout
 
 \end_inset
@@ -5138,7 +5146,7 @@ Anem a mirar què passa quan ho fem amb conjunt infinits.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+144.
 \end_layout
 
 \end_inset
@@ -5167,7 +5175,7 @@ No podem llistar infinits ítems però sí que podem copsar com podem establir
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+145.
 \end_layout
 
 \end_inset
@@ -5192,7 +5200,7 @@ I per tant encara que a primer cop d'ull ens pogués semblar alguna altra
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+146.
 \end_layout
 
 \end_inset
@@ -5248,7 +5256,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+147.
 \end_layout
 
 \end_inset
@@ -5275,7 +5283,7 @@ I per tant estaríem ometent tots elements de
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+148.
 \end_layout
 
 \end_inset
@@ -5346,7 +5354,7 @@ Si enlloc d'anar fila per fila com hem estat fent anem diagonal per diagonal,
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+149.
 \end_layout
 
 \end_inset
@@ -5388,7 +5396,7 @@ I per tant també podrem establir una correspondència un a un entre tots
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+150.
 \end_layout
 
 \end_inset
@@ -5411,7 +5419,7 @@ En aquest moment un es comença a preguntar si aquesta capaçitat absorbent
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+151.
 \end_layout
 
 \end_inset
@@ -5434,7 +5442,7 @@ I el fet que donats dos conjunts no siguem capaços de trobar aquesta bijecció
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+152.
 \end_layout
 
 \end_inset
@@ -5458,7 +5466,7 @@ Per demostrar que la bijecció entre dos conjunts no existeix més enllà de
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+153.
 \end_layout
 
 \end_inset
@@ -5482,7 +5490,7 @@ axioma del conjunt potència
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+154.
 \end_layout
 
 \end_inset
@@ -5514,7 +5522,7 @@ axioma del conjunt potència
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+155.
 \end_layout
 
 \end_inset
@@ -5554,7 +5562,7 @@ Si hi afegim un nou element
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+156.
 \end_layout
 
 \end_inset
@@ -5615,7 +5623,7 @@ Si hi afegim un nou element
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+157.
 \end_layout
 
 \end_inset
@@ -5636,7 +5644,7 @@ O sigui, que quan afegim un element a un conjunt la cardinalitat del seu
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+158.
 \end_layout
 
 \end_inset
@@ -5662,7 +5670,7 @@ t que hi ha del conjunt buit que és el mateix conjunt buit, o sigui el conjunt
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+159.
 \end_layout
 
 \end_inset
@@ -5687,7 +5695,7 @@ Aplicant la inducció a aquests dos fets podríem demostrar que en els conjunts
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+160.
 \end_layout
 
 \end_inset
@@ -5721,7 +5729,7 @@ No exactament per això, sinó per una qüestió de fet més general però forta
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+161.
 \end_layout
 
 \end_inset
@@ -5746,7 +5754,7 @@ Així doncs, posant el que hem vist en notació, per conjunts finits tenim
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+162.
 \end_layout
 
 \end_inset
@@ -5782,7 +5790,7 @@ Com que en l'aritmètica de
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+163.
 \end_layout
 
 \end_inset
@@ -5820,7 +5828,7 @@ Si volguessim generalitzar això a qualsevol tipus de conjunt finit o infinit
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+164.
 \end_layout
 
 \end_inset
@@ -5845,7 +5853,7 @@ Anem a explorar la possibilitat
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+165.
 \end_layout
 
 \end_inset
@@ -5879,11 +5887,6 @@ Posem un conjunt
 \end_layout
 
 \begin_layout Plain Layout
-\align left
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Formula 
 \[
 \begin{array}{lcc}
@@ -5908,7 +5911,7 @@ Posem un conjunt
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+166.
 \end_layout
 
 \end_inset
@@ -5947,7 +5950,7 @@ De totes aquestes correspondències en algunes es donarà el cas que
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+167.
 \end_layout
 
 \end_inset
@@ -5987,7 +5990,7 @@ Aquest conjunt
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+168.
 \end_layout
 
 \end_inset
@@ -6046,7 +6049,7 @@ Que
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+169.
 \end_layout
 
 \end_inset
@@ -6080,7 +6083,7 @@ Per tant doncs, com que hem vist abans que
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+170.
 \end_layout
 
 \end_inset
@@ -6108,7 +6111,7 @@ Fins i tot per un conjunt infinit com
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+171.
 \end_layout
 
 \end_inset
@@ -6137,7 +6140,7 @@ I també tindrem un
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+172.
 \end_layout
 
 \end_inset
@@ -6147,7 +6150,7 @@ I també tindrem un
 
 \begin_layout Plain Layout
 I més enllà, de fet.
- Ja que el conjunt infinit de conjunts 
+ Ja que la seqüència infinita de conjunts 
 \begin_inset Formula $ℕ$
 \end_inset
 
@@ -6163,8 +6166,8 @@ I més enllà, de fet.
 \begin_inset Formula $2^{2^{2^{\mathbb{N}}}}$
 \end_inset
 
-,\SpecialChar ldots
- el podem unir en un sol conjunt amb l'axioma de la unió.
+, \SpecialChar ldots
+ la podem unir en un sol conjunt amb l'axioma de la unió.
  I aquest conjunt enorme fins i tot dins l'espècie dels conjunts infinits
  també tindrà un conjunt potència que serà estrictament més gran.
  Amb el que si volem podrem tornar a fer tot el procés que acabem de fer
@@ -6184,7 +6187,7 @@ I més enllà, de fet.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+173.
 \end_layout
 
 \end_inset
@@ -6224,7 +6227,7 @@ diagonalització de Cantor
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+174.
 \end_layout
 
 \end_inset
@@ -6251,7 +6254,7 @@ A l'escola es sol explicar restringit al cas de
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+175.
 \end_layout
 
 \end_inset
@@ -6279,7 +6282,7 @@ Per veure que aquest conjunt de nombres reals
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+176.
 \end_layout
 
 \end_inset
@@ -6300,7 +6303,7 @@ Hem vist fins ara els nombres naturals que són cadascun com el representant
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+177.
 \end_layout
 
 \end_inset
@@ -6329,7 +6332,7 @@ Hem vist que un nombre natural és en realitat un conjunt que construïm per
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+178.
 \end_layout
 
 \end_inset
@@ -6365,7 +6368,7 @@ Podem definir les relacions d'ordre
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+179.
 \end_layout
 
 \end_inset
@@ -6387,7 +6390,7 @@ Un cop tenim això ens podem pràcticament oblidar de l'estructura interna
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+180.
 \end_layout
 
 \end_inset
@@ -6420,7 +6423,7 @@ externes
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+181.
 \end_layout
 
 \end_inset
@@ -6462,7 +6465,7 @@ f_{n}(S(m)) & = & S(f_{n}(m))
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+182.
 \end_layout
 
 \end_inset
@@ -6502,7 +6505,7 @@ f_{5}(3) & = & f_{5}(S(2))\\
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+183.
 \end_layout
 
 \end_inset
@@ -6511,27 +6514,20 @@ f_{5}(3) & = & f_{5}(S(2))\\
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
+Sí amics, la funció 
+\begin_inset Formula $f_{n}(m)$
 \end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
 
-\begin_layout Plain Layout
-
-\end_layout
-
+ no és altra cosa que la suma 
+\begin_inset Formula $n+m$
 \end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
 
-\begin_layout Plain Layout
+ i d'aquí 
+\begin_inset Formula $f_{5}(3)=5+3=8$
+\end_inset
 
+.
+ Acabem de descobrir la suma de nombres naturals.
 \end_layout
 
 \end_inset
@@ -6542,7 +6538,7 @@ f_{5}(3) & = & f_{5}(S(2))\\
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+184.
 \end_layout
 
 \end_inset
@@ -6551,27 +6547,9 @@ f_{5}(3) & = & f_{5}(S(2))\\
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+La suma és una funció molt interessant perquè ens dona la cardinalitat de
+ la unió de dos conjunts disjunts a partir només de les seves respectives
+ cardinalitats.
 \end_layout
 
 \end_inset
@@ -6582,7 +6560,7 @@ f_{5}(3) & = & f_{5}(S(2))\\
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+185.
 \end_layout
 
 \end_inset
@@ -6591,27 +6569,14 @@ f_{5}(3) & = & f_{5}(S(2))\\
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+És a dir, que si sé que dins d'aquesta mà tinc dues caniques i en l'altra
+ n'hi tinc tres puc saber que quan ajunti les dues mans en tindré cinc sense
+ necessitat de visualitzar mentalment els conjunts de dues i tres caniques
+ unint-se, visualitzar a continuació el conjunt de totes les caniques juntes
+ i després fer mentalment el comptatge d'aquestes cinc caniques.
+ Puc fer-ho oblidant-me de fet de les caniques en si i pensant només en
+ aquestes entitats abstractes que es diuen nombres i l'aritmètica que els
+ manega.
 \end_layout
 
 \end_inset
@@ -6622,7 +6587,7 @@ f_{5}(3) & = & f_{5}(S(2))\\
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+186.
 \end_layout
 
 \end_inset
@@ -6631,7 +6596,135 @@ f_{5}(3) & = & f_{5}(S(2))\\
 \begin_inset Text
 
 \begin_layout Plain Layout
+Això es diu abstracció i és una eina poderosíssima.
+ És bàsicament al que es dedica la matemàtica.
+ A fer abstraccions.
+\end_layout
 
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+187.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L'abstracció ens dóna accés a un coneixement que sense ella seria senzillament
+ impossible quan intervenen conjunts mínimament grans.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+188.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Jo sóc absolutament incapaç de crear-me una imatge mental d'un conjunt de
+ 4332 carxofes amb més precisió que un piló així indeterminat.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+189.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Però fent servir l'aritmètica sé gairebé instantàniament que puc dividir
+ el piló en tres pilons més petits de la mateixa quantitat cadascun perquè
+ 4332 és múltiple de 3 perquè els seus dígits compleixen allò que sumats
+ són un múltiple de 3.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+190.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A partir de la funció suma podríem definir una altra funció tal com 
+\begin_inset Quotes fls
+\end_inset
+
+donats dos nombres 
+\begin_inset Formula $a$
+\end_inset
+
+ i 
+\begin_inset Formula $b$
+\end_inset
+
+, aquell nombre 
+\begin_inset Formula $c$
+\end_inset
+
+ que caldria sumar a 
+\begin_inset Formula $a$
+\end_inset
+
+ perquè ens donés 
+\begin_inset Formula $b$
+\end_inset
+
+
+\begin_inset Quotes frs
+\end_inset
+
+.
+ D'això en diem 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+resta
+\begin_inset Quotes frs
+\end_inset
+
+
+\shape default
+ i també és força útil per fer coses de comptables.
 \end_layout
 
 \end_inset
@@ -6642,7 +6735,7 @@ f_{5}(3) & = & f_{5}(S(2))\\
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+191.
 \end_layout
 
 \end_inset
@@ -6651,7 +6744,21 @@ f_{5}(3) & = & f_{5}(S(2))\\
 \begin_inset Text
 
 \begin_layout Plain Layout
+No obstant té el problema que el nombre 
+\begin_inset Formula $c$
+\end_inset
 
+ que surt a la definició no sempre existeix donats qualssevol 
+\begin_inset Formula $a$
+\end_inset
+
+ i 
+\begin_inset Formula $b$
+\end_inset
+
+.
+ Per exemple, no hi ha cap nombre natural que poguem sumar a 7 perquè ens
+ doni 4.
 \end_layout
 
 \end_inset
