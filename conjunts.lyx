@@ -4,10 +4,11 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass article
+\textclass amsart
 \begin_preamble
 \usepackage{colortbl}
 \usepackage{xcolor}
+\definecolor{taula}{gray}{0.75}
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -104,42 +105,28 @@ status open
 
 
 \backslash
-arrayrulecolor{lightgray}
+arrayrulecolor{taula}
 \end_layout
 
 \end_inset
 
 
 \begin_inset Tabular
-<lyxtabular version="3" rows="142" columns="2">
+<lyxtabular version="3" rows="190" columns="2">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="100text%">
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-arrayrulecolor{lightgray}
-\backslash
-hline
-\end_layout
-
-\end_inset
-
 1.
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -161,7 +148,7 @@ teoria de conjunts
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -170,7 +157,7 @@ teoria de conjunts
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -189,7 +176,7 @@ elements
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -198,7 +185,7 @@ elements
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -209,7 +196,7 @@ Plot twist: no totes les col·leccions de coses són conjunts.
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -218,7 +205,7 @@ Plot twist: no totes les col·leccions de coses són conjunts.
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -240,7 +227,7 @@ més o menys
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -249,7 +236,7 @@ més o menys
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -261,7 +248,7 @@ En concret, al segle XIX, que és quan en Cantor i en Dedekind per qui em
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -270,7 +257,7 @@ En concret, al segle XIX, que és quan en Cantor i en Dedekind per qui em
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -302,7 +289,7 @@ name "comprensio"
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -311,7 +298,7 @@ name "comprensio"
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -341,7 +328,7 @@ ser de color blau
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -350,7 +337,7 @@ ser de color blau
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -393,7 +380,7 @@ name "universal"
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -402,7 +389,7 @@ name "universal"
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -414,7 +401,7 @@ Després van venir el segle XX i un paio que es deia Bertrand Russell que
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -423,7 +410,7 @@ Després van venir el segle XX i un paio que es deia Bertrand Russell que
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -437,7 +424,7 @@ Considerem un moment el conjunt universal que hem esmentat fa una estona.
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -446,7 +433,7 @@ Considerem un moment el conjunt universal que hem esmentat fa una estona.
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -460,7 +447,7 @@ Això que un conjunt sigui un element d'ell mateix pot semblar exòtic però
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -469,7 +456,7 @@ Això que un conjunt sigui un element d'ell mateix pot semblar exòtic però
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -494,7 +481,7 @@ no
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -503,7 +490,7 @@ no
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -523,7 +510,7 @@ K
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -532,7 +519,7 @@ K
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -551,7 +538,7 @@ K
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -560,7 +547,7 @@ K
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -573,7 +560,7 @@ nt altre cop la hipòtesi.
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -582,7 +569,7 @@ nt altre cop la hipòtesi.
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -598,7 +585,7 @@ K
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -607,7 +594,7 @@ K
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -633,7 +620,7 @@ la paradoxa de Russell
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -642,7 +629,7 @@ la paradoxa de Russell
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -659,7 +646,7 @@ K
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -668,7 +655,7 @@ K
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -682,7 +669,7 @@ La cosa a més té una importància especial perquè el concepte de conjunt
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -691,7 +678,7 @@ La cosa a més té una importància especial perquè el concepte de conjunt
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -710,7 +697,7 @@ conjunt pur
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -719,7 +706,7 @@ conjunt pur
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -733,7 +720,7 @@ Però tornem al problema de la inconsistència descobert per Russell.
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -742,7 +729,7 @@ Però tornem al problema de la inconsistència descobert per Russell.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -771,7 +758,7 @@ P
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -780,7 +767,7 @@ P
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -817,7 +804,7 @@ teoria axiomàtica de conjunts
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -826,7 +813,7 @@ teoria axiomàtica de conjunts
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -851,7 +838,7 @@ teoria de conjunts naïf
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -860,7 +847,7 @@ teoria de conjunts naïf
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -886,8 +873,12 @@ name "enu:consistencia"
 
 \end_inset
 
-Que sigui consistent: que no ens pugui dur alhora a afirmar una cosa i la
- contrària com amb la paradoxa de Russell.
+Que sigui 
+\shape italic
+consistent
+\shape default
+: que no ens pugui dur alhora a afirmar una cosa i la contrària com amb
+ la paradoxa de Russell.
 \end_layout
 
 \begin_layout Enumerate
@@ -897,8 +888,12 @@ name "enu:complet"
 
 \end_inset
 
-Que sigui complet: que doni resposta a totes les qüestions que ens puguem
- plantejar sobre teoria de conjunts.
+Que sigui 
+\shape italic
+complet
+\shape default
+: que doni resposta a totes les qüestions que ens puguem plantejar sobre
+ teoria de conjunts.
  O dit d'una altra manera, que donat qualsevol enunciat en el que apareguin
  conjunts, o ell o bé la seva negació es puguin demostrar a partir dels
  axiomes.
@@ -908,7 +903,7 @@ Que sigui complet: que doni resposta a totes les qüestions que ens puguem
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -917,7 +912,7 @@ Que sigui complet: que doni resposta a totes les qüestions que ens puguem
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -958,7 +953,7 @@ estàndard
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -967,7 +962,7 @@ estàndard
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -980,7 +975,7 @@ A més aquí hi entren posicionaments filosòfics que són una qüestió bàsica
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -989,7 +984,7 @@ A més aquí hi entren posicionaments filosòfics que són una qüestió bàsica
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1012,7 +1007,7 @@ name "finitistes"
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1021,7 +1016,7 @@ name "finitistes"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1035,7 +1030,7 @@ De fet tampoc és que sigui un posicionament tan descabellat, si vas a mirar.
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1044,7 +1039,7 @@ De fet tampoc és que sigui un posicionament tan descabellat, si vas a mirar.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1060,7 +1055,7 @@ Hotel Infinit de Hilbert
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1069,7 +1064,7 @@ Hotel Infinit de Hilbert
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1084,7 +1079,7 @@ Posem que ens trobem treballant a la recepció d'un hotel que té infinites
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1093,7 +1088,7 @@ Posem que ens trobem treballant a la recepció d'un hotel que té infinites
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1106,7 +1101,7 @@ La nostra experiència limitada als hotels finits ens diu que si tenim un
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1115,7 +1110,7 @@ La nostra experiència limitada als hotels finits ens diu que si tenim un
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1159,7 +1154,7 @@ name "hilbert"
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1168,7 +1163,7 @@ name "hilbert"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1191,7 +1186,7 @@ noprefix "false"
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1200,7 +1195,7 @@ noprefix "false"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1214,7 +1209,7 @@ Per altra banda, una matemàtica construïda només sobre conjunts finits és
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1223,7 +1218,7 @@ Per altra banda, una matemàtica construïda només sobre conjunts finits és
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1257,7 +1252,7 @@ noprefix "false"
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1266,7 +1261,7 @@ noprefix "false"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1289,7 +1284,7 @@ aquesta afirmació no és demostrable en aquest sistema
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1298,7 +1293,7 @@ aquesta afirmació no és demostrable en aquest sistema
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1313,7 +1308,7 @@ Per tant no és possible que si el nostre sistema és consistent sigui alhora
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1322,7 +1317,7 @@ Per tant no és possible que si el nostre sistema és consistent sigui alhora
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1342,7 +1337,7 @@ aquesta afirmació no és demostrable en aquest sistema
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1351,7 +1346,7 @@ aquesta afirmació no és demostrable en aquest sistema
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1372,7 +1367,7 @@ aquesta frase
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1381,7 +1376,7 @@ aquesta frase
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1402,7 +1397,7 @@ aquesta frase és mentida
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1411,7 +1406,7 @@ aquesta frase és mentida
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1440,7 +1435,7 @@ aquest sistema
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1449,7 +1444,7 @@ aquest sistema
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1461,7 +1456,7 @@ Haurem de buscar-nos la vida per declarar els conceptes de manera explícita.
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1470,7 +1465,7 @@ Haurem de buscar-nos la vida per declarar els conceptes de manera explícita.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1491,7 +1486,7 @@ programar
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1500,7 +1495,7 @@ programar
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1513,7 +1508,7 @@ El cop d'intuïció que devia fer falta per afrontar tota aquesta feinada
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1522,7 +1517,7 @@ El cop d'intuïció que devia fer falta per afrontar tota aquesta feinada
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1535,7 +1530,7 @@ a.
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1544,7 +1539,7 @@ a.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1557,7 +1552,7 @@ I per tant mai podrem estar realment segurs que els axiomes que haguem escollit
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1566,7 +1561,7 @@ I per tant mai podrem estar realment segurs que els axiomes que haguem escollit
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1581,7 +1576,7 @@ Recapitulant doncs, de les tres coses que voldríem per un sistema axiomàtic
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1590,7 +1585,7 @@ Recapitulant doncs, de les tres coses que voldríem per un sistema axiomàtic
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1619,7 +1614,7 @@ estàndard
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1628,7 +1623,7 @@ estàndard
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1661,7 +1656,7 @@ hoice
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1670,7 +1665,7 @@ hoice
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1683,7 +1678,7 @@ El sistema axiomàtic ZFC consta de nou axiomes i em temo que tuiter no és
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1692,7 +1687,7 @@ El sistema axiomàtic ZFC consta de nou axiomes i em temo que tuiter no és
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1703,7 +1698,7 @@ El sistema axiomàtic ZFC consta de nou axiomes i em temo que tuiter no és
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1712,7 +1707,7 @@ El sistema axiomàtic ZFC consta de nou axiomes i em temo que tuiter no és
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1727,7 +1722,7 @@ axioma d'extensionalitat
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1736,7 +1731,7 @@ axioma d'extensionalitat
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1750,7 +1745,7 @@ Això d'entrada pot semblar que no digui gran cosa però aquí darrere hi ha
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1759,7 +1754,7 @@ Això d'entrada pot semblar que no digui gran cosa però aquí darrere hi ha
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1823,7 +1818,7 @@ Quan diem
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1832,7 +1827,7 @@ Quan diem
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1846,7 +1841,7 @@ nt ha de ser el nostre i si fem amb ell el que faríem amb el nostre podem
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1855,7 +1850,7 @@ nt ha de ser el nostre i si fem amb ell el que faríem amb el nostre podem
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1868,7 +1863,7 @@ nt ha de ser el nostre i si fem amb ell el que faríem amb el nostre podem
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1877,7 +1872,7 @@ nt ha de ser el nostre i si fem amb ell el que faríem amb el nostre podem
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1890,7 +1885,7 @@ Tornant als conjunts, direm que dos conjunts són iguals quan tinguin exactament
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1899,7 +1894,7 @@ Tornant als conjunts, direm que dos conjunts són iguals quan tinguin exactament
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1937,7 +1932,7 @@ Per exemple, la propietat de ser un element d'un tercer conjunt donat.
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1946,10 +1941,16 @@ Per exemple, la propietat de ser un element d'un tercer conjunt donat.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "emparellament"
+
+\end_inset
+
 L'
 \shape italic
 axioma d'emparellament
@@ -1981,7 +1982,7 @@ axioma d'emparellament
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1990,7 +1991,7 @@ axioma d'emparellament
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2042,7 +2043,7 @@ L'existència del conjunt d'un sol element queda subsumida en aquest axioma,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2051,7 +2052,7 @@ L'existència del conjunt d'un sol element queda subsumida en aquest axioma,
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2100,7 +2101,7 @@ L'emparellament d'elements ens permet construir algunes estructures interessants
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2109,7 +2110,7 @@ L'emparellament d'elements ens permet construir algunes estructures interessants
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2155,7 +2156,7 @@ Corregit fins aquí
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2164,7 +2165,7 @@ Corregit fins aquí
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2176,7 +2177,7 @@ Els parells ordenats són una cosa que es fa servir bastant, per exemple
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2185,7 +2186,7 @@ Els parells ordenats són una cosa que es fa servir bastant, per exemple
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2214,7 +2215,7 @@ tuples
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2223,7 +2224,7 @@ tuples
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2237,7 +2238,7 @@ El que és interessant d'això és que totes aquestes estructures les podem
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2246,10 +2247,16 @@ El que és interessant d'això és que totes aquestes estructures les podem
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "unio"
+
+\end_inset
+
 L'
 \shape italic
 axioma de la unió
@@ -2263,7 +2270,7 @@ axioma de la unió
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2272,7 +2279,7 @@ axioma de la unió
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2291,7 +2298,7 @@ axioma de la unió
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2300,7 +2307,7 @@ axioma de la unió
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2329,7 +2336,7 @@ Combinant els axiomes d'emparellament i d'unió podem fer l'operació d'únió
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2338,7 +2345,7 @@ Combinant els axiomes d'emparellament i d'unió podem fer l'operació d'únió
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2360,7 +2367,7 @@ Aquesta operació d'unió binària dona lloc a una altra construcció interessan
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2369,7 +2376,7 @@ Aquesta operació d'unió binària dona lloc a una altra construcció interessan
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2416,7 +2423,7 @@ successor
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2425,14 +2432,13 @@ successor
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Si apliquem la funció successor al conjunt buit 
 \begin_inset Formula $\emptyset$
 \end_inset
-
 
 
 \begin_inset script superscript
@@ -2455,8 +2461,6 @@ hyperref[buit]{(8)}
 
 \end_inset
 
-
-\lang catalan
 , aquell conjunt que no té cap element, tenim que 
 \begin_inset Formula $S(\emptyset)=\emptyset\cup\left\{ \emptyset\right\} =\left\{ \emptyset\right\} $
 \end_inset
@@ -2490,7 +2494,7 @@ u
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2499,7 +2503,7 @@ u
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2535,7 +2539,7 @@ dos
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2544,7 +2548,7 @@ dos
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2571,7 +2575,7 @@ tres
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2580,7 +2584,7 @@ tres
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2591,7 +2595,7 @@ I així, amics, és com neixen els nombres ♥.
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2600,7 +2604,7 @@ I així, amics, és com neixen els nombres ♥.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2620,7 +2624,7 @@ axioma de l'infinit
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2629,7 +2633,7 @@ axioma de l'infinit
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2656,7 +2660,7 @@ Més formalment, existeix un conjunt
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2665,7 +2669,7 @@ Més formalment, existeix un conjunt
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2709,7 +2713,7 @@ conjunts infinits
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2718,7 +2722,7 @@ conjunts infinits
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2745,7 +2749,7 @@ tenir la mateixa cardinalitat
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2754,7 +2758,7 @@ tenir la mateixa cardinalitat
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2767,7 +2771,7 @@ La cardinalitat és la mesura de la quantitat d'elements que té un conjunt.
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2776,7 +2780,7 @@ La cardinalitat és la mesura de la quantitat d'elements que té un conjunt.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2855,7 +2859,7 @@ status open
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2864,7 +2868,7 @@ status open
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2880,7 +2884,7 @@ Així doncs, si en un conjunt podem establir-hi una bijecció amb algun dels
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2889,7 +2893,7 @@ Així doncs, si en un conjunt podem establir-hi una bijecció amb algun dels
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2926,7 +2930,7 @@ Com hem vist abans, aquests elements són conjunts que inclouen alhora tots
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2935,7 +2939,7 @@ Com hem vist abans, aquests elements són conjunts que inclouen alhora tots
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2971,7 +2975,7 @@ e\rightarrow4
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2980,7 +2984,7 @@ e\rightarrow4
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3025,7 +3029,7 @@ nombres naturals
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3034,7 +3038,7 @@ nombres naturals
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3052,7 +3056,7 @@ De fet tot aquest procés és exactament el que fa un nen quan compta els
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3061,12 +3065,11 @@ De fet tot aquest procés és exactament el que fa un nen quan compta els
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Recordeu l'Hotel Infinit de Hilbert
-
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -3087,8 +3090,6 @@ hyperref[hilbert]{(33)}
 
 \end_inset
 
-
-\lang catalan
 ?
 \end_layout
 
@@ -3096,7 +3097,7 @@ hyperref[hilbert]{(33)}
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3105,7 +3106,7 @@ hyperref[hilbert]{(33)}
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3140,7 +3141,7 @@ En aquella maniobra de fer còrrer tots els clients de l'habitació
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3149,7 +3150,7 @@ En aquella maniobra de fer còrrer tots els clients de l'habitació
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3176,7 +3177,7 @@ tenir la mateixa quantitat d'elements
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3185,7 +3186,7 @@ tenir la mateixa quantitat d'elements
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3200,7 +3201,7 @@ t finita.
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3209,7 +3210,7 @@ t finita.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3223,7 +3224,7 @@ Al segle XIX, abans de tot això de l'axiomatització, un senyor que es deia
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3232,7 +3233,7 @@ Al segle XIX, abans de tot això de l'axiomatització, un senyor que es deia
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3246,7 +3247,7 @@ La definició que va desenvolupar va ser precisament aquesta propietat de
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3255,7 +3256,7 @@ La definició que va desenvolupar va ser precisament aquesta propietat de
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3273,7 +3274,7 @@ En ZFC es pot demostrar que els conjunts que caracteritza aquesta definició
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3282,7 +3283,7 @@ En ZFC es pot demostrar que els conjunts que caracteritza aquesta definició
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3302,7 +3303,7 @@ conjunt
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3311,7 +3312,7 @@ conjunt
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3325,7 +3326,7 @@ De fet, ni tant sols en ZFC fem servir la definició de Dedekind perquè per
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3334,7 +3335,7 @@ De fet, ni tant sols en ZFC fem servir la definició de Dedekind perquè per
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3349,7 +3350,7 @@ Fer servir la definició d'infinit de Dedekind implicaria que per demostrar
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3358,7 +3359,7 @@ Fer servir la definició d'infinit de Dedekind implicaria que per demostrar
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3375,7 +3376,7 @@ externa
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3384,7 +3385,7 @@ externa
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3401,7 +3402,7 @@ Dedekind-infinits
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3410,7 +3411,7 @@ Dedekind-infinits
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3426,7 +3427,7 @@ principi d'inducció matemàtica
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3435,7 +3436,7 @@ principi d'inducció matemàtica
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3453,7 +3454,7 @@ Amb dos collons.
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3462,7 +3463,7 @@ Amb dos collons.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3487,7 +3488,7 @@ Les nostres demostracions són necessàriament finites.
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3496,7 +3497,7 @@ Les nostres demostracions són necessàriament finites.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3543,7 +3544,7 @@ Donada qualsevol
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3552,7 +3553,7 @@ Donada qualsevol
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3588,7 +3589,7 @@ Donat que sabem que serà cert que
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3597,7 +3598,7 @@ Donat que sabem que serà cert que
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3614,7 +3615,7 @@ Podem demostrar, doncs, infinites coses (que
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3623,7 +3624,7 @@ Podem demostrar, doncs, infinites coses (que
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3641,7 +3642,7 @@ Aquest principi el necessitem per demostrar coses tan bàsiques com la validesa
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3650,7 +3651,7 @@ Aquest principi el necessitem per demostrar coses tan bàsiques com la validesa
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3689,7 +3690,7 @@ hyperref[finitistes]{(28)}
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3698,7 +3699,7 @@ hyperref[finitistes]{(28)}
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3733,7 +3734,7 @@ axioma d'especificació
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3742,7 +3743,7 @@ axioma d'especificació
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3775,7 +3776,7 @@ hyperref[comprensio]{(6)}
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3784,7 +3785,7 @@ hyperref[comprensio]{(6)}
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3804,7 +3805,7 @@ tenim el conjunt de conjunts que no es pertanyen a ells mateixos
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3813,7 +3814,7 @@ tenim el conjunt de conjunts que no es pertanyen a ells mateixos
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3834,7 +3835,7 @@ Quan un element no pertanyi a un conjunt generat per aquest axioma, no podrem
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3843,7 +3844,7 @@ Quan un element no pertanyi a un conjunt generat per aquest axioma, no podrem
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3856,7 +3857,7 @@ Així esquivem conclusions que ens podrien dur a contradiccions de l'estil
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3865,7 +3866,7 @@ Així esquivem conclusions que ens podrien dur a contradiccions de l'estil
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3885,7 +3886,7 @@ el conjunt del nombres naturals que són primers
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3894,7 +3895,7 @@ el conjunt del nombres naturals que són primers
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3907,7 +3908,7 @@ Per això de fet voliem l'axioma de comprensió, no per generar contradiccions
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3916,7 +3917,7 @@ Per això de fet voliem l'axioma de comprensió, no per generar contradiccions
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3940,7 +3941,7 @@ Amb l'axioma d'especificació també podem definir coses l'operació binària
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3949,7 +3950,7 @@ Amb l'axioma d'especificació també podem definir coses l'operació binària
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3976,7 +3977,7 @@ no
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3985,7 +3986,7 @@ no
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4030,7 +4031,7 @@ tot
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4039,7 +4040,7 @@ tot
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4060,7 +4061,7 @@ no
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4069,7 +4070,7 @@ no
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4120,7 +4121,7 @@ Demostració?
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4129,7 +4130,7 @@ Demostració?
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4146,7 +4147,7 @@ reducció a l'absurd
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4155,7 +4156,7 @@ reducció a l'absurd
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4172,7 +4173,7 @@ axioma de regularitat
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4181,7 +4182,7 @@ axioma de regularitat
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4194,7 +4195,7 @@ Diu: tot conjunt que no sigui buit té un element que és disjunt amb ell.
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4203,7 +4204,7 @@ Diu: tot conjunt que no sigui buit té un element que és disjunt amb ell.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4229,7 +4230,7 @@ Suposem un conjunt
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4238,7 +4239,7 @@ Suposem un conjunt
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4275,7 +4276,7 @@ Aquest
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4284,7 +4285,7 @@ Aquest
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4328,7 +4329,7 @@ Una característica del conjunt universal
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4337,7 +4338,7 @@ Una característica del conjunt universal
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4357,7 +4358,7 @@ Seguint un raonament molt semblant a l'anterior, l'axioma de regularitat
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4366,7 +4367,7 @@ Seguint un raonament molt semblant a l'anterior, l'axioma de regularitat
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4398,7 +4399,7 @@ I encara més, ens descarta qualsevol seqüència infinita de la forma
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4407,7 +4408,7 @@ I encara més, ens descarta qualsevol seqüència infinita de la forma
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4424,7 +4425,6 @@ prohibició
 \end_inset
 
  se'n deriva que l'aplicació iterada de la funció successor
-
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -4445,8 +4445,6 @@ hyperref[successor]{(71)}
 
 \end_inset
 
-
-\lang catalan
  no pot tornar a portar a un element per el que ja hem passat.
  És a dir, que per qualsevol conjunt 
 \begin_inset Formula $A$
@@ -4463,7 +4461,7 @@ hyperref[successor]{(71)}
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4472,7 +4470,7 @@ hyperref[successor]{(71)}
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4489,7 +4487,7 @@ ordenada
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4498,7 +4496,7 @@ ordenada
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4535,7 +4533,7 @@ relació antisimètrica
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4544,12 +4542,11 @@ relació antisimètrica
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Tal com vam definir els nombres naturals
-
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -4570,8 +4567,6 @@ hyperref[naturals]{(85)}
 
 \end_inset
 
-
-\lang catalan
 , on cada 
 \begin_inset Formula $n\in\mathbb{N}$
 \end_inset
@@ -4607,7 +4602,7 @@ hyperref[naturals]{(85)}
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4616,7 +4611,7 @@ hyperref[naturals]{(85)}
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4644,7 +4639,7 @@ La relació
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4653,7 +4648,1866 @@ La relació
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L'
+\shape italic
+axioma de reemplaçament
+\shape default
+ diu que si tenim un conjunt domini qualsevol i una funció que puguem definir
+ mitjançant construccions dins la teoria de conjunts aleshores també existeix
+ el conjunt imatge format pels resultats de la funció aplicats a cada element
+ del domini.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+O sia, que si tenim per exemple el conjunt 
+\begin_inset Formula $A=\left\{ a,b,c,d\right\} $
+\end_inset
+
+ i la funció 
+\begin_inset Formula $f(x)=\{x$
+\end_inset
+
+}, que donat un element ens retorna el conjunt format només per aquell element,
+ que podíem construir amb l'axioma d'emparellament
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[emparellament]{(60)}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, aleshores per l'axioma de reemplaçament existeix el conjunt 
+\begin_inset Formula $f(A)=\left\{ \left\{ a\right\} ,\left\{ b\right\} ,\left\{ c\right\} ,\left\{ d\right\} \right\} $
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Una altra cosa que també podríem fer amb aquest axioma és aplicar-ho a un
+ conjunt 
+\begin_inset Formula $A=\left\{ a_{0},a_{1},a_{2}\right\} $
+\end_inset
+
+ i a la funció 
+\begin_inset Formula $f(x)=(x,b)$
+\end_inset
+
+, fent servir aquells parells ordenats que també havíem construit quan parlàvem
+ de l'axioma d'emparellament i un element 
+\begin_inset Formula $b$
+\end_inset
+
+ arbitrari.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Això ens donaria el conjunt de parells ordenats 
+\begin_inset Formula $f(A)=\left\{ (a_{0},b),(a_{1},b),(a_{2},b)\right\} $
+\end_inset
+
+.
+ Aquesta maniobra que hem fet sobre el conjunt 
+\begin_inset Formula $A$
+\end_inset
+
+ que podríem fer per a qualsevol element 
+\begin_inset Formula $b$
+\end_inset
+
+ que volguéssim la podem fer servir per definir una funció de 
+\begin_inset Formula $b$
+\end_inset
+
+ tal com 
+\begin_inset Formula $g(b)=\left\{ (a_{0},b),(a_{1},b),(a_{2},b)\right\} $
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aplicant ara l'axioma de reemplaçament a un conjunt 
+\begin_inset Formula $B=\left\{ b_{0},b_{1}\right\} $
+\end_inset
+
+ amb aquesta funció 
+\begin_inset Formula $g$
+\end_inset
+
+ obtindríem que existeix un conjunt 
+\begin_inset Formula $g(B)=\left\{ \left\{ (a_{0},b_{0}),(a_{1},b_{0}),(a_{2},b_{0})\right\} ,\left\{ (a_{0},b_{1}),(a_{1},b_{1}),(a_{2},b_{1})\right\} \right\} $
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Si a aquest conjunt li apliquem l'axioma de la unió
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[unio]{(67)}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ obtenim 
+\begin_inset Formula $\left\{ (a_{0},b_{0}),(a_{1},b_{0}),(a_{2},b_{0}),(a_{0},b_{1}),(a_{1},b_{1}),(a_{2},b_{1})\right\} $
+\end_inset
+
+.
+ Això és, el conjunt de tots els parells ordenats que podem formar amb un
+ element de 
+\begin_inset Formula $A$
+\end_inset
+
+ i un element de 
+\begin_inset Formula $B$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D'això se'n diu 
+\shape italic
+producte cartesià
+\shape default
+ i és un altre dels conceptes importantíssims en matemàtiques.
+ Per exemple, per jugar a barcos.
+ Les jugades són parells ordenats i el taulells són productes cartesians.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Havíem vist anteriorment que comptar consisteix bàsicament en trobar bijeccions
+ entre conjunts.
+ Anem a veure què passa quan comptem els elements dels productes cartesians.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per exemple, si fem el producte cartesià del conjunt 
+\begin_inset Formula $3=\left\{ 0,1,2\right\} $
+\end_inset
+
+ i 
+\begin_inset Formula $2=\left\{ 0,1\right\} $
+\end_inset
+
+, veiem que el podem posar en bijecció amb el conjunt 
+\begin_inset Formula $6=\left\{ 0,1,2,3,4,5\right\} $
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{array}{ccc}
+(0,0) & \shortrightarrow & 0\\
+(0,1) & \shortrightarrow & 1\\
+(1,0) & \shortrightarrow & 2\\
+(1,1) & \shortrightarrow & 3\\
+(2,0) & \shortrightarrow & 4\\
+(2,1) & \shortrightarrow & 5
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+És a dir, la cardinalitat del producte cartesià entre el conjunt 
+\begin_inset Formula $3$
+\end_inset
+
+ i el conjunt 
+\begin_inset Formula $2$
+\end_inset
+
+ és la mateixa que la cardinalitat del conjunt 
+\begin_inset Formula $6$
+\end_inset
+
+.
+ El que expressat en notació seria: 
+\begin_inset Formula $|3×2|=|6|$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+(notació: 
+\begin_inset Formula $|A|$
+\end_inset
+
+ vol dir 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+la cardinalitat de A
+\begin_inset Quotes frs
+\end_inset
+
+
+\shape default
+ i 
+\begin_inset Formula $A×B$
+\end_inset
+
+ vol dir 
+\begin_inset Quotes fls
+\end_inset
+
+el producte cartesià de A i B
+\begin_inset Quotes frs
+\end_inset
+
+).
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+És fàcil veure que en conjunts finits es compleix que 
+\begin_inset Formula $|A×B|=|A|×|B|$
+\end_inset
+
+.
+ Podríem de fet desenvolupar uns rudiments d'aritmètica a partir dels axiomes
+ que hem anat veient i demostrar que és una conseqüència lògica i impepinable
+ de la teoria de conjunts.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anem a mirar què passa quan ho fem amb conjunt infinits.
+ Amb 
+\begin_inset Formula $ℕ×3$
+\end_inset
+
+ podem fer la bijecció:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{array}{ccc}
+(0,0) & \shortrightarrow & 0\\
+(0,1) & \shortrightarrow & 1\\
+(0,2) & \shortrightarrow & 2\\
+(1,0) & \shortrightarrow & 3\\
+(1,1) & \shortrightarrow & 4\\
+(1,2) & \shortrightarrow & 5\\
+(2,0) & \shortrightarrow & 6\\
+ & \vdots\\
+(5342,1) & \shortrightarrow & 16027\\
+(5342,2) & \shortrightarrow & 16028\\
+(5343,0) & \shortrightarrow & 16029\\
+ & \vdots
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No podem llistar infinits ítems però sí que podem copsar com podem establir
+ una correspondència un a un entre tots els elements de 
+\begin_inset Formula $ℕ×3$
+\end_inset
+
+ i els de 
+\begin_inset Formula $ℕ$
+\end_inset
+
+ sense ometre'n ni repetir-ne cap a les dues bandes.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I per tant encara que a primer cop d'ull ens pogués semblar alguna altra
+ cosa podem dir que tenen exactament la mateixa quantitat d'elements: 
+\begin_inset Formula $|ℕ×3|=|ℕ|$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Comptar els elements de 
+\begin_inset Formula $|ℕ×ℕ|$
+\end_inset
+
+ se'ns complica una mica més.
+ No podem fer la bijecció amb 
+\begin_inset Formula $ℕ$
+\end_inset
+
+ tal com l'hem fet abans perquè no passaríem mai de la primera 
+\begin_inset Quotes fls
+\end_inset
+
+fila
+\begin_inset Quotes frs
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{array}{ccc}
+(0,0) & \shortrightarrow & 0\\
+(0,1) & \shortrightarrow & 1\\
+(0,2) & \shortrightarrow & 2\\
+ & \vdots\\
+(0,6423) & \shortrightarrow & 6423\\
+(0,6424) & \shortrightarrow & 6424\\
+ & \vdots
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I per tant estaríem ometent tots elements de 
+\begin_inset Formula $ℕ×ℕ$
+\end_inset
+
+ on el primer component del parell ordenat és diferent de zero i per tant
+ no sería una bijecció.
+ Però això no vol dir que la bijecció no existeixi, només que per trobar-la
+ potser ens farà falta ser una mica més creatius.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Si enlloc d'anar fila per fila com hem estat fent anem diagonal per diagonal,
+ sí que podrem completar la bijecció:
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{array}{ccc}
+(0,0) & \shortrightarrow & 0\\
+(0,1) & \shortrightarrow & 1\\
+(1,0) & \shortrightarrow & 2\\
+(0,2) & \shortrightarrow & 3\\
+(1,1) & \shortrightarrow & 4\\
+(2,0) & \shortrightarrow & 5\\
+(0,3) & \shortrightarrow & 6\\
+ & \vdots
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Pairing_natural.svg
+	width 150bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I per tant també podrem establir una correspondència un a un entre tots
+ els elements de 
+\begin_inset Formula $ℕ×ℕ$
+\end_inset
+
+ i els elements de 
+\begin_inset Formula $ℕ$
+\end_inset
+
+ que no ometi ni repeteixi cap element a les dues bandes.
+ I per tant el conjunt 
+\begin_inset Formula $ℕ×ℕ$
+\end_inset
+
+ també tindrà la mateixa cardinalitat que 
+\begin_inset Formula $ℕ$
+\end_inset
+
+: 
+\begin_inset Formula $|ℕ×ℕ|=|ℕ|$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+En aquest moment un es comença a preguntar si aquesta capaçitat absorbent
+ de les cardinalitats infinites arriba fins a que tots els conjunts infinits
+ tinguin la mateixa cardinalitat i simplement haguem de ser més o menys
+ enginyosos per trobar la bijecció que els relaciona.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I el fet que donats dos conjunts no siguem capaços de trobar aquesta bijecció
+ no vol dir que aquesta no existeixi.
+ L'absència d'evidència no equival a l'evidència d'absència a la vida en
+ general i en les matemàtiques especialment.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per demostrar que la bijecció entre dos conjunts no existeix més enllà de
+ la nostra capacitat de trobar-la o imaginar-nos-la ens cal alguna mena
+ d'argument més fort i rigorós.
+ I això és el que va descobrir en Georg Cantor.
+ Però abans ens caldrà parlar del següent axioma.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L'
+\shape italic
+axioma del conjunt potència
+\shape default
+ diu que donat un conjunt qualsevol existeix el conjunt dels seus subconjunts.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+És a dir, si tenim per exemple el conjunt 
+\begin_inset Formula $\left\{ a,b\right\} $
+\end_inset
+
+, aleshores també ha d'existir el conjunt de conjunts 
+\begin_inset Formula $\left\{ \emptyset,\left\{ a\right\} ,\left\{ b\right\} ,\left\{ a,b\right\} \right\} $
+\end_inset
+
+ format per tots aquells 
+\begin_inset Formula $S\subseteq\left\{ a,b\right\} $
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Si hi afegim un nou element 
+\begin_inset Formula $c$
+\end_inset
+
+, el conjunt potència de 
+\begin_inset Formula $\left\{ a,b,c\right\} $
+\end_inset
+
+ seran tots els subconjunts de 
+\begin_inset Formula $\left\{ a,b\right\} $
+\end_inset
+
+ més altre cop tots els subconjunts de 
+\begin_inset Formula $\left\{ a,b\right\} $
+\end_inset
+
+ però afegint 
+\begin_inset Formula $c$
+\end_inset
+
+ a cadascun d'ells.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+És a dir que el conjunt potència de 
+\begin_inset Formula $\left\{ a,b,c\right\} $
+\end_inset
+
+ seran per un costat els mateixos quatre de 
+\begin_inset Formula $\left\{ a,b\right\} $
+\end_inset
+
+: 
+\begin_inset Formula $\emptyset$
+\end_inset
+
+, 
+\begin_inset Formula $a$
+\end_inset
+
+, 
+\begin_inset Formula $b$
+\end_inset
+
+, 
+\begin_inset Formula $\left\{ a,b\right\} $
+\end_inset
+
+ i per l'altre aquests altres quatre: 
+\begin_inset Formula $\left\{ c\right\} $
+\end_inset
+
+, 
+\begin_inset Formula $\left\{ a,c\right\} $
+\end_inset
+
+, 
+\begin_inset Formula $\left\{ b,c\right\} $
+\end_inset
+
+, 
+\begin_inset Formula $\left\{ a,b,c\right\} $
+\end_inset
+
+.
+ En total, vuit.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+O sigui, que quan afegim un element a un conjunt la cardinalitat del seu
+ conjunt potència, si més no en conjunts finits, se'ns duplica.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El conjunt potència del conjunt buit serà el conjunt format per l'únic subconjun
+t que hi ha del conjunt buit que és el mateix conjunt buit, o sigui el conjunt
+ amb un sol element 
+\begin_inset Formula $\left\{ \emptyset\right\} $
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aplicant la inducció a aquests dos fets podríem demostrar que en els conjunts
+ finits la cardinalitat del conjunt potència serà igual a 
+\begin_inset Formula $2$
+\end_inset
+
+ elevat a la cardinalitat del conjunt inicial.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No exactament per això, sinó per una qüestió de fet més general però fortament
+ relacionada amb aquesta, la notació que modernament es fa servir per indicar
+ el conjunt potència del conjunt A és 
+\begin_inset Quotes fls
+\end_inset
+
+
+\begin_inset Formula $2^{A}$
+\end_inset
+
+
+\begin_inset Quotes frs
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Així doncs, posant el que hem vist en notació, per conjunts finits tenim
+ que: 
+\begin_inset Formula $|2^{A}|=2^{|A|}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Com que en l'aritmètica de 
+\begin_inset Formula $ℕ$
+\end_inset
+
+ sabem que 
+\begin_inset Formula $2^{n}>n$
+\end_inset
+
+ per qualsevol 
+\begin_inset Formula $n$
+\end_inset
+
+ doncs podem deduir que en el que es refereix a conjunts finits 
+\begin_inset Formula $|2^{A}|>|A|$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Si volguessim generalitzar això a qualsevol tipus de conjunt finit o infinit
+ podem veure d'entrada que hi ha una bijecció trivial entre qualsevol conjunt
+ 
+\begin_inset Formula $A=\left\{ a_{0},a_{1},a_{2},\ldots\right\} $
+\end_inset
+
+ i el conjunt de singletons 
+\begin_inset Formula $\left\{ \left\{ a0\right\} ,\left\{ a1\right\} ,\left\{ a2\right\} ,\ldots\right\} $
+\end_inset
+
+ que és un subconjunt de 
+\begin_inset Formula $2^{A}$
+\end_inset
+
+ i per tant: 
+\begin_inset Formula $|2^{A}|\geq|A|$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anem a explorar la possibilitat 
+\begin_inset Formula $|2^{A}|=|A|$
+\end_inset
+
+, és a dir, que el conjunt potència d'un conjunt tingui la mateixa cardinalitat
+ que aquest conjunt i per tant que poguem establir una bijecció entre ells.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Posem un conjunt 
+\begin_inset Formula $A$
+\end_inset
+
+ amb elements 
+\begin_inset Formula $\left\{ a,b,c,d,e,f,\ldots\right\} $
+\end_inset
+
+ i una bijecció 
+\begin_inset Formula $φ$
+\end_inset
+
+ que per cadascun dels subconjunts de 
+\begin_inset Formula $A$
+\end_inset
+
+ ens dona un element de 
+\begin_inset Formula $A$
+\end_inset
+
+ de manera unívoca i exhaustiva.
+ Alguna cosa com:
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{array}{lcc}
+φ(\left\{ d,e\right\} ) & = & a\\
+φ(\left\{ c,b,f,\ldots\right\} ) & = & b\\
+φ(\emptyset) & = & c\\
+φ(\left\{ a,d,f\right\} ) & = & d\\
+ & \vdots
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+De totes aquestes correspondències en algunes es donarà el cas que 
+\begin_inset Formula $φ(W)∈W$
+\end_inset
+
+ i en d'altres no.
+ En la mostra d'exemple que he posat es donaria per la segona i la quarta
+ i no es donaria en la segona i la tercera.
+ I podem construir un conjunt 
+\begin_inset Formula $K$
+\end_inset
+
+ amb totes les 
+\begin_inset Formula $φ(W)$
+\end_inset
+
+ tals que 
+\begin_inset Formula $φ(W)\notin W$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aquest conjunt 
+\begin_inset Formula $K$
+\end_inset
+
+ és un subconjunt de 
+\begin_inset Formula $A$
+\end_inset
+
+ i per tant un element de 
+\begin_inset Formula $2^{A}$
+\end_inset
+
+ i per tant té la seva 
+\begin_inset Formula $φ(K)$
+\end_inset
+
+ que pot pertànyer o no pertànyer a 
+\begin_inset Formula $K$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Que 
+\begin_inset Formula $φ(K)\in K$
+\end_inset
+
+ tal com hem definit el conjunt 
+\begin_inset Formula $K$
+\end_inset
+
+ voldria dir que 
+\begin_inset Formula $K$
+\end_inset
+
+ és d'aquells elements de 
+\begin_inset Formula $2^{A}$
+\end_inset
+
+ tals que 
+\begin_inset Formula $φ(K)\notin K$
+\end_inset
+
+.
+ I que 
+\begin_inset Formula $φ(K)\notin K$
+\end_inset
+
+ voldria dir que és d'aquells tals que 
+\begin_inset Formula $φ(K)\in K$
+\end_inset
+
+.
+ Això és una contradicció i per tant la hipòtesi que existia una bijecció
+ entre 
+\begin_inset Formula $2^{A}$
+\end_inset
+
+ i 
+\begin_inset Formula $A$
+\end_inset
+
+ ha de ser falsa.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per tant doncs, com que hem vist abans que 
+\begin_inset Formula $|2^{A}|\geq|A|$
+\end_inset
+
+ i ara veiem que 
+\begin_inset Formula $|2^{A}|\neq|A|$
+\end_inset
+
+, podem concloure que 
+\begin_inset Formula $|2^{A}|>|A|$
+\end_inset
+
+.
+ O sigui que donat un conjunt qualsevol sempre existeix un altre conjunt
+ amb una cardinalitat estrictament més gran.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fins i tot per un conjunt infinit com 
+\begin_inset Formula $ℕ$
+\end_inset
+
+ tenim que 
+\begin_inset Formula $|2^{ℕ}|>|ℕ|$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I també tindrem un 
+\begin_inset Formula $2^{2^{\mathbb{N}}}$
+\end_inset
+
+ que serà un altre infinit més gran que l'infinit de 
+\begin_inset Formula $2^{ℕ}$
+\end_inset
+
+.
+ I així successivament infinites vegades.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I més enllà, de fet.
+ Ja que el conjunt infinit de conjunts 
+\begin_inset Formula $ℕ$
+\end_inset
+
+, 
+\begin_inset Formula $2^{ℕ}$
+\end_inset
+
+, 
+\begin_inset Formula $2^{2^{\mathbb{N}}}$
+\end_inset
+
+, 
+\begin_inset Formula $2^{2^{2^{\mathbb{N}}}}$
+\end_inset
+
+,\SpecialChar ldots
+ el podem unir en un sol conjunt amb l'axioma de la unió.
+ I aquest conjunt enorme fins i tot dins l'espècie dels conjunts infinits
+ també tindrà un conjunt potència que serà estrictament més gran.
+ Amb el que si volem podrem tornar a fer tot el procés que acabem de fer
+ amb 
+\begin_inset Formula $ℕ$
+\end_inset
+
+.
+ I així fins la nàusea.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tornant a l'argument que hem vist pel que 
+\begin_inset Formula $2^{A}$
+\end_inset
+
+ no el podem posar en bijecció amb 
+\begin_inset Formula $A$
+\end_inset
+
+, això és el que es coneix com a 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+diagonalització de Cantor
+\begin_inset Quotes frs
+\end_inset
+
+
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A l'escola es sol explicar restringit al cas de 
+\begin_inset Formula $ℕ$
+\end_inset
+
+ i intentant posar-lo en bijecció no amb la seva potència sinó amb el conjunt
+ dels nombres reals i construint aquesta bijecció fent una cosa rara amb
+ els dígits.
+ Però és que allà no foten mai res bé.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per veure que aquest conjunt de nombres reals 
+\begin_inset Formula $ℝ$
+\end_inset
+
+ té efectivament la mateixa cardinalitat de 
+\begin_inset Formula $2^{ℕ}$
+\end_inset
+
+ primer hauríem de saber què carai és això dels nombres reals.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hem vist fins ara els nombres naturals que són cadascun com el representant
+ de tots els conjunts finits d'una cardinalitat donada.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hem vist que un nombre natural és en realitat un conjunt que construïm per
+ mitjà d'aplicacions successives de la funció successor 
+\begin_inset Formula $S(x)=x\cup\left\{ x\right\} $
+\end_inset
+
+ sobre el conjunt buit 
+\begin_inset Formula $\emptyset$
+\end_inset
+
+ que és el nombre zero.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Podem definir les relacions d'ordre 
+\begin_inset Formula $<$
+\end_inset
+
+ i 
+\begin_inset Formula $\leq$
+\end_inset
+
+ entre nombres naturals com les relacions entre conjunts 
+\begin_inset Formula $\in$
+\end_inset
+
+ i 
+\begin_inset Formula $\subseteq$
+\end_inset
+
+, respectivament.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Un cop tenim això ens podem pràcticament oblidar de l'estructura interna
+ d'aquests nombres naturals en tant que conjunts i tractar-los com els hem
+ vist sempre abans de saber que eren de fet conjunts:
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Com entitats abstractes de les que només ens interessen les seves propietats
+ 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+externes
+\begin_inset Quotes frs
+\end_inset
+
+
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A partir d'aquí podem fer coses com per exemple demostrar fent servir els
+ axiomes que hem vist i la deducció purament lògica que per cada nombre
+ natural 
+\begin_inset Formula $n$
+\end_inset
+
+ existeix una única funció 
+\begin_inset Formula $f_{n}(m)$
+\end_inset
+
+ definida sobre els naturals que compleixi que:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{eqnarray*}
+f_{n}(0) & = & n\\
+f_{n}(S(m)) & = & S(f_{n}(m))
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per exemple:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{eqnarray*}
+f_{5}(3) & = & f_{5}(S(2))\\
+ & = & S(f_{5}(2))\\
+ & = & S(f_{5}(S(1)))\\
+ & = & S(S(f_{5}(1)))\\
+ & = & S(S(f_{5}(S(0))))\\
+ & = & S(S(S(f_{5}(0))))\\
+ & = & S(S(S(5)))\\
+ & = & S(S(6))\\
+ & = & S(7)\\
+ & = & 8
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4664,7 +6518,7 @@ La relació
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4673,27 +6527,7 @@ La relació
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4704,7 +6538,7 @@ La relació
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4713,27 +6547,7 @@ La relació
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4744,7 +6558,7 @@ La relació
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4753,27 +6567,7 @@ La relació
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4784,7 +6578,7 @@ La relació
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4793,27 +6587,7 @@ La relació
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4824,7 +6598,7 @@ La relació
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4833,7 +6607,7 @@ La relació
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4844,7 +6618,7 @@ La relació
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4853,7 +6627,27 @@ La relació
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
