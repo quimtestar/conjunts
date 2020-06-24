@@ -116,7 +116,7 @@ arrayrulecolor{taula}
 
 
 \begin_inset Tabular
-<lyxtabular version="3" rows="191" columns="2">
+<lyxtabular version="3" rows="223" columns="2">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="100text%">
@@ -193,7 +193,11 @@ elements
 \begin_inset Text
 
 \begin_layout Plain Layout
-Plot twist: no totes les col·leccions de coses són conjunts.
+
+\shape italic
+Plot twist
+\shape default
+: no totes les col·leccions de coses són conjunts.
 \end_layout
 
 \end_inset
@@ -500,12 +504,20 @@ no
 \begin_layout Plain Layout
 Anomenarem a aquest conjunt, jo què sé, 
 \shape italic
-K
+
+\begin_inset Formula $K$
+\end_inset
+
+
 \shape default
 .
  I ens preguntem a continuació si 
 \shape italic
-K
+
+\begin_inset Formula $K$
+\end_inset
+
+
 \shape default
  és un element d'ell mateix.
 \end_layout
@@ -529,11 +541,19 @@ K
 \begin_layout Plain Layout
 Suposant que efectivament 
 \shape italic
-K
+
+\begin_inset Formula $K$
+\end_inset
+
+
 \shape default
  és un element d'ell mateix, per la pròpia definició de 
 \shape italic
-K
+
+\begin_inset Formula $K$
+\end_inset
+
+
 \shape default
  això implica que no és un element d'ell mateix, cosa que contradiu la hipòtesi.
 \end_layout
@@ -579,7 +599,11 @@ nt altre cop la hipòtesi.
 \begin_layout Plain Layout
 La mateixa existència del conjunt 
 \shape italic
-K
+
+\begin_inset Formula $K$
+\end_inset
+
+
 \shape default
 , per tant, ens aboca a una contradicció.
  Hem trobat una col·lecció de coses que no pot existir com a conjunt.
@@ -640,7 +664,11 @@ la paradoxa de Russell
 El problema és que si tenim una matemàtica que pot demostrar coses que són
  òbviament mentida com l'existència d'aquest conjunt 
 \shape italic
-K
+
+\begin_inset Formula $K$
+\end_inset
+
+
 \shape default
 , aleshores cap resultat que ens proporcioni aquesta ciència té cap valor
  perquè aquest podria ser tant veritat com mentida.
@@ -664,7 +692,7 @@ K
 
 \begin_layout Plain Layout
 La cosa a més té una importància especial perquè el concepte de conjunt
- és absolutament ubic en les matemàtiques.
+ és absolutament ubic en la matemàtica.
  Seria molt difícil trobar un text matemàtic modern en que no fes aparició
  en algun moment.
 \end_layout
@@ -743,11 +771,19 @@ Per arribar a afirmar
 
 existeix el conjunt 
 \shape italic
-A
+
+\begin_inset Formula $A$
+\end_inset
+
+
 \shape default
  amb totes les coses que compleixen la propietat 
 \shape italic
-P
+
+\begin_inset Formula $P$
+\end_inset
+
+
 \shape default
 
 \begin_inset Quotes frs
@@ -2143,17 +2179,6 @@ parell ordenat
 \end_inset
 
 .
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Corregit fins aquí
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -2174,7 +2199,11 @@ Corregit fins aquí
 
 \begin_layout Plain Layout
 Els parells ordenats són una cosa que es fa servir bastant, per exemple
- per jugar a barcos.
+ per 
+\shape italic
+jugar a barcos
+\shape default
+.
 \end_layout
 
 \end_inset
@@ -2646,15 +2675,15 @@ Més formalment, existeix un conjunt
 \end_inset
 
  tal que 
-\begin_inset Formula $\emptyset∈I$
+\begin_inset Formula $\emptyset\in I$
 \end_inset
 
  i que a més donat qualsevol element 
-\begin_inset Formula $x∈I$
+\begin_inset Formula $x\in I$
 \end_inset
 
  tenim que també 
-\begin_inset Formula $x\cup\left\{ x\right\} ∈I$
+\begin_inset Formula $x\cup\left\{ x\right\} \in I$
 \end_inset
 
 .
@@ -3114,7 +3143,7 @@ hyperref[hilbert]{(33)}
 \begin_inset Text
 
 \begin_layout Plain Layout
-En aquella maniobra de fer còrrer tots els clients de l'habitació 
+En aquella maniobra de fer córrer tots els clients de l'habitació 
 \begin_inset Formula $n$
 \end_inset
 
@@ -3195,7 +3224,7 @@ tenir la mateixa quantitat d'elements
 
 \begin_layout Plain Layout
 Això amb els conjunts finits no passa.
- Si a un conjunt finit li treiem un element, el resultat té estrictament
+ Si a un conjunt finit li trèiem un element, el resultat té estrictament
  menys elements que l'original.
  El que vindria a ser al que estem acostumats que passi a la nostra quotidianita
 t finita.
@@ -3266,7 +3295,7 @@ La definició que va desenvolupar va ser precisament aquesta propietat de
 \begin_layout Plain Layout
 En ZFC es pot demostrar que els conjunts que caracteritza aquesta definició
  són exactament els mateixos que els de la definició que hem dit abans que
- fariem servir (els conjunts que no es poden posar en bijecció amb algun
+ faríem servir (els conjunts que no es poden posar en bijecció amb algun
  element de 
 \begin_inset Formula $I$
 \end_inset
@@ -3344,7 +3373,7 @@ De fet, ni tant sols en ZFC fem servir la definició de Dedekind perquè per
 
 \begin_layout Plain Layout
 Fer servir la definició d'infinit de Dedekind implicaria que per demostrar
- molts teoremes on intervé d'alguna manera la infinitat necessitariem recòrrer
+ molts teoremes on intervé d'alguna manera la infinitat necessitaríem recórrer
  a l'axioma de l'elecció; i resulta que ens agrada mantenir tanta matemàtica
  com sigui possible dins de ZF sense la C.
  Quan arribem a l'axioma de l'elecció (no sé quan) veurem per què.
@@ -3565,7 +3594,7 @@ Donat que sabem que serà cert que
 \begin_inset Formula $P(0)$
 \end_inset
 
-, i d'aquí podrem deduïr consecutivament 
+, i d'aquí podrem deduir consecutivament 
 \begin_inset Formula $P(1)$
 \end_inset
 
@@ -3882,7 +3911,7 @@ el conjunt del nombres naturals que són primers
 \begin_inset Quotes frs
 \end_inset
 
-, sempre i quan poguem prèviament demostrar l'existència del conjunt dels
+, sempre i quan puguem prèviament demostrar l'existència del conjunt dels
  nombres naturals, cosa que ja hem fet a partir de l'axioma de l'infinit.
 \end_layout
 
@@ -3903,8 +3932,8 @@ el conjunt del nombres naturals que són primers
 \begin_inset Text
 
 \begin_layout Plain Layout
-Per això de fet voliem l'axioma de comprensió, no per generar contradiccions
- que ens féssin replantejar els fonaments de tota la matemàtica i la solidesa
+Per això de fet volíem l'axioma de comprensió, no per generar contradiccions
+ que ens fessin replantejar els fonaments de tota la matemàtica i la solidesa
  de la seva connexió amb la veritat.
 \end_layout
 
@@ -3927,7 +3956,7 @@ Per això de fet voliem l'axioma de comprensió, no per generar contradiccions
 \begin_layout Plain Layout
 Amb l'axioma d'especificació també podem definir coses l'operació binària
  d'intersecció de tota la vida: 
-\begin_inset Formula $A\cap B=\left\{ a∈A\mid a∈B\right\} $
+\begin_inset Formula $A\cap B=\left\{ a\in A\mid a\in B\right\} $
 \end_inset
 
 , és a dir, els elements de 
@@ -3959,7 +3988,7 @@ Amb l'axioma d'especificació també podem definir coses l'operació binària
 
 \begin_layout Plain Layout
 O el conjunt complement: 
-\begin_inset Formula $A\setminus B=\left\{ a∈A\mid a∉B\right\} $
+\begin_inset Formula $A\setminus B=\left\{ a\in A\mid a\notin B\right\} $
 \end_inset
 
 ; el conjunt d'elements de 
@@ -3995,8 +4024,8 @@ no
 
 \begin_layout Plain Layout
 Per fer servir aquest axioma d'especificació per crear una paradoxa a l'estil
- Russell hauriem de fer alguna cosa com 
-\begin_inset Formula $K=\left\{ A∈𝕌\mid A∉A\right\} $
+ Russell hauríem de fer alguna cosa com 
+\begin_inset Formula $K=\left\{ A\in𝕌\mid A\notin A\right\} $
 \end_inset
 
 , on 
@@ -4048,7 +4077,7 @@ tot
 \begin_inset Text
 
 \begin_layout Plain Layout
-Necessitariem demostrar prèviament l'existència d'aquest conjunt universal
+Necessitaríem demostrar prèviament l'existència d'aquest conjunt universal
  
 \begin_inset Formula $𝕌$
 \end_inset
@@ -4109,16 +4138,6 @@ hyperref[russell]{(12)}
 , un contrasentit.
  Per tant la hipòtesi que existeix un conjunt universal ha de ser forçosament
  falsa.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Demostració?
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -4256,11 +4275,11 @@ Aquest
 \end_inset
 
  no és disjunt amb ell, ja que 
-\begin_inset Formula $A∈\left\{ A\right\} $
+\begin_inset Formula $A\in\left\{ A\right\} $
 \end_inset
 
  i alhora 
-\begin_inset Formula $A∈A$
+\begin_inset Formula $A\in A$
 \end_inset
 
 .
@@ -4348,11 +4367,11 @@ Una característica del conjunt universal
 \begin_layout Plain Layout
 Seguint un raonament molt semblant a l'anterior, l'axioma de regularitat
  també ens descarta estructures com 
-\begin_inset Formula $A∈B∈A$
+\begin_inset Formula $A\in B\in A$
 \end_inset
 
 , 
-\begin_inset Formula $A∈B∈C∈A$
+\begin_inset Formula $A\in B\in C\in A$
 \end_inset
 
 , i en general cicles de qualsevol llargària.
@@ -4425,7 +4444,7 @@ prohibició
 \end_inset
 
  que es doni 
-\begin_inset Formula $A∈A$
+\begin_inset Formula $A\in A$
 \end_inset
 
  se'n deriva que l'aplicació iterada de la funció successor
@@ -4746,7 +4765,7 @@ Una altra cosa que també podríem fer amb aquest axioma és aplicar-ho a un
 \begin_inset Formula $f(x)=(x,b)$
 \end_inset
 
-, fent servir aquells parells ordenats que també havíem construit quan parlàvem
+, fent servir aquells parells ordenats que també havíem construït quan parlàvem
  de l'axioma d'emparellament i un element 
 \begin_inset Formula $b$
 \end_inset
@@ -5011,7 +5030,7 @@ Per exemple, si fem el producte cartesià del conjunt
 
 .
  El que expressat en notació seria: 
-\begin_inset Formula $|3×2|=|6|$
+\begin_inset Formula $|3\times2|=|6|$
 \end_inset
 
 .
@@ -5027,7 +5046,11 @@ Per exemple, si fem el producte cartesià del conjunt
 \begin_layout Plain Layout
 
 \size footnotesize
-(notació: 
+(
+\series bold
+notació
+\series default
+: 
 \begin_inset Formula $|A|$
 \end_inset
 
@@ -5044,7 +5067,7 @@ la cardinalitat de A
 
 \shape default
  i 
-\begin_inset Formula $A×B$
+\begin_inset Formula $A\times B$
 \end_inset
 
  vol dir 
@@ -5080,7 +5103,7 @@ el producte cartesià de A i B
 
 \begin_layout Plain Layout
 És fàcil veure que en conjunts finits es compleix que 
-\begin_inset Formula $|A×B|=|A|×|B|$
+\begin_inset Formula $|A\times B|=|A|\times|B|$
 \end_inset
 
 .
@@ -5108,7 +5131,7 @@ el producte cartesià de A i B
 \begin_layout Plain Layout
 Anem a mirar què passa quan ho fem amb conjunt infinits.
  Amb 
-\begin_inset Formula $ℕ×3$
+\begin_inset Formula $ℕ\times3$
 \end_inset
 
  podem fer la bijecció:
@@ -5270,7 +5293,7 @@ I per tant estaríem ometent tots elements de
 \end_inset
 
  on el primer component del parell ordenat és diferent de zero i per tant
- no sería una bijecció.
+ no seria una bijecció.
  Però això no vol dir que la bijecció no existeixi, només que per trobar-la
  potser ens farà falta ser una mica més creatius.
 \end_layout
@@ -5405,7 +5428,7 @@ I per tant també podrem establir una correspondència un a un entre tots
 \begin_inset Text
 
 \begin_layout Plain Layout
-En aquest moment un es comença a preguntar si aquesta capaçitat absorbent
+En aquest moment un es comença a preguntar si aquesta capacitat absorbent
  de les cardinalitats infinites arriba fins a que tots els conjunts infinits
  tinguin la mateixa cardinalitat i simplement haguem de ser més o menys
  enginyosos per trobar la bijecció que els relaciona.
@@ -5431,7 +5454,7 @@ En aquest moment un es comença a preguntar si aquesta capaçitat absorbent
 I el fet que donats dos conjunts no siguem capaços de trobar aquesta bijecció
  no vol dir que aquesta no existeixi.
  L'absència d'evidència no equival a l'evidència d'absència a la vida en
- general i en les matemàtiques especialment.
+ general i en la matemàtica especialment.
 \end_layout
 
 \end_inset
@@ -5799,7 +5822,7 @@ Com que en l'aritmètica de
 \begin_inset Text
 
 \begin_layout Plain Layout
-Si volguessim generalitzar això a qualsevol tipus de conjunt finit o infinit
+Si volguéssim generalitzar això a qualsevol tipus de conjunt finit o infinit
  podem veure d'entrada que hi ha una bijecció trivial entre qualsevol conjunt
  
 \begin_inset Formula $A=\left\{ a_{0},a_{1},a_{2},\ldots\right\} $
@@ -5842,7 +5865,7 @@ Anem a explorar la possibilitat
 \end_inset
 
 , és a dir, que el conjunt potència d'un conjunt tingui la mateixa cardinalitat
- que aquest conjunt i per tant que poguem establir una bijecció entre ells.
+ que aquest conjunt i per tant que puguem establir una bijecció entre ells.
 \end_layout
 
 \end_inset
@@ -6569,14 +6592,13 @@ La suma és una funció molt interessant perquè ens dona la cardinalitat de
 \begin_inset Text
 
 \begin_layout Plain Layout
-És a dir, que si sé que dins d'aquesta mà tinc dues caniques i en l'altra
- n'hi tinc tres puc saber que quan ajunti les dues mans en tindré cinc sense
- necessitat de visualitzar mentalment els conjunts de dues i tres caniques
- unint-se, visualitzar a continuació el conjunt de totes les caniques juntes
- i després fer mentalment el comptatge d'aquestes cinc caniques.
- Puc fer-ho oblidant-me de fet de les caniques en si i pensant només en
- aquestes entitats abstractes que es diuen nombres i l'aritmètica que els
- manega.
+És a dir, que si sé que dins d'aquesta mà tinc dues bales i en l'altra n'hi
+ tinc tres puc saber que quan ajunti les dues mans en tindré cinc sense
+ necessitat de visualitzar mentalment els conjunts de dues i tres bales
+ unint-se, visualitzar a continuació el conjunt de totes les bales juntes
+ i després fer mentalment el comptatge d'aquestes cinc bales.
+ Puc fer-ho oblidant-me de fet de les bales en si i pensant només en aquestes
+ entitats abstractes que es diuen nombres i l'aritmètica que els manega.
 \end_layout
 
 \end_inset
@@ -6700,11 +6722,11 @@ donats dos nombres
 \end_inset
 
  que caldria sumar a 
-\begin_inset Formula $a$
+\begin_inset Formula $b$
 \end_inset
 
  perquè ens donés 
-\begin_inset Formula $b$
+\begin_inset Formula $a$
 \end_inset
 
 
@@ -6731,7 +6753,7 @@ resta
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6740,7 +6762,7 @@ resta
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6757,8 +6779,1222 @@ No obstant té el problema que el nombre
 \end_inset
 
 .
- Per exemple, no hi ha cap nombre natural que poguem sumar a 7 perquè ens
+ Per exemple, no hi ha cap nombre natural que puguem sumar a 7 perquè ens
  doni 4.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+192.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Els matemàtics expressen aquest fet dient que els nombres naturals no són
+ 
+\shape italic
+tancats
+\shape default
+ respecte a l'operació de resta.
+ Com sí que ho són respecte l'operació de suma: donats dos nombres naturals
+ qualssevol existeix la seva suma que és un altre nombre natural.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+193.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Això fa que els nombres naturals no em serveixin per representar conceptes
+ com el balanç de carxofes que resulta si ara mateix en disposo de 4 i estic
+ compromès a entregar-ne 7.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+194.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Necessitaríem una altra mena de nombres que poguessin representar aquest
+ concepte que és més ampli que el de purament la cardinalitat d'un conjunt
+ finit.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+195.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Però que alhora mantinguessin totes les propietats que tenen els nombres
+ naturals, ja que ens interessa seguir fent amb ells tot el que hem estat
+ fent amb els nombres naturals.
+ Només volem estendre'ls per representar una mena de concepte més sofisticat
+ però que inclou l'anterior.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+196.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Com que el que volem és que la resta de dos d'aquesta nova mena de nombres
+ ens doni, a diferència del que passava amb els naturals, un altre nombre
+ d'aquesta mateixa mena el que fem és representar-los precisament com una
+ resta de naturals de manera abstracta: `
+\begin_inset Formula $a-b$
+\end_inset
+
+'.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+197.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Els nombres naturals quedaran representats en aquesta nova categoria amb
+ restes de la forma `
+\begin_inset Formula $a-0$
+\end_inset
+
+', donat que 
+\begin_inset Quotes fls
+\end_inset
+
+aquell nombre 
+\begin_inset Formula $c$
+\end_inset
+
+ que caldria sumar a 
+\begin_inset Formula $0$
+\end_inset
+
+ perquè ens donés 
+\begin_inset Formula $a$
+\end_inset
+
+
+\begin_inset Quotes frs
+\end_inset
+
+ és exactament el mateix 
+\begin_inset Formula $a$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+198.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Així, la resta que hem vist abans que no podíem fer dins dels naturals 
+\begin_inset Formula $4-7$
+\end_inset
+
+ ara seria la resta entre els nombres `
+\begin_inset Formula $4-0$
+\end_inset
+
+' i `
+\begin_inset Formula $7-0$
+\end_inset
+
+' i ens donaria simplement el nombre `
+\begin_inset Formula $4-7$
+\end_inset
+
+'.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+199.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+En l'aritmètica dels nombres naturals hi ha la propietat (que podríem demostrar
+ aplicant la deducció a ZFC, etc etc) que 
+\begin_inset Formula $(a+c)-(b+c)=a-b$
+\end_inset
+
+.
+ Aquest fet es trasllada cap aquest nou tipus de nombres de manera que el
+ nombre `
+\begin_inset Formula $4-7$
+\end_inset
+
+' és exactament el mateix que `
+\begin_inset Formula $5-8$
+\end_inset
+
+' que `
+\begin_inset Formula $0-3$
+\end_inset
+
+'.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+200.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El que podem fer és escollir un representant canònic per cada nombre-resta
+ en el que almenys un dels dos components és zero, cosa que farà que aquest
+ representat sigui únic per cada nombre.
+ Pel cas `
+\begin_inset Formula $4-7$
+\end_inset
+
+' seria `
+\begin_inset Formula $0-3$
+\end_inset
+
+'.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+201.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+De fet, a l'hora d'escriure els nombres per fer aritmètica aquests zeros
+ s'ometen i quan és al primer component (és a dir, `
+\begin_inset Formula $0-b$
+\end_inset
+
+') simplement s'escriu `
+\begin_inset Formula $-b$
+\end_inset
+
+' i en diem 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+nombres negatius
+\begin_inset Quotes frs
+\end_inset
+
+
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+202.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quan el zero és al segon component (`
+\begin_inset Formula $a-0$
+\end_inset
+
+') podem segons el context en què ens trobem indicar el signe de forma explícita
+ fent `
+\begin_inset Formula $+a$
+\end_inset
+
+' o bé ometre'l i escriure només `
+\begin_inset Formula $a$
+\end_inset
+
+', en consistència amb la notació del nombre natural al que és equivalent.
+ D'això en diem 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+nombres positius
+\begin_inset Quotes frs
+\end_inset
+
+
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+203.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D'aquests nous nombres-resta en diem 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+nombres enters
+\begin_inset Quotes frs
+\end_inset
+
+
+\shape default
+, els podem representar a nivell de teoria de conjunts com a parells ordenats
+ amb els dos components naturals de la resta (un d'ells zero), i el conjunt
+ que formen l'escrivim 
+\begin_inset Formula $ℤ$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+204.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Com que un subconjunt seu (els positius) té una correspondència u a u amb
+ els naturals tenim per una banda que 
+\begin_inset Formula $|ℕ|\leq|ℤ|$
+\end_inset
+
+.
+ Com que el representem amb parells ordenats de 
+\begin_inset Formula $ℕ$
+\end_inset
+
+ per l'altra banda tenim que 
+\begin_inset Formula $|ℤ|\leq|ℕ×ℕ|$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+205.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Però com que hem vist abans que 
+\begin_inset Formula $|ℕ×ℕ|=|ℕ|$
+\end_inset
+
+, doncs resulta que 
+\begin_inset Formula $|ℤ|\leq|ℕ|$
+\end_inset
+
+.
+ I si 
+\begin_inset Formula $|ℕ|\leq|ℤ|$
+\end_inset
+
+ i alhora 
+\begin_inset Formula $|ℤ|\leq|ℕ|$
+\end_inset
+
+ llavors ha de passar que 
+\begin_inset Formula $|ℤ|=|ℕ|$
+\end_inset
+
+.
+ O sigui que el conjunt de nombres enters té exactament la mateixa cardinalitat
+ infinita que el de nombres naturals.
+ Ves per on.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+206.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Seguint un procediment anàleg a aquest però buscant el tancament de l'operació
+ de divisió d'enters, arribem al conjunt de nombres racionals 
+\begin_inset Formula $ℚ$
+\end_inset
+
+, els 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+nombres racionals
+\begin_inset Quotes frs
+\end_inset
+
+
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+207.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Els nombres racionals representen quantitats fraccionàries i proporcions
+ enteres.
+ Si tenim tres pastissos i els hem de repartir entre quatre amics, doncs
+ hem de donar 
+\begin_inset Formula $\nicefrac{3}{4}$
+\end_inset
+
+ de pastís a cadascú.
+ Bé.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+208.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Respecte a la seva cardinalitat, pel mateix raonament que abans, també serà
+ exactament la mateixa que 
+\begin_inset Formula $|ℕ|$
+\end_inset
+
+.
+ Un racional s'expressa com la divisió d'un parell d'enters 
+\begin_inset Formula $\nicefrac{a}{b}$
+\end_inset
+
+ i en la teoria de conjunts es representarà amb un parell ordenat d'aquests
+ dos enters.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+209.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+De tots els parells 
+\begin_inset Formula $a$
+\end_inset
+
+ i 
+\begin_inset Formula $b$
+\end_inset
+
+ que poden representar el mateix racional s'agafa aquell en que els dos
+ nombres no tenen cap factor comú i per tant són més petits, la fracció
+ irreductible.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+210.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Uns grans amants de la proporció van ser el geòmetres grecs.
+ El seu sentit de l'estètica els feia voler expressar qualsevol mesura en
+ forma de fracció entera.
+ També van ser capaços d'adonar-se que en general això no pot ser i aquest
+ fet els va fer petar bastant el cap.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+211.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Imaginem un quadrat de costat 1.
+ Pel teorema de Pitàgores el quadrat de la longitud de la diagonal hauria
+ de ser igual a 2.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Diagonal.svg
+	width 100bp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+212.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Posem que volem expressar aquesta longitud en forma de fracció irreductible
+ 
+\begin_inset Formula $\nicefrac{a}{b}$
+\end_inset
+
+.
+ Per tant, volem dos enters 
+\begin_inset Formula $a$
+\end_inset
+
+ i 
+\begin_inset Formula $b$
+\end_inset
+
+ tals que 
+\begin_inset Formula $(\nicefrac{a}{b})^{2}=2$
+\end_inset
+
+.
+ O sigui 
+\begin_inset Formula $a^{2}=2·b$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+213.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Com que 
+\begin_inset Formula $a^{2}$
+\end_inset
+
+ és igual a 2 multiplicat per alguna cosa (
+\begin_inset Formula $b$
+\end_inset
+
+) aleshores 
+\begin_inset Formula $a^{2}$
+\end_inset
+
+ ha de ser un nombre parell.
+ I quan el quadrat d'un nombre és parell aquest nombre també ha de ser parell.
+ Per tant 
+\begin_inset Formula $a$
+\end_inset
+
+ és parell i per tant és igual a el doble d'un altre nombre: 
+\begin_inset Formula $a=2·a'$
+\end_inset
+
+.
+ A partir d'aquí:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{eqnarray*}
+(2\text{·}a')^{2} & = & 2\text{·}b^{2}\\
+4\text{·}a'^{2} & = & 2\text{·}b^{2}\\
+2\text{·}a'^{2} & = & b^{2}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+214.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I com que 
+\begin_inset Formula $b^{2}$
+\end_inset
+
+ és igual a 2 multiplicat per alguna cosa (
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $a'^{2}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+) i per tant parell, aleshores 
+\begin_inset Formula $b$
+\end_inset
+
+ també ha de ser un nombre parell.
+ I com que tant 
+\begin_inset Formula $a$
+\end_inset
+
+ com 
+\begin_inset Formula $b$
+\end_inset
+
+ són nombres parells resulta que la fracció 
+\begin_inset Formula $\nicefrac{a}{b}$
+\end_inset
+
+ no és irreductible perquè podem dividir tant el numerador com el denominador
+ per 2 tot contradint la hipòtesi.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+215.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I això vol dir que no es pot expressar una cosa tant simple com la longitud
+ de la diagonal d'un quadrat amb un nombre racional, una proporció entera
+ amb la longitud del seu costat.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+216.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D'això els grecs se'n van adonar i es van preguntar a veure què diantre
+ està passant aquí.
+ I no van ser capaços de respondre.
+ Aquesta qüestió no començaria a respondre's adequadament fins la il·lustració.
+ Newton, Leibniz i tot l'assumpte del càlcul infinitesimal.
+ Quedaven uns 2000 anys encara.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+217.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L'eina que necessitem per modelar l'espai que ens envolta, que és el que
+ volien en definitiva aquests geòmetres de la Grècia antiga, és alguna mena
+ de nombres amb els que puguem representar la noció intuïtiva que tenim
+ dels punts d'una recta.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+218.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I els nombres racionals 
+\shape italic
+gairebé
+\shape default
+ serveixen per això.
+ Tenen el que es diu un ordre total igual que tenen els punts d'una recta
+ i són densos igual que ho són els punts d'una recta.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+219.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Un 
+\shape italic
+ordre total
+\shape default
+ és una relació 
+\begin_inset Formula $\leq$
+\end_inset
+
+ que donats qualssevol elements 
+\begin_inset Formula $a$
+\end_inset
+
+, 
+\begin_inset Formula $b$
+\end_inset
+
+ i 
+\begin_inset Formula $c$
+\end_inset
+
+ compleix les propietats:
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+reflexivitat
+\shape default
+: 
+\begin_inset Formula $a\leq a$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+transitivitat
+\shape default
+: 
+\series bold
+si
+\series default
+ 
+\begin_inset Formula $a\leq b$
+\end_inset
+
+ 
+\series bold
+i
+\series default
+ 
+\begin_inset Formula $b\leq c$
+\end_inset
+
+ 
+\series bold
+aleshores
+\series default
+ 
+\begin_inset Formula $a\leq c$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+antisimetria
+\shape default
+: 
+\series bold
+si
+\series default
+ 
+\begin_inset Formula $a\leq b$
+\end_inset
+
+ 
+\series bold
+i
+\series default
+ 
+\begin_inset Formula $b\leq a$
+\end_inset
+
+ 
+\series bold
+aleshores
+\series default
+ 
+\begin_inset Formula $a=b$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+totalitat
+\shape default
+: 
+\begin_inset Formula $a\leq b$
+\end_inset
+
+ 
+\series bold
+o
+\series default
+ 
+\begin_inset Formula $b≤a$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+220.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Un ordre és 
+\shape italic
+dens
+\shape default
+ si per cada 
+\begin_inset Formula $a<b$
+\end_inset
+
+ existeix un 
+\begin_inset Formula $c$
+\end_inset
+
+ tal que 
+\begin_inset Formula $a<c<b$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+221.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aquestes propietats les compleixen tant els punts de la recta com els nombres
+ racionals.
+ I això despista molt.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+222.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El problema és que els punts d'una recta tal com els intuïm tenen una altra
+ propietat subtil que els grecs tot i que apropar-s'hi bastant no van arribar
+ a copsar del tot.
+ Perquè és una cosa difícil d'abstreure i aïllar conceptualment com a element
+ fonamental.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+223.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Imaginem un conjunt 
+\begin_inset Formula $A$
+\end_inset
+
+ de punts (no necessàriament finit) de punts sobre la recta que estigui
+ 
+\shape italic
+acotat
+\shape default
+.
+ És a dir, que no els punts s'estenguin per tota la recta sinó que existeixi
+ una 
+\shape italic
+cota
+\shape default
+ a partir de la que no existeixin punts del conjunt en direcció a l'extrem
+ de la recta.
+ Tots els punts de 
+\begin_inset Formula $A$
+\end_inset
+
+ estan a l'altre costat de la cota.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Spellcheck
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
