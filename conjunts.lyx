@@ -116,7 +116,7 @@ arrayrulecolor{taula}
 
 
 \begin_inset Tabular
-<lyxtabular version="3" rows="223" columns="2">
+<lyxtabular version="3" rows="230" columns="2">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="100text%">
@@ -2868,7 +2868,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Bijection.svg
+	filename figures/bijection.svg
 	width 100bp
 
 \end_inset
@@ -5353,7 +5353,7 @@ Si enlloc d'anar fila per fila com hem estat fent anem diagonal per diagonal,
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Pairing_natural.svg
+	filename figures/pairing_natural.svg
 	width 150bp
 	clip
 
@@ -7445,7 +7445,7 @@ Imaginem un quadrat de costat 1.
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Diagonal.svg
+	filename figures/diagonal.svg
 	width 100bp
 
 \end_inset
@@ -7949,7 +7949,7 @@ El problema és que els punts d'una recta tal com els intuïm tenen una altra
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7958,32 +7958,30 @@ El problema és que els punts d'una recta tal com els intuïm tenen una altra
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Imaginem un conjunt 
-\begin_inset Formula $A$
+\begin_inset Formula $A=\left\{ a_{0},a_{1},a_{2},a_{3},\ldots\right\} $
 \end_inset
 
- de punts (no necessàriament finit) de punts sobre la recta que estigui
- 
+ (no necessàriament finit) de punts sobre la recta que estigui 
 \shape italic
 acotat
 \shape default
 .
- És a dir, que no els punts s'estenguin per tota la recta sinó que existeixi
+ És a dir, que aquests punts no s'estenguin per tota la recta sinó que existeixi
  una 
 \shape italic
 cota
 \shape default
- a partir de la que no existeixin punts del conjunt en direcció a l'extrem
- de la recta.
- Tots els punts de 
+ damunt la recta per la que tots els punts de 
 \begin_inset Formula $A$
 \end_inset
 
- estan a l'altre costat de la cota.
+ es trobin situats cap al costat esquerre de la cota i corresponguin, per
+ tant, a un nombre més petit.
  
 \begin_inset Note Note
 status open
@@ -7995,6 +7993,295 @@ Spellcheck
 \end_inset
 
 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+224.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+En aquesta situació existirà un punt de la recta que essent més gran o igual
+ que tots els punts de 
+\begin_inset Formula $A$
+\end_inset
+
+ serà més petit o igual que totes les cotes superiors de 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ D'aquest punt en diem 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+suprem
+\begin_inset Quotes frs
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/suprem.svg
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+225.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quan el conjunt 
+\begin_inset Formula $A$
+\end_inset
+
+ sigui finit aquest suprem concidirà amb el punt màxim del conjunt 
+\begin_inset Formula $A$
+\end_inset
+
+, però en conjunts infinits no ha de ser necessàriament un punt de 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ El que sí serà sempre que 
+\begin_inset Formula $A$
+\end_inset
+
+ estigui acotat és un punt ben definit de la recta; si 
+\begin_inset Formula $A$
+\end_inset
+
+ és acotat el seu suprem existeix.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+226.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D'aquesta propietat se'n diu 
+\shape italic
+completesa
+\shape default
+ i els nombres racionals no la tenen.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+227.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Suposem que 
+\begin_inset Formula $A$
+\end_inset
+
+ és el conjunt de racionals 
+\begin_inset Formula $q$
+\end_inset
+
+ tals que 
+\begin_inset Formula $q^{2}\leq2$
+\end_inset
+
+.
+ El suprem d'aquest conjunt hauria de ser 
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+, però hem demostrat abans que no existeix cap racional que elevat al quadrat
+ doni 2.
+ 
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+ no és un racional i per tant el subconjunt 
+\begin_inset Formula $A\subseteqℚ$
+\end_inset
+
+, que certament és acotat (si 
+\begin_inset Formula $q^{2}\leq2$
+\end_inset
+
+ aleshores 
+\begin_inset Formula $q\leq2$
+\end_inset
+
+ i per tant 
+\begin_inset Formula $2\inℚ$
+\end_inset
+
+ és cota de 
+\begin_inset Formula $A$
+\end_inset
+
+), no té suprem.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+228.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Un grec que es va apropar molt a identificar el problema va ser Zenó d'Elea.
+ Allò d'Aquil·les no aconseguint atrapar mai la tortuga.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/aquiles.png
+	width 150bp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+229.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Les successives distàncies entre Aquil·les i la tortuga serien el conjunt
+ 
+\begin_inset Formula $A$
+\end_inset
+
+ i l'esdeveniment d'atrapar-la el suprem que estem trobant.
+ De la mateixa manera que el suprem d'un conjunt acotat de nombres racionals
+ pot no ser un racional, dins el cap de nombres racionals que tenien els
+ grecs aquest esdeveniment no arribava mai.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+230.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Però en el món físic i en la també seva intuïció de la recta real sí que
+ Aquil·les arriba a atrapar la tortuga.
+ I això els desconcertava molt, pobres grecs.
 \end_layout
 
 \end_inset
