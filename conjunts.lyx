@@ -109,6 +109,13 @@ status open
 
 
 \backslash
+newcounter{nfila}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
 arrayrulecolor{taula}
 \end_layout
 
@@ -116,7 +123,7 @@ arrayrulecolor{taula}
 
 
 \begin_inset Tabular
-<lyxtabular version="3" rows="230" columns="2">
+<lyxtabular version="3" rows="269" columns="2">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="100text%">
@@ -125,7 +132,21 @@ arrayrulecolor{taula}
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -156,7 +177,21 @@ teoria de conjunts
 \begin_inset Text
 
 \begin_layout Plain Layout
-2.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -184,7 +219,21 @@ elements
 \begin_inset Text
 
 \begin_layout Plain Layout
-3.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -208,7 +257,21 @@ Plot twist
 \begin_inset Text
 
 \begin_layout Plain Layout
-4.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -239,7 +302,21 @@ més o menys
 \begin_inset Text
 
 \begin_layout Plain Layout
-5.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -260,7 +337,21 @@ En concret, al segle XIX, que és quan en Cantor i en Dedekind per qui em
 \begin_inset Text
 
 \begin_layout Plain Layout
-6.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -301,7 +392,21 @@ name "comprensio"
 \begin_inset Text
 
 \begin_layout Plain Layout
-7.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -340,7 +445,21 @@ ser de color blau
 \begin_inset Text
 
 \begin_layout Plain Layout
-8.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -392,7 +511,21 @@ name "universal"
 \begin_inset Text
 
 \begin_layout Plain Layout
-9.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -413,7 +546,21 @@ Després van venir el segle XX i un paio que es deia Bertrand Russell que
 \begin_inset Text
 
 \begin_layout Plain Layout
-10.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -436,7 +583,21 @@ Considerem un moment el conjunt universal que hem esmentat fa una estona.
 \begin_inset Text
 
 \begin_layout Plain Layout
-11.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -459,7 +620,21 @@ Això que un conjunt sigui un element d'ell mateix pot semblar exòtic però
 \begin_inset Text
 
 \begin_layout Plain Layout
-12.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -493,7 +668,21 @@ no
 \begin_inset Text
 
 \begin_layout Plain Layout
-13.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -530,7 +719,21 @@ Anomenarem a aquest conjunt, jo què sé,
 \begin_inset Text
 
 \begin_layout Plain Layout
-14.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -566,7 +769,21 @@ Suposant que efectivament
 \begin_inset Text
 
 \begin_layout Plain Layout
-15.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -588,7 +805,21 @@ nt altre cop la hipòtesi.
 \begin_inset Text
 
 \begin_layout Plain Layout
-16.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -617,7 +848,21 @@ La mateixa existència del conjunt
 \begin_inset Text
 
 \begin_layout Plain Layout
-17.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -652,7 +897,21 @@ la paradoxa de Russell
 \begin_inset Text
 
 \begin_layout Plain Layout
-18.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -682,7 +941,21 @@ El problema és que si tenim una matemàtica que pot demostrar coses que són
 \begin_inset Text
 
 \begin_layout Plain Layout
-19.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -705,7 +978,21 @@ La cosa a més té una importància especial perquè el concepte de conjunt
 \begin_inset Text
 
 \begin_layout Plain Layout
-20.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -733,7 +1020,21 @@ conjunt pur
 \begin_inset Text
 
 \begin_layout Plain Layout
-21.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -756,7 +1057,21 @@ Però tornem al problema de la inconsistència descobert per Russell.
 \begin_inset Text
 
 \begin_layout Plain Layout
-22.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -802,7 +1117,21 @@ existeix el conjunt
 \begin_inset Text
 
 \begin_layout Plain Layout
-23.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -848,7 +1177,21 @@ teoria axiomàtica de conjunts
 \begin_inset Text
 
 \begin_layout Plain Layout
-24.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -882,7 +1225,21 @@ teoria de conjunts naïf
 \begin_inset Text
 
 \begin_layout Plain Layout
-25.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -947,7 +1304,21 @@ complet
 \begin_inset Text
 
 \begin_layout Plain Layout
-26.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -997,7 +1368,21 @@ estàndard
 \begin_inset Text
 
 \begin_layout Plain Layout
-27.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1019,7 +1404,21 @@ A més aquí hi entren posicionaments filosòfics que són una qüestió bàsica
 \begin_inset Text
 
 \begin_layout Plain Layout
-28.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1051,7 +1450,21 @@ name "finitistes"
 \begin_inset Text
 
 \begin_layout Plain Layout
-29.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1074,7 +1487,21 @@ De fet tampoc és que sigui un posicionament tan descabellat, si vas a mirar.
 \begin_inset Text
 
 \begin_layout Plain Layout
-30.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1099,7 +1526,21 @@ Hotel Infinit de Hilbert
 \begin_inset Text
 
 \begin_layout Plain Layout
-31.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1123,7 +1564,21 @@ Posem que ens trobem treballant a la recepció d'un hotel que té infinites
 \begin_inset Text
 
 \begin_layout Plain Layout
-32.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1145,7 +1600,21 @@ La nostra experiència limitada als hotels finits ens diu que si tenim un
 \begin_inset Text
 
 \begin_layout Plain Layout
-33.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1198,7 +1667,21 @@ name "hilbert"
 \begin_inset Text
 
 \begin_layout Plain Layout
-34.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1230,7 +1713,21 @@ noprefix "false"
 \begin_inset Text
 
 \begin_layout Plain Layout
-35.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1253,7 +1750,21 @@ Per altra banda, una matemàtica construïda només sobre conjunts finits és
 \begin_inset Text
 
 \begin_layout Plain Layout
-36.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1296,7 +1807,21 @@ noprefix "false"
 \begin_inset Text
 
 \begin_layout Plain Layout
-37.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1328,7 +1853,21 @@ aquesta afirmació no és demostrable en aquest sistema
 \begin_inset Text
 
 \begin_layout Plain Layout
-38.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1352,7 +1891,21 @@ Per tant no és possible que si el nostre sistema és consistent sigui alhora
 \begin_inset Text
 
 \begin_layout Plain Layout
-39.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1381,7 +1934,21 @@ aquesta afirmació no és demostrable en aquest sistema
 \begin_inset Text
 
 \begin_layout Plain Layout
-40.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1411,7 +1978,21 @@ aquesta frase
 \begin_inset Text
 
 \begin_layout Plain Layout
-41.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1441,7 +2022,21 @@ aquesta frase és mentida
 \begin_inset Text
 
 \begin_layout Plain Layout
-42.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1479,7 +2074,21 @@ aquest sistema
 \begin_inset Text
 
 \begin_layout Plain Layout
-43.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1500,7 +2109,21 @@ Haurem de buscar-nos la vida per declarar els conceptes de manera explícita.
 \begin_inset Text
 
 \begin_layout Plain Layout
-44.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1530,7 +2153,21 @@ programar
 \begin_inset Text
 
 \begin_layout Plain Layout
-45.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1552,7 +2189,21 @@ El cop d'intuïció que devia fer falta per afrontar tota aquesta feinada
 \begin_inset Text
 
 \begin_layout Plain Layout
-46.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1574,7 +2225,21 @@ a.
 \begin_inset Text
 
 \begin_layout Plain Layout
-47.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1596,7 +2261,21 @@ I per tant mai podrem estar realment segurs que els axiomes que haguem escollit
 \begin_inset Text
 
 \begin_layout Plain Layout
-48.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1620,7 +2299,21 @@ Recapitulant doncs, de les tres coses que voldríem per un sistema axiomàtic
 \begin_inset Text
 
 \begin_layout Plain Layout
-49.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1658,7 +2351,21 @@ estàndard
 \begin_inset Text
 
 \begin_layout Plain Layout
-50.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1700,7 +2407,21 @@ hoice
 \begin_inset Text
 
 \begin_layout Plain Layout
-51.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1722,7 +2443,21 @@ El sistema axiomàtic ZFC consta de nou axiomes i em temo que tuiter no és
 \begin_inset Text
 
 \begin_layout Plain Layout
-52.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1742,7 +2477,21 @@ El sistema axiomàtic ZFC consta de nou axiomes i em temo que tuiter no és
 \begin_inset Text
 
 \begin_layout Plain Layout
-53.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1766,7 +2515,21 @@ axioma d'extensionalitat
 \begin_inset Text
 
 \begin_layout Plain Layout
-54.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1789,7 +2552,21 @@ Això d'entrada pot semblar que no digui gran cosa però aquí darrere hi ha
 \begin_inset Text
 
 \begin_layout Plain Layout
-55.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1862,7 +2639,21 @@ Quan diem
 \begin_inset Text
 
 \begin_layout Plain Layout
-56.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1885,7 +2676,21 @@ nt ha de ser el nostre i si fem amb ell el que faríem amb el nostre podem
 \begin_inset Text
 
 \begin_layout Plain Layout
-57.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1907,7 +2712,21 @@ nt ha de ser el nostre i si fem amb ell el que faríem amb el nostre podem
 \begin_inset Text
 
 \begin_layout Plain Layout
-58.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1929,7 +2748,21 @@ Tornant als conjunts, direm que dos conjunts són iguals quan tinguin exactament
 \begin_inset Text
 
 \begin_layout Plain Layout
-59.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1976,7 +2809,21 @@ Per exemple, la propietat de ser un element d'un tercer conjunt donat.
 \begin_inset Text
 
 \begin_layout Plain Layout
-60.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2026,7 +2873,21 @@ axioma d'emparellament
 \begin_inset Text
 
 \begin_layout Plain Layout
-61.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2087,7 +2948,21 @@ L'existència del conjunt d'un sol element queda subsumida en aquest axioma,
 \begin_inset Text
 
 \begin_layout Plain Layout
-62.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2145,7 +3020,21 @@ L'emparellament d'elements ens permet construir algunes estructures interessants
 \begin_inset Text
 
 \begin_layout Plain Layout
-63.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2189,7 +3078,21 @@ parell ordenat
 \begin_inset Text
 
 \begin_layout Plain Layout
-64.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2214,7 +3117,21 @@ jugar a barcos
 \begin_inset Text
 
 \begin_layout Plain Layout
-65.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2252,7 +3169,21 @@ tuples
 \begin_inset Text
 
 \begin_layout Plain Layout
-66.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2275,7 +3206,21 @@ El que és interessant d'això és que totes aquestes estructures les podem
 \begin_inset Text
 
 \begin_layout Plain Layout
-67.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2307,7 +3252,21 @@ axioma de la unió
 \begin_inset Text
 
 \begin_layout Plain Layout
-68.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2335,7 +3294,21 @@ axioma de la unió
 \begin_inset Text
 
 \begin_layout Plain Layout
-69.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2373,7 +3346,21 @@ Combinant els axiomes d'emparellament i d'unió podem fer l'operació d'únió
 \begin_inset Text
 
 \begin_layout Plain Layout
-70.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2404,7 +3391,21 @@ Aquesta operació d'unió binària dona lloc a una altra construcció interessan
 \begin_inset Text
 
 \begin_layout Plain Layout
-71.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2460,7 +3461,21 @@ successor
 \begin_inset Text
 
 \begin_layout Plain Layout
-72.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2531,7 +3546,21 @@ u
 \begin_inset Text
 
 \begin_layout Plain Layout
-73.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2576,7 +3605,21 @@ dos
 \begin_inset Text
 
 \begin_layout Plain Layout
-74.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2612,7 +3655,21 @@ tres
 \begin_inset Text
 
 \begin_layout Plain Layout
-75.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2632,7 +3689,21 @@ I així, amics, és com neixen els nombres ♥.
 \begin_inset Text
 
 \begin_layout Plain Layout
-76.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2661,7 +3732,21 @@ axioma de l'infinit
 \begin_inset Text
 
 \begin_layout Plain Layout
-77.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2697,7 +3782,21 @@ Més formalment, existeix un conjunt
 \begin_inset Text
 
 \begin_layout Plain Layout
-78.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2750,7 +3849,21 @@ conjunts infinits
 \begin_inset Text
 
 \begin_layout Plain Layout
-79.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2786,7 +3899,21 @@ tenir la mateixa cardinalitat
 \begin_inset Text
 
 \begin_layout Plain Layout
-80.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2808,7 +3935,21 @@ La cardinalitat és la mesura de la quantitat d'elements que té un conjunt.
 \begin_inset Text
 
 \begin_layout Plain Layout
-81.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2896,7 +4037,21 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-82.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2921,7 +4076,21 @@ Així doncs, si en un conjunt podem establir-hi una bijecció amb algun dels
 \begin_inset Text
 
 \begin_layout Plain Layout
-83.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2967,7 +4136,21 @@ Com hem vist abans, aquests elements són conjunts que inclouen alhora tots
 \begin_inset Text
 
 \begin_layout Plain Layout
-84.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3012,7 +4195,21 @@ e\rightarrow4
 \begin_inset Text
 
 \begin_layout Plain Layout
-85.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3066,7 +4263,21 @@ nombres naturals
 \begin_inset Text
 
 \begin_layout Plain Layout
-86.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3093,7 +4304,21 @@ De fet tot aquest procés és exactament el que fa un nen quan compta els
 \begin_inset Text
 
 \begin_layout Plain Layout
-87.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3134,7 +4359,21 @@ hyperref[hilbert]{(33)}
 \begin_inset Text
 
 \begin_layout Plain Layout
-88.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3178,7 +4417,21 @@ En aquella maniobra de fer córrer tots els clients de l'habitació
 \begin_inset Text
 
 \begin_layout Plain Layout
-89.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3214,7 +4467,21 @@ tenir la mateixa quantitat d'elements
 \begin_inset Text
 
 \begin_layout Plain Layout
-90.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3238,7 +4505,21 @@ t finita.
 \begin_inset Text
 
 \begin_layout Plain Layout
-91.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3261,7 +4542,21 @@ Al segle XIX, abans de tot això de l'axiomatització, un senyor que es deia
 \begin_inset Text
 
 \begin_layout Plain Layout
-92.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3284,7 +4579,21 @@ La definició que va desenvolupar va ser precisament aquesta propietat de
 \begin_inset Text
 
 \begin_layout Plain Layout
-93.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3311,7 +4620,21 @@ En ZFC es pot demostrar que els conjunts que caracteritza aquesta definició
 \begin_inset Text
 
 \begin_layout Plain Layout
-94.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3340,7 +4663,21 @@ conjunt
 \begin_inset Text
 
 \begin_layout Plain Layout
-95.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3363,7 +4700,21 @@ De fet, ni tant sols en ZFC fem servir la definició de Dedekind perquè per
 \begin_inset Text
 
 \begin_layout Plain Layout
-96.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3387,7 +4738,21 @@ Fer servir la definició d'infinit de Dedekind implicaria que per demostrar
 \begin_inset Text
 
 \begin_layout Plain Layout
-97.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3413,7 +4778,21 @@ externa
 \begin_inset Text
 
 \begin_layout Plain Layout
-98.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3439,7 +4818,21 @@ Dedekind-infinits
 \begin_inset Text
 
 \begin_layout Plain Layout
-99.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3464,7 +4857,21 @@ principi d'inducció matemàtica
 \begin_inset Text
 
 \begin_layout Plain Layout
-100.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3491,7 +4898,21 @@ Amb dos collons.
 \begin_inset Text
 
 \begin_layout Plain Layout
-101.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3525,7 +4946,21 @@ Les nostres demostracions són necessàriament finites.
 \begin_inset Text
 
 \begin_layout Plain Layout
-102.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3581,7 +5016,21 @@ Donada qualsevol
 \begin_inset Text
 
 \begin_layout Plain Layout
-103.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3626,7 +5075,21 @@ Donat que sabem que serà cert que
 \begin_inset Text
 
 \begin_layout Plain Layout
-104.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3652,7 +5115,21 @@ Podem demostrar, doncs, infinites coses (que
 \begin_inset Text
 
 \begin_layout Plain Layout
-105.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3679,7 +5156,21 @@ Aquest principi el necessitem per demostrar coses tan bàsiques com la validesa
 \begin_inset Text
 
 \begin_layout Plain Layout
-106.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3727,7 +5218,21 @@ hyperref[finitistes]{(28)}
 \begin_inset Text
 
 \begin_layout Plain Layout
-107.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3771,7 +5276,21 @@ axioma d'especificació
 \begin_inset Text
 
 \begin_layout Plain Layout
-108.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3813,7 +5332,21 @@ hyperref[comprensio]{(6)}
 \begin_inset Text
 
 \begin_layout Plain Layout
-109.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3842,7 +5375,21 @@ tenim el conjunt de conjunts que no es pertanyen a ells mateixos
 \begin_inset Text
 
 \begin_layout Plain Layout
-110.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3872,7 +5419,21 @@ Quan un element no pertanyi a un conjunt generat per aquest axioma, no podrem
 \begin_inset Text
 
 \begin_layout Plain Layout
-111.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3894,7 +5455,21 @@ Així esquivem conclusions que ens podrien dur a contradiccions de l'estil
 \begin_inset Text
 
 \begin_layout Plain Layout
-112.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3923,7 +5498,21 @@ el conjunt del nombres naturals que són primers
 \begin_inset Text
 
 \begin_layout Plain Layout
-113.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3945,7 +5534,21 @@ Per això de fet volíem l'axioma de comprensió, no per generar contradiccions
 \begin_inset Text
 
 \begin_layout Plain Layout
-114.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3978,7 +5581,21 @@ Amb l'axioma d'especificació també podem definir coses l'operació binària
 \begin_inset Text
 
 \begin_layout Plain Layout
-115.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4014,7 +5631,21 @@ no
 \begin_inset Text
 
 \begin_layout Plain Layout
-116.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4068,7 +5699,21 @@ tot
 \begin_inset Text
 
 \begin_layout Plain Layout
-117.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4098,7 +5743,21 @@ no
 \begin_inset Text
 
 \begin_layout Plain Layout
-118.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4148,7 +5807,21 @@ hyperref[russell]{(12)}
 \begin_inset Text
 
 \begin_layout Plain Layout
-119.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4174,7 +5847,21 @@ reducció a l'absurd
 \begin_inset Text
 
 \begin_layout Plain Layout
-120.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4200,7 +5887,21 @@ axioma de regularitat
 \begin_inset Text
 
 \begin_layout Plain Layout
-121.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4222,7 +5923,21 @@ Diu: tot conjunt que no sigui buit té un element que és disjunt amb ell.
 \begin_inset Text
 
 \begin_layout Plain Layout
-122.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4257,7 +5972,21 @@ Suposem un conjunt
 \begin_inset Text
 
 \begin_layout Plain Layout
-123.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4303,7 +6032,21 @@ Aquest
 \begin_inset Text
 
 \begin_layout Plain Layout
-124.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4356,7 +6099,21 @@ Una característica del conjunt universal
 \begin_inset Text
 
 \begin_layout Plain Layout
-125.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4385,7 +6142,21 @@ Seguint un raonament molt semblant a l'anterior, l'axioma de regularitat
 \begin_inset Text
 
 \begin_layout Plain Layout
-126.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4426,7 +6197,21 @@ I encara més, ens descarta qualsevol seqüència infinita de la forma
 \begin_inset Text
 
 \begin_layout Plain Layout
-127.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4488,7 +6273,21 @@ hyperref[successor]{(71)}
 \begin_inset Text
 
 \begin_layout Plain Layout
-128.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4514,7 +6313,21 @@ ordenada
 \begin_inset Text
 
 \begin_layout Plain Layout
-129.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4560,7 +6373,21 @@ relació antisimètrica
 \begin_inset Text
 
 \begin_layout Plain Layout
-130.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4629,7 +6456,21 @@ hyperref[naturals]{(85)}
 \begin_inset Text
 
 \begin_layout Plain Layout
-131.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4666,7 +6507,21 @@ La relació
 \begin_inset Text
 
 \begin_layout Plain Layout
-132.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4693,7 +6548,21 @@ axioma de reemplaçament
 \begin_inset Text
 
 \begin_layout Plain Layout
-133.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4747,7 +6616,21 @@ hyperref[emparellament]{(60)}
 \begin_inset Text
 
 \begin_layout Plain Layout
-134.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4781,7 +6664,21 @@ Una altra cosa que també podríem fer amb aquest axioma és aplicar-ho a un
 \begin_inset Text
 
 \begin_layout Plain Layout
-135.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4822,7 +6719,21 @@ Això ens donaria el conjunt de parells ordenats
 \begin_inset Text
 
 \begin_layout Plain Layout
-136.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4854,7 +6765,21 @@ Aplicant ara l'axioma de reemplaçament a un conjunt
 \begin_inset Text
 
 \begin_layout Plain Layout
-137.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4909,7 +6834,21 @@ hyperref[unio]{(67)}
 \begin_inset Text
 
 \begin_layout Plain Layout
-138.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4935,7 +6874,21 @@ producte cartesià
 \begin_inset Text
 
 \begin_layout Plain Layout
-139.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -4957,7 +6910,21 @@ Havíem vist anteriorment que comptar consisteix bàsicament en trobar bijeccion
 \begin_inset Text
 
 \begin_layout Plain Layout
-140.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5007,7 +6974,21 @@ Per exemple, si fem el producte cartesià del conjunt
 \begin_inset Text
 
 \begin_layout Plain Layout
-141.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5093,7 +7074,21 @@ el producte cartesià de A i B
 \begin_inset Text
 
 \begin_layout Plain Layout
-142.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5120,7 +7115,21 @@ el producte cartesià de A i B
 \begin_inset Text
 
 \begin_layout Plain Layout
-143.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5169,7 +7178,21 @@ Anem a mirar què passa quan ho fem amb conjunt infinits.
 \begin_inset Text
 
 \begin_layout Plain Layout
-144.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5198,7 +7221,21 @@ No podem llistar infinits ítems però sí que podem copsar com podem establir
 \begin_inset Text
 
 \begin_layout Plain Layout
-145.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5223,7 +7260,21 @@ I per tant encara que a primer cop d'ull ens pogués semblar alguna altra
 \begin_inset Text
 
 \begin_layout Plain Layout
-146.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5279,7 +7330,21 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-147.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5306,7 +7371,21 @@ I per tant estaríem ometent tots elements de
 \begin_inset Text
 
 \begin_layout Plain Layout
-148.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5377,7 +7456,21 @@ Si enlloc d'anar fila per fila com hem estat fent anem diagonal per diagonal,
 \begin_inset Text
 
 \begin_layout Plain Layout
-149.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5419,7 +7512,21 @@ I per tant també podrem establir una correspondència un a un entre tots
 \begin_inset Text
 
 \begin_layout Plain Layout
-150.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5442,7 +7549,21 @@ En aquest moment un es comença a preguntar si aquesta capacitat absorbent
 \begin_inset Text
 
 \begin_layout Plain Layout
-151.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5465,7 +7586,21 @@ I el fet que donats dos conjunts no siguem capaços de trobar aquesta bijecció
 \begin_inset Text
 
 \begin_layout Plain Layout
-152.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5489,7 +7624,21 @@ Per demostrar que la bijecció entre dos conjunts no existeix més enllà de
 \begin_inset Text
 
 \begin_layout Plain Layout
-153.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5513,7 +7662,21 @@ axioma del conjunt potència
 \begin_inset Text
 
 \begin_layout Plain Layout
-154.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5545,7 +7708,21 @@ axioma del conjunt potència
 \begin_inset Text
 
 \begin_layout Plain Layout
-155.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5585,7 +7762,21 @@ Si hi afegim un nou element
 \begin_inset Text
 
 \begin_layout Plain Layout
-156.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5646,7 +7837,21 @@ Si hi afegim un nou element
 \begin_inset Text
 
 \begin_layout Plain Layout
-157.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5667,7 +7872,21 @@ O sigui, que quan afegim un element a un conjunt la cardinalitat del seu
 \begin_inset Text
 
 \begin_layout Plain Layout
-158.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5693,7 +7912,21 @@ t que hi ha del conjunt buit que és el mateix conjunt buit, o sigui el conjunt
 \begin_inset Text
 
 \begin_layout Plain Layout
-159.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5718,7 +7951,21 @@ Aplicant la inducció a aquests dos fets podríem demostrar que en els conjunts
 \begin_inset Text
 
 \begin_layout Plain Layout
-160.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5752,7 +7999,21 @@ No exactament per això, sinó per una qüestió de fet més general però forta
 \begin_inset Text
 
 \begin_layout Plain Layout
-161.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5777,7 +8038,21 @@ Així doncs, posant el que hem vist en notació, per conjunts finits tenim
 \begin_inset Text
 
 \begin_layout Plain Layout
-162.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5813,7 +8088,21 @@ Com que en l'aritmètica de
 \begin_inset Text
 
 \begin_layout Plain Layout
-163.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5851,7 +8140,21 @@ Si volguéssim generalitzar això a qualsevol tipus de conjunt finit o infinit
 \begin_inset Text
 
 \begin_layout Plain Layout
-164.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5876,7 +8179,21 @@ Anem a explorar la possibilitat
 \begin_inset Text
 
 \begin_layout Plain Layout
-165.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5934,7 +8251,21 @@ Posem un conjunt
 \begin_inset Text
 
 \begin_layout Plain Layout
-166.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -5973,7 +8304,21 @@ De totes aquestes correspondències en algunes es donarà el cas que
 \begin_inset Text
 
 \begin_layout Plain Layout
-167.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6013,7 +8358,21 @@ Aquest conjunt
 \begin_inset Text
 
 \begin_layout Plain Layout
-168.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6072,7 +8431,21 @@ Que
 \begin_inset Text
 
 \begin_layout Plain Layout
-169.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6106,7 +8479,21 @@ Per tant doncs, com que hem vist abans que
 \begin_inset Text
 
 \begin_layout Plain Layout
-170.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6134,7 +8521,21 @@ Fins i tot per un conjunt infinit com
 \begin_inset Text
 
 \begin_layout Plain Layout
-171.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6163,7 +8564,21 @@ I també tindrem un
 \begin_inset Text
 
 \begin_layout Plain Layout
-172.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6210,7 +8625,21 @@ I més enllà, de fet.
 \begin_inset Text
 
 \begin_layout Plain Layout
-173.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6250,7 +8679,21 @@ diagonalització de Cantor
 \begin_inset Text
 
 \begin_layout Plain Layout
-174.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6277,7 +8720,21 @@ A l'escola es sol explicar restringit al cas de
 \begin_inset Text
 
 \begin_layout Plain Layout
-175.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6305,7 +8762,21 @@ Per veure que aquest conjunt de nombres reals
 \begin_inset Text
 
 \begin_layout Plain Layout
-176.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6326,7 +8797,21 @@ Hem vist fins ara els nombres naturals que són cadascun com el representant
 \begin_inset Text
 
 \begin_layout Plain Layout
-177.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6355,7 +8840,21 @@ Hem vist que un nombre natural és en realitat un conjunt que construïm per
 \begin_inset Text
 
 \begin_layout Plain Layout
-178.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6391,7 +8890,21 @@ Podem definir les relacions d'ordre
 \begin_inset Text
 
 \begin_layout Plain Layout
-179.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6413,7 +8926,21 @@ Un cop tenim això ens podem pràcticament oblidar de l'estructura interna
 \begin_inset Text
 
 \begin_layout Plain Layout
-180.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6446,7 +8973,21 @@ externes
 \begin_inset Text
 
 \begin_layout Plain Layout
-181.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6488,7 +9029,21 @@ f_{n}(S(m)) & = & S(f_{n}(m))
 \begin_inset Text
 
 \begin_layout Plain Layout
-182.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6528,7 +9083,21 @@ f_{5}(3) & = & f_{5}(S(2))\\
 \begin_inset Text
 
 \begin_layout Plain Layout
-183.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6561,7 +9130,21 @@ Sí amics, la funció
 \begin_inset Text
 
 \begin_layout Plain Layout
-184.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6583,7 +9166,21 @@ La suma és una funció molt interessant perquè ens dona la cardinalitat de
 \begin_inset Text
 
 \begin_layout Plain Layout
-185.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6609,7 +9206,21 @@ La suma és una funció molt interessant perquè ens dona la cardinalitat de
 \begin_inset Text
 
 \begin_layout Plain Layout
-186.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6631,7 +9242,21 @@ Això es diu abstracció i és una eina poderosíssima.
 \begin_inset Text
 
 \begin_layout Plain Layout
-187.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6652,7 +9277,21 @@ L'abstracció ens dóna accés a un coneixement que sense ella seria senzillamen
 \begin_inset Text
 
 \begin_layout Plain Layout
-188.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6673,7 +9312,21 @@ Jo sóc absolutament incapaç de crear-me una imatge mental d'un conjunt de
 \begin_inset Text
 
 \begin_layout Plain Layout
-189.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6696,7 +9349,21 @@ Però fent servir l'aritmètica sé gairebé instantàniament que puc dividir
 \begin_inset Text
 
 \begin_layout Plain Layout
-190.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6757,7 +9424,21 @@ resta
 \begin_inset Text
 
 \begin_layout Plain Layout
-191.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6791,7 +9472,21 @@ No obstant té el problema que el nombre
 \begin_inset Text
 
 \begin_layout Plain Layout
-192.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6818,7 +9513,21 @@ tancats
 \begin_inset Text
 
 \begin_layout Plain Layout
-193.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6840,7 +9549,21 @@ Això fa que els nombres naturals no em serveixin per representar conceptes
 \begin_inset Text
 
 \begin_layout Plain Layout
-194.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6862,7 +9585,21 @@ Necessitaríem una altra mena de nombres que poguessin representar aquest
 \begin_inset Text
 
 \begin_layout Plain Layout
-195.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6886,7 +9623,21 @@ Però que alhora mantinguessin totes les propietats que tenen els nombres
 \begin_inset Text
 
 \begin_layout Plain Layout
-196.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6913,7 +9664,21 @@ Com que el que volem és que la resta de dos d'aquesta nova mena de nombres
 \begin_inset Text
 
 \begin_layout Plain Layout
-197.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6962,7 +9727,21 @@ aquell nombre
 \begin_inset Text
 
 \begin_layout Plain Layout
-198.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6998,7 +9777,21 @@ Així, la resta que hem vist abans que no podíem fer dins dels naturals
 \begin_inset Text
 
 \begin_layout Plain Layout
-199.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -7037,7 +9830,21 @@ En l'aritmètica dels nombres naturals hi ha la propietat (que podríem demostra
 \begin_inset Text
 
 \begin_layout Plain Layout
-200.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -7068,7 +9875,21 @@ El que podem fer és escollir un representant canònic per cada nombre-resta
 \begin_inset Text
 
 \begin_layout Plain Layout
-201.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -7109,7 +9930,21 @@ nombres negatius
 \begin_inset Text
 
 \begin_layout Plain Layout
-202.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -7155,7 +9990,21 @@ nombres positius
 \begin_inset Text
 
 \begin_layout Plain Layout
-203.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -7193,7 +10042,21 @@ nombres enters
 \begin_inset Text
 
 \begin_layout Plain Layout
-204.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -7227,7 +10090,21 @@ Com que un subconjunt seu (els positius) té una correspondència u a u amb
 \begin_inset Text
 
 \begin_layout Plain Layout
-205.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -7271,7 +10148,21 @@ Però com que hem vist abans que
 \begin_inset Text
 
 \begin_layout Plain Layout
-206.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -7308,7 +10199,21 @@ nombres racionals
 \begin_inset Text
 
 \begin_layout Plain Layout
-207.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -7336,7 +10241,21 @@ Els nombres racionals representen quantitats fraccionàries i proporcions
 \begin_inset Text
 
 \begin_layout Plain Layout
-208.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -7367,7 +10286,21 @@ Respecte a la seva cardinalitat, pel mateix raonament que abans, també serà
 \begin_inset Text
 
 \begin_layout Plain Layout
-209.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -7397,7 +10330,21 @@ De tots els parells
 \begin_inset Text
 
 \begin_layout Plain Layout
-210.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -7421,7 +10368,21 @@ Uns grans amants de la proporció van ser el geòmetres grecs.
 \begin_inset Text
 
 \begin_layout Plain Layout
-211.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -7468,7 +10429,21 @@ Imaginem un quadrat de costat 1.
 \begin_inset Text
 
 \begin_layout Plain Layout
-212.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -7511,7 +10486,21 @@ Posem que volem expressar aquesta longitud en forma de fracció irreductible
 \begin_inset Text
 
 \begin_layout Plain Layout
-213.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -7567,7 +10556,21 @@ Com que
 \begin_inset Text
 
 \begin_layout Plain Layout
-214.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -7639,7 +10642,21 @@ I com que
 \begin_inset Text
 
 \begin_layout Plain Layout
-215.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -7661,7 +10678,21 @@ I això vol dir que no es pot expressar una cosa tant simple com la longitud
 \begin_inset Text
 
 \begin_layout Plain Layout
-216.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -7686,7 +10717,21 @@ D'això els grecs se'n van adonar i es van preguntar a veure què diantre
 \begin_inset Text
 
 \begin_layout Plain Layout
-217.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -7709,7 +10754,21 @@ L'eina que necessitem per modelar l'espai que ens envolta, que és el que
 \begin_inset Text
 
 \begin_layout Plain Layout
-218.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -7735,7 +10794,21 @@ gairebé
 \begin_inset Text
 
 \begin_layout Plain Layout
-219.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -7857,7 +10930,7 @@ totalitat
 o
 \series default
  
-\begin_inset Formula $b≤a$
+\begin_inset Formula $b\leq a$
 \end_inset
 
 .
@@ -7871,7 +10944,21 @@ o
 \begin_inset Text
 
 \begin_layout Plain Layout
-220.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -7907,7 +10994,21 @@ dens
 \begin_inset Text
 
 \begin_layout Plain Layout
-221.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -7929,7 +11030,21 @@ Aquestes propietats les compleixen tant els punts de la recta com els nombres
 \begin_inset Text
 
 \begin_layout Plain Layout
-222.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -7953,7 +11068,21 @@ El problema és que els punts d'una recta tal com els intuïm tenen una altra
 \begin_inset Text
 
 \begin_layout Plain Layout
-223.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -8003,7 +11132,21 @@ Spellcheck
 \begin_inset Text
 
 \begin_layout Plain Layout
-224.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -8068,7 +11211,21 @@ suprem
 \begin_inset Text
 
 \begin_layout Plain Layout
-225.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -8109,7 +11266,21 @@ Quan el conjunt
 \begin_inset Text
 
 \begin_layout Plain Layout
-226.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -8133,7 +11304,21 @@ completesa
 \begin_inset Text
 
 \begin_layout Plain Layout
-227.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -8196,7 +11381,21 @@ Suposem que
 \begin_inset Text
 
 \begin_layout Plain Layout
-228.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -8242,7 +11441,21 @@ Un grec que es va apropar molt a identificar el problema va ser Zenó d'Elea.
 \begin_inset Text
 
 \begin_layout Plain Layout
-229.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -8266,11 +11479,1783 @@ Les successives distàncies entre Aquil·les i la tortuga serien el conjunt
 </cell>
 </row>
 <row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Però en el món físic i en la també seva intuïció de la recta real sí que
+ Aquil·les arriba a atrapar la tortuga.
+ I això els desconcertava molt, pobres grecs.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Així, doncs, el que ens fa falta per representar els punts de la recta és
+ alguna mena de nombre que tingui les propietats dels racionals i que a
+ més el suprem de qualsevol conjunt acotat d'aquests nombres resulti en
+ un altre nombre de la mateixa mena.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Un conjunt que sigui tancat respecte la funció suprem, en definitiva.
+ A un conjunt ordenat que compleixi tota aquesta bateria de propietats (reflexiv
+itat, transitivitat, antisimetria, totalitat, densitat i suprem) en diem
+ un 
+\shape italic
+continu
+\shape default
+.
+ Ni els nombres naturals, ni els enters, ni els racionals són conjunts continus.
+ Dels conjunts que no son continus en diem 
+\shape italic
+discrets
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El procediment d'obtenir un continu a partir del conjunt discret dels racionals
+ és el mateix que quan hem volgut tancar els naturals respecte la resta
+ per obtenir els enters o els enters respecte la divisió per obtenir els
+ racionals.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Com que l'operació suprem opera sobre conjunts en comptes de sobre parells
+ com ho fan les operacions de resta o la divisió, aquests nous nombres els
+ representarem fent servir no parells sinó conjunts de racionals, elements
+ de 
+\begin_inset Formula $2^{ℚ}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+És a dir, que cada nombre 
+\shape italic
+real
+\shape default
+ (així anomenarem aquest nou conjunt de nombres), el definim com el suprem
+ d'un conjunt acotat de nombres racionals.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Igual que ens havia passat amb la resta i la divisió, el suprem de conjunts
+ diferents ens pot resultar en el mateix nombre real.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per fer una representació precisa escollirem un únic representant canònic
+ d'entre tots els que ens donen el mateix real.
+ De la mateixa manera que en els enters vam escollir aquells parells on
+ hi havia un zero o en els racionals els que feien una fracció irreductible.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aquest cop no serà tan fàcil de fer això perquè d'entrada estem tractant
+ amb conjunts infinits en comptes de parells.
+ Una manera d'escollir aquest representant únic són el que se'n diuen talls
+ de Dedekind.
+ Sí, el mateix Dedekind que va voler definir l'infinit sense fer servir
+ el concepte de nombre.
+ Ves per on.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Un 
+\shape italic
+tall de Dedekind
+\shape default
+ és un conjunt de racionals 
+\begin_inset Formula $A$
+\end_inset
+
+ tal que:
+\end_layout
+
+\begin_layout Itemize
+No és buit.
+ Existeix com a mínim un 
+\begin_inset Formula $p\in A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+No és igual al conjunt de tots els racionals.
+ Existeix com a mínim un 
+\begin_inset Formula $p\in\mathbb{Q}\setminus A$
+\end_inset
+
+; és a dir, un 
+\begin_inset Formula $p\in\mathbb{Q}$
+\end_inset
+
+ i que a més 
+\begin_inset Formula $p\notin A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Si 
+\begin_inset Formula $p\in A$
+\end_inset
+
+, aleshores tot 
+\begin_inset Formula $q<p$
+\end_inset
+
+ també 
+\begin_inset Formula $q\in A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Si 
+\begin_inset Formula $p\in A$
+\end_inset
+
+, aleshores existeix com a mínim un 
+\begin_inset Formula $q>p$
+\end_inset
+
+ que també 
+\begin_inset Formula $q\in A$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Un tall de Dedekind vindria a ser doncs una partició dels racionals en dues
+ parts no buides: els que estan per sota d'un determinat llindar 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+(
+\begin_inset Formula $A$
+\end_inset
+
+)
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ i els que estan per sobre (
+\begin_inset Formula $\mathbb{Q}\setminus A$
+\end_inset
+
+) i amb unes característiques particulars en la frontera d'aquesta divisió.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fixem-nos ara en les característiques que té la relació 
+\begin_inset Formula $\subseteq$
+\end_inset
+
+ respecte als talls de Dedekind.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Les tres primeres característiques del que hem definit com a ordre total
+ (reflexivitat, transitivitat i antisimetria) la relació de subconjunt inclusiu
+ 
+\begin_inset Formula $\subseteq$
+\end_inset
+
+ les té respecte a qualsevol mena de conjunt.
+ D'això se'n diu ser un 
+\shape italic
+ordre parcial.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A més, amb els talls de Dedekind en particular complirà la propietat de
+ la totalitat a causa del tercer punt de la nostra definició del que és
+ un tall de Dedekind i que la relació 
+\begin_inset Formula $\leq$
+\end_inset
+
+ entre racionals és un ordre total.
+ Per tant, la relació 
+\begin_inset Formula $\subseteq$
+\end_inset
+
+ és un ordre total del conjunt de talls de Dedekind.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Com que 
+\begin_inset Formula $\subseteq$
+\end_inset
+
+ és total, donats dos talls de Dedekind diferents 
+\begin_inset Formula $A\neq B$
+\end_inset
+
+ s'ha de donar que 
+\begin_inset Formula $A\subset B$
+\end_inset
+
+ o bé que 
+\begin_inset Formula $B\subset A$
+\end_inset
+
+.
+ Suposem sense perdre generalitat que el cas és 
+\begin_inset Formula $A\subset B$
+\end_inset
+
+.
+ Això és: 
+\begin_inset Formula $A$
+\end_inset
+
+ és un subconjunt propi de 
+\begin_inset Formula $B$
+\end_inset
+
+.
+ Tots els elements de 
+\begin_inset Formula $A$
+\end_inset
+
+ són element de 
+\begin_inset Formula $B$
+\end_inset
+
+ però existeix algun element de 
+\begin_inset Formula $B$
+\end_inset
+
+ que no és element de 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ Anem a anomenar 
+\begin_inset Formula $p$
+\end_inset
+
+ a aquest element.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per la propietat quarta dels talls de Dedekind, existeix un 
+\begin_inset Formula $q>p$
+\end_inset
+
+ que també 
+\begin_inset Formula $q\in B$
+\end_inset
+
+.
+ Aquest 
+\begin_inset Formula $q$
+\end_inset
+
+ el farem servir per definir un nou tall de Dedekind 
+\begin_inset Formula $C$
+\end_inset
+
+ format per tots els nombres racionals 
+\begin_inset Formula $r$
+\end_inset
+
+ tals que 
+\begin_inset Formula $r<q$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Es pot comprovar que aquest conjunt 
+\begin_inset Formula $C$
+\end_inset
+
+ tal com l'hem definit té efectivament totes les propietats que defineixen
+ un tall de Dedekind i que a més es dona que 
+\begin_inset Formula $A\subset C\subset B$
+\end_inset
+
+.
+ Per tant els talls de Dedekind són densos respecte la relació d'ordre 
+\begin_inset Formula $\subseteq$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Suposem ara que tenim un conjunt no buit de talls de Dedekind 
+\begin_inset Formula $\varGamma=\{A_{o},A_{1},A_{2},A_{3},\ldots\}$
+\end_inset
+
+ que pot ser infinit però es dona el cas que existeix un altre tall de Dedekind
+ 
+\begin_inset Formula $C$
+\end_inset
+
+ tal que per a tot 
+\begin_inset Formula $A\in\varGamma$
+\end_inset
+
+, 
+\begin_inset Formula $A\subseteq C$
+\end_inset
+
+.
+ És a dir, 
+\begin_inset Formula $C$
+\end_inset
+
+ és una cota superior de 
+\begin_inset Formula $\varGamma$
+\end_inset
+
+ i per tant 
+\begin_inset Formula $\varGamma$
+\end_inset
+
+ és acotat.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Si apliquem a 
+\begin_inset Formula $\varGamma$
+\end_inset
+
+ l'axioma de la unió
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[unio]{(67)}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, podrem comprobar que:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\bigcup\varGamma$
+\end_inset
+
+ és un tall de Dedekind perquè compleix les propietats amb les que els hem
+ definit.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\bigcup\varGamma$
+\end_inset
+
+ és una cota superior de 
+\begin_inset Formula $\varGamma$
+\end_inset
+
+: per a tot 
+\begin_inset Formula $A\in\varGamma$
+\end_inset
+
+, 
+\begin_inset Formula $A\subseteq\bigcup\varGamma$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+De totes les cotes superiors 
+\begin_inset Formula $C$
+\end_inset
+
+ que pot tenir 
+\begin_inset Formula $\varGamma$
+\end_inset
+
+, resulta que 
+\begin_inset Formula $\bigcup\varGamma\subseteq C$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+És a dir, que 
+\begin_inset Formula $\bigcup\varGamma$
+\end_inset
+
+ és la mínima de totes les cotes superiors de 
+\begin_inset Formula $\varGamma$
+\end_inset
+
+ respecte la relació d'ordre 
+\begin_inset Formula $\subseteq$
+\end_inset
+
+.
+ El que per definició és el valor suprem de 
+\begin_inset Formula $\varGamma$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per tant, els talls de Dedekind amb la relació 
+\begin_inset Formula $\subseteq$
+\end_inset
+
+ tenen totes les propietats necessàries per ser considerades un continu,
+ i és el que farem servir per representar els nombres reals en la teoria
+ de conjunts; el real representat és el valor suprem de tots els nombres
+ racionals que conformen el tall o bé la frontera de la partició de 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Això vol dir que el nombre real 
+\series bold
+3
+\series default
+ de fet el podem veure en teoria de conjunts el conjunt de tots els nombres
+ racionals que són estrictament més petits que 3.
+ I el nombre real 
+\begin_inset Formula $\mathbf{\sqrt{\mathbf{2}}}$
+\end_inset
+
+ com tots els nombres racionals que són estrictament més petits que 
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I qualsevol tractament matemàtic que es fa amb ells es pot fer en darrera
+ instància amb teoremes i operacions de teoria de conjunts estrictament.
+ En aquest sentit, tot aquell fato dels límits, derivades, integrals i la
+ resta de l'estudi dels nombres reals que es fa en el càlcul infinitesimal
+ és només un branca de la teoria de conjunts.
+ 
+\strikeout on
+Molt gros.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+En notació, del conjunt dels nombres reals en diem 
+\begin_inset Formula $ℝ$
+\end_inset
+
+ .
+ Com que els representem fent servir conjunts de racionals la seva cardinalitat
+ ha de ser com a màxim la del conjunt dels conjunts de racionals, o siguis
+ 
+\begin_inset Formula $|ℝ|\leq|2^{ℚ}|$
+\end_inset
+
+.
+ I com que sabem de quan hem estudiat la cardinalitat dels racionals que
+ 
+\begin_inset Formula $|ℚ|=|ℕ|$
+\end_inset
+
+, doncs és clar que 
+\begin_inset Formula $|ℝ|\leq|2^{ℕ}|$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per veure que alhora 
+\begin_inset Formula $|2^{ℕ}|\leq|ℝ|$
+\end_inset
+
+ ens caldrà una bijecció entre 
+\begin_inset Formula $2^{ℕ}$
+\end_inset
+
+ (el conjunt dels conjunts de naturals) i algun subconjunt de 
+\begin_inset Formula $ℝ$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anem doncs a construir aquesta bijecció.
+ Suposem un element del domini 
+\begin_inset Formula $X\in2^{\mathbb{N}}.$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aquesta bijecció la podem construir de la següent manera: suposem un conjunt
+ de naturals qualsevol 
+\begin_inset Formula $A=\left\{ a_{0},a_{1},a_{2},a_{3},\ldots\right\} $
+\end_inset
+
+.
+ Per cadascun dels seus elements 
+\begin_inset Formula $a_{i}$
+\end_inset
+
+ existeix un nombre racional de la forma 
+\begin_inset Formula $\frac{1}{10^{a_{i}+1}}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+És a dir, que al natural 
+\begin_inset Formula $0$
+\end_inset
+
+ li correspondria el racional 
+\begin_inset Formula $\nicefrac{1}{10}$
+\end_inset
+
+, al natural 
+\begin_inset Formula $1$
+\end_inset
+
+ el racional 
+\begin_inset Formula $\nicefrac{1}{100}$
+\end_inset
+
+, al 
+\begin_inset Formula $2$
+\end_inset
+
+ el racional 
+\begin_inset Formula $\nicefrac{1}{1000}$
+\end_inset
+
+i així successivament.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tots aquests racionals calculats a partir del conjunt de naturals A els
+ podem col·locar formant una seqüència de la forma [q₀, q₁, q₂, q₃, ...] on
+ tal com hem dit cada qᵢ=1/10^(aᵢ+1).
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-230.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -8279,9 +13264,7 @@ Les successives distàncies entre Aquil·les i la tortuga serien el conjunt
 \begin_inset Text
 
 \begin_layout Plain Layout
-Però en el món físic i en la també seva intuïció de la recta real sí que
- Aquil·les arriba a atrapar la tortuga.
- I això els desconcertava molt, pobres grecs.
+
 \end_layout
 
 \end_inset
