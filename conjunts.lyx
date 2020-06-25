@@ -123,7 +123,7 @@ arrayrulecolor{taula}
 
 
 \begin_inset Tabular
-<lyxtabular version="3" rows="269" columns="2">
+<lyxtabular version="3" rows="273" columns="2">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="100text%">
@@ -12742,7 +12742,21 @@ Per veure que alhora
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
 
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -12752,10 +12766,119 @@ Per veure que alhora
 
 \begin_layout Plain Layout
 Anem doncs a construir aquesta bijecció.
- Suposem un element del domini 
+ Suposem un element del conjunt de sortida 
 \begin_inset Formula $X\in2^{\mathbb{N}}.$
 \end_inset
 
+ En tant que element de 
+\begin_inset Formula $2^{\mathbb{N}}$
+\end_inset
+
+ aquest X serà un conjunt de nombres naturals, és a dir que 
+\begin_inset Formula $X\subseteq\mathbb{N}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aplicant l'axioma de reemplaçament sobre aquest X i la funció 
+\begin_inset Formula $f:\mathbb{N}\mathbb{\rightarrow Q}$
+\end_inset
+
+ tal que 
+\begin_inset Formula $f(n)=\frac{1}{10^{n+1}}$
+\end_inset
+
+ obtindrem un 
+\begin_inset Formula $f(X)$
+\end_inset
+
+ que serà un conjunt de nombres racionals.
+ A continuació d'aquest conjunt en farem el sumatori.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per exemple:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{eqnarray*}
+\sum f(\left\{ 0,1\right\} ) & = & \sum\left\{ \nicefrac{1}{10^{0+1}},\nicefrac{1}{10^{1+1}}\right\} \\
+ & = & \sum\left\{ \nicefrac{1}{10^{1}},\nicefrac{1}{10^{2}}\right\} \\
+ & = & \sum\left\{ \nicefrac{1}{10},\nicefrac{1}{100}\right\} \\
+ & = & \nicefrac{1}{10}+\nicefrac{1}{100}\\
+ & = & 0,1+0,01\\
+ & = & 0,11\\
+\\
+\sum f(\left\{ 2,3,5\right\} ) & = & \sum\left\{ \nicefrac{1}{10^{3}},\nicefrac{1}{10^{4}},\nicefrac{1}{10^{6}}\right\} =0,001101\\
+\\
+\sum f(\emptyset) & = & \sum\emptyset=0
+\end{eqnarray*}
+
+\end_inset
+
 
 \end_layout
 
@@ -12767,7 +12890,21 @@ Anem doncs a construir aquesta bijecció.
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
 
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -12776,7 +12913,40 @@ Anem doncs a construir aquesta bijecció.
 \begin_inset Text
 
 \begin_layout Plain Layout
+Amb això tindríem ja definida una bijecció de com a mínim tots els subconjunts
+ 
+\shape italic
+finits 
+\shape default
+de 
+\begin_inset Formula $\mathbb{N}$
+\end_inset
 
+ cap a un cert subconjunt de 
+\begin_inset Formula $\mathbb{R}.$
+\end_inset
+
+ Però necessitem tractar 
+\shape italic
+tots 
+\shape default
+els subconjunts de 
+\begin_inset Formula $\mathbb{N}$
+\end_inset
+
+, també els que són infinits com ara el conjunt de nombres parells 
+\begin_inset Formula $\left\{ 0,2,4,6,8,\ldots\right\} $
+\end_inset
+
+, el conjunt de nombres primers 
+\begin_inset Formula $\left\{ 2,3,5,7,11,\ldots\right\} $
+\end_inset
+
+ o el mateix conjunt 
+\begin_inset Formula $\mathbb{N}$
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -12787,27 +12957,21 @@ Anem doncs a construir aquesta bijecció.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
 
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
 \end_layout
 
 \end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
 
-\begin_layout Plain Layout
-
+.
 \end_layout
 
 \end_inset
@@ -12850,21 +13014,7 @@ arabic{nfila}
 \begin_inset Text
 
 \begin_layout Plain Layout
-Aquesta bijecció la podem construir de la següent manera: suposem un conjunt
- de naturals qualsevol 
-\begin_inset Formula $A=\left\{ a_{0},a_{1},a_{2},a_{3},\ldots\right\} $
-\end_inset
 
-.
- Per cadascun dels seus elements 
-\begin_inset Formula $a_{i}$
-\end_inset
-
- existeix un nombre racional de la forma 
-\begin_inset Formula $\frac{1}{10^{a_{i}+1}}$
-\end_inset
-
-.
 \end_layout
 
 \end_inset
@@ -12898,31 +13048,7 @@ arabic{nfila}
 \begin_inset Text
 
 \begin_layout Plain Layout
-És a dir, que al natural 
-\begin_inset Formula $0$
-\end_inset
 
- li correspondria el racional 
-\begin_inset Formula $\nicefrac{1}{10}$
-\end_inset
-
-, al natural 
-\begin_inset Formula $1$
-\end_inset
-
- el racional 
-\begin_inset Formula $\nicefrac{1}{100}$
-\end_inset
-
-, al 
-\begin_inset Formula $2$
-\end_inset
-
- el racional 
-\begin_inset Formula $\nicefrac{1}{1000}$
-\end_inset
-
-i així successivament.
 \end_layout
 
 \end_inset
@@ -12956,9 +13082,109 @@ arabic{nfila}
 \begin_inset Text
 
 \begin_layout Plain Layout
-Tots aquests racionals calculats a partir del conjunt de naturals A els
- podem col·locar formant una seqüència de la forma [q₀, q₁, q₂, q₃, ...] on
- tal com hem dit cada qᵢ=1/10^(aᵢ+1).
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
