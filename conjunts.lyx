@@ -8,7 +8,6 @@
 \begin_preamble
 \usepackage{colortbl}
 \usepackage{xcolor}
-\definecolor{taula}{gray}{0.75}
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -116,6 +115,13 @@ newcounter{nfila}
 
 
 \backslash
+definecolor{taula}{gray}{0.75}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
 arrayrulecolor{taula}
 \end_layout
 
@@ -123,7 +129,7 @@ arrayrulecolor{taula}
 
 
 \begin_inset Tabular
-<lyxtabular version="3" rows="276" columns="2">
+<lyxtabular version="3" rows="359" columns="2">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="100text%">
@@ -2505,6 +2511,26 @@ L'
 axioma d'extensionalitat
 \shape default
  diu que dos conjunts iguals són el mateix conjunt.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -10817,6 +10843,12 @@ arabic{nfila}
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "ordre-total"
+
+\end_inset
+
 Un 
 \shape italic
 ordre total
@@ -13869,6 +13901,3626 @@ I existint aquesta bijecció, podem donar per fet que
 </cell>
 </row>
 <row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aquest fet i particularment la desigualtat 
+\begin_inset Formula $|ℕ|<|ℝ|$
+\end_inset
+
+ que se'n deriva té conseqüències profundes més enllà de la matemàtica.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per una banda el món físic en el que vivim immersos se'ns presenta en formes
+ que gairebé sempre inclouen directa o indirectament nombres reals.
+ O potser més ben dit, aquella noció de recta formada per punts que ens
+ ha creat la necessitat de descobrir-los.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+La distància que separa dos punts de l'espai físic és un nombre real, el
+ temps que transcorre entre dos esdeveniments és un nombre real.
+ Les variables dels models que creem per representar el comportament de
+ qualsevol sistema físic gairebé sempre són nombres reals o derivats.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per altra banda, els llenguatges que som capaços de crear nosaltres per
+ descriure'ns i discórrer sobre el món són en darrer terme encadenaments
+ de conjunts finits de símbols.
+ I com a tals el conjunt de discursos que podem generar amb ells està limitat
+ a la cardinalitat de 
+\begin_inset Formula $ℕ$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dit d'una altra manera, podríem establir una bijecció entre tots els infinits
+ llibres que podrien arribar a ser escrits en qualsevol llengua sobre qualsevol
+ cosa i els nombres naturals, simplement codificant el text en forma de
+ dígits.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I això inclou el llenguatge natural, qualsevol notació matemàtica formal,
+ els llenguatges formals amb els que programem ordinadors i representem
+ les seves dades, la manera com especifiquem els plànols per construir una
+ màquina, etc.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Res d'això ens serveix per tractar adequadament amb la totalitat del conjunt
+ dels nombres reals i per extensió amb la realitat tal com la percebem.
+ Senzillament hi ha massa teca.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sovint ens conformem treballant amb un subconjunt numerable i aproximacions
+ més o menys bones de la cosa real.
+ En computació això vindria a ser el que es diu l'aritmètica de punt flotant.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Recapitulem una mica.
+ Hem estat veient que hi ha conjunts finits, que per definició són equipotents
+ amb un nombre natural, o sigui un element de 
+\begin_inset Formula $ℕ$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I després que hi ha una família de conjunts infinits que són equipotents
+ amb 
+\begin_inset Formula $ℕ$
+\end_inset
+
+ com 
+\begin_inset Formula $ℤ$
+\end_inset
+
+ o 
+\begin_inset Formula $ℚ$
+\end_inset
+
+.
+ D'aquesta mena de conjunts en diem 
+\begin_inset Quotes fls
+\end_inset
+
+
+\shape italic
+numerables
+\shape default
+
+\begin_inset Quotes frs
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Però també hi ha uns altres conjunts equipotents amb 
+\begin_inset Formula $2^{ℕ}$
+\end_inset
+
+ com 
+\begin_inset Formula $ℝ$
+\end_inset
+
+ que són estrictament més grans.
+ I després conjunts encara més i més estrictament grans que podem anar construin
+t tot aplicant l'operació de potència de conjunts als conjunts que ja tinguem.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El que no sabem és si existeixen altres cardinalitats intermèdies al començament
+ d'aquesta jerarquia de conjunts infinits.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+És a dir: existeix algun conjunt 
+\begin_inset Formula $X$
+\end_inset
+
+ infinit tal que 
+\begin_inset Formula $|X|<|ℕ|$
+\end_inset
+
+? I algun 
+\begin_inset Formula $Y$
+\end_inset
+
+ tal que 
+\begin_inset Formula $|ℕ|<|Y|<|ℝ|$
+\end_inset
+
+?
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+La primera qüestió és força assequible si partim de la definició d'infinitat
+ de Dedekind que vam veure.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Suposem un conjunt 
+\begin_inset Formula $X$
+\end_inset
+
+ que és Dedekind-infinit.
+ És a dir, que existeix un subconjunt propi 
+\begin_inset Formula $A\subsetneq X$
+\end_inset
+
+ i una bijecció 
+\begin_inset Formula $f$
+\end_inset
+
+ entre 
+\begin_inset Formula $X$
+\end_inset
+
+ i 
+\begin_inset Formula $A$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Com que 
+\begin_inset Formula $X\neq A$
+\end_inset
+
+, ha d'existir almenys un 
+\begin_inset Formula $x_{0}\in X\setminus A$
+\end_inset
+
+.
+ Un element de 
+\begin_inset Formula $X$
+\end_inset
+
+ que 
+\series bold
+no
+\series default
+ sigui alhora element de 
+\begin_inset Formula $A$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Com que el codomini de 
+\begin_inset Formula $f$
+\end_inset
+
+ és 
+\begin_inset Formula $A$
+\end_inset
+
+, 
+\begin_inset Formula $f(x_{0})\in A$
+\end_inset
+
+ i per tant ha de ser diferent que 
+\begin_inset Formula $x_{0}$
+\end_inset
+
+.
+ En direm 
+\begin_inset Formula $x_{1}=f(x_{0})$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+De la mateixa manera, farem 
+\begin_inset Formula $x_{2}=f(x_{1})=f(f(x_{0}))$
+\end_inset
+
+.
+ Aquest 
+\begin_inset Formula $x_{2}$
+\end_inset
+
+ ha de ser diferent que 
+\begin_inset Formula $x_{0}$
+\end_inset
+
+ pel mateix motiu que abans.
+ Tampoc pot ser igual a 
+\begin_inset Formula $x_{1}$
+\end_inset
+
+ perquè, donat que 
+\begin_inset Formula $f$
+\end_inset
+
+ és una bijecció:
+\begin_inset Formula 
+\[
+x_{2}=x_{1}\Rightarrow f(x_{1})=f(x_{0})\Rightarrow x_{1}=x_{0}
+\]
+
+\end_inset
+
+ \SpecialChar ldots
+i ja hem vist abans que això és fals, que 
+\begin_inset Formula $x_{1}\neq x_{0}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Seguint aquest procediment, podrem anar definit tota una seqüència de 
+\begin_inset Formula $x_{n}$
+\end_inset
+
+ en la que per tot 
+\begin_inset Formula $n\inℕ$
+\end_inset
+
+, 
+\begin_inset Formula $x_{n+1}=f(x_{n})$
+\end_inset
+
+, on tot 
+\begin_inset Formula $x_{n}\in X$
+\end_inset
+
+ i cada 
+\begin_inset Formula $x_{n}$
+\end_inset
+
+ és diferent de tots els altres.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aquesta seqüència funciona com una bijecció entre 
+\begin_inset Formula $ℕ$
+\end_inset
+
+ i un subconjunt de 
+\begin_inset Formula $X$
+\end_inset
+
+.
+ I l'existència d'aquesta bijecció ens assegura que 
+\begin_inset Formula $|ℕ|≤|X|$
+\end_inset
+
+: 
+\begin_inset Formula $ℕ$
+\end_inset
+
+ té la cardinalitat mínima que pot tenir un conjunt Dedekind-infinit.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L'altra qüestió, si 
+\begin_inset Formula $ℝ$
+\end_inset
+
+ té la cardinalitat més petita d'entre les que són estrictament superiors
+ que la de 
+\begin_inset Formula $ℕ$
+\end_inset
+
+, 
+\strikeout on
+té més enhúndia
+\strikeout default
+ és més complexa.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cantor va anomenar a aquesta proposició la 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+hipòtesi del continu
+\begin_inset Quotes frs
+\end_inset
+
+
+\shape default
+ i va dedicar anys a intentar demostrar-la.
+ No ho va aconseguir i es va quedar com una de les qüestions matemàtiques
+ obertes per resoldre de cara al segle XX.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anteriorment hem parlat de la incompletesa dels sistemes axiomàtics que
+ va demostrar Gödel: qualsevol sistema axiomàtic que sigui consistent i
+ que abasti l'aritmètica bàsica tindrà qüestions que no s'hi podran demostrar
+ ni refutar.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Doncs bé, el mateix Gödel va contribuir a demostrar que aquest és el cas
+ de la hipòtesi del continu en el sistema ZFC.
+ Però la prova completa d'això no va arribar fins als anys 60 del segle
+ XX.
+ Normal que el pobre Cantor no se'n sortís.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Això vol dir que ZFC no ens respondrà si existeix o no una cardinalitat
+ que estigui entre 
+\begin_inset Formula $ℕ$
+\end_inset
+
+ i 
+\begin_inset Formula $ℝ$
+\end_inset
+
+ però que si tenim moltes ganes que no existeixi podem introduir la seva
+ inexistència com a axioma i fer el nou sistema axiomàtic ZFC+CH (de 
+\series bold
+\shape italic
+c
+\series default
+ontinuum 
+\series bold
+h
+\series default
+ypothesis
+\shape default
+), que seria tant consistent com ZFC.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I si, en canvi, tenim moltes ganes que existeixi podem fer el sistema axiomàtic
+ ZFC+¬CH i també serà tant consistent com ZFC.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Una altra manera d'entendre això és pensar que existeixen dos ens abstractes
+ separats als que podem anomenar indistintament "conjunts", que ZFC és una
+ teoria que descriu ambdues de manera ambigüa i que la introducció de CH
+ o de ¬CH a la teoria desfà l'ambigüitat en un sentit o un altre.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Això ja depèn molt de si adoptem una postura filosòfica formalista o realista
+ respecte la naturalesa última de la matemàtica i els seus objectes.
+ Però jo no em veig pas capacitat per parlar de filosofia de les matemàtiques.
+ És un tema us el deixaré a vosaltres.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Com ja vam dir, la tria entre un sistema axiomàtic i un altre que se suposin
+ consistents és una pura qüestió de conveni.
+ En el cas de la hipòtesi del continu no ha calgut establir cap conveni
+ perquè resulta que ara com ara no hi ha grans qüestions matemàtiques que
+ en depenguin.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Si algun dia es topa amb alguna gran conjectura necessita de la hipòtesi
+ del continu o de la seva negació per ser demostrada i es decideix que convé
+ que aquesta conjectura tingui una demostració dins de la matemàtica estàndard,
+ doncs possiblement es revisi aquest conveni i deixeram de fer servir ZFC
+ en favor de ZFC+CH o ZFC+¬CH.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+De fet, això és vindria a ser el que succeí amb el darrer axioma que ens
+ falta, l'axioma de l'elecció.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Es va trobar que era independent del sistema axiomàtic format pel conjunt
+ d'axiomes que hem vist fins ara, ZF, i va resultar que és necessari per
+ sostenir part de la matemàtica que es va considerar de és desitjable que
+ sigui sostinguda.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tot això amb certa controvèrsia; a alguns matemàtics aquest axioma els semblava
+ molt rebuscat i poc auto-evident, característiques que són poc desitjables
+ en un axioma.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per altra banda, aquest axioma el necessitem per demostrar coses tant aparentmen
+t òbvies com que si tenim dos conjunts qualssevol 
+\begin_inset Formula $A$
+\end_inset
+
+ i 
+\begin_inset Formula $B$
+\end_inset
+
+, és el cas que 
+\begin_inset Formula $|A|\leq|B|$
+\end_inset
+
+ o bé 
+\begin_inset Formula $|A|\geq|B|$
+\end_inset
+
+.
+ I aquest teorema (la totalitat en l'ordre de les cardinalitats) alhora
+ el volem per a demostrar moltes altres coses.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diu l'
+\shape italic
+axioma de l'elecció
+\shape default
+ que si tenim un conjunt 
+\begin_inset Formula $X$
+\end_inset
+
+ de conjunts no buits, existeix una funció 
+\begin_inset Formula $f$
+\end_inset
+
+ tal que per tota 
+\begin_inset Formula $A\in X$
+\end_inset
+
+, 
+\begin_inset Formula $f(A)\in A$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+És a dir, que la funció 
+\begin_inset Formula $f(X)$
+\end_inset
+
+ elegeix un element per cada conjunt dels que formen 
+\begin_inset Formula $X$
+\end_inset
+
+.
+ Si ens restringíssim a conjunts finits, podriem construir aquesta funció
+ fent servir l'axioma de l'infinit a través de la inducció matemàtica i
+ no ens caldria un axioma especial per tenir-la.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Però en el cas de 
+\begin_inset Formula $X$
+\end_inset
+
+ infinites, necessitem assegurar l'existència de la funció de tria amb l'axioma
+ de l'elecció.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No obstant, de la mateixa manera que amb l'axioma de l'elecció podem demostrar
+ teoremes que intuïm intensament com a veritat i per tant en volem poder
+ fer una demostració, també ens porta a resultats que són fortament antiintuïtiu
+s.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Un d'aquests resultats que és especialment vistós és la paradoxa de Banach-Tarsk
+i.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Suposem que tenim una bola en l'espai de tres dimensions habitual.
+ És a dir, el volum d'espai sòlid que està tancat dins d'una esfera.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diu aquest teorema que és possible dividir aquest sòlid tallant-lo en un
+ conjunt finit de trossos (en cinc parts, es pot arribar a fer) de manera
+ que llavors es poden prendre aquests trossos i fent-los només desplaçaments
+ i rotacions rígides com si fos un puzzle acabar muntant dues boles separades
+ cadascuna d'elles exactament idèntica a la bola original.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Com deia això contradiu fortament la nostra intuïció degut a la nostra experiènc
+ia física tallant i rearmant sòlids a l'espai, i per això se'n diu 
+\begin_inset Quotes fls
+\end_inset
+
+paradoxa
+\begin_inset Quotes frs
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Però és un resultat matemàtic perfectament vàlid i consistent a partir de
+ l'axioma de l'elecció.
+ No és una paradoxa en el sentit que ho era la de Russell que invalidava
+ tota la matemàtica i s'havia de refundar de nou.
+ És només un teorema 
+\begin_inset Quotes fls
+\end_inset
+
+raro
+\begin_inset Quotes frs
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+La matèria física que ens envolta no la podem duplicar màgicament com les
+ boles matemàticament idealitzades d'aquest teorema perquè d'entrada els
+ talls que hem de fer són d'una delicadesa infinita (hauriem de separar
+ la substància com aquell qui diu 
+\begin_inset Quotes fls
+\end_inset
+
+punt a punt
+\begin_inset Quotes frs
+\end_inset
+
+) i la substància de les boles de billar a partir d'una certa escala microscòpic
+a comença a fer coses que s'aparten de l'ideal d'espai tridimensional del
+ que parteix el teorema.
+ Quan ens trobem coses com les partícules elementals i la física quàntica
+ la idealitat contínua d'un espai euclidi ple d'una substància igualment
+ contínua deixa de ser aplicable.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Respecte a la demostració en si, són matemàtiques massa avançades i jo no
+ em veig capacitat per exposar-vos-la però aquest youtuber atabalat en fa
+ un esboç que em sembla que està bastant bé: 
+\begin_inset CommandInset href
+LatexCommand href
+target "https://youtube.com/watch?v=s86-Z-CbaHA"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Una altra cosa menys marciana i més concordant amb la nostra intuïció de
+ les coses que podem demostrar a partir de l'axioma de l'elecció (i sense
+ ell no) és l'equivalència entre la definició estàndard d'infinit i la de
+ Dedekind.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Havíem comentat en el seu moment que no es pren la de Dedekind com a definició
+ estàndard del concepte d'infinit perquè fer-ho ens obligaria a fer servir
+ massa aquest axioma i això no ens 
+\strikeout on
+barrufa
+\strikeout default
+ interessa.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Empalmant aquesta equivalència amb el que hem demostrat abans sobre que
+ 
+\begin_inset Formula $ℕ$
+\end_inset
+
+ és més petit o igual que qualsevol conjunt Dedekind-infinit tindríem que
+ també ho és que qualsevol conjunt infinit 
+\begin_inset Quotes fls
+\end_inset
+
+a seques
+\begin_inset Quotes frs
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I amb això acabariem l'exposició de la teoria de conjunts ZFC, que és en
+ el que es fonamenten les matemàtiques 
+\begin_inset Quotes fls
+\end_inset
+
+estàndard
+\begin_inset Quotes frs
+\end_inset
+
+: quan no ens trobem explorant els fonaments mateixos de les matemàtiques
+ o se'ns indica el contrari explícitament, els teoremes que trobem en qualsevol
+ text matemàtic són en darrer terme conseqüències lògiques estrictes dels
+ nou axiomes de teoria de conjunts que hem explicat:
+\end_layout
+
+\begin_layout Enumerate
+Extensionalitat.
+\end_layout
+
+\begin_layout Enumerate
+Emparellament.
+\end_layout
+
+\begin_layout Enumerate
+Unió.
+\end_layout
+
+\begin_layout Enumerate
+Infinit.
+\end_layout
+
+\begin_layout Enumerate
+Especificació.
+\end_layout
+
+\begin_layout Enumerate
+Regularitat.
+\end_layout
+
+\begin_layout Enumerate
+Reemplaçament.
+\end_layout
+
+\begin_layout Enumerate
+Potència.
+\end_layout
+
+\begin_layout Enumerate
+Elecció.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Amb ells, mica en mica hem anat descobrint una complexitat important en
+ el món que hi ha a l'altre costat del llindar de la infinitat.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hem vist que els conjunts no són infinits i ja està sinó que dintre de la
+ categoria de la infinitat n'hi ha de més grans i de més petits, igual com
+ passa entre els finits.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+També vam veure que per manegar aquesta complexitat amb els conjunts finits
+ fem servir uns objectes abstractes que es diuen 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+nombres
+\begin_inset Quotes frs
+\end_inset
+
+
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quan parlem del nombre 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+tres
+\begin_inset Quotes frs
+\end_inset
+
+
+\shape default
+ estem en certa manera parlant de tots els conjunts que tenen tres elements
+ i podem aplicar les conclusions a les que arribem a tots els conjunts de
+ tres elements.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tot i amb això, mentre ho fem ens oblidem d'aquest fet i dediquem tota la
+ nostra capacitat mental a l'abstracció pura, sense malgastar pensament
+ en particularitats irrellevants.
+ Això ens permet arribar a llocs que serien altrament impensables.
+ Però d'això ja en vam parlar.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+De la mateixa manera que generalitzant els nombres naturals vam descobrir
+ altres tipus de nombres que ens poden servir per abstreure conceptes més
+ amplis que el que és la cardinalitat dels conjunts finits, voldríem ara
+ alguna mena de nombres que ens permetés abstreure sobre conceptes la cardinalit
+at de també els conjunts infinits.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+És per això que en els següents tuits intentarem parlar una mica dels 
+\series bold
+\shape smallcaps
+nombres transfinits
+\series default
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Havíem vist en capítols anteriors que els nombres naturals els construïm
+ aplicant successivament la funció successor 
+\begin_inset Formula $S(x)=x\cup\left\{ x\right\} $
+\end_inset
+
+ sobre el conjunt buit.
+ Això fa que cada nombre sigui de fet el conjunt de tots els nombres anteriors:
+ 
+\begin_inset Formula $5=S(4)=4\cup\left\{ 4\right\} =\left\{ 0,1,2,3\right\} \cup\left\{ 4\right\} =\left\{ 0,1,2,3,4\right\} $
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+També havíem vist la definició del que és un ordre total
+
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[ordre-total]{(219)}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\lang catalan
+ quan vam estar parlant dels nombres racionals.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+La relació 
+\begin_inset Formula $\leq$
+\end_inset
+
+ entre naturals (que de fet és la mateixa que 
+\begin_inset Formula $\subseteq$
+\end_inset
+
+, el ser subconjunt l'un de l'altre) també compleix aquestes propietats
+ de l'ordre total.
+ Igual que les relacions 
+\begin_inset Formula $\leq$
+\end_inset
+
+ entre enters, racionals i reals.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Però a més té una altra propietat que aquests altres conjunts ordenats no
+ tenen: tots els conjunts de nombres naturals tenen un element mínim, més
+ petit que tots els altres elements del conjunt.
+ El mínim del conjunt de nombres primers 
+\begin_inset Formula $\left\{ 2,3,5,7,\ldots\right\} $
+\end_inset
+
+, per exemple, és 
+\begin_inset Formula $2$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mentre que conjunts com el d'enters parells 
+\begin_inset Formula $\left\{ \ldots,-4,-2,0,2,4,6,\ldots\right\} $
+\end_inset
+
+ o l'interval obert real 
+\begin_inset Formula $(0,1)$
+\end_inset
+
+ no han de tenir necessàriament un element mínim segons la relació d'ordre
+ habitual tal com s'entén quan diem "tal nombre és més petit que tal altre".
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+De vegades es poden definir relacions d'ordre alternatives que sí uqe la
+ tenen.
+ Per exemple, podríem ordenar els enters tot seguint una com aquesta 
+\begin_inset Formula $(0,-1,1,-2,2,-3,3,-4,4,\ldots)$
+\end_inset
+
+ i llavors segons aquesta relació d'ordre sí que tots els conjunts d'enters
+ tindrien un mínim.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I el mínim absolut de tots els enters segons aquest ordre seria el zero.
+ Amb els reals no està tan clar com podríem definir un ordre alternatiu
+ que tingués aquesta propietat.
+ En parlarem més endavant.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bé, doncs.
+ Quan una relació d'ordre total té aquesta propietat, que tots els subconjunts
+ no buits tenen un element mínim, es diu que és un 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+bon ordre
+\begin_inset Quotes frs
+\end_inset
+
+
+\shape default
+.
+ Els nombres naturals formen un conjunt 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+ben ordenat
+\begin_inset Quotes frs
+\end_inset
+
+
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+També havíem parlat que el procediment de comptar els elements d'un conjunt
+ finit consistia en establir una bijecció entre aquest conjunt i els nombres
+ naturals.
+ Etiquetar cada element amb un nombre consecutiu.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Havíem obviat però que aquesta bijecció la podem fer de moltes maneres diferents.
+ El conjunt 
+\begin_inset Formula $\left\{ a,b,c\right\} $
+\end_inset
+
+ podem comptar-lo aíxí:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{array}{ccc}
+a & \rightarrow & 0\\
+b & \rightarrow & 1\\
+c & \rightarrow & 2
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+O bé així:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{array}{ccc}
+b & \rightarrow & 0\\
+a & \rightarrow & 1\\
+c & \rightarrow & 2
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cadascuna d'aquestes possibles bijeccions ens determina de fet una relació
+ bon ordre diferent en el conjunt 
+\begin_inset Formula $\left\{ a,b,c\right\} $
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I viceversa: si partim d'una relació de bon ordre definida sobre un conjunt,
+ ens queda determinada una única bijecció amb el conjunt de naturals que
+ representa la seva cardinalitat de manera consistent en el sentit que 
+\begin_inset Formula $x\leq y\longleftrightarrow f(x)\leq f(y)$
+\end_inset
+
+.
+ Ordenar és comptar.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D'aquestes bijeccions entre conjunts ordenats que són consistents amb l'ordre
+ se'n diuen 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+isomorfismes d'ordre
+\begin_inset Quotes frs
+\end_inset
+
+
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Les dues propietats dels nombres naturals que hem vist (ser ben ordenats
+ i que cadascun sigui el conjunt de tots els que són més petits que ell)
+ es poden generalitzar i extendre a una classe de conjunts molt més general
+ que els que es poden generar aplicant la funció successor.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tots els nombres naturals d'entrada formaran part d'aquesta categoria perquè
+ hem vist que compleixen aquestes propietats, però a més:
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El mateix conjunt de tots els nombres naturals, 
+\begin_inset Formula $ℕ=\left\{ 0,1,2,3,\ldots\right\} $
+\end_inset
+
+, també seria un conjunt d'aquest tipus.
+ Un objecte que en el bon ordre vindria just després de tota la sèrie infinita
+ de naturals, ja que els té com a elements i per tant són estrictament menors.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+En aquest context d'aquest conjunt no en direm 
+\begin_inset Formula $ℕ$
+\end_inset
+
+ sinó nombre 
+\begin_inset Formula $\omega$
+\end_inset
+
+ 
+\shape italic
+(omega)
+\shape default
+.
+ Per allò d'estar al final, suposo.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Però potser no perquè de fet no està al final de res.
+ A aquest 
+\begin_inset Formula $\omega$
+\end_inset
+
+ li podem aplicar la funció successor i obtenim 
+\begin_inset Formula $\omega+1=\left\{ 0,1,2,3,\ldots,\omega\right\} $
+\end_inset
+
+, que també és un conjunt d'aquesta classe.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I tornant a aplicar repetidament la funció successor obtindríem altre cop
+ infinits 
+\begin_inset Formula $ω+2$
+\end_inset
+
+, 
+\begin_inset Formula $ω+3$
+\end_inset
+
+, \SpecialChar ldots
+ que anirien just a continuació de tota la seqüència d'elements de 
+\begin_inset Formula $ℕ$
+\end_inset
+
+, 
+\begin_inset Formula $ω$
+\end_inset
+
+ i 
+\begin_inset Formula $ω+1$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I el conjunt de tots ells formarien un nou element al final de tot que en
+ diem 
+\begin_inset Formula $ω+ω=ω·2$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A aquest 
+\begin_inset Formula $ω·2$
+\end_inset
+
+ també podem aplicar-hi el successor iterativament fins a generar 
+\begin_inset Formula $ω·3$
+\end_inset
+
+.
+ I després 
+\begin_inset Formula $ω·4$
+\end_inset
+
+.
+ I fent això infinites vegades arribar fins a 
+\begin_inset Formula $ω·ω=ω^{2}$
+\end_inset
+
+.
+ I després seguir fins a 
+\begin_inset Formula $ω^{3}$
+\end_inset
+
+, 
+\begin_inset Formula $ω^{4}$
+\end_inset
+
+, \SpecialChar ldots
+, 
+\begin_inset Formula $ω^{ω}$
+\end_inset
+
+, \SpecialChar ldots
+, 
+\begin_inset Formula $ω^{ω^{ω}}$
+\end_inset
+
+, \SpecialChar ldots
+, 
+\begin_inset Formula $ω^{ω^{ω^{ω^{\iddots}}}}$
+\end_inset
+
+, \SpecialChar ldots
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+De fet a qualsevol notació que ens poguem inventar per representar elements
+ més i més grans li passarà el mateix que quan parlàvem de la dels nombres
+ reals.
+ Que només pot representar una quantitat numerable de coses i n'hi ha moltes
+ més per representar.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+La quantitat d'objectes d'aquesta classe de conjunts que hi ha és absurdament
+ gran.
+ I això és bastant literal en el sentit que ZFC no ens serveix per parlar
+ d'aquesta categoria de quantitats.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Això és així perquè no podem agafar-los tots i tancar-los en un conjunt.
+ Aquest conjunt hauria de ser per definició un altre objecte d'aquesta classe
+ i per tant ser element d'ell mateix.
+ I això ho tenim prohibit per l'axioma de regularitat.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D'aquesta mena de conjunts en diem 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+nombres ordinals
+\begin_inset Quotes frs
+\end_inset
+
+
+\shape default
+ i en certa manera són anàlegs funcionalment al concepte de numeral ordinal
+ en lingüística.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+linia 774
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
@@ -13896,11 +17548,7 @@ arabic{nfila}
 \begin_inset Text
 
 \begin_layout Plain Layout
-Aquest fet i particularment la desigualtat 
-\begin_inset Formula $|ℕ|<|ℝ|$
-\end_inset
 
- que se'n deriva té conseqüències profundes més enllà de la matemàtica.
 \end_layout
 
 \end_inset
