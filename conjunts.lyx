@@ -115,6 +115,19 @@ newcounter{nfila}
 
 
 \backslash
+newcommand{
+\backslash
+fila}{
+\backslash
+refstepcounter{nfila}
+\backslash
+arabic{nfila}.}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
 definecolor{taula}{gray}{0.75}
 \end_layout
 
@@ -145,14 +158,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -190,14 +201,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -232,14 +241,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -270,14 +277,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -315,14 +320,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -350,14 +353,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -405,14 +406,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -458,14 +457,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -524,14 +521,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -559,14 +554,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -596,14 +589,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -633,14 +624,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -681,14 +670,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -732,14 +719,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -782,14 +767,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -818,14 +801,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -861,14 +842,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -910,14 +889,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -954,14 +931,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -991,14 +966,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -1033,14 +1006,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -1070,14 +1041,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -1130,14 +1099,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -1190,14 +1157,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -1238,14 +1203,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -1317,14 +1280,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -1381,14 +1342,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -1417,14 +1376,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -1463,14 +1420,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -1500,14 +1455,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -1539,14 +1492,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -1577,14 +1528,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -1613,14 +1562,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -1680,14 +1627,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -1726,14 +1671,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -1763,14 +1706,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -1820,14 +1761,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -1866,14 +1805,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -1904,14 +1841,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -1947,14 +1882,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -1991,14 +1924,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -2035,14 +1966,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -2087,14 +2016,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -2122,14 +2049,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -2166,14 +2091,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -2202,14 +2125,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -2238,14 +2159,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -2274,14 +2193,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -2312,14 +2229,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -2364,14 +2279,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -2420,14 +2333,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -2456,14 +2367,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -2490,14 +2399,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -2521,6 +2428,18 @@ axioma d'extensionalitat
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -2548,14 +2467,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -2585,14 +2502,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -2672,14 +2587,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -2709,14 +2622,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -2745,14 +2656,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -2781,14 +2690,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -2842,14 +2749,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -2906,14 +2811,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -2981,14 +2884,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -3053,14 +2954,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -3111,14 +3010,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -3150,14 +3047,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -3202,14 +3097,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -3239,14 +3132,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -3285,14 +3176,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -3327,14 +3216,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -3379,14 +3266,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -3424,14 +3309,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -3494,14 +3377,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -3579,14 +3460,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -3638,14 +3517,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -3688,14 +3565,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -3722,14 +3597,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -3765,14 +3638,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -3815,14 +3686,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -3882,14 +3751,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -3932,14 +3799,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -3968,14 +3833,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -4070,14 +3933,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -4109,14 +3970,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -4169,14 +4028,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -4228,14 +4085,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -4296,14 +4151,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -4337,14 +4190,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -4392,14 +4243,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -4450,14 +4299,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -4500,14 +4347,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -4538,14 +4383,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -4575,14 +4418,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -4612,14 +4453,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -4653,14 +4492,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -4696,14 +4533,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -4733,14 +4568,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -4771,14 +4604,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -4811,14 +4642,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -4851,14 +4680,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -4890,14 +4717,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -4931,14 +4756,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -4979,14 +4802,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -5049,14 +4870,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -5108,14 +4927,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -5148,14 +4965,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -5189,14 +5004,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -5251,14 +5064,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -5309,14 +5120,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -5365,14 +5174,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -5408,14 +5215,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -5452,14 +5257,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -5488,14 +5291,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -5531,14 +5332,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -5567,14 +5366,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -5614,14 +5411,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -5664,14 +5459,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -5732,14 +5525,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -5776,14 +5567,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -5840,14 +5629,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -5880,14 +5667,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -5920,14 +5705,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -5956,14 +5739,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -6005,14 +5786,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -6065,14 +5844,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -6132,14 +5909,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -6175,14 +5950,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -6230,14 +6003,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -6306,14 +6077,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -6346,14 +6115,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -6406,14 +6173,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -6489,14 +6254,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -6540,14 +6303,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -6581,14 +6342,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -6649,14 +6408,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -6697,14 +6454,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -6752,14 +6507,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -6798,14 +6551,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -6867,14 +6618,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -6907,14 +6656,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -6943,14 +6690,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -7007,14 +6752,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -7107,14 +6850,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -7148,14 +6889,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -7211,14 +6950,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -7254,14 +6991,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -7293,14 +7028,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -7363,14 +7096,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -7404,14 +7135,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -7489,14 +7218,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -7545,14 +7272,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -7582,14 +7307,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -7619,14 +7342,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -7657,14 +7378,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -7695,14 +7414,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -7741,14 +7458,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -7795,14 +7510,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -7870,14 +7583,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -7905,14 +7616,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -7945,14 +7654,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -7984,14 +7691,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -8032,14 +7737,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -8071,14 +7774,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -8121,14 +7822,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -8173,14 +7872,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -8212,14 +7909,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -8284,14 +7979,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -8337,14 +8030,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -8391,14 +8082,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -8464,14 +8153,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -8512,14 +8199,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -8554,14 +8239,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -8597,14 +8280,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -8658,14 +8339,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -8712,14 +8391,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -8753,14 +8430,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -8795,14 +8470,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -8830,14 +8503,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -8873,14 +8544,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -8923,14 +8592,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -8959,14 +8626,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -9006,14 +8671,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -9062,14 +8725,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -9116,14 +8777,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -9163,14 +8822,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -9199,14 +8856,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -9239,14 +8894,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -9275,14 +8928,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -9310,14 +8961,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -9345,14 +8994,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -9382,14 +9029,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -9457,14 +9102,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -9505,14 +9148,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -9546,14 +9187,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -9582,14 +9221,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -9618,14 +9255,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -9656,14 +9291,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -9697,14 +9330,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -9760,14 +9391,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -9810,14 +9439,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -9863,14 +9490,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -9908,14 +9533,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -9963,14 +9586,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -10023,14 +9644,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -10075,14 +9694,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -10123,14 +9740,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -10181,14 +9796,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -10232,14 +9845,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -10274,14 +9885,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -10319,14 +9928,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -10363,14 +9970,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -10401,14 +10006,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -10462,14 +10065,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -10519,14 +10120,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -10589,14 +10188,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -10675,14 +10272,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -10711,14 +10306,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -10750,14 +10343,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -10787,14 +10378,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -10827,14 +10416,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -10983,14 +10570,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -11033,14 +10618,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -11069,14 +10652,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -11107,14 +10688,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -11171,14 +10750,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -11250,14 +10827,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -11305,14 +10880,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -11343,14 +10916,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -11420,14 +10991,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -11480,14 +11049,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -11522,14 +11089,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -11558,14 +11123,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -11595,14 +11158,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -11642,14 +11203,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -11679,14 +11238,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -11720,14 +11277,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -11759,14 +11314,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -11794,14 +11347,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -11831,14 +11382,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -11871,14 +11420,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -11971,14 +11518,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -12040,14 +11585,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -12078,14 +11621,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -12121,14 +11662,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -12166,14 +11705,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -12252,14 +11789,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -12311,14 +11846,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -12359,14 +11892,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -12423,14 +11954,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -12546,14 +12075,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -12591,14 +12118,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -12639,14 +12164,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -12680,14 +12203,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -12735,14 +12256,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -12785,14 +12304,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -12832,14 +12349,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -12888,14 +12403,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -12934,6 +12447,18 @@ f(\emptyset) & = & \sum\emptyset=0
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -12992,14 +12517,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -13059,14 +12582,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -13114,14 +12635,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -13160,14 +12679,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -13199,14 +12716,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -13239,14 +12754,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -13287,14 +12800,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -13330,14 +12841,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -13385,14 +12894,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -13438,14 +12945,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -13492,14 +12997,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -13552,14 +13055,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -13606,14 +13107,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -13649,14 +13148,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -13701,14 +13198,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -13755,14 +13250,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -13805,14 +13298,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -13863,14 +13354,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -13912,14 +13401,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -13950,14 +13437,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -13987,14 +13472,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -14024,14 +13507,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -14066,14 +13547,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -14104,14 +13583,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -14141,14 +13618,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -14177,14 +13652,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -14213,14 +13686,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -14253,14 +13724,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -14313,14 +13782,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -14357,14 +13824,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -14392,14 +13857,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -14442,14 +13905,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -14477,14 +13938,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -14532,14 +13991,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -14587,14 +14044,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -14642,14 +14097,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -14711,14 +14164,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -14765,14 +14216,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -14816,14 +14265,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -14863,14 +14310,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -14911,14 +14356,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -14948,14 +14391,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -14986,14 +14427,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -15041,14 +14480,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -15076,14 +14513,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -15113,14 +14548,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -15150,14 +14583,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -15188,14 +14619,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -15226,14 +14655,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -15261,14 +14688,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -15298,14 +14723,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -15334,14 +14757,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -15387,14 +14808,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -15441,14 +14860,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -15486,14 +14903,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -15525,14 +14940,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -15562,14 +14975,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -15597,14 +15008,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -15632,14 +15041,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -15670,14 +15077,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -15713,14 +15118,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -15759,14 +15162,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -15809,14 +15210,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -15852,14 +15251,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -15889,14 +15286,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -15929,14 +15324,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -15977,14 +15370,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -16059,14 +15450,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -16094,14 +15483,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -16130,14 +15517,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -16177,14 +15562,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -16225,14 +15608,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -16263,14 +15644,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -16301,14 +15680,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -16341,14 +15718,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -16386,14 +15761,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -16444,14 +15817,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -16492,14 +15863,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -16537,14 +15906,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -16580,14 +15947,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -16621,14 +15986,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -16658,14 +16021,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -16719,14 +16080,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -16756,14 +16115,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -16829,14 +16186,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -16868,14 +16223,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -16909,14 +16262,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -16956,14 +16307,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -16993,14 +16342,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -17028,14 +16375,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -17068,14 +16413,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -17115,14 +16458,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -17158,14 +16499,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -17214,14 +16553,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -17253,14 +16590,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -17330,14 +16665,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -17368,14 +16701,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -17405,14 +16736,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -17442,14 +16771,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -17489,14 +16816,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -17532,14 +16857,12 @@ status open
 
 
 \backslash
-refstepcounter{nfila}
-\backslash
-arabic{nfila}
+fila
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
