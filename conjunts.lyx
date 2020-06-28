@@ -142,7 +142,7 @@ arrayrulecolor{taula}
 
 
 \begin_inset Tabular
-<lyxtabular version="3" rows="358" columns="2">
+<lyxtabular version="3" rows="386" columns="2">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="100text%">
@@ -14286,6 +14286,13 @@ fila
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "continu"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -16974,16 +16981,1231 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Note Note
+Tot conjunt ben ordenat (finit o infinit) té isomorfisme d'ordre amb exactament
+ un nombre ordinal.
+ És a dir, que es poden etiquetar ordenadament els seus elements amb nombres
+ ordinals consecutius i això es pot fer d'una sola manera.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
-linia 774
+
+
+\backslash
+fila
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Com ja es va dir anteriorment, el procediment informal de comptar coses
+ és exactament això.
+ Anem etiquetant els objectes amb un nombre (ordinal) de manera ordenada
+ fins que els esgotem.
+ I ara tenim eines per fer aquesta part també en conjunts infinits que estiguin
+ ben ordenats.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quan vam parlar de comptar conjunts finits fent servir nombres naturals,
+ però, vam obviar l'ordre en què els comptàvem i la bijecció particular
+ que fèiem servir per descartar-ho com a irrellevant i quedar-nos únicament
+ amb el nombre final que obteníem, la cardinalitat.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Això ens ho podíem permetre aleshores perquè tots els conjunts finits es
+ poden ordenar d'alguna manera i totes les maneres en què es pot ordenar
+ un conjunt finit són isomòrfiques.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+És a dir, no importa l'ordre en que comptem els elements d'un conjunt finit,
+ el conjunt de nombres naturals que acabarem fent servir per etiquetar els
+ seus elements serà el mateix.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Amb els nombres infinits això no passa i el comptatge és sensible a l'ordre
+ particular en que ens trobem el conjunt.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per exemple, si comptem els nombres naturals mateixos en el seu ordre natural
+ (el que ens genera la relació d'ordre 
+\begin_inset Formula $\leq$
+\end_inset
+
+ tal com l'entenem habitualment, o sia: 
+\begin_inset Formula $0,1,2,3,4,…$
+\end_inset
+
+), farem:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{array}{ccc}
+0 & \rightarrow & 0\\
+1 & \rightarrow & 1\\
+2 & \rightarrow & 2\\
+ & \vdots\\
+n & \rightarrow & n\\
+ & \vdots
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+I tindrem que 
+\begin_inset Formula $ℕ$
+\end_inset
+
+ ordenat d'aquesta manera és isomòrfic amb l'ordinal 
+\begin_inset Formula $\omega$
+\end_inset
+
+, cosa que com que de fet són per definició el mateix conjunt no és cap
+ sorpresa.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Però també els podríem ordenar posant el zero al final, així com 
+\begin_inset Formula $(1,2,3,4,\ldots,n,\ldots,0)$
+\end_inset
+
+.
+ Aleshores l'assignació d'ordinals ens quedaria:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{array}{ccc}
+1 & \rightarrow & 0\\
+2 & \rightarrow & 1\\
+3 & \rightarrow & 2\\
+ & \vdots\\
+n & \rightarrow & n-1\\
+ & \vdots\\
+0 & \rightarrow & \omega
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+I en aquest cas tenim que 
+\begin_inset Formula $ℕ$
+\end_inset
+
+ ordenat d'aquesta manera particular, en canvi, és isomòrfic amb el conjunt
+ 
+\begin_inset Formula $ω+1$
+\end_inset
+
+, que és un nombre ordinal diferent de 
+\begin_inset Formula $\omega$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per tant els ordinals tal qual no serveixen per representar la cardinalitat
+ dels conjunts infinits donat que la cardinalitat per definició ha de ser
+ independent de l'ordre particular en que comptem els elements.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per començar ara com ara no sabem ni tant sols si tots els conjunts es poden
+ arribar a ordenar d'
+\shape italic
+alguna
+\shape default
+ manera per poder-ne fer la bijecció amb 
+\shape italic
+algun
+\shape default
+ ordinal.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quan hem definit el que era un bon ordre no hem vist una manera evident
+ d'ordenar els nombres reals de manera que qualsevol subconjunt no buit
+ tingui un mínim definit de manera consistent.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Amb els conjunts que són numerables no hi ha problema perquè la bijecció
+ amb els naturals que per definició existeix es pot fer servir per definir
+ un ordre que serà igual de ben ordenat que ho són els nombres naturals.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per tota la resta es pot demostrar que es pot definir com a mínim un bon
+ ordre fent servir l'axioma de l'elecció.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Els detalls de la demostració són un xic complexos, però la funció d'elecció
+ que ens assegura l'axioma que existeix manipulada amb enginy es pot fer
+ servir per determinar quin serà el mínim de cada subconjunt d'aquest ordre
+ de manera consistent.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+De manera que sense tenir necessàriament idea d'exactament com és en detall,
+ amb l'axioma de l'elecció sabem que existeix almenys un bon ordre per als
+ reals i també per a qualsevol altre conjunt.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+És important entendre que de la mateixa manera que l'axioma de l'elecció
+ només ens assegura que una funció d'elecció existeix però no ens diu res
+ sobre com és, el 
+\shape italic
+teorema del bon ordre
+\shape default
+ només ens assegura que per a cada conjunt un bon ordre existeix, però no
+ ens diu res sobre com és.
+ No sabrem quin nombre anirà abans de quin altre en cap dels com a mínim
+ un bons ordres que té el conjunt dels nombres reals.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tot això al que ens porta és a que qualsevol conjunt es pot posar en bijecció
+ amb diversos ordinals diferents però sempre com a mínim a un.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per representar la cardinalitat d'un conjunt donat 
+\begin_inset Formula $X$
+\end_inset
+
+, una cosa que podem fer és trobar una manera sistemàtica i determinista
+ d'escollir un dels nombres ordinals que són equipotents amb 
+\begin_inset Formula $X$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I, donat que els ordinals són ben ordenats, sabem qualsevol conjunt d'ells
+ sempre tindrà un element mínim.
+ Aquest element mínim el podem fer servir per representar les cardinalitats.
+ I en direm 
+\shape italic
+nombres cardinals
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+En el cas dels conjunts finits, el conjunt d'ordinals equipotents amb cadascun
+ està format per un sol element, que és exactament el nombre natural que
+ havíem dit que representaria la cardinalitat quan ho limitàvem a conjunts
+ finits.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+De manera que els nombres cardinals finits seran altre cop els mateixos
+ naturals 0, 1, 2, 3...
+ de manera consistent a com ja havíem dit que representàvem les cardinalitats
+ finites.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Els nombres corresponents a les cardinalitats infinites es representen fent
+ servir la lletra hebrea 
+\begin_inset Formula $ℵ$
+\end_inset
+
+ 
+\shape italic
+(àlef)
+\shape default
+ amb un subíndex.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Els més petits dels conjunts infinits, els numerables com 
+\begin_inset Formula $ℕ$
+\end_inset
+
+, 
+\begin_inset Formula $ℤ$
+\end_inset
+
+, 
+\begin_inset Formula $ℚ$
+\end_inset
+
+, 
+\begin_inset Formula $ℕ×ℕ$
+\end_inset
+
+, 
+\begin_inset Formula $\mathbb{Q}^{5}$
+\end_inset
+
+, \SpecialChar ldots
+ tenen la seva cardinalitat representada pel nombre cardinal infinit 
+\begin_inset Formula $ℵ_{0}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El nombre cardinal immediatament superior és 
+\begin_inset Formula $ℵ_{1}$
+\end_inset
+
+, el següent 
+\begin_inset Formula $ℵ_{2}$
+\end_inset
+
+, i així successivament.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Així, la hipòtesi del continu
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "continu"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ que volia demostrar Cantor es pot formular de manera succinta en el context
+ dels nombres cardinals en la forma: 
+\begin_inset Formula $|\mathbb{R}|=\aleph_{1}$
+\end_inset
+
+.
+ Si la cardinalitat de 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+ és igual al nombre cardinal immediatament superior al que representa la
+ cardinalitat de 
+\begin_inset Formula $\mathbb{N}$
+\end_inset
+
+, aleshores és que no hi ha cap cardinalitat que estigui entre 
+\begin_inset Formula $\mathbb{N}$
+\end_inset
+
+ i 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tal com vam dir, el sistema ZFC per ell mateix no ens permet demostrar ni
+ refutar la hipòtesi del continu i per tant no ens pot dir a quin nombre
+ àlef correspon la cardinalitat de 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+.
+ El que sí que es pot demostrar sense sortir de ZFC és que 
+\begin_inset Formula $|ℝ|$
+\end_inset
+
+ és igual a algun 
+\begin_inset Formula $ℵ_{i}$
+\end_inset
+
+ amb 
+\begin_inset Formula $i∈ℕ$
+\end_inset
+
+, 
+\begin_inset Formula $i>0$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hi ha conjunts que tenen una cardinalitat encara més gran que la de tots
+ aquests nombres àlef que hem enumerat amb un índex natural 
+\begin_inset Formula $ℵ_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $ℵ_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $ℵ_{2}$
+\end_inset
+
+, \SpecialChar ldots
+ Perquè de fet l'índex de 
+\begin_inset Formula $ℵ$
+\end_inset
+
+ pot ser qualsevol nombre ordinal, no només un natural.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Així, el més petit dels nombres cardinals que són més grans que tots els
+ 
+\begin_inset Formula $ℵ_{i}$
+\end_inset
+
+ amb 
+\begin_inset Formula $i∈ℕ$
+\end_inset
+
+ en diem 
+\begin_inset Formula $ℵ_{ω}$
+\end_inset
+
+.
+ I després tindriem 
+\begin_inset Formula $ℵ_{ω+1}$
+\end_inset
+
+,
+\begin_inset Formula $ℵ_{ω+2}$
+\end_inset
+
+, \SpecialChar ldots
+, 
+\begin_inset Formula $ℵ_{ω·2}$
+\end_inset
+
+, 
+\begin_inset Formula $ℵ_{ω·3}$
+\end_inset
+
+, \SpecialChar ldots
+, 
+\begin_inset Formula $ℵ_{ω^{2}}$
+\end_inset
+
+, \SpecialChar ldots
+, 
+\begin_inset Formula $ℵ_{ω^{ω}}$
+\end_inset
+
+, \SpecialChar ldots
+ i així amb tota la sèrie inacabable d'ordinals.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+És demostrable en ZFC que tots els conjunts infinits tenen la cardinalitat
+ d'algun nombre 
+\begin_inset Formula $ℵ_{i}$
+\end_inset
+
+ per algun 
+\begin_inset Formula $i$
+\end_inset
+
+ ordinal.
+ I per tant els nombres cardinals són tots els nombres naturals (representant
+ les cardinalitats finites) junt amb tots els nombres àlef (representant
+ les infinites).
 \end_layout
 
 \end_inset
@@ -17011,11 +18233,25 @@ fila
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+En general donat algun concret com 
+\begin_inset Formula $ℝ$
+\end_inset
 
+ no podrem determinar quin 
+\begin_inset Formula $ℵ_{i}$
+\end_inset
+
+ li correspon sense adoptar axiomes addicionals a més dels de ZFC com la
+ hipòtesi del continu, però sí que podrem donar-los-hi una certa acotació
+ tipus 
+\begin_inset Formula $ℵ_{0}<|ℝ|<ℵ_{ω}$
+\end_inset
+
+ només en base a ZFC.
 \end_layout
 
 \end_inset
