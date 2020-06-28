@@ -142,7 +142,7 @@ arrayrulecolor{taula}
 
 
 \begin_inset Tabular
-<lyxtabular version="3" rows="359" columns="2">
+<lyxtabular version="3" rows="358" columns="2">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="100text%">
@@ -359,6 +359,13 @@ fila
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "comprensio"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -382,13 +389,6 @@ axioma de comprensió sense restriccions
 
 : donada una propietat qualsevol que poden tenir les coses, existeix el
  conjunt de coses que la satisfan.
-\begin_inset CommandInset label
-LatexCommand label
-name "comprensio"
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -463,6 +463,20 @@ fila
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "buit"
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "universal"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -480,14 +494,7 @@ conjunt buit
 
 \shape default
  que respon a una propietat abstracta que no compleix cap cosa i per tant
- no té cap element
-\begin_inset CommandInset label
-LatexCommand label
-name "buit"
-
-\end_inset
-
- i el 
+ no té cap element i el 
 \shape italic
 conjunt universal 
 \begin_inset Formula $𝕌$
@@ -497,13 +504,6 @@ conjunt universal
 \shape default
  que respon a una propietat abstracta que compleixen totes les coses i per
  tant totes les coses en són elements.
-\begin_inset CommandInset label
-LatexCommand label
-name "universal"
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -630,6 +630,13 @@ fila
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "russell"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -638,12 +645,6 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "russell"
-
-\end_inset
-
 Considerem ara la propietat complementària a aquesta.
  Els conjunts que 
 \series bold
@@ -1382,6 +1383,13 @@ fila
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "finitistes"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1396,13 +1404,6 @@ finitistes
 \shape default
  que rebutgen l'existència de conjunts infinits perquè la troben herètica
  o quelcom semblant.
-\begin_inset CommandInset label
-LatexCommand label
-name "finitistes"
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -1457,6 +1458,13 @@ status open
 \backslash
 fila
 \end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "hilbert"
 
 \end_inset
 
@@ -1603,13 +1611,6 @@ Però en un hotel infinit sí que podrem obtenir una habitació lliure per
 
 \shape default
  que ha quedat lliure al nou hoste.
-\begin_inset CommandInset label
-LatexCommand label
-name "hilbert"
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -2405,6 +2406,13 @@ fila
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "extensionalitat"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2418,38 +2426,6 @@ L'
 axioma d'extensionalitat
 \shape default
  diu que dos conjunts iguals són el mateix conjunt.
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-fila
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -2755,6 +2731,13 @@ fila
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "emparellament"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2763,12 +2746,6 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "emparellament"
-
-\end_inset
-
 L'
 \shape italic
 axioma d'emparellament
@@ -3138,6 +3115,13 @@ fila
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "unio"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3146,12 +3130,6 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "unio"
-
-\end_inset
-
 L'
 \shape italic
 axioma de la unió
@@ -3315,6 +3293,13 @@ fila
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "successor"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3332,14 +3317,7 @@ Per exemple, aplicada al conjunt
 \end_inset
 
 .
- 
-\begin_inset CommandInset label
-LatexCommand label
-name "successor"
-
-\end_inset
-
-D'aquesta funció en diem 
+ D'aquesta funció en diem 
 \shape italic
 
 \begin_inset Quotes fls
@@ -3399,15 +3377,12 @@ Si apliquem la funció successor al conjunt buit
 \begin_inset script superscript
 
 \begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hyperref[buit]{(8)}
-\end_layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "buit"
+plural "false"
+caps "false"
+noprefix "false"
 
 \end_inset
 
@@ -3599,6 +3574,13 @@ status open
 \backslash
 fila
 \end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "infinit"
 
 \end_inset
 
@@ -4091,6 +4073,13 @@ fila
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "naturals"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4110,14 +4099,7 @@ Per tant sabem que el conjunt
 
  els farem servir com a mesura estàndard de la cardinalitat dels conjunts
  finits.
- 
-\begin_inset CommandInset label
-LatexCommand label
-name "naturals"
-
-\end_inset
-
-En direm 
+ En direm 
 \shape italic
 
 \begin_inset Quotes fls
@@ -4208,15 +4190,12 @@ Recordeu l'Hotel Infinit de Hilbert
 \begin_inset script superscript
 
 \begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hyperref[hilbert]{(33)}
-\end_layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "hilbert"
+plural "false"
+caps "false"
+noprefix "false"
 
 \end_inset
 
@@ -5024,15 +5003,12 @@ El que no sé jo és com es convencen ells mateixos d'aquestes coses (la valides
 \begin_inset script superscript
 
 \begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hyperref[finitistes]{(28)}
-\end_layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "finitistes"
+plural "false"
+caps "false"
+noprefix "false"
 
 \end_inset
 
@@ -5066,6 +5042,13 @@ status open
 \backslash
 fila
 \end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "especificació"
 
 \end_inset
 
@@ -5139,15 +5122,12 @@ Aquest axioma és interessant perquè s'assembla bastant a l'axioma de comprensi
 \begin_inset script superscript
 
 \begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hyperref[comprensio]{(6)}
-\end_layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "comprensio"
+plural "false"
+caps "false"
+noprefix "false"
 
 \end_inset
 
@@ -5156,7 +5136,7 @@ hyperref[comprensio]{(6)}
 
 \end_inset
 
- , i que havia provocat tot el pollastre de la paradoxa de Russell.
+, i que havia provocat tot el pollastre de la paradoxa de Russell.
 \end_layout
 
 \end_inset
@@ -5486,15 +5466,12 @@ Per fer servir aquest axioma d'especificació per crear una paradoxa a l'estil
 \begin_inset script superscript
 
 \begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hyperref[universal]{(8)}
-\end_layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "universal"
+plural "false"
+caps "false"
+noprefix "false"
 
 \end_inset
 
@@ -5592,15 +5569,12 @@ Si comencem suposant que existeix un conjunt universal, l'axioma de comprensió
 \begin_inset script superscript
 
 \begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hyperref[russell]{(12)}
-\end_layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "russell"
+plural "false"
+caps "false"
+noprefix "false"
 
 \end_inset
 
@@ -5669,6 +5643,13 @@ status open
 \backslash
 fila
 \end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "regularitat"
 
 \end_inset
 
@@ -6033,15 +6014,12 @@ prohibició
 \begin_inset script superscript
 
 \begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hyperref[successor]{(71)}
-\end_layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "successor"
+plural "false"
+caps "false"
+noprefix "false"
 
 \end_inset
 
@@ -6191,15 +6169,12 @@ Tal com vam definir els nombres naturals
 \begin_inset script superscript
 
 \begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hyperref[naturals]{(85)}
-\end_layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "naturals"
+plural "false"
+caps "false"
+noprefix "false"
 
 \end_inset
 
@@ -6309,6 +6284,13 @@ fila
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "reemplaçament"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -6369,15 +6351,12 @@ O sia, que si tenim per exemple el conjunt
 \begin_inset script superscript
 
 \begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hyperref[emparellament]{(60)}
-\end_layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "emparellament"
+plural "false"
+caps "false"
+noprefix "false"
 
 \end_inset
 
@@ -6569,15 +6548,12 @@ Si a aquest conjunt li apliquem l'axioma de la unió
 \begin_inset script superscript
 
 \begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hyperref[unio]{(67)}
-\end_layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "unio"
+plural "false"
+caps "false"
+noprefix "false"
 
 \end_inset
 
@@ -7380,6 +7356,13 @@ status open
 \backslash
 fila
 \end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "potencia"
 
 \end_inset
 
@@ -10422,6 +10405,13 @@ fila
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "ordre-total"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -10430,12 +10420,6 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "ordre-total"
-
-\end_inset
-
 Un 
 \shape italic
 ordre total
@@ -11976,15 +11960,12 @@ Si apliquem a
 \begin_inset script superscript
 
 \begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hyperref[unio]{(67)}
-\end_layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "unio"
+plural "false"
+caps "false"
+noprefix "false"
 
 \end_inset
 
@@ -14814,6 +14795,13 @@ fila
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "eleccio"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -15399,40 +15387,202 @@ estàndard
  nou axiomes de teoria de conjunts que hem explicat:
 \end_layout
 
-\begin_layout Enumerate
-Extensionalitat.
+\begin_layout Itemize
+Extensionalitat
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "extensionalitat"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Enumerate
-Emparellament.
+\end_inset
+
+.
 \end_layout
 
-\begin_layout Enumerate
-Unió.
+\begin_layout Itemize
+Emparellament
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "emparellament"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Enumerate
-Infinit.
+\end_inset
+
+.
 \end_layout
 
-\begin_layout Enumerate
-Especificació.
+\begin_layout Itemize
+Unió
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "unio"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Enumerate
-Regularitat.
+\end_inset
+
+.
 \end_layout
 
-\begin_layout Enumerate
-Reemplaçament.
+\begin_layout Itemize
+Infinit
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "infinit"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Enumerate
-Potència.
+\end_inset
+
+.
 \end_layout
 
-\begin_layout Enumerate
-Elecció.
+\begin_layout Itemize
+Especificació
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "especificació"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Regularitat
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "regularitat"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Reemplaçament
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "reemplaçament"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Potència
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "potencia"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Elecció
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eleccio"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -15780,15 +15930,12 @@ També havíem vist la definició del que és un ordre total
 \begin_inset script superscript
 
 \begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hyperref[ordre-total]{(219)}
-\end_layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "ordre-total"
+plural "false"
+caps "false"
+noprefix "false"
 
 \end_inset
 
