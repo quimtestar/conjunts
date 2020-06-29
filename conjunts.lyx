@@ -488,7 +488,7 @@ name "universal"
 També existeixen el 
 \shape italic
 conjunt buit 
-\begin_inset Formula $\emptyset$
+\begin_inset Formula $\varnothing$
 \end_inset
 
 
@@ -3370,7 +3370,7 @@ fila
 
 \begin_layout Plain Layout
 Si apliquem la funció successor al conjunt buit 
-\begin_inset Formula $\emptyset$
+\begin_inset Formula $\varnothing$
 \end_inset
 
 
@@ -3392,7 +3392,7 @@ noprefix "false"
 \end_inset
 
 , aquell conjunt que no té cap element, tenim que 
-\begin_inset Formula $S(\emptyset)=\emptyset\cup\left\{ \emptyset\right\} =\left\{ \emptyset\right\} $
+\begin_inset Formula $S(\varnothing)=\varnothing\cup\left\{ \varnothing\right\} =\left\{ \varnothing\right\} $
 \end_inset
 
 .
@@ -3639,7 +3639,7 @@ Més formalment, existeix un conjunt
 \end_inset
 
  tal que 
-\begin_inset Formula $\emptyset\in I$
+\begin_inset Formula $\varnothing\in I$
 \end_inset
 
  i que a més donat qualsevol element 
@@ -3969,7 +3969,7 @@ fila
 Com hem vist abans, aquests elements són conjunts que inclouen alhora tots
  els conjunts que han anat sortint abans en l'aplicació successiva de la
  funció successor a partir del conjunt buit 
-\begin_inset Formula $0=\emptyset$
+\begin_inset Formula $0=\varnothing$
 \end_inset
 
 , és a dir 
@@ -7416,7 +7416,7 @@ fila
 \end_inset
 
 , aleshores també ha d'existir el conjunt de conjunts 
-\begin_inset Formula $\left\{ \emptyset,\left\{ a\right\} ,\left\{ b\right\} ,\left\{ a,b\right\} \right\} $
+\begin_inset Formula $\left\{ \varnothing,\left\{ a\right\} ,\left\{ b\right\} ,\left\{ a,b\right\} \right\} $
 \end_inset
 
  format per tots aquells 
@@ -7516,7 +7516,7 @@ fila
 \end_inset
 
 : 
-\begin_inset Formula $\emptyset$
+\begin_inset Formula $\varnothing$
 \end_inset
 
 , 
@@ -7616,7 +7616,7 @@ fila
 El conjunt potència del conjunt buit serà el conjunt format per l'únic subconjun
 t que hi ha del conjunt buit que és el mateix conjunt buit, o sigui el conjunt
  amb un sol element 
-\begin_inset Formula $\left\{ \emptyset\right\} $
+\begin_inset Formula $\left\{ \varnothing\right\} $
 \end_inset
 
 .
@@ -7936,7 +7936,7 @@ Posem un conjunt
 \begin{array}{lcc}
 φ(\left\{ d,e\right\} ) & = & a\\
 φ(\left\{ c,b,f,\ldots\right\} ) & = & b\\
-φ(\emptyset) & = & c\\
+φ(\varnothing) & = & c\\
 φ(\left\{ a,d,f\right\} ) & = & d\\
  & \vdots
 \end{array}
@@ -8506,7 +8506,7 @@ Hem vist que un nombre natural és en realitat un conjunt que construïm per
 \end_inset
 
  sobre el conjunt buit 
-\begin_inset Formula $\emptyset$
+\begin_inset Formula $\varnothing$
 \end_inset
 
  que és el nombre zero.
@@ -12401,7 +12401,7 @@ f(\left\{ 0,1\right\} ) & = & \sum\left\{ \frac{1}{10^{0}},\frac{1}{10^{1}}\righ
 \\
 f(\left\{ 2,3,5\right\} ) & = & \sum\left\{ \frac{1}{10^{2}},\frac{1}{10^{3}},\frac{1}{10^{5}}\right\} =0,01101\\
 \\
-f(\emptyset) & = & \sum\emptyset=0
+f(\varnothing) & = & \sum\varnothing=0
 \end{eqnarray*}
 
 \end_inset
