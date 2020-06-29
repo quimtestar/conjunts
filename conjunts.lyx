@@ -142,7 +142,7 @@ arrayrulecolor{taula}
 
 
 \begin_inset Tabular
-<lyxtabular version="3" rows="386" columns="2">
+<lyxtabular version="3" rows="428" columns="2">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="100text%">
@@ -18212,6 +18212,2015 @@ fila
 </cell>
 </row>
 <row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+En general donat algun conjunt concret com 
+\begin_inset Formula $ℝ$
+\end_inset
+
+ no podrem determinar quin 
+\begin_inset Formula $ℵ_{i}$
+\end_inset
+
+ li correspon sense adoptar axiomes addicionals a més dels de ZFC com la
+ hipòtesi del continu, però sí que podrem donar-los-hi una certa acotació
+ com és el cas de 
+\begin_inset Formula $ℵ_{0}<|ℝ|<ℵ_{ω}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Havíem vist que una manera de generar conjunts amb cardinalitats estrictament
+ més grans que ell mateix és mitjançant el conjunt potència.
+ Donat un conjunt 
+\begin_inset Formula $A$
+\end_inset
+
+ tindrem el conjunt 
+\begin_inset Formula $2^{A}$
+\end_inset
+
+ format per tots els subconjunts de 
+\begin_inset Formula $A$
+\end_inset
+
+ del que pel teorema de Cantor sabem que 
+\begin_inset Formula $|2^{A}|>|A|$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Si posem per cas 
+\begin_inset Formula $|A|=ℵ_{0}$
+\end_inset
+
+, aleshores 
+\begin_inset Formula $2^{A}$
+\end_inset
+
+ tindrà la cardinalitat 
+\begin_inset Formula $2^{ℵ_{0}}$
+\end_inset
+
+, que és la de 
+\begin_inset Formula $2^{ℕ}$
+\end_inset
+
+, que és la de 
+\begin_inset Formula $ℝ$
+\end_inset
+
+, que estem dient que no sabem a quin 
+\begin_inset Formula $\text{ℵ}_{i}$
+\end_inset
+
+ correspon que és tant com dir que no sabem ben bé quina cardinalitat és.
+ I això potser és un problema a l'hora d'expressar segons quins conceptes
+ que ens queden d'alguna manera indeterminats.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per encarar aquesta mena de problemes els matemàtics el que solen fer és
+ inventar-se un símbol nou i així si més no poden expressar la cosa de manera
+ succinta i sintètica.
+ Per què no.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Una forma alternativa de designar els cardinals infinits és amb la lletra
+ hebrea 
+\begin_inset Formula $ℶ$
+\end_inset
+
+ 
+\shape italic
+(bet)
+\shape default
+ .
+ Els nombres bet es defineixen recursivament sobre els ordinals de la següent
+ manera:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{eqnarray*}
+\beth_{0} & = & \aleph_{0}\\
+\beth_{i+1} & = & 2^{\beth_{i}}\\
+\beth_{\lambda} & = & \sup\left\{ \beth_{i}\mid i<\lambda\right\} 
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aquestes fòrmules volen dir que 
+\begin_inset Formula $ℶ_{0}$
+\end_inset
+
+ és 
+\begin_inset Formula $|ℕ|$
+\end_inset
+
+ igual que 
+\begin_inset Formula $ℵ_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $ℶ_{1}$
+\end_inset
+
+ és 
+\begin_inset Formula $|2^{ℕ}|$
+\end_inset
+
+, 
+\begin_inset Formula $ℶ_{2}$
+\end_inset
+
+ és 
+\begin_inset Formula $|2^{2^{ℕ}}|$
+\end_inset
+
+, \SpecialChar ldots
+, 
+\begin_inset Formula $ℶ_{ω}$
+\end_inset
+
+ el més petit dels cardinals superiors que tots els 
+\begin_inset Formula $ℶ_{ᵢ}$
+\end_inset
+
+ amb 
+\begin_inset Formula $i<ω$
+\end_inset
+
+, i així per tota la resta d'ordinals.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Els nombres 
+\begin_inset Formula $\beth$
+\end_inset
+
+ els podem construir i determinar-ne les propietats amb precisió fent servir
+ la maquinària de ZFC, amb eines com el conjunt potència; no com amb els
+ nombres 
+\begin_inset Formula $\aleph$
+\end_inset
+
+, que són cardinalitats que corresponen a conjunts indeterminats.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Però per altra banda, la sèrie de nombres 
+\begin_inset Formula $\beth$
+\end_inset
+
+ no cobreix necessàriament tots els cardinals infinits exhaustivament com
+ sí que ho fan els 
+\begin_inset Formula $\aleph$
+\end_inset
+
+.
+ No sabem si hi ha altres cardinals entre 
+\begin_inset Formula $ℶ_{0}$
+\end_inset
+
+ i 
+\begin_inset Formula $ℶ_{1}$
+\end_inset
+
+ mentre que entre 
+\begin_inset Formula $ℵ_{0}$
+\end_inset
+
+ i 
+\begin_inset Formula $ℵ_{1}$
+\end_inset
+
+ per definició no n'hi ha.
+ No es pot tenir tot.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Així doncs, una nova manera de formular la nostra ja entranyable hipòtesi
+ del continu podria ser 
+\begin_inset Formula $ℵ_{1}=ℶ_{1}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hi ha una generalització de la hipòtesi del continu que extén aquesta fòrmula
+ a tots els subíndexs ordinals, o sigui 
+\begin_inset Formula $ℵ_{i}=ℶ_{i}$
+\end_inset
+
+ per a tot 
+\begin_inset Formula $i$
+\end_inset
+
+ ordinal.
+ A aquesta se l'anomena 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+hipòtesi del continu generalitzada
+\begin_inset Quotes frs
+\end_inset
+
+
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Igual que hipòtesi del continu restringida, aquesta tampoc té demostració
+ ni refutació en ZFC.
+ Però sí que s'ha trobat que amb ella i ZF sense sense axioma de l'elecció
+ es pot demostrar l'axioma de l'elecció.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Això vol dir que en un sistema axiomàtic format per ZF+GCH es pot demostrar
+ tot el que es demostra en ZFC i algunes coses més i alhora és consistent
+ si també ho és ZFC.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hi ha una gent que es dedica a buscar aquesta mena de relacions entre els
+ diferents axiomes/hipòtesis/conjectures i determinar les capacitats les
+ característiques dels diversos sistemes axiomàtics que es poden formar
+ amb ells i les teories de conjunts a que donen lloc.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Perquè pot molt ben ser que per qüestions matemàtiques que romanen obertes,
+ algunes fins i tot amb alguna utilitat pràctica, les matemàtiques 
+\begin_inset Quotes fls
+\end_inset
+
+normals
+\begin_inset Quotes frs
+\end_inset
+
+ senzillament no estiguin suficientment dotades per resoldre-les, com en
+ el seu moment va passar amb la hipòtesi del continu de Cantor.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I aleshores la manera de donar resposta a aquestes qüestions és plantejar-se
+ la pregunta 
+\begin_inset Quotes fls
+\end_inset
+
+què caldria incorporar a les matemàtiques per poder demostrar que això és
+ veritat i quines altres implicacions tindria fer-ho?
+\begin_inset Quotes frs
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tot això sabent que mai les podrem dotar lo suficient com per resoldre-ho
+ tot.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L'aritmètica dels nombres naturals es pot estendre cap als transfinits de
+ manera consistent a la semàntica que hem anat descrivint.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+La suma de dos nombres cardinals és, doncs, la corresponent a la cardinalitat
+ de la unió disjunta de dos conjunts amb les cardinalitats donades, igual
+ que quan ho limitàvem a nombres naturals i cardinalitats finites.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Si tenim un conjunt amb 
+\begin_inset Formula $7$
+\end_inset
+
+ elements i un altre conjunt amb 
+\begin_inset Formula $4$
+\end_inset
+
+ elements tals que un i altre conjunt no tenen cap element compartit, en
+ ajuntar-los en un sol conjunt resulta que aquest tindrà 
+\begin_inset Formula $7+4=11$
+\end_inset
+
+ elements.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quan estenem aquesta idea als cardinals infinits ens trobem que sota ZFC
+ resulta que el cardinal infinit més gran 
+\begin_inset Quotes fls
+\end_inset
+
+absorbeix
+\begin_inset Quotes frs
+\end_inset
+
+ el petit: 
+\begin_inset Formula $ℵ_{0}+5=ℵ_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $ℵ_{6}+ℵ_{4}=ℵ_{6}$
+\end_inset
+
+, 
+\begin_inset Formula $ℵ_{2}+ℵ_{2}=ℵ_{2}$
+\end_inset
+
+, 
+\begin_inset Formula $ℶ_{1}+ℶ_{9}=ℶ_{9}$
+\end_inset
+
+, \SpecialChar ldots
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $ℵ_{2}+ℶ_{1}$
+\end_inset
+
+ no està determinat perquè sota ZFC tampoc ho està quin dels dos si 
+\begin_inset Formula $ℵ_{2}$
+\end_inset
+
+ o 
+\begin_inset Formula $ℶ_{1}$
+\end_inset
+
+ és més gran, però sí que està determinat que el resultat de la suma serà
+ igual a un dels dos.
+ Sí que està perfectament determinat, en canvi, que 
+\begin_inset Formula $\text{ℵ}_{\omega}+\text{ℶ}_{1}=\text{ℵ}_{\omega}$
+\end_inset
+
+, ja que sabem que 
+\begin_inset Formula $\text{ℵ}_{\omega}>\text{ℶ}_{1}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Si tenim per un costat el nombre ordinal infinit 
+\begin_inset Formula $ω$
+\end_inset
+
+ que representa l'ordre de la seqüéncia 
+\begin_inset Formula $(a_{0},a_{1},a_{2},a_{3},\ldots)$
+\end_inset
+
+ i per l'altre el nombre ordinal finit 
+\begin_inset Formula $3$
+\end_inset
+
+ que representa l'ordre de la seqüència 
+\begin_inset Formula $(b_{0},b_{1},b_{2})$
+\end_inset
+
+, en unir-los ordenadament obtenim un conjunt ordenat amb la forma 
+\begin_inset Formula $(a_{0},a_{1},a_{2},a_{3},a_{4},\ldots,b_{0},b_{1},b_{2})$
+\end_inset
+
+ que seria isomòrfic amb l'ordinal 
+\begin_inset Formula $\left\{ 0,1,2,3,4,\ldots,ω,ω+1,ω+2\right\} $
+\end_inset
+
+ i que de fet en notació l'expressem tal qual com 
+\begin_inset Formula $ω+3$
+\end_inset
+
+, la suma dels dos ordinals que representen els conjunts ordenats que hem
+ concatenat.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+En canvi, si els col·loquem a l'inrevés, primer el 
+\begin_inset Formula $3$
+\end_inset
+
+ i després el 
+\begin_inset Formula $ω$
+\end_inset
+
+, ens surt la seqüència 
+\begin_inset Formula $(b_{0},b_{1},b_{2},a_{0},a_{1},a_{2},a_{3},a_{4},\ldots)$
+\end_inset
+
+ que és isomòrfic amb 
+\begin_inset Formula $\left\{ 0,1,2,3,4,5,6,7,\ldots\right\} $
+\end_inset
+
+ que és igual a 
+\begin_inset Formula $ω$
+\end_inset
+
+.
+ O sigui, que 
+\begin_inset Formula $3+ω=ω\neqω+3$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+O sigui, que la suma d'ordinals no és commutativa i, a diferència que amb
+ els cardinals, els infinits no sempre absorbeixen els finits.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El producte de dos nombres cardinals és el corresponent a la cardinalitat
+ del producte cartesià de dos conjunts amb les cardinalitats donades.
+ O sigui, quants parells ordenats podem formar amb un element d'un i un
+ element de l'altre.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Igual que amb la suma, en ZFC cardinals infinits grans absorbeixen els petits
+ i els infinits als finits: 
+\begin_inset Formula $ℵ_{0}·3=ℵ_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $ℵ_{6}·ℵ_{0}=ℵ_{6}$
+\end_inset
+
+, 
+\begin_inset Formula $ℵ_{6}·ℵ_{ω}=ℵ_{ω}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El producte d'ordinals també és anàleg a la suma però fent servir el producte
+ cartesià en comptes de la unió disjunta: s'ordenen tots els parells ordenats
+ per components de dreta a esquerra.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+És a dir: si multipliquem els ordinals 
+\begin_inset Formula $3=\left\{ 0,1,2\right\} $
+\end_inset
+
+ i 
+\begin_inset Formula $2=\left\{ 0,1\right\} $
+\end_inset
+
+ tenim aquest un conjunt de parells ordenats que segueix aquest ordre:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{array}{ccc}
+(0,0) & \rightarrow & 0\\
+(1,0) & \rightarrow & 1\\
+(2,0) & \rightarrow & 2\\
+(0,1) & \rightarrow & 3\\
+(1,1) & \rightarrow & 4\\
+(2,1) & \rightarrow & 5
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Que és isomòrfic amb l'ordinal 
+\begin_inset Formula $6=\left\{ 0,1,2,3,4,5\right\} $
+\end_inset
+
+ i per tant aquest és el resultat de la multiplicació.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Si multipliquem els ordinals 
+\begin_inset Formula $ω=\left\{ 0,1,2,3,4,5,\ldots\right\} $
+\end_inset
+
+ i 
+\begin_inset Formula $2=\left\{ 0,1\right\} $
+\end_inset
+
+ els parells ordenats que tenim són:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{array}{ccc}
+(0,0) & \rightarrow & 0\\
+(1,0) & \rightarrow & 1\\
+(2,0) & \rightarrow & 2\\
+ & \vdots\\
+(0,1) & \rightarrow & ω\\
+(1,1) & \rightarrow & ω+1\\
+(2,1) & \rightarrow & ω+2\\
+ & \vdots
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+I l'ordinal corresponent és 
+\begin_inset Formula $ω+ω$
+\end_inset
+
+ que és igual a 
+\begin_inset Formula $ω·2$
+\end_inset
+
+, ja que les propietats aritmètiques que porten a que 
+\begin_inset Formula $x·2=x+x$
+\end_inset
+
+ les seguim tenint en els nombres transfinits.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+En canvi, si fem la multiplicació a l'inrevés 
+\begin_inset Formula $2·ω$
+\end_inset
+
+, tenim els parells ordenats seguint l'ordre:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{array}{ccc}
+(0,0) & \rightarrow & 0\\
+(1,0) & \rightarrow & 1\\
+(0,1) & \rightarrow & 2\\
+(1,1) & \rightarrow & 3\\
+(0,2) & \rightarrow & 4\\
+(1,2) & \rightarrow & 5\\
+(0,3) & \rightarrow & 6\\
+ & \vdots
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Aquest conjunt ben ordenat, tot i tenir la mateixa cardinalitat 
+\begin_inset Formula $\aleph_{0}$
+\end_inset
+
+ que el 
+\begin_inset Formula $ω·2$
+\end_inset
+
+ d'abans, és isomòrfic amb l'ordinal 
+\begin_inset Formula $ω$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per tant 
+\begin_inset Formula $2·ω=ω\neqω·2$
+\end_inset
+
+.
+ El producte d'ordinals, igual que la suma, tampoc és commutatiu.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Una operació de la que encara no em parlat (directament) és la 
+\shape italic
+potenciació de conjunts
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Donats dos conjunts qualssevol 
+\begin_inset Formula $A$
+\end_inset
+
+ i 
+\begin_inset Formula $B$
+\end_inset
+
+ la potència 
+\begin_inset Formula $A^{B}$
+\end_inset
+
+ es defineix com el conjunt de funcions que van de 
+\begin_inset Formula $B$
+\end_inset
+
+ cap a 
+\begin_inset Formula $A$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+O sigui, si 
+\begin_inset Formula $A=\left\{ a_{0},a_{1},a_{2},a_{3},a_{4}\right\} $
+\end_inset
+
+ i 
+\begin_inset Formula $B=\left\{ b_{0},b_{1},b_{2}\right\} $
+\end_inset
+
+, la funció 
+\begin_inset Formula $f:B→A$
+\end_inset
+
+ definida com:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{array}{ccc}
+f(b_{0}) & = & a_{2}\\
+f(b_{1}) & = & a_{0}\\
+f(b_{2}) & = & a_{2}
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+És un element de 
+\begin_inset Formula $A^{B}$
+\end_inset
+
+ (
+\begin_inset Formula $A$
+\end_inset
+
+ elevat a 
+\begin_inset Formula $B$
+\end_inset
+
+).
+ I també totes les altres funcions que puguem definir entre aquests dos
+ conjunts.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El conjunt de totes funcions reals de variable real és doncs 
+\begin_inset Formula $ℝ^{ℝ}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Les operacions naturals aritmètiques de suma, multiplicació, resta i divisió
+ vistes com funcions de dues variables són elements del conjunt 
+\begin_inset Formula $ℕ^{ℕ×ℕ}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Un parell ordenat 
+\begin_inset Formula $(a,b)$
+\end_inset
+
+ pot ser considerat com una funció 
+\begin_inset Formula $f$
+\end_inset
+
+ que té com a domini el conjunt 
+\begin_inset Formula $2=\left\{ 0,1\right\} $
+\end_inset
+
+ tal que 
+\begin_inset Formula $f(0)=a$
+\end_inset
+
+ i 
+\begin_inset Formula $f(1)=b$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Així, una altra manera d'expressar el producte cartesià 
+\begin_inset Formula $A×A$
+\end_inset
+
+, que és el conjunt de parells ordenats formats per dos elements de 
+\begin_inset Formula $A$
+\end_inset
+
+, seria en forma de la potència 
+\begin_inset Formula $A^{2}$
+\end_inset
+
+, el conjunt de totes les funcions 
+\begin_inset Formula $f:2→A$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I de la mateixa manera, podem expressar el producte 
+\begin_inset Formula $A×A×A$
+\end_inset
+
+ en la forma 
+\begin_inset Formula $A^{3}$
+\end_inset
+
+, i 
+\begin_inset Formula $A×A×...×A$
+\end_inset
+
+ en la forma 
+\begin_inset Formula $A^{n}$
+\end_inset
+
+: el producte (cartesià) i potència de conjunts és consistent amb el producte
+ i potència de nombres que ja coneixem.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Donat un conjunt 
+\begin_inset Formula $A$
+\end_inset
+
+, qualsevol dels seus subconjunts 
+\begin_inset Formula $A'$
+\end_inset
+
+ es pot veure com una funció 
+\begin_inset Formula $f$
+\end_inset
+
+ de 
+\begin_inset Formula $A$
+\end_inset
+
+ cap a 
+\begin_inset Formula $2=\left\{ 0,1\right\} $
+\end_inset
+
+ tal que 
+\begin_inset Formula $f(a)=0$
+\end_inset
+
+ si 
+\begin_inset Formula $a\in A'$
+\end_inset
+
+ i 
+\begin_inset Formula $f(a)=1$
+\end_inset
+
+ si 
+\begin_inset Formula $a\in A'$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Així, el conjunt de tots els subconjunts del conjunt 
+\begin_inset Formula $A$
+\end_inset
+
+ el podem considerar com el conjunt de totes les funcions 
+\begin_inset Formula $f:A→2$
+\end_inset
+
+, que seria 
+\begin_inset Formula $2^{A}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Això és precisament el que haviem definit com a conjunt potència en parlar
+ de l'axioma del conjunt potència i que havíem expressat en notació com
+ a 
+\begin_inset Formula $2^{A}$
+\end_inset
+
+.
+ Resulta que aquella notació ve de la idea més general de potenciació de
+ conjunts.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
@@ -18237,21 +20246,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-En general donat algun concret com 
-\begin_inset Formula $ℝ$
-\end_inset
 
- no podrem determinar quin 
-\begin_inset Formula $ℵ_{i}$
-\end_inset
-
- li correspon sense adoptar axiomes addicionals a més dels de ZFC com la
- hipòtesi del continu, però sí que podrem donar-los-hi una certa acotació
- tipus 
-\begin_inset Formula $ℵ_{0}<|ℝ|<ℵ_{ω}$
-\end_inset
-
- només en base a ZFC.
 \end_layout
 
 \end_inset
