@@ -10,12 +10,6 @@
 \usepackage{xcolor}
 \end_preamble
 \use_default_options true
-\begin_modules
-theorems-ams
-eqs-within-sections
-figs-within-sections
-enumitem
-\end_modules
 \maintain_unincluded_children false
 \language catalan
 \language_package default
@@ -142,7 +136,7 @@ arrayrulecolor{taula}
 
 
 \begin_inset Tabular
-<lyxtabular version="3" rows="428" columns="2">
+<lyxtabular version="3" rows="466" columns="2">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="100text%">
@@ -2295,10 +2289,24 @@ fila
 
 \begin_layout Plain Layout
 Se'l coneix com a 
+\series bold
 \shape italic
 ZFC
+\series default
 \shape default
-, amb les Z i F per Zermelo i Fraenkel, que són dos senyors, i la C de 
+, amb les 
+\series bold
+Z
+\series default
+ i 
+\series bold
+F
+\series default
+ per Zermelo i Fraenkel, que són dos senyors, i la 
+\series bold
+C
+\series default
+ de 
 \shape italic
 
 \begin_inset Quotes fls
@@ -2348,9 +2356,13 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-El sistema axiomàtic ZFC consta de nou axiomes i em temo que tuiter no és
- un lloc gaire adequat per entrar a detallar-los un per un, ja que seria
- una cosa feixuga i avorridíssima.
+El sistema axiomàtic 
+\series bold
+ZFC
+\series default
+ consta de nou axiomes i em temo que tuiter no és un lloc gaire adequat
+ per entrar a detallar-los un per un, ja que seria una cosa feixuga i avorridíss
+ima.
 \end_layout
 
 \end_inset
@@ -3748,7 +3760,11 @@ fila
 
 \begin_layout Plain Layout
 I aquesta simplement és la definició de la dicotomia finit/infinit que es
- sol fer anar quan es treballa amb el sistema d'axiomes ZFC.
+ sol fer anar quan es treballa amb el sistema d'axiomes 
+\series bold
+ZFC
+\series default
+.
  Però per a realment comprendre-la ens mancaria primer saber ben bé què
  vol dir això de 
 \shape italic
@@ -4446,10 +4462,14 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-En ZFC es pot demostrar que els conjunts que caracteritza aquesta definició
- són exactament els mateixos que els de la definició que hem dit abans que
- faríem servir (els conjunts que no es poden posar en bijecció amb algun
- element de 
+En 
+\series bold
+ZFC
+\series default
+ es pot demostrar que els conjunts que caracteritza aquesta definició són
+ exactament els mateixos que els de la definició que hem dit abans que faríem
+ servir (els conjunts que no es poden posar en bijecció amb algun element
+ de 
 \begin_inset Formula $I$
 \end_inset
 
@@ -4526,10 +4546,21 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-De fet, ni tant sols en ZFC fem servir la definició de Dedekind perquè per
- demostrar l'equivalència amb la que hem donat inicialment necessitem un
- axioma particular que és el de l'elecció (la C de ZFC), que és controvertit,
- sempre es deixa pel final i s'evita si es pot evitar.
+De fet, ni tant sols en 
+\series bold
+ZFC
+\series default
+ fem servir la definició de Dedekind perquè per demostrar l'equivalència
+ amb la que hem donat inicialment necessitem un axioma particular que és
+ el de l'elecció (la 
+\series bold
+C
+\series default
+ de 
+\series bold
+ZFC
+\series default
+), que és controvertit, sempre es deixa pel final i s'evita si es pot evitar.
 \end_layout
 
 \end_inset
@@ -4564,7 +4595,15 @@ fila
 Fer servir la definició d'infinit de Dedekind implicaria que per demostrar
  molts teoremes on intervé d'alguna manera la infinitat necessitaríem recórrer
  a l'axioma de l'elecció; i resulta que ens agrada mantenir tanta matemàtica
- com sigui possible dins de ZF sense la C.
+ com sigui possible dins de 
+\series bold
+ZF
+\series default
+ sense la 
+\series bold
+C
+\series default
+.
  Quan arribem a l'axioma de l'elecció (no sé quan) veurem per què.
 \end_layout
 
@@ -5521,7 +5560,11 @@ Necessitaríem demostrar prèviament l'existència d'aquest conjunt universal
 \begin_inset Formula $𝕌$
 \end_inset
 
-, i això amb ZFC no es pot fer.
+, i això amb 
+\series bold
+ZFC
+\series default
+ no es pot fer.
  De fet veurem que es pot demostrar la 
 \series bold
 no
@@ -9436,8 +9479,12 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-En l'aritmètica dels nombres naturals hi ha la propietat (que podríem demostrar
- aplicant la deducció a ZFC, etc etc) que 
+En l'aritmètica dels nombres naturals existeix la propietat (que podríem
+ demostrar aplicant inferències de deducció lògica als axiomes de 
+\series bold
+ZFC
+\series default
+) que 
 \begin_inset Formula $(a+c)-(b+c)=a-b$
 \end_inset
 
@@ -10308,7 +10355,7 @@ D'això els grecs se'n van adonar i es van preguntar a veure què diantre
  I no van ser capaços de respondre.
  Aquesta qüestió no començaria a respondre's adequadament fins la il·lustració.
  Newton, Leibniz i tot l'assumpte del càlcul infinitesimal.
- Quedaven uns 2000 anys encara.
+ Quedaven uns 2,000 anys encara.
 \end_layout
 
 \end_inset
@@ -14383,7 +14430,11 @@ fila
 
 \begin_layout Plain Layout
 Doncs bé, el mateix Gödel va contribuir a demostrar que aquest és el cas
- de la hipòtesi del continu en el sistema ZFC.
+ de la hipòtesi del continu en el sistema 
+\series bold
+ZFC
+\series default
+.
  Però la prova completa d'això no va arribar fins als anys 60 del segle
  XX.
  Normal que el pobre Cantor no se'n sortís.
@@ -14418,8 +14469,11 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Això vol dir que ZFC no ens respondrà si existeix o no una cardinalitat
- que estigui entre 
+Això vol dir que 
+\series bold
+ZFC
+\series default
+ no ens respondrà si existeix o no una cardinalitat que estigui entre 
 \begin_inset Formula $ℕ$
 \end_inset
 
@@ -14428,7 +14482,11 @@ Això vol dir que ZFC no ens respondrà si existeix o no una cardinalitat
 \end_inset
 
  però que si tenim moltes ganes que no existeixi podem introduir la seva
- inexistència com a axioma i fer el nou sistema axiomàtic ZFC+CH (de 
+ inexistència com a axioma i fer el nou sistema axiomàtic 
+\series bold
+ZFC+CH
+\series default
+ (de 
 \series bold
 \shape italic
 c
@@ -14439,7 +14497,11 @@ h
 \series default
 ypothesis
 \shape default
-), que seria tant consistent com ZFC.
+), que seria tant consistent com 
+\series bold
+ZFC
+\series default
+.
 \end_layout
 
 \end_inset
@@ -14472,7 +14534,15 @@ fila
 
 \begin_layout Plain Layout
 I si, en canvi, tenim moltes ganes que existeixi podem fer el sistema axiomàtic
- ZFC+¬CH i també serà tant consistent com ZFC.
+ 
+\series bold
+ZFC+¬CH
+\series default
+ i també serà tant consistent com 
+\series bold
+ZFC
+\series default
+.
 \end_layout
 
 \end_inset
@@ -14505,9 +14575,28 @@ fila
 
 \begin_layout Plain Layout
 Una altra manera d'entendre això és pensar que existeixen dos ens abstractes
- separats als que podem anomenar indistintament "conjunts", que ZFC és una
- teoria que descriu ambdues de manera ambigüa i que la introducció de CH
- o de ¬CH a la teoria desfà l'ambigüitat en un sentit o un altre.
+ separats als que podem anomenar indistintament 
+\begin_inset Quotes frs
+\end_inset
+
+conjunts
+\begin_inset Quotes frs
+\end_inset
+
+, que 
+\series bold
+ZFC
+\series default
+ és una teoria que descriu ambdues de manera ambigüa i que la introducció
+ de 
+\series bold
+CH
+\series default
+ o de 
+\series bold
+¬CH
+\series default
+ a la teoria desfà l'ambigüitat en un sentit o un altre.
 \end_layout
 
 \end_inset
@@ -14613,8 +14702,19 @@ fila
 Si algun dia es topa amb alguna gran conjectura necessita de la hipòtesi
  del continu o de la seva negació per ser demostrada i es decideix que convé
  que aquesta conjectura tingui una demostració dins de la matemàtica estàndard,
- doncs possiblement es revisi aquest conveni i deixarem de fer servir ZFC
- en favor de ZFC+CH o ZFC+¬CH.
+ doncs possiblement es revisi aquest conveni i deixarem de fer servir 
+\series bold
+ZFC
+\series default
+ en favor de 
+\series bold
+ZFC+CH
+\series default
+ o 
+\series bold
+ZFC+¬CH
+\series default
+.
 \end_layout
 
 \end_inset
@@ -14680,9 +14780,12 @@ fila
 
 \begin_layout Plain Layout
 Es va trobar que era independent del sistema axiomàtic format pel conjunt
- d'axiomes que hem vist fins ara, ZF, i va resultar que és necessari per
- sostenir part de la matemàtica que es va considerar de és desitjable que
- sigui sostinguda.
+ d'axiomes que hem vist fins ara, 
+\series bold
+ZF
+\series default
+, i va resultar que és necessari per sostenir part de la matemàtica que
+ es va considerar de és desitjable que sigui sostinguda.
 \end_layout
 
 \end_inset
@@ -15368,8 +15471,11 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-I amb això acabaríem l'exposició de la teoria de conjunts ZFC, que és en
- el que es fonamenten les matemàtiques 
+I amb això acabaríem l'exposició de la teoria de conjunts 
+\series bold
+ZFC
+\series default
+, que és en el que es fonamenten les matemàtiques 
 \begin_inset Quotes fls
 \end_inset
 
@@ -16857,8 +16963,11 @@ fila
 \begin_layout Plain Layout
 La quantitat d'objectes d'aquesta classe de conjunts que hi ha és absurdament
  gran.
- I això és bastant literal en el sentit que ZFC no ens serveix per parlar
- d'aquesta categoria de quantitats.
+ I això és bastant literal en el sentit que 
+\series bold
+ZFC
+\series default
+ no ens serveix per parlar d'aquesta categoria de quantitats.
 \end_layout
 
 \end_inset
@@ -16939,17 +17048,6 @@ nombres ordinals
 \shape default
  i en certa manera són anàlegs funcionalment al concepte de numeral ordinal
  en lingüística.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-spellcheck
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -18014,14 +18112,22 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Tal com vam dir, el sistema ZFC per ell mateix no ens permet demostrar ni
- refutar la hipòtesi del continu i per tant no ens pot dir a quin nombre
- àlef correspon la cardinalitat de 
+Tal com vam dir, el sistema 
+\series bold
+ZFC
+\series default
+ per ell mateix no ens permet demostrar ni refutar la hipòtesi del continu
+ i per tant no ens pot dir a quin nombre àlef correspon la cardinalitat
+ de 
 \begin_inset Formula $\mathbb{R}$
 \end_inset
 
 .
- El que sí que es pot demostrar sense sortir de ZFC és que 
+ El que sí que es pot demostrar sense sortir de 
+\series bold
+ZFC
+\series default
+ és que 
 \begin_inset Formula $|ℝ|$
 \end_inset
 
@@ -18133,7 +18239,7 @@ Així, el més petit dels nombres cardinals que són més grans que tots els
 \end_inset
 
 .
- I després tindriem 
+ I després tindríem 
 \begin_inset Formula $ℵ_{ω+1}$
 \end_inset
 
@@ -18193,8 +18299,11 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-És demostrable en ZFC que tots els conjunts infinits tenen la cardinalitat
- d'algun nombre 
+És demostrable en 
+\series bold
+ZFC
+\series default
+ que tots els conjunts infinits tenen la cardinalitat d'algun nombre 
 \begin_inset Formula $ℵ_{i}$
 \end_inset
 
@@ -18245,9 +18354,12 @@ En general donat algun conjunt concret com
 \begin_inset Formula $ℵ_{i}$
 \end_inset
 
- li correspon sense adoptar axiomes addicionals a més dels de ZFC com la
- hipòtesi del continu, però sí que podrem donar-los-hi una certa acotació
- com és el cas de 
+ li correspon sense adoptar axiomes addicionals a més dels de 
+\series bold
+ZFC
+\series default
+ com la hipòtesi del continu, però sí que podrem donar-los-hi una certa
+ acotació com és el cas de 
 \begin_inset Formula $ℵ_{0}<|ℝ|<ℵ_{ω}$
 \end_inset
 
@@ -18418,6 +18530,13 @@ fila
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "bet"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -18482,7 +18601,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Aquestes fòrmules volen dir que 
+Aquestes fórmules volen dir que 
 \begin_inset Formula $ℶ_{0}$
 \end_inset
 
@@ -18560,8 +18679,11 @@ Els nombres
 \end_inset
 
  els podem construir i determinar-ne les propietats amb precisió fent servir
- la maquinària de ZFC, amb eines com el conjunt potència; no com amb els
- nombres 
+ la maquinària de 
+\series bold
+ZFC
+\series default
+, amb eines com el conjunt potència; no com amb els nombres 
 \begin_inset Formula $\aleph$
 \end_inset
 
@@ -18693,7 +18815,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Hi ha una generalització de la hipòtesi del continu que extén aquesta fòrmula
+Hi ha una generalització de la hipòtesi del continu que estén aquesta fórmula
  a tots els subíndexs ordinals, o sigui 
 \begin_inset Formula $ℵ_{i}=ℶ_{i}$
 \end_inset
@@ -18748,9 +18870,16 @@ fila
 
 \begin_layout Plain Layout
 Igual que hipòtesi del continu restringida, aquesta tampoc té demostració
- ni refutació en ZFC.
- Però sí que s'ha trobat que amb ella i ZF sense sense axioma de l'elecció
- es pot demostrar l'axioma de l'elecció.
+ ni refutació en 
+\series bold
+ZFC
+\series default
+.
+ Però sí que s'ha trobat que amb ella i 
+\series bold
+ZF
+\series default
+ sense sense axioma de l'elecció es pot demostrar l'axioma de l'elecció.
 \end_layout
 
 \end_inset
@@ -18782,9 +18911,19 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Això vol dir que en un sistema axiomàtic format per ZF+GCH es pot demostrar
- tot el que es demostra en ZFC i algunes coses més i alhora és consistent
- si també ho és ZFC.
+Això vol dir que en un sistema axiomàtic format per 
+\series bold
+ZF+GCH
+\series default
+ es pot demostrar tot el que es demostra en 
+\series bold
+ZFC
+\series default
+ i algunes coses més i alhora és consistent si també ho és 
+\series bold
+ZFC
+\series default
+.
 \end_layout
 
 \end_inset
@@ -18935,7 +19074,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Tot això sabent que mai les podrem dotar lo suficient com per resoldre-ho
+Tot això sabent que mai les podrem dotar suficientment com per a resoldre-ho
  tot.
 \end_layout
 
@@ -19080,7 +19219,10 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Quan estenem aquesta idea als cardinals infinits ens trobem que sota ZFC
+Quan estenem aquesta idea als cardinals infinits ens trobem que sota 
+\series bold
+ZFC
+\series default
  resulta que el cardinal infinit més gran 
 \begin_inset Quotes fls
 \end_inset
@@ -19141,7 +19283,11 @@ fila
 \begin_inset Formula $ℵ_{2}+ℶ_{1}$
 \end_inset
 
- no està determinat perquè sota ZFC tampoc ho està quin dels dos si 
+ no està determinat perquè sota 
+\series bold
+ZFC
+\series default
+ tampoc ho està quin dels dos si 
 \begin_inset Formula $ℵ_{2}$
 \end_inset
 
@@ -19183,6 +19329,48 @@ fila
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "suma-ordinals"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D'una manera semblant, la suma de nombres ordinals és l'ordinal que representa
+ el conjunt ordenat resultant de posar dos conjunts ordenats disjunts un
+ a continuació de l'altre.
+ És a dir:
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -19195,7 +19383,7 @@ Si tenim per un costat el nombre ordinal infinit
 \begin_inset Formula $ω$
 \end_inset
 
- que representa l'ordre de la seqüéncia 
+ que representa l'ordre de la seqüència 
 \begin_inset Formula $(a_{0},a_{1},a_{2},a_{3},\ldots)$
 \end_inset
 
@@ -19377,8 +19565,12 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Igual que amb la suma, en ZFC cardinals infinits grans absorbeixen els petits
- i els infinits als finits: 
+Igual que amb la suma, en 
+\series bold
+ZFC
+\series default
+ cardinals infinits grans absorbeixen els petits i els infinits als finits:
+ 
 \begin_inset Formula $ℵ_{0}·3=ℵ_{0}$
 \end_inset
 
@@ -19410,6 +19602,13 @@ status open
 \backslash
 fila
 \end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "producte-ordinals"
 
 \end_inset
 
@@ -20206,7 +20405,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Això és precisament el que haviem definit com a conjunt potència en parlar
+Això és precisament el que havíem definit com a conjunt potència en parlar
  de l'axioma del conjunt potència i que havíem expressat en notació com
  a 
 \begin_inset Formula $2^{A}$
@@ -20215,6 +20414,1760 @@ Això és precisament el que haviem definit com a conjunt potència en parlar
 .
  Resulta que aquella notació ve de la idea més general de potenciació de
  conjunts.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+La cardinalitat d'aquest conjunt de funcions entre 
+\begin_inset Formula $B$
+\end_inset
+
+ i 
+\begin_inset Formula $A$
+\end_inset
+
+ quan són finits és un problema de combinatòria conegut i resulta que és
+ igual a precisament la potenciació de les cardinalitats de 
+\begin_inset Formula $A$
+\end_inset
+
+ i 
+\begin_inset Formula $B$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+És a dir, que per 
+\begin_inset Formula $A$
+\end_inset
+
+ i 
+\begin_inset Formula $B$
+\end_inset
+
+ finits es dona que 
+\begin_inset Formula $|A^{B}|=|A|^{|B|}$
+\end_inset
+
+.
+ D'aquí prové el fet d'anomenar a aquest concepte 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+potenciació de conjunts
+\begin_inset Quotes frs
+\end_inset
+
+
+\shape default
+, en consistència amb el de potenciació de nombres naturals.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Això es generalitza a cardinalitats infinites: el nombre de funcions naturals
+ de variable natural és 
+\begin_inset Formula $|ℕ^{ℕ}|=|ℕ|^{|ℕ|}=ℵ_{0}^{ℵ_{0}}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Es pot demostrar que aquesta cardinalitat és igual a la dels nombres reals
+ 
+\begin_inset Formula $ℝ$
+\end_inset
+
+; podem codificar cada funció natural de variable natural 
+\begin_inset Formula $f$
+\end_inset
+
+ de la següent manera:
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Si tenim una funció 
+\begin_inset Formula $f$
+\end_inset
+
+ qualsevol tal que per exemple:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{eqnarray*}
+f(0) & = & 7\\
+f(1) & = & 3\\
+f(2) & = & 123\\
+f(3) & = & 0\\
+f(4) & = & 3\\
+ & \vdots
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Podem agafar la seqüencia d'imatges ordenadament 
+\begin_inset Formula $(f(0),f(1),f(2),\ldots)=(7,3,123,0,3,\ldots)$
+\end_inset
+
+ i convertir-ne els nombres a base binària 
+\begin_inset Formula $(111_{2},11_{2},1111011_{2},0_{2},11_{2},\ldots)$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A continuació podem agafar aquesta seqüència de nombres en base 
+\begin_inset Formula $2$
+\end_inset
+
+ i concatenar-los fent servir el dígit 
+\begin_inset Formula $2$
+\end_inset
+
+ com a separador: 
+\begin_inset Formula $111211211110112211\ldots$
+\end_inset
+
+ I després posar aquesta cadena de dígits a continuació d'un 
+\begin_inset Quotes fls
+\end_inset
+
+
+\begin_inset Formula $0,$
+\end_inset
+
+
+\begin_inset Quotes frs
+\end_inset
+
+; és a dir 
+\begin_inset Formula $0,111211211110112211\ldots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Això resulta en un nombre real que serà únic per a cada funció 
+\begin_inset Formula $f:ℕ→ℕ$
+\end_inset
+
+.
+ Per tant 
+\begin_inset Formula $|ℕ^{ℕ}|≤|ℝ|$
+\end_inset
+
+ i d'aquí 
+\begin_inset Formula $ℵ_{0}^{ℵ_{0}}\leq2_{0}^{ℵ}=ℶ_{1}$
+\end_inset
+
+.
+ Per altra banda també tenim que 
+\begin_inset Formula $ℵ_{0}^{ℵ_{0}}\geq2_{0}^{ℵ}$
+\end_inset
+
+ ja que 
+\begin_inset Formula $ℵ_{0}\geq2$
+\end_inset
+
+.
+ I d'aquí 
+\begin_inset Formula $ℵ_{0}^{ℵ_{0}}=2^{ℵ_{0}}=ℶ_{1}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El conjunt de funcions reals de variable real és 
+\begin_inset Formula $ℝ^{ℝ}$
+\end_inset
+
+ i la seva cardinalitat la podem deduir fent servir aritmètica cardinal
+ i prou:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{eqnarray*}
+|\text{ℝ}^{\text{ℝ}}| & = & |\text{ℝ}|^{|\text{ℝ}|}\\
+ & = & \text{ℶ}_{1}^{\text{ℶ}_{1}}\\
+ & = & \left(2^{\beth_{0}}\right)^{\text{ℶ}_{1}}\\
+ & = & 2^{\beth_{0}\text{·ℶ}_{1}}\\
+ & = & 2^{\text{ℶ}_{1}}\\
+ & = & \text{ℶ}_{2}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Però portar l'operació de potenciació cap als nombres ordinals no ho podem
+ fer de la mateixa manera que ho hem fet abans amb les operacions de suma
+ i multiplicació.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Abans el que hem fet és agafar el resultat de l'operació entre conjunts,
+ establir-hi una mena d'ordre 
+\begin_inset Quotes fls
+\end_inset
+
+natural
+\begin_inset Quotes frs
+\end_inset
+
+ a partir dels ordres dels operands hem dit: el resultat de l'operació és
+ l'ordinal que representa aquest ordre.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Amb la potenciació de conjunts ens passa que no existeix en general cap
+ bon ordre que puguem establir en el resultat d'una manera ben definida.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No sabem ordenar les funcions entre naturals de manera que qualsevol conjunt
+ de funcions tingui un element mínim.
+ Igual com tampoc ho sabem fer amb els nombres reals, de fet.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+En l'ordre considerat natural dels nombres reals conjunts com l'interval
+ obert 
+\begin_inset Formula $(0,1)$
+\end_inset
+
+ no tenen element mínim i per tant no és un bon ordre.
+ El mateix passaria amb qualsevol ordre de volguéssim definir explícitament.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per això de fet s'introdueix l'axioma de l'elecció dins de 
+\series bold
+ZFC
+\series default
+.
+ Per assegurar que cada conjunt té un bon ordre encara que no siguem capaços
+ de definir explícitament quin és.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Però per definir una operació amb nombres ordinals el que ens caldria és
+ un bon ordre definit explícitament i això no ho tenim.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "operacions-naturals"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+La manera com es defineixen en general les funcions ordinals és una altra.
+ Recordem com vam definir la suma de nombres naturals:
+\begin_inset Formula 
+\begin{eqnarray*}
+a+0 & = & a\\
+a+(b+1) & = & (a+b)+1
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+O la multiplicació:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{eqnarray*}
+a·0 & = & 0\\
+a·(b+1) & = & a·b+a
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+O la potenciació:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{eqnarray*}
+a^{0} & = & 1\\
+a^{b+1} & = & a^{b}·a
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aquestes definicions recursives funcionen perquè existeix el principi d'inducció
+ del que també vam parlar.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Amb el principi d'inducció podem demostrar que una definició així realment
+ descriu una funció que existeix i que és única, i també amb ell podem demostrar
+ les propietats de les funcions que definim així.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El que ens cal per poder definir funcions d'una manera similar a aquesta
+ sobre els ordinals és una extensió del principi d'inducció que operi sobre
+ els nombres ordinals en comptes dels naturals.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D'això se'n diu 
+\shape italic
+
+\begin_inset Quotes fls
+\end_inset
+
+principi d'inducció transfinita
+\begin_inset Quotes frs
+\end_inset
+
+
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+La inducció sobre nombres naturals en, donada una propietat 
+\begin_inset Formula $P$
+\end_inset
+
+ definida sobre aquests mateixos nombres naturals, verificar per una banda
+ que es compleix pel zero i per l'altra que es compleix pel successor d'un
+ nombre en el supòsit que ja s'està complint per aquell nombre.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Els nombres ordinals també tenen zero i també tenen successors, però hi
+ ha un tercer tipus d'ordinal que haurem de cobrir per completar la inducció:
+ els 
+\shape italic
+ordinals límit
+\shape default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Un ordinal límit és allò que ve després d'aplicar el successor infinites
+ vegades.
+ És a dir, després de 
+\begin_inset Formula $0$
+\end_inset
+
+, 
+\begin_inset Formula $0+1=1$
+\end_inset
+
+, 
+\begin_inset Formula $1+1=2$
+\end_inset
+
+, 
+\begin_inset Formula $2+1=3$
+\end_inset
+
+, 
+\begin_inset Formula $3+1=4$
+\end_inset
+
+, \SpecialChar ldots
+, 
+\begin_inset Formula $53312+1=53313$
+\end_inset
+
+, \SpecialChar ldots
+ ve un ordinal límit que n'havíem dit 
+\begin_inset Formula $ω$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I després de 
+\begin_inset Formula $ω$
+\end_inset
+
+, 
+\begin_inset Formula $ω+1$
+\end_inset
+
+, 
+\begin_inset Formula $(ω+1)+1=ω+2$
+\end_inset
+
+, 
+\begin_inset Formula $(ω+2)+1=ω+3$
+\end_inset
+
+, \SpecialChar ldots
+ ve un altre ordinal límit que n'havíem dit 
+\begin_inset Formula $ω·2$
+\end_inset
+
+.
+ Aquesta mena de nombres ordinals no són successor de cap nombre ni tampoc
+ són zero.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El pas d'inducció per aquests nombres consistirà en verificar que si la
+ propietat 
+\begin_inset Formula $P$
+\end_inset
+
+ es dóna per tota la seqüència d'ordinals anteriors a ell aleshores també
+ la té ell.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Recapitulant, el principi d'inducció transfinita consisteix en que si una
+ propietat 
+\begin_inset Formula $P(α)$
+\end_inset
+
+ sobre els nombres ordinals compleix que:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $P(0)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Per a tot 
+\begin_inset Formula $α$
+\end_inset
+
+ ordinal, 
+\begin_inset Formula $P(α)\rightarrow P(α+1)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Per a tot 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ ordinal límit, per a tot 
+\begin_inset Formula $α<λ$
+\end_inset
+
+, 
+\begin_inset Formula $P(α)\rightarrow P(λ)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Plain Layout
+\SpecialChar ldots
+llavors podem dir que per a tot 
+\begin_inset Formula $α$
+\end_inset
+
+ ordinal es compleix 
+\begin_inset Formula $P(α).$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tot i dir-se'n 
+\begin_inset Quotes fls
+\end_inset
+
+principi
+\begin_inset Quotes frs
+\end_inset
+
+ com si fos una cosa especial i particular, en l'àmbit de 
+\series bold
+ZFC
+\series default
+ és un teorema com qualsevol altre que es segueix i es demostra a partir
+ dels axiomes com qualsevol altre.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Com també ho són de fet els anomenats 
+\begin_inset Quotes fls
+\end_inset
+
+corol·laris
+\begin_inset Quotes frs
+\end_inset
+
+ i 
+\begin_inset Quotes fls
+\end_inset
+
+lemes
+\begin_inset Quotes frs
+\end_inset
+
+.
+ La distinció entre uns i altres és una cosa subjectiva que no té cap rellevànci
+a formal.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+això no ho has dit ja abans?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+En realitat només hi ha axiomes, que es prenen sense demostració, i teoremes,
+ que es demostren a partir d'axiomes i altres teoremes.
+ I de tots plegats en diem 
+\begin_inset Quotes fls
+\end_inset
+
+proposicions
+\begin_inset Quotes frs
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anàlogament a com havíem vist amb els naturals, amb la inducció transfinita
+ podem definir funcions sobre els ordinals fent servir el resultat de la
+ mateixa funció aplicada a altres arguments talment com:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{eqnarray*}
+f(0) & = & \Phi\\
+\forall\alpha\textrm{ ordinal, }f(\alpha+1) & = & X(f(\alpha))\\
+\forall\lambda\textrm{ ordinal límit, }f(\lambda) & = & \Psi(\left\{ f(\alpha)\mid\alpha<\lambda\right\} )
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+De fet aquesta esquema és precisament el que vam fer servir quan vam definir
+ els nombres cardinals infinits àlef i bet
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "bet"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, tot i que encara no havíem definit els ordinals límit ni la inducció transfini
+ta.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I també el podem fer servir per estendre les definicions de les operacions
+ bàsiques sobre naturals
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "operacions-naturals"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ cap als nombres ordinals.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+La suma d'ordinals queda definida, doncs, així:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{eqnarray*}
+\forall\alpha\textrm{ ordinal, }\alpha+0 & = & \alpha\\
+\forall\alpha\forall\beta\textrm{ ordinals, }\alpha+(\beta+1) & = & (\alpha+\beta)+1\\
+\forall\alpha\textrm{ ordinal }\forall\lambda\textrm{ ordinal límit, }\alpha+\lambda & = & \sup\left\{ \alpha+\beta\mid\beta<\lambda\right\} 
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I la multiplicació:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{eqnarray*}
+\forall\alpha\textrm{ ordinal, }\alpha·0 & = & 0\\
+\forall\alpha\forall\beta\textrm{ ordinals, }\alpha·(\beta+1) & = & \alpha·\beta+\alpha\\
+\forall\alpha\textrm{ ordinal }\forall\lambda\textrm{ ordinal límit, }\alpha·\lambda & = & \sup\left\{ \alpha·\beta\mid\beta<\lambda\right\} 
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aquestes definicions fan la suma i la multiplicació d'ordinals consistents
+ amb les de naturals que coneixem i a més coincideix amb la que vam donar
+ més informalment aquí
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "suma-ordinals"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ i aquí
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "producte-ordinals"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ Defineixen la mateixa cosa.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+La potenciació d'ordinals queda definida com:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{eqnarray*}
+\forall\alpha\textrm{ ordinal, }\alpha^{0} & = & 1\\
+\forall\alpha\forall\beta\textrm{ ordinals, }\alpha^{\beta+1} & = & \alpha^{\beta}·\alpha\\
+\forall\alpha\textrm{ ordinal }\forall\lambda\textrm{ ordinal límit, }\alpha^{\lambda} & = & \sup\left\{ \alpha^{\beta}\mid\beta<\lambda\right\} 
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+I també és una extensió de la potenciació de nombres naturals entesa com
+ una multiplicació repetida.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+És interessant que en aquest cas aquesta operació és inconsistent amb la
+ potenciació de nombres cardinals tal com l'havíem definit; per una banda:
+ 
+\begin_inset Formula $2^{ω}=\sup\left\{ 2^{i}\mid i<ω\right\} =\sup\left\{ 1,2,4,8,16,32,\ldots\right\} =ω$
+\end_inset
+
+, mentre que alhora: 
+\begin_inset Formula $2^{|ω|}=2^{ℵ_{0}}=ℶ_{1}>\text{ℵ}_{0}=|ω|$
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -20246,7 +22199,10 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+La potenciació de nombres ordinals i la de nombres cardinals són ambdues
+ extensions de la de nombres naturals, la primera entesa com a multiplicació
+ iterada i l'altra com a cardinalitat del conjunt potència, però resulten
+ ser operacions completament diferents.
 \end_layout
 
 \end_inset
@@ -20256,6 +22212,10 @@ fila
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 
