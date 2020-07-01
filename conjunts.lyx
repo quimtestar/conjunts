@@ -776,9 +776,13 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-I si en canvi suposem que no ho és això vol dir que no compleix la propietat
- de no ser un element d'ell mateix, cosa que implica que sí que ho és, contradie
-nt altre cop la hipòtesi.
+I si en canvi suposem que 
+\begin_inset Formula $K$
+\end_inset
+
+ no és element d'ell mateix, això vol dir que no compleix la propietat de
+ no ser un element d'ell mateix, cosa que implica que sí que ho és, contradient
+ altre cop la hipòtesi.
 \end_layout
 
 \end_inset
@@ -818,8 +822,11 @@ La mateixa existència del conjunt
 
 
 \shape default
-, per tant, ens aboca a una contradicció.
- Hem trobat una col·lecció de coses que no pot existir com a conjunt.
+, per tant, ens aboca a una contradicció tant si suposem que es té a ell
+ mateix com a element com si suposem que no, i aquestes dues són les úniques
+ possibilitats.
+ Hem trobat, per tant, una col·lecció de coses que no pot existir com a
+ conjunt.
 \end_layout
 
 \end_inset
@@ -907,8 +914,8 @@ El problema és que si tenim una matemàtica que pot demostrar coses que són
 
 
 \shape default
-, aleshores cap resultat que ens proporcioni aquesta ciència té cap valor
- perquè aquest podria ser tant veritat com mentida.
+, aleshores cap resultat que ens proporcioni aquesta ciència té algun valor
+ perquè aquest resultat podria ser tant veritat com mentida.
 \end_layout
 
 \end_inset
@@ -984,6 +991,10 @@ conjunt pur
 .
  Un conjunt pur és un conjunt tal que tots els seus elements són alhora
  conjunts purs.
+ Dit d'una altra manera: tots i cadascun dels elements d'un conjunt pur
+ són conjunts tals que tots i cadascun dels seus elements són conjunts tals
+ que \SpecialChar ldots
+
 \end_layout
 
 \end_inset
@@ -1076,7 +1087,8 @@ existeix el conjunt
 
  necessitarem justificar aquesta existència seguint aquestes regles, entre
  les que de ben segur no hi haurà l'axioma que deia que ho podíem afirmar
- directament.
+ directament perquè, tal com hem vist, aquest axioma ens condueix directament
+ cap a una paradoxa.
 \end_layout
 
 \end_inset
@@ -1135,6 +1147,9 @@ teoria axiomàtica de conjunts
 
 \shape default
 .
+ Tenim multiplicitat de teories de conjunts perquè cadascun d'aquests jocs
+ ens pot estar parlant d'un concepte de conjunt particular i amb unes caracterís
+tiques diferents de les que té en els altres.
 \end_layout
 
 \end_inset
@@ -1174,7 +1189,7 @@ De la teoria de conjunts amb la que treballaven els matemàtics del segle
 \begin_inset Quotes fld
 \end_inset
 
-teoria de conjunts naïf
+teoria informal de conjunts
 \begin_inset Quotes frd
 \end_inset
 
@@ -1223,8 +1238,19 @@ name "enu:intuicio"
 
 \end_inset
 
-Que l'entitat que descrigui es correspongui a la nostra noció intuïtiva
- de conjunt.
+Que l'entitat abstracta que defineixi i descrigui sota el terme 
+\shape italic
+
+\begin_inset Quotes fld
+\end_inset
+
+conjunt
+\begin_inset Quotes frd
+\end_inset
+
+
+\shape default
+ es correspongui a la nostra noció intuïtiva del que és un conjunt.
 \end_layout
 
 \begin_layout Enumerate
@@ -2302,7 +2328,15 @@ Z
 \series bold
 F
 \series default
- per Zermelo i Fraenkel, que són dos senyors, i la 
+ per Ernst 
+\series bold
+Z
+\series default
+ermelo i Abraham 
+\series bold
+F
+\series default
+raenkel, que són dos senyors, i la 
 \series bold
 C
 \series default
