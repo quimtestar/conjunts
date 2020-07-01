@@ -287,11 +287,11 @@ fila
 \begin_layout Plain Layout
 Va haver-hi un temps que hom creia que més o menys sí que ho són.
  Volent dir aquest 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 més o menys
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
  que tampoc és que ningú s'hagués plantejat mai el tema amb gaire profunditat.
@@ -372,13 +372,13 @@ En particular, s'acceptava tàcitament la validesa del que després s'ha vingut
  a anomenar 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 axioma de comprensió sense restriccions
 \shape default
 
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 : donada una propietat qualsevol que poden tenir les coses, existeix el
@@ -416,21 +416,21 @@ fila
 \begin_layout Plain Layout
 Existeix el conjunt de nombres primers que conté precisament aquelles coses
  que compleixen la propietat 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 ser un nombre primer
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 .
  Existeix el conjunt de coses de color blau que conté precisament aquelles
  coses que compleixen la propietat 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 ser de color blau
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 .
@@ -857,15 +857,15 @@ No sé si en Bertrand Russell va ser el primer en topar amb aquesta idea,
  I per això s'anomena 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 la paradoxa de Russell
-\shape default
-
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
+
+\shape default
 .
 \end_layout
 
@@ -1051,7 +1051,7 @@ fila
 
 \begin_layout Plain Layout
 Per arribar a afirmar 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 existeix el conjunt 
@@ -1071,7 +1071,7 @@ existeix el conjunt
 
 \shape default
 
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
  necessitarem justificar aquesta existència seguint aquestes regles, entre
@@ -1111,11 +1111,11 @@ fila
 D'aquests jocs de regles en diem 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 sistemes axiomàtics
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -1125,11 +1125,11 @@ sistemes axiomàtics
  diem una
 \shape italic
  
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 teoria axiomàtica de conjunts
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -1171,11 +1171,11 @@ De la teoria de conjunts amb la que treballaven els matemàtics del segle
  en la noció intuïtiva de conjunt, en diem 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 teoria de conjunts naïf
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -1303,20 +1303,20 @@ noprefix "false"
  aspirar és a un conveni.
  Hi ha una multiplicitat de teories de conjunts on en cadascuna el concepte
  
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 conjunt
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
  té uns matisos diferents i una que convenim que dona lloc a les matemàtiques
  
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 estàndard
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 .
@@ -1773,11 +1773,11 @@ fila
 Gödel es va adonar que donat un sistema de la mena que estem tractant que
  sigui prou potent com per respondre qüestions aritmètiques bàsiques, seria
  possible traduir una afirmació com 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 aquesta afirmació no és demostrable en aquest sistema
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
  en forma d'equació aritmètica que a continuació podríem introduir dins
@@ -1851,11 +1851,11 @@ fila
 
 \begin_layout Plain Layout
 La part d'expressar una oració en llenguatge natural com 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 aquesta afirmació no és demostrable en aquest sistema
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
  en forma de proposició processable per un sistema axiomàtic formal es diu
@@ -1892,11 +1892,11 @@ fila
 
 \begin_layout Plain Layout
 En llenguatge natural podem referir-nos a 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 aquesta frase
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
  dins de la mateixa frase a la que ens estem referint saltant alegrement
@@ -1934,11 +1934,11 @@ fila
 
 \begin_layout Plain Layout
 Per exemple, podem dir 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 aquesta frase és mentida
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
  creant una paradoxa d'autoreferència i qui ho sent de seguida entén la
@@ -1978,19 +1978,19 @@ fila
 Però fer-li aquest mateix joc a un sistema formal fet per distingir allò
  veritable d'allò fals d'una manera ben fonamentada és força més complicat.
  No tindrem manera de dir 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 aquesta frase
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
  o 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 aquest sistema
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
  així amb un adjectiu demostratiu i a cascar-la.
@@ -2060,11 +2060,11 @@ fila
 \begin_layout Plain Layout
 El que va haver de fer en Gödel per dur a terme això va ser d'alguna manera
  
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 programar
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
  sobre paper en forma d'equacions aritmètiques el comportament d'un sistema
@@ -2247,11 +2247,11 @@ prou
  de conjunts (i per extensió la matemàtica) 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 estàndard
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -2309,7 +2309,7 @@ C
  de 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 axiom of 
@@ -2317,7 +2317,7 @@ axiom of
 c
 \series default
 hoice
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -2507,7 +2507,7 @@ fila
 Quan diem 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 
@@ -2521,13 +2521,13 @@ Quan diem
 
 \shape default
 
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 , inherentment a això va lligat que a qualsevol proposició on veiem un 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 
@@ -2535,7 +2535,7 @@ Quan diem
 \end_inset
 
 
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -2543,7 +2543,7 @@ Quan diem
  el podem substituir per un 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 
@@ -2551,7 +2551,7 @@ Quan diem
 \end_inset
 
 
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -2970,11 +2970,11 @@ Aquesta estructura ens interessa per la seva asimetria.
  I com que és asimètrica podem definir-hi un ordre, dir que un element va
  davant de l'altre.
  Per això en diem 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 parell ordenat
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
  i ho escrivim amb la notació 
@@ -3332,11 +3332,11 @@ Per exemple, aplicada al conjunt
  D'aquesta funció en diem 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 successor
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -3701,11 +3701,11 @@ Dels elements d'aquest conjunt
  i de tots els que tenen la mateixa cardinalitat en diem 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 conjunts finits
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -3718,11 +3718,11 @@ conjunts finits
 , en diem 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 conjunts infinits
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -3769,11 +3769,11 @@ ZFC
  vol dir això de 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 tenir la mateixa cardinalitat
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -3853,11 +3853,11 @@ un a un
  que se'n diu 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 bijecció
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -4118,11 +4118,11 @@ Per tant sabem que el conjunt
  En direm 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 nombres naturals
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -4317,11 +4317,11 @@ En altres paraules, estem demostrant que
 \end_inset
 
  traient-li un element, segons la definició de 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 tenir la mateixa quantitat d'elements
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
  que hem donat.
@@ -4506,11 +4506,11 @@ fila
 
 \begin_layout Plain Layout
 I això és perquè, encara que sempre fem servir la paraula 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 conjunt
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 , sistemes axiomàtics diferents poden estar parlant de coses (lleugerament)
@@ -4835,11 +4835,11 @@ fila
 
 \begin_layout Plain Layout
 Per això fem servir coses com l'anomenat 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 principi d'inducció matemàtica
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 ; si tenim una propietat 
@@ -5209,11 +5209,11 @@ fila
 \begin_layout Plain Layout
 Però aquesta vegada, en operar dins d'un conjunt que ja és preexistent,
  ens evitem caure en paradoxes de l'estil 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 tenim el conjunt de conjunts que no es pertanyen a ells mateixos
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 .
@@ -5325,11 +5325,11 @@ fila
 
 \begin_layout Plain Layout
 I tanmateix podem definir coses com 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 el conjunt del nombres naturals que són primers
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 , sempre i quan puguem prèviament demostrar l'existència del conjunt dels
@@ -5994,7 +5994,7 @@ I encara més, ens descarta qualsevol seqüència infinita de la forma
 
  encara que el cicle no es repeteixi mai.
  Tota seqüència de descens que es faci seguint la relació 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 
@@ -6002,7 +6002,7 @@ I encara més, ens descarta qualsevol seqüència infinita de la forma
 \end_inset
 
 
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
  
@@ -6042,11 +6042,11 @@ fila
 
 \begin_layout Plain Layout
 De la 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 prohibició
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
  que es doni 
@@ -6826,11 +6826,11 @@ notació
  vol dir 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 la cardinalitat de A
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -6842,11 +6842,11 @@ la cardinalitat de A
  vol dir 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 el producte cartesià de A i B
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -7071,11 +7071,11 @@ Comptar els elements de
 \end_inset
 
  tal com l'hem fet abans perquè no passaríem mai de la primera 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 fila
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 :
@@ -7734,7 +7734,7 @@ fila
 No exactament per això, sinó per una qüestió de fet més general però fortament
  relacionada amb aquesta, la notació que modernament es fa servir per indicar
  el conjunt potència del conjunt A és 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 
@@ -7742,7 +7742,7 @@ No exactament per això, sinó per una qüestió de fet més general però forta
 \end_inset
 
 
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 .
@@ -8390,11 +8390,11 @@ Tornant a l'argument que hem vist pel que
 , això és el que es coneix com a 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 diagonalització de Cantor
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -8670,11 +8670,11 @@ Com entitats abstractes de les que només ens interessen les seves propietats
  
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 externes
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -9070,7 +9070,7 @@ fila
 
 \begin_layout Plain Layout
 A partir de la funció suma podríem definir una altra funció tal com 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 donats dos nombres 
@@ -9094,18 +9094,18 @@ donats dos nombres
 \end_inset
 
 
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 .
  D'això en diem 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 resta
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -9376,7 +9376,7 @@ Els nombres naturals quedaran representats en aquesta nova categoria amb
 \end_inset
 
 ', donat que 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 aquell nombre 
@@ -9392,7 +9392,7 @@ aquell nombre
 \end_inset
 
 
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
  és exactament el mateix 
@@ -9589,11 +9589,11 @@ De fet, a l'hora d'escriure els nombres per fer aritmètica aquests zeros
 ' i en diem 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 nombres negatius
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -9647,11 +9647,11 @@ Quan el zero és al segon component (`
  D'això en diem 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 nombres positius
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -9691,11 +9691,11 @@ fila
 D'aquests nous nombres-resta en diem 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 nombres enters
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -9848,11 +9848,11 @@ Seguint un procediment anàleg a aquest però buscant el tancament de l'operaci�
 , els 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 nombres racionals
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -10797,11 +10797,11 @@ En aquesta situació existirà un punt de la recta que essent més gran o igual
  D'aquest punt en diem 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 suprem
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 .
@@ -13180,11 +13180,11 @@ fila
 
 \begin_layout Plain Layout
 I no obstant, nosaltres seguim volent trobar aquest 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 final
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
  de 
@@ -13770,7 +13770,7 @@ I després que hi ha una família de conjunts infinits que són equipotents
 
 .
  D'aquesta mena de conjunts en diem 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 
@@ -13778,7 +13778,7 @@ I després que hi ha una família de conjunts infinits que són equipotents
 numerables
 \shape default
 
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 .
@@ -14351,11 +14351,11 @@ name "continu"
 Cantor va anomenar a aquesta proposició la 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 hipòtesi del continu
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -14576,11 +14576,11 @@ fila
 \begin_layout Plain Layout
 Una altra manera d'entendre això és pensar que existeixen dos ens abstractes
  separats als que podem anomenar indistintament 
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 conjunts
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 , que 
@@ -15180,11 +15180,11 @@ fila
 \begin_layout Plain Layout
 Com deia això contradiu fortament la nostra intuïció degut a la nostra experiènc
 ia física tallant i rearmant sòlids a l'espai, i per això se'n diu 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 paradoxa
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 .
@@ -15224,11 +15224,11 @@ Però és un resultat matemàtic perfectament vàlid i consistent a partir de
  No és una paradoxa en el sentit que ho era la de Russell que invalidava
  tota la matemàtica i s'havia de refundar de nou.
  És només un teorema 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 estrany
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 .
@@ -15267,11 +15267,11 @@ La matèria física que ens envolta no la podem duplicar màgicament com les
  boles matemàticament idealitzades d'aquest teorema perquè d'entrada els
  talls que hem de fer són d'una delicadesa infinita (hauríem de separar
  la substància com aquell qui diu 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 punt a punt
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 ) i la substància de les boles de billar a partir d'una certa escala microscòpic
@@ -15432,11 +15432,11 @@ Empalmant aquesta equivalència amb el que hem demostrat abans sobre que
 
  és més petit o igual que qualsevol conjunt Dedekind-infinit tindríem que
  també ho és que qualsevol conjunt infinit 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 a seques
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 .
@@ -15476,11 +15476,11 @@ I amb això acabaríem l'exposició de la teoria de conjunts
 ZFC
 \series default
 , que és en el que es fonamenten les matemàtiques 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 estàndard
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 : quan no ens trobem explorant els fonaments mateixos de les matemàtiques
@@ -15787,11 +15787,11 @@ També vam veure que per manegar aquesta complexitat amb els conjunts finits
  fem servir uns objectes abstractes que es diuen 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 nombres
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -15831,11 +15831,11 @@ fila
 Quan parlem del nombre 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 tres
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -16286,11 +16286,11 @@ Bé, doncs.
  no buits tenen un element mínim, es diu que és un 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 bon ordre
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -16299,11 +16299,11 @@ bon ordre
  Els nombres naturals formen un conjunt 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 ben ordenat
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -16526,11 +16526,11 @@ D'aquestes bijeccions entre conjunts ordenats que són consistents amb l'ordre
  se'n diuen 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 isomorfismes d'ordre
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -17037,11 +17037,11 @@ fila
 D'aquesta mena de conjunts en diem 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 nombres ordinals
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -18828,11 +18828,11 @@ Hi ha una generalització de la hipòtesi del continu que estén aquesta fórmul
  A aquesta se l'anomena 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 hipòtesi del continu generalitzada
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -18992,11 +18992,11 @@ fila
 \begin_layout Plain Layout
 Perquè pot molt ben ser que per qüestions matemàtiques que romanen obertes,
  algunes fins i tot amb alguna utilitat pràctica, les matemàtiques 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 normals
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
  senzillament no estiguin suficientment dotades per resoldre-les, com en
@@ -19034,12 +19034,12 @@ fila
 \begin_layout Plain Layout
 I aleshores la manera de donar resposta a aquestes qüestions és plantejar-se
  la pregunta 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 què caldria incorporar a les matemàtiques per poder demostrar que això és
  veritat i quines altres implicacions tindria fer-ho?
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 .
@@ -19224,11 +19224,11 @@ Quan estenem aquesta idea als cardinals infinits ens trobem que sota
 ZFC
 \series default
  resulta que el cardinal infinit més gran 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 absorbeix
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
  el petit: 
@@ -20510,11 +20510,11 @@ fila
  D'aquí prové el fet d'anomenar a aquest concepte 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 potenciació de conjunts
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -20706,7 +20706,7 @@ A continuació podem agafar aquesta seqüència de nombres en base
 \end_inset
 
  I després posar aquesta cadena de dígits a continuació d'un 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 
@@ -20714,7 +20714,7 @@ A continuació podem agafar aquesta seqüència de nombres en base
 \end_inset
 
 
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 ; és a dir 
@@ -20901,11 +20901,11 @@ fila
 \begin_layout Plain Layout
 Abans el que hem fet és agafar el resultat de l'operació entre conjunts,
  establir-hi una mena d'ordre 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 natural
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
  a partir dels ordres dels operands hem dit: el resultat de l'operació és
@@ -21302,11 +21302,11 @@ fila
 D'això se'n diu 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 principi d'inducció transfinita
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -21662,11 +21662,11 @@ fila
 
 \begin_layout Plain Layout
 Tot i dir-se'n 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 principi
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
  com si fos una cosa especial i particular, en l'àmbit de 
@@ -21707,19 +21707,19 @@ fila
 
 \begin_layout Plain Layout
 Com també ho són de fet els anomenats 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 corol·laris
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
  i 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 lemes
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 .
@@ -21769,11 +21769,11 @@ fila
 En realitat només hi ha axiomes, que es prenen sense demostració, i teoremes,
  que es demostren a partir d'axiomes i altres teoremes.
  I de tots plegats en diem 
-\begin_inset Quotes fls
+\begin_inset Quotes fld
 \end_inset
 
 proposicions
-\begin_inset Quotes frs
+\begin_inset Quotes frd
 \end_inset
 
 .
@@ -22212,10 +22212,6 @@ La potenciació de nombres ordinals i la de nombres cardinals són ambdues
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 
