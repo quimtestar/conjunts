@@ -8,6 +8,7 @@
 \begin_preamble
 \usepackage{colortbl}
 \usepackage{xcolor}
+\usepackage[scale=1]{ccicons}
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -136,7 +137,7 @@ arrayrulecolor{taula}
 
 
 \begin_inset Tabular
-<lyxtabular version="3" rows="466" columns="2">
+<lyxtabular version="3" rows="465" columns="2">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="100text%">
@@ -1147,9 +1148,6 @@ teoria axiomàtica de conjunts
 
 \shape default
 .
- Tenim multiplicitat de teories de conjunts perquè cadascun d'aquests jocs
- ens pot estar parlant d'un concepte de conjunt particular i amb unes caracterís
-tiques diferents de les que té en els altres.
 \end_layout
 
 \end_inset
@@ -1239,8 +1237,6 @@ name "enu:intuicio"
 \end_inset
 
 Que l'entitat abstracta que defineixi i descrigui sota el terme 
-\shape italic
-
 \begin_inset Quotes fld
 \end_inset
 
@@ -1248,8 +1244,6 @@ conjunt
 \begin_inset Quotes frd
 \end_inset
 
-
-\shape default
  es correspongui a la nostra noció intuïtiva del que és un conjunt.
 \end_layout
 
@@ -1336,8 +1330,8 @@ conjunt
 \begin_inset Quotes frd
 \end_inset
 
- té uns matisos diferents i una que convenim que dona lloc a les matemàtiques
- 
+ té uns matisos diferents i una teoria de conjunts que convenim que dona
+ lloc a les matemàtiques 
 \begin_inset Quotes fld
 \end_inset
 
@@ -1418,12 +1412,19 @@ name "finitistes"
 \begin_inset Text
 
 \begin_layout Plain Layout
-Hi ha per exemple una secta que es diuen els 
+Hi ha per exemple 
+\strikeout on
+una secta
+\strikeout default
+ un corrent de pensament anomenat 
 \shape italic
-finitistes
+finitisme
 \shape default
- que rebutgen l'existència de conjunts infinits perquè la troben herètica
- o quelcom semblant.
+ que rebutja l'existència de conjunts infinits 
+\strikeout on
+perquè la troben herètica o quelcom semblant
+\strikeout default
+.
 \end_layout
 
 \end_inset
@@ -1497,7 +1498,7 @@ name "hilbert"
 \begin_inset Text
 
 \begin_layout Plain Layout
-Per exemple l'
+Per exemple la qüestió de l'
 \shape italic
 Hotel Infinit de Hilbert
 \shape default
@@ -1536,7 +1537,7 @@ fila
 \begin_layout Plain Layout
 Posem que ens trobem treballant a la recepció d'un hotel que té infinites
  habitacions.
- I que estem amb l'hotel ple fins la bandera.
+ I que estem plens fins la bandera.
  Totes les habitacions ocupades.
  En aquell moment arriba un client nou que vol una habitació.
 \end_layout
@@ -2019,7 +2020,11 @@ aquest sistema
 \begin_inset Quotes frd
 \end_inset
 
- així amb un adjectiu demostratiu i a cascar-la.
+ així amb un adjectiu demostratiu 
+\strikeout on
+i a cascar-la
+\strikeout default
+.
 \end_layout
 
 \end_inset
@@ -2196,7 +2201,7 @@ fila
 \begin_layout Plain Layout
 I per tant mai podrem estar realment segurs que els axiomes que haguem escollit
  per parlar de conjunts no ens portin a una contradicció com va passar amb
- la teoria de conjunts naïf del segle XIX i la paradoxa de Russell.
+ la teoria de conjunts preaxiomàtica del segle XIX i la paradoxa de Russell.
 \end_layout
 
 \end_inset
@@ -2264,8 +2269,8 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Existeix un conjunt d'axiomes concret, però, que donat que sembla que a
- la seva manera satisfà 
+Existeix un joc d'axiomes concret, però, que donat que sembla que a la seva
+ manera satisfà 
 \shape italic
 prou
 \shape default
@@ -2626,7 +2631,8 @@ fila
 Aquest fet és una part essencial del discórrer matemàtic, de fet.
  En canvi, en el món sensible si veiem un cotxe igual pel nostre no necessàriame
 nt ha de ser el nostre i si fem amb ell el que faríem amb el nostre podem
- tenir problemes amb la justícia.
+ tenir problemes amb qui tingui encarregada la tasca de protegir la propietat
+ privada.
 \end_layout
 
 \end_inset
@@ -2660,7 +2666,7 @@ fila
 \begin_layout Plain Layout
 És obvi que a causa d'això discórrer en el món sensible ha de ser per força
  molt més esgotador, feixuc i desagradable.
- No saps mai si dues coses iguals són la mateixa o no, hòstia puta.
+ No saps mai si dues coses iguals són la mateixa o no, casum l'olla.
 \end_layout
 
 \end_inset
@@ -2848,7 +2854,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-L'existència del conjunt d'un sol element queda subsumida en aquest axioma,
+L'existència dels conjunts d'un sol element queda subsumida en aquest axioma,
  quan 
 \shape italic
 
@@ -3004,6 +3010,8 @@ Aquesta estructura ens interessa per la seva asimetria.
  I com que és asimètrica podem definir-hi un ordre, dir que un element va
  davant de l'altre.
  Per això en diem 
+\shape italic
+
 \begin_inset Quotes fld
 \end_inset
 
@@ -3011,6 +3019,8 @@ parell ordenat
 \begin_inset Quotes frd
 \end_inset
 
+
+\shape default
  i ho escrivim amb la notació 
 \begin_inset Formula $(a,b)=\left\{ \left\{ a\right\} ,\left\{ a,b\right\} \right\} $
 \end_inset
@@ -3929,9 +3939,49 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename figures/bijection.svg
 	width 100bp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\size scriptsize
+(adaptat de: 
+\begin_inset CommandInset href
+LatexCommand href
+target "https://commons.wikimedia.org/wiki/File:Bijection.svg"
+literal "false"
+
+\end_inset
+
+)
+\end_layout
 
 \end_inset
 
@@ -3984,7 +4034,11 @@ Així doncs, si en un conjunt podem establir-hi una bijecció amb algun dels
 \begin_inset Formula $I=\left\{ 0,1,2,3,4,5,\ldots\right\} $
 \end_inset
 
-, direm que aquest conjunt és finit.
+ (no amb el conjunt 
+\begin_inset Formula $I$
+\end_inset
+
+ mateix), direm que aquest conjunt és finit.
 \end_layout
 
 \end_inset
@@ -4161,7 +4215,7 @@ nombres naturals
 
 
 \shape default
- i en aquest context ens referirem a ell mitjançant el símbol 
+ i en aquest context ens referirem a ells mitjançant el símbol 
 \begin_inset Formula $\mathbb{N}$
 \end_inset
 
@@ -4197,7 +4251,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-De fet tot aquest procés és exactament el que fa un nen quan compta els
+De fet tot aquest procés és exactament el que fa un infant quan compta els
  elements d'un conjunt qualsevol d'ítems concrets que té al davant.
  Els va assenyalant un per un assignant-los nombres consecutius i al final
  sap amb quin dels elements de 
@@ -4429,7 +4483,7 @@ fila
 Al segle XIX, abans de tot això de l'axiomatització, un senyor que es deia
  Richard Dedekind buscava una manera de caracteritzar la infinitat que fos
  purament interna a la teoria de conjunts; que no fes referència a cap concepte
- extern, com per exemple són els nombres naturals.
+ extern, com per exemple els nombres naturals tal com ell els considerava.
 \end_layout
 
 \end_inset
@@ -4638,7 +4692,7 @@ ZF
 C
 \series default
 .
- Quan arribem a l'axioma de l'elecció (no sé quan) veurem per què.
+ Quan arribem a l'axioma de l'elecció veurem per què.
 \end_layout
 
 \end_inset
@@ -5282,13 +5336,17 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Quan un element no pertanyi a un conjunt generat per aquest axioma, no podrem
- concloure directament que satisfan la negació de la propietat 
+Quan un element no pertanyi a un conjunt 
+\begin_inset Formula $B$
+\end_inset
+
+ generat per aquest axioma, no podrem concloure directament que satisfà
+ la negació de la propietat 
 \begin_inset Formula $P$
 \end_inset
 
 .
- També podria ser que no pertanyessin al conjunt inicial 
+ També podria ser que no formés part del conjunt inicial 
 \begin_inset Formula $A$
 \end_inset
 
@@ -5325,8 +5383,8 @@ fila
 
 \begin_layout Plain Layout
 Així esquivem conclusions que ens podrien dur a contradiccions de l'estil
- paradoxa de Russell que ens tornarien a dur a la inconsistència de tot
- el sistema.
+ paradoxa de Russell que ens tornarien a dur a la temuda inconsistència
+ de tot el sistema.
 \end_layout
 
 \end_inset
@@ -5399,9 +5457,9 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Per això de fet volíem l'axioma de comprensió, no per generar contradiccions
- que ens fessin replantejar els fonaments de tota la matemàtica i la solidesa
- de la seva connexió amb la veritat.
+Era per això, de fet, que volíem l'axioma de comprensió, no pas per generar
+ contradiccions que ens fessin replantejar els fonaments de tota la matemàtica
+ i la solidesa de la seva connexió amb la veritat.
 \end_layout
 
 \end_inset
@@ -5478,7 +5536,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-O el conjunt complement: 
+O el conjunt diferència: 
 \begin_inset Formula $A\setminus B=\left\{ a\in A\mid a\notin B\right\} $
 \end_inset
 
@@ -5599,7 +5657,7 @@ Necessitaríem demostrar prèviament l'existència d'aquest conjunt universal
 ZFC
 \series default
  no es pot fer.
- De fet veurem que es pot demostrar la 
+ De fet es pot demostrar la 
 \series bold
 no
 \series default
@@ -5636,8 +5694,8 @@ fila
 
 \begin_layout Plain Layout
 Si comencem suposant que existeix un conjunt universal, l'axioma de comprensió
- sense restriccions esdevé un corol·lari l'axioma d'especificació queda
- reduït al de comprensió sense restriccions, simplement fent 
+ sense restriccions esdevé un corol·lari l'axioma d'especificació, simplement
+ fent 
 \begin_inset Formula $A=𝕌$
 \end_inset
 
@@ -5777,7 +5835,11 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Diu: tot conjunt que no sigui buit té un element que és disjunt amb ell.
+Diu: tot conjunt que no sigui buit té un element que és 
+\shape italic
+disjunt
+\shape default
+ amb ell.
  Disjunt vol dir que no en comparteix cap element, que la seva intersecció
  és el conjunt buit.
 \end_layout
@@ -5822,7 +5884,11 @@ Suposem un conjunt
 
 .
  Amb l'axioma d'emparellament podem construir el conjunt que només el té
- a ell com element, el seu conjunt singletó 
+ a ell com element, el seu conjunt 
+\shape italic
+singletó
+\shape default
+ 
 \begin_inset Formula $\left\{ A\right\} $
 \end_inset
 
@@ -5870,7 +5936,7 @@ Aquest
 \begin_inset Formula $A\in\left\{ A\right\} $
 \end_inset
 
- i alhora 
+ i alhora per hipòtesi 
 \begin_inset Formula $A\in A$
 \end_inset
 
@@ -6043,7 +6109,8 @@ I encara més, ens descarta qualsevol seqüència infinita de la forma
 \shape italic
 (és element de)
 \shape default
- entre conjunts ha d'anar a parar forçosament al conjunt buit.
+ entre conjunts ha d'anar a parar forçosament al conjunt buit després d'un
+ nombre finit de salts.
 \end_layout
 
 \end_inset
@@ -6105,8 +6172,8 @@ noprefix "false"
 
 \end_inset
 
- no pot tornar a portar a un element per el que ja hem passat.
- És a dir, que per qualsevol conjunt 
+ no pot tornar a portar a un element peel que ja hem passat.
+ És a dir, que per a qualsevol conjunt 
 \begin_inset Formula $A$
 \end_inset
 
@@ -6151,8 +6218,23 @@ I d'aquí es deriva que construccions basades en aquesta funció com la dels
 \shape italic
 ordenada
 \shape default
-: donats dos elements que no siguin el mateix sempre podem dir que un dels
- dos va abans que l'altre.
+: si l'aplicació successiva de la funció successor a un nombre 
+\begin_inset Formula $a$
+\end_inset
+
+ ens porta fins a 
+\begin_inset Formula $b$
+\end_inset
+
+, subsegüents aplicacions des de 
+\begin_inset Formula $b$
+\end_inset
+
+ ja no ens podràn tornar fins el nombre 
+\begin_inset Formula $a$
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -6284,7 +6366,7 @@ noprefix "false"
 \begin_inset Formula $n≤m$
 \end_inset
 
- si i només sí 
+ si i només si 
 \begin_inset Formula $\left\{ 0,1,2,3,\ldots,n-1\right\} \subseteq\left\{ 0,1,2,3,\ldots,m-1\right\} $
 \end_inset
 
@@ -6324,7 +6406,7 @@ La relació
 \begin_inset Formula $\subseteq$
 \end_inset
 
- considerada entre conjunts de qualsevol mena manté la propietat antisimètrica,
+ considerada entre conjunts de qualsevol mena ja té la propietat antisimètrica,
  de fet: si 
 \begin_inset Formula $A\subseteq B$
 \end_inset
@@ -6380,10 +6462,9 @@ L'
 \shape italic
 axioma de reemplaçament
 \shape default
- diu que si tenim un conjunt domini qualsevol i una funció que puguem definir
- mitjançant construccions dins la teoria de conjunts aleshores també existeix
- el conjunt imatge format pels resultats de la funció aplicats a cada element
- del domini.
+ diu que si tenim un conjunt domini qualsevol i una funció que existeixi
+ dins la teoria de conjunts aleshores també existeix el conjunt imatge format
+ pels resultats de la funció aplicats a cada element del domini.
 \end_layout
 
 \end_inset
@@ -6443,7 +6524,7 @@ noprefix "false"
 \end_inset
 
 , aleshores per l'axioma de reemplaçament existeix el conjunt 
-\begin_inset Formula $f(A)=\left\{ \left\{ a\right\} ,\left\{ b\right\} ,\left\{ c\right\} ,\left\{ d\right\} \right\} $
+\begin_inset Formula $f(A)=\left\{ f(a),f(b),f(c),f(d)\right\} =\left\{ \left\{ a\right\} ,\left\{ b\right\} ,\left\{ c\right\} ,\left\{ d\right\} \right\} $
 \end_inset
 
 .
@@ -6917,13 +6998,13 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-És fàcil veure que en conjunts finits es compleix que 
+És fàcil inferir que en conjunts finits es compleix que 
 \begin_inset Formula $|A\times B|=|A|\times|B|$
 \end_inset
 
 .
  Podríem de fet desenvolupar uns rudiments d'aritmètica a partir dels axiomes
- que hem anat veient i demostrar que és una conseqüència lògica i impepinable
+ que hem anat veient i demostrar que és una conseqüència lògica i inevitable
  de la teoria de conjunts.
 \end_layout
 
@@ -7239,10 +7320,50 @@ Si enlloc d'anar fila per fila com hem estat fent anem diagonal per diagonal,
 
 \begin_layout Plain Layout
 \align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename figures/pairing_natural.svg
 	width 150bp
 	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\size scriptsize
+(adaptat de: 
+\begin_inset CommandInset href
+LatexCommand href
+target "https://commons.wikimedia.org/wiki/File:Pairing_natural.svg"
+literal "false"
+
+\end_inset
+
+)
+\end_layout
 
 \end_inset
 
@@ -7497,7 +7618,7 @@ fila
 \end_inset
 
  format per tots aquells 
-\begin_inset Formula $S\subseteq\left\{ a,b\right\} $
+\begin_inset Formula $X\subseteq\left\{ a,b\right\} $
 \end_inset
 
 .
@@ -7992,7 +8113,7 @@ Posem un conjunt
 \end_inset
 
  i una bijecció 
-\begin_inset Formula $φ$
+\begin_inset Formula $φ:2^{A}\rightarrow A$
 \end_inset
 
  que per cadascun dels subconjunts de 
@@ -8012,9 +8133,9 @@ Posem un conjunt
 \[
 \begin{array}{lcc}
 φ(\left\{ d,e\right\} ) & = & a\\
-φ(\left\{ c,b,f,\ldots\right\} ) & = & b\\
+φ(\left\{ c,\boldsymbol{b},f,\ldots\right\} ) & = & \boldsymbol{b}\\
 φ(\varnothing) & = & c\\
-φ(\left\{ a,d,f\right\} ) & = & d\\
+φ(\left\{ a,\boldsymbol{d},f\right\} ) & = & \boldsymbol{d}\\
  & \vdots
 \end{array}
 \]
@@ -8240,8 +8361,9 @@ Per tant doncs, com que hem vist abans que
 \end_inset
 
 .
- O sigui que donat un conjunt qualsevol sempre existeix un altre conjunt
- amb una cardinalitat estrictament més gran.
+ O sigui que donat un conjunt qualsevol sempre n'existeix un altre conjunt
+ amb una cardinalitat estrictament més gran que és concretament el seu conjunt
+ potència.
 \end_layout
 
 \end_inset
@@ -8668,40 +8790,8 @@ fila
 \begin_layout Plain Layout
 Un cop tenim això ens podem pràcticament oblidar de l'estructura interna
  d'aquests nombres naturals en tant que conjunts i tractar-los com els hem
- vist sempre abans de saber que eren de fet conjunts:
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-fila
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Com entitats abstractes de les que només ens interessen les seves propietats
- 
+ vist sempre abans de saber que eren de fet conjunts: com entitats abstractes
+ de les que només ens interessen les seves propietats 
 \shape italic
 
 \begin_inset Quotes fld
@@ -8745,8 +8835,8 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-A partir d'aquí podem fer coses com per exemple demostrar fent servir els
- axiomes que hem vist i la deducció purament lògica que per cada nombre
+A partir d'aquí podem fer coses com per exemple demostrar, fent servir els
+ axiomes que hem vist i la deducció purament lògica, que per cada nombre
  natural 
 \begin_inset Formula $n$
 \end_inset
@@ -9036,7 +9126,7 @@ fila
 
 \begin_layout Plain Layout
 Jo sóc absolutament incapaç de crear-me una imatge mental d'un conjunt de
- 4332 carxofes amb més precisió que un piló així indeterminat.
+ 4332 carxofes que tingui més precisió que un piló així indeterminat.
 \end_layout
 
 \end_inset
@@ -9068,10 +9158,10 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Però fent servir l'aritmètica sé gairebé instantàniament que puc dividir
- el piló en tres pilons més petits de la mateixa quantitat cadascun perquè
- 4332 és múltiple de 3 perquè els seus dígits compleixen allò que sumats
- són un múltiple de 3.
+Però fent servir l'aritmètica puc fer coses com saber gairebé instantàniament
+ que puc dividir el piló en tres pilons més petits de la mateixa quantitat
+ cadascun perquè 4332 és múltiple de 3 perquè els seus dígits compleixen
+ allò que sumats són un múltiple de 3.
 \end_layout
 
 \end_inset
@@ -10098,9 +10188,34 @@ Imaginem un quadrat de costat 1.
 
 \begin_layout Plain Layout
 \align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename figures/diagonal.svg
 	width 100bp
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -10850,9 +10965,34 @@ suprem
 
 \begin_layout Plain Layout
 \align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename figures/suprem.svg
 	width 90text%
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -11071,10 +11211,50 @@ Un grec que es va apropar molt a identificar el problema va ser Zenó d'Elea.
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100line%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename figures/aquiles.png
+	lyxscale 50
 	width 150bp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\size scriptsize
+(adaptat de: 
+\begin_inset CommandInset href
+LatexCommand href
+target "https://commons.wikimedia.org/wiki/File:Zeno_Achilles_Paradox.png"
+literal "false"
+
+\end_inset
+
+)
+\end_layout
 
 \end_inset
 
@@ -11228,8 +11408,8 @@ fila
 \begin_layout Plain Layout
 Un conjunt que sigui tancat respecte la funció suprem, en definitiva.
  A un conjunt ordenat que compleixi tota aquesta bateria de propietats (reflexiv
-itat, transitivitat, antisimetria, totalitat, densitat i suprem) en diem
- un 
+itat, transitivitat, antisimetria, totalitat, densitat i completesa) en
+ diem un 
 \shape italic
 continu
 \shape default
@@ -11452,8 +11632,15 @@ fila
 \begin_layout Plain Layout
 Aquest cop no serà tan fàcil de fer això perquè d'entrada estem tractant
  amb conjunts infinits en comptes de parells.
- Una manera d'escollir aquest representant únic són el que se'n diuen talls
- de Dedekind.
+ Una manera d'escollir aquest representant únic són el que se'n diuen 
+\begin_inset Quotes fld
+\end_inset
+
+talls de Dedekind
+\begin_inset Quotes frd
+\end_inset
+
+.
  Sí, el mateix Dedekind que va voler definir l'infinit sense fer servir
  el concepte de nombre.
  Ves per on.
@@ -11530,7 +11717,7 @@ Si
 \begin_inset Formula $p\in A$
 \end_inset
 
-, aleshores tot 
+, aleshores per a tot 
 \begin_inset Formula $q<p$
 \end_inset
 
@@ -12325,11 +12512,15 @@ Per veure que alhora
 \begin_inset Formula $|2^{ℕ}|\leq|ℝ|$
 \end_inset
 
- ens caldrà una bijecció 
+ ens caldrà una funció 
+\shape italic
+injectiva
+\shape default
+ 
 \begin_inset Formula $f:2^{\text{ℕ}}\rightarrow\mathbb{R}$
 \end_inset
 
- , és a dir entre 
+ , és a dir una bijecció entre 
 \begin_inset Formula $2^{ℕ}$
 \end_inset
 
@@ -12378,7 +12569,11 @@ Anem doncs a construir aquesta bijecció.
 \begin_inset Formula $2^{\mathbb{N}}$
 \end_inset
 
- aquest X serà un conjunt de nombres naturals, és a dir que 
+ aquest 
+\begin_inset Formula $X$
+\end_inset
+
+ serà un subconjunt dels nombres naturals, és a dir que 
 \begin_inset Formula $X\subseteq\mathbb{N}$
 \end_inset
 
@@ -12430,8 +12625,8 @@ Aplicant l'axioma de reemplaçament sobre aquest
 \begin_inset Formula $f(X)$
 \end_inset
 
- que serà un conjunt de nombres racionals.
- A continuació d'aquest conjunt en farem el sumatori.
+ que serà un subconjunt dels nombres racionals.
+ A continuació d'aquest subconjunt en farem el sumatori.
  O sia que 
 \begin_inset Formula $f(X)=\sum g(X)=\sum\left\{ \frac{1}{10^{n}}\mid n\in X\right\} $
 \end_inset
@@ -12708,7 +12903,7 @@ En alguns (molts, de fet, gairebé tots) casos de conjunts infinits de naturals
  serà un nombre irracional (tot i que real).
  Cosa que ja podíem preveure donat que hem demostrat amb la diagonalització
  de Cantor que 
-\begin_inset Formula $|2^{\mathbb{N}}|>\mathbb{N}=\mathbb{Q}$
+\begin_inset Formula $|2^{\mathbb{N}}|>|\mathbb{N}|=|\mathbb{Q}|$
 \end_inset
 
 ; no pot existir cap bijecció entre el conjunt de conjunts de naturals i
@@ -12749,7 +12944,7 @@ Tanmateix tenim un problema amb això que és fer el sumatori d'un conjunt
  De fet ni tant sols hem definit exactament què vol dir fer el sumatori
  d'un conjunt finit de nombres.
  Intuïtivament sembla bastant clar què és el que vol dir però per fer les
- coses de manera ben fonamentada i rigorosa ho hauríem de fer.
+ coses de manera ben fonamentada i rigorosa ho hauríem de definir-ho.
 \end_layout
 
 \end_inset
@@ -14610,7 +14805,7 @@ fila
 \begin_layout Plain Layout
 Una altra manera d'entendre això és pensar que existeixen dos ens abstractes
  separats als que podem anomenar indistintament 
-\begin_inset Quotes frd
+\begin_inset Quotes fld
 \end_inset
 
 conjunts
@@ -22243,6 +22438,81 @@ La potenciació de nombres ordinals i la de nombres cardinals són ambdues
 </cell>
 </row>
 </lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\family typewriter
+\size scriptsize
+\color gray
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "33text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "lightgray"
+backgroundcolor "white"
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\family typewriter
+\size largest
+\color lightgray
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ccbysa
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\family typewriter
+\size scriptsize
+\color lightgray
+Aquesta obra està subjecta a una llicència de 
+\begin_inset CommandInset href
+LatexCommand href
+name "Reconeixement-CompartirIgual 4.0 Internacional de Creative Commons"
+target "http://creativecommons.org/licenses/by-sa/4.0/"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
 
 \end_inset
 
