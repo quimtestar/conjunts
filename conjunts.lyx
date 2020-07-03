@@ -104,6 +104,32 @@ status open
 
 
 \backslash
+renewcommand{
+\backslash
+gitMark}{
+\backslash
+gitFirstTagDescribe}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+gitMarkFormat}{
+\backslash
+color{lightgray}
+\backslash
+scriptsize
+\backslash
+ttfamily}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
 newcounter{nfila}
 \end_layout
 
