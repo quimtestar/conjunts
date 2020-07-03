@@ -15580,7 +15580,8 @@ Respecte a la demostració en si, són matemàtiques massa avançades i jo no
  un esbós que em sembla que està bastant bé: 
 \begin_inset CommandInset href
 LatexCommand href
-target "https://youtube.com/watch?v=s86-Z-CbaHA"
+target "https://youtu.be/s86-Z-CbaHA"
+literal "false"
 
 \end_inset
 
