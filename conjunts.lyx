@@ -22079,9 +22079,9 @@ Anàlogament a com havíem vist amb els naturals, amb la inducció transfinita
 \begin_layout Plain Layout
 \begin_inset Formula 
 \begin{eqnarray*}
-f(0) & = & \Phi\\
+f(0) & = & \varPhi\\
 \forall\alpha\textrm{ ordinal, }f(\alpha+1) & = & X(f(\alpha))\\
-\forall\lambda\textrm{ ordinal límit, }f(\lambda) & = & \Psi(\left\{ f(\alpha)\mid\alpha<\lambda\right\} )
+\forall\lambda\textrm{ ordinal límit, }f(\lambda) & = & \varPsi(\left\{ f(\alpha)\mid\alpha<\lambda\right\} )
 \end{eqnarray*}
 
 \end_inset
