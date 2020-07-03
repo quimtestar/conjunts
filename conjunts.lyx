@@ -5728,13 +5728,14 @@ fila
 
 \begin_layout Plain Layout
 Si comencem suposant que existeix un conjunt universal, l'axioma de comprensió
- sense restriccions esdevé un corol·lari l'axioma d'especificació, simplement
+ sense restriccions esdevé un corol·lari de l'axioma d'especificació, simplement
  fent 
 \begin_inset Formula $A=𝕌$
 \end_inset
 
 .
- I aquest axioma hem vist abans que ens porta a la paradoxa de Russell
+ I aquest axioma de comprensió sense restriccions hem vist abans que ens
+ porta cap a la paradoxa de Russell
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -21988,16 +21989,6 @@ lemes
 .
  La distinció entre uns i altres és una cosa subjectiva que no té cap rellevànci
 a formal.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-això no ho has dit ja abans?
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
