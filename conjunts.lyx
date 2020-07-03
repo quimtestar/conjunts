@@ -12679,10 +12679,10 @@ Per exemple:
 f(\left\{ 0,1\right\} ) & = & \sum\left\{ \frac{1}{10^{0}},\frac{1}{10^{1}}\right\} \\
  & = & \sum\left\{ 1,\frac{1}{10}\right\} \\
  & = & 1+\frac{1}{10}\\
- & = & 1+0,1\\
- & = & 1,1\\
+ & = & 1+0.1\\
+ & = & 1.1\\
 \\
-f(\left\{ 2,3,5\right\} ) & = & \sum\left\{ \frac{1}{10^{2}},\frac{1}{10^{3}},\frac{1}{10^{5}}\right\} =0,01101\\
+f(\left\{ 2,3,5\right\} ) & = & \sum\left\{ \frac{1}{10^{2}},\frac{1}{10^{3}},\frac{1}{10^{5}}\right\} =0.01101\\
 \\
 f(\varnothing) & = & \sum\varnothing=0
 \end{eqnarray*}
@@ -12860,12 +12860,12 @@ Amb conjunts infinits de fet ens val la mateixa funció
 \begin_inset Formula 
 \begin{eqnarray*}
 f(\left\{ 0,2,4,6,8,\ldots\right\} ) & = & \sum\left\{ \frac{1}{10^{0}},\frac{1}{10^{2}},\frac{1}{10^{4}},\frac{1}{10^{6}},\ldots\right\} \\
- & = & 1,010101010\ldots\\
- & = & 1,\overline{01}\\
+ & = & 1.010101010\ldots\\
+ & = & 1.\overline{01}\\
  & = & 1+\nicefrac{1}{99}\\
 \\
 f(\left\{ 2,3,5,7,11,\ldots\right\} ) & = & \sum\left\{ \frac{1}{10^{2}},\frac{1}{10^{3}},\frac{1}{10^{5}},\frac{1}{10^{7}},\frac{1}{10^{11}},\ldots\right\} \\
- & = & 0,01101010001\ldots
+ & = & 0.01101010001\ldots
 \end{eqnarray*}
 
 \end_inset
@@ -20946,7 +20946,7 @@ A continuació podem agafar aquesta seqüència de nombres en base
 \end_inset
 
 
-\begin_inset Formula $0,$
+\begin_inset Formula $0.$
 \end_inset
 
 
@@ -20954,7 +20954,7 @@ A continuació podem agafar aquesta seqüència de nombres en base
 \end_inset
 
 ; és a dir 
-\begin_inset Formula $0,111211211110112211\ldots$
+\begin_inset Formula $0.111211211110112211\ldots$
 \end_inset
 
 
