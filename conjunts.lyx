@@ -39,7 +39,7 @@
 \pdf_title "El fil de tuiter sobre teoria de conjunts™"
 \pdf_author "@quimtestar"
 \pdf_subject "Teoria de conjunts"
-\pdf_keywords "twitter, teoria, conjunts"
+\pdf_keywords "teoria, conjunts, matemàtica, fonaments"
 \pdf_bookmarks true
 \pdf_bookmarksnumbered false
 \pdf_bookmarksopen false
@@ -169,7 +169,7 @@ fila
 \begin_layout Plain Layout
 Hi he estat pensant i em sembla que abans d'entrar en el que és la 
 \shape italic
-transfinitud
+transfinitat
 \shape default
  en si hauríem de donar una volta per tot el que serien les bases generals
  de la 
@@ -282,7 +282,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Va haver-hi un temps que hom creia que més o menys sí que ho són.
+Va haver-hi un temps en el que hom creia que més o menys sí que ho són.
  Volent dir aquest 
 \begin_inset Quotes fld
 \end_inset
@@ -527,7 +527,7 @@ fila
 
 \begin_layout Plain Layout
 Després van venir el segle XX i un paio que es deia Bertrand Russell que
- es va posar a pensar molt fort sobre aquesta noció.
+ es va posar a pensar molt fort sobre aquests conceptes.
 \end_layout
 
 \end_inset
@@ -598,6 +598,8 @@ Això que un conjunt sigui un element d'ell mateix pot semblar exòtic però
  és una propietat com qualsevol altra que segons l'axioma de comprensió
  que hem vist tindran alguns conjunts com el conjunt universal, el conjunt
  de tots els conjunts i molts altres.
+ Altres conjunts com el buit, el conjunt dels nombres parells o el conjunt
+ de conjunts de coses que no són conjunts no la tindran.
 \end_layout
 
 \end_inset
@@ -642,9 +644,11 @@ Considerem ara la propietat complementària a aquesta.
 no
 \series default
  es tenen a ells mateixos com a element.
- Segons l'axioma de comprensió sense restriccions, aquesta propietat també
- ens defineix un conjunt: el conjunt de conjunts que no són element d'ells
- mateixos.
+ Compliran aquesta propietat conjunts com el buit, el conjunt dels nombres
+ parells o el conjunt de conjunts de coses que no són conjunts.
+ I segons l'axioma de comprensió sense restriccions, aquesta propietat ens
+ defineix un altre conjunt: el conjunt de conjunts que no són element d'ells
+ mateixos, del que formaran part tots aquests.
 \end_layout
 
 \end_inset
@@ -821,7 +825,11 @@ La mateixa existència del conjunt
 \shape default
 , per tant, ens aboca a una contradicció tant si suposem que es té a ell
  mateix com a element com si suposem que no, i aquestes dues són les úniques
- possibilitats.
+ possibilitats que hi ha (segons ens diu la 
+\shape italic
+lògica clàssica
+\shape default
+).
  Hem trobat, per tant, una col·lecció de coses que no pot existir com a
  conjunt.
 \end_layout
@@ -902,8 +910,8 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-El problema és que si tenim una matemàtica que pot demostrar coses que són
- òbviament mentida com l'existència d'aquest conjunt 
+El problema és que si tenim una matemàtica que admet l'existència de coses
+ que alhora demostrablement no poden existir com aquest conjunt 
 \shape italic
 
 \begin_inset Formula $K$
@@ -967,6 +975,13 @@ status open
 \backslash
 fila
 \end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "pur"
 
 \end_inset
 
@@ -1213,6 +1228,13 @@ fila
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "sistema-axiomatic"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1452,7 +1474,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-De fet tampoc és que sigui un posicionament tan descabellat, si vas a mirar.
+De fet tampoc és que sigui un posicionament tan insensat, si vas a mirar.
  Estem dient que el que fem és plasmar la nostra intuïció de conjunt com
  un joc de regles formals i l'infinit en si és un concepte que té ramificacions
  que desafien la intuïció.
@@ -1882,7 +1904,11 @@ aquesta afirmació no és demostrable en aquest sistema
 \end_inset
 
  en forma de proposició processable per un sistema axiomàtic formal es diu
- molt ràpid però és una liada en ella mateixa bastant important.
+ molt ràpid però és 
+\strikeout on
+una liada
+\strikeout default
+ un sarau en ella mateixa bastant important.
 \end_layout
 
 \end_inset
@@ -2229,10 +2255,27 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Recapitulant doncs, de les tres coses que voldríem per un sistema axiomàtic
- que ens permeti discórrer amb rigor per la teoria de conjunts i, per extensió,
- per tota la matemàtica: una és subjectiva, l'altra no la podem tenir garantida
- i la tercera és impossible.
+Recapitulant doncs, de les tres coses
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "sistema-axiomatic"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ que voldríem per un sistema axiomàtic que ens permeti discórrer amb rigor
+ per la teoria de conjunts i, per extensió, per tota la matemàtica: una
+ és subjectiva, l'altra no la podem tenir garantida i la tercera és impossible.
  Ai las.
 \end_layout
 
@@ -2429,7 +2472,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-És exactament el que faré.
+Tot i això, és exactament el que em disposo a fer.
 \end_layout
 
 \end_inset
@@ -2540,8 +2583,6 @@ fila
 
 \begin_layout Plain Layout
 Quan diem 
-\shape italic
-
 \begin_inset Quotes fld
 \end_inset
 
@@ -2554,14 +2595,10 @@ Quan diem
 \end_inset
 
 
-\shape default
-
 \begin_inset Quotes frd
 \end_inset
 
 , inherentment a això va lligat que a qualsevol proposició on veiem un 
-\shape italic
-
 \begin_inset Quotes fld
 \end_inset
 
@@ -2573,11 +2610,7 @@ Quan diem
 \begin_inset Quotes frd
 \end_inset
 
-
-\shape default
  el podem substituir per un 
-\shape italic
-
 \begin_inset Quotes fld
 \end_inset
 
@@ -2589,8 +2622,6 @@ Quan diem
 \begin_inset Quotes frd
 \end_inset
 
-
-\shape default
  i la seva validesa no es veu afectada pel canvi, perquè són la mateixa
  cosa i tenen exactament les mateixes propietats.
 \end_layout
@@ -3260,7 +3291,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Combinant els axiomes d'emparellament i d'unió podem fer l'operació d'únió
+Combinant els axiomes d'emparellament i d'unió podem fer l'operació d'unió
  binària de tota la vida, o sigui, l'operació que pren dos conjunts i uneix
  els seus elements en un de sol: donats els conjunts 
 \begin_inset Formula $A$
@@ -3606,7 +3637,26 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-I així, amics, és com neixen els nombres ♥.
+I així, amics, és com neixen els nombres: no són altra cosa que conjunts
+ purs
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "pur"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ amb unes característiques i propietats particulars.
 \end_layout
 
 \end_inset
@@ -6129,7 +6179,7 @@ noprefix "false"
 
 \end_inset
 
- no pot tornar a portar a un element peel que ja hem passat.
+ no pot tornar a portar a un element pel que ja hem passat.
  És a dir, que per a qualsevol conjunt 
 \begin_inset Formula $A$
 \end_inset
@@ -6187,7 +6237,7 @@ ordenada
 \begin_inset Formula $b$
 \end_inset
 
- ja no ens podràn tornar fins el nombre 
+ ja no ens podran tornar fins el nombre 
 \begin_inset Formula $a$
 \end_inset
 
@@ -10390,7 +10440,7 @@ I com que
 \end_inset
 
  no és irreductible perquè podem dividir tant el numerador com el denominador
- per 2 tot contradint la hipòtesi.
+ per 2 tot contradient la hipòtesi.
 \end_layout
 
 \end_inset
@@ -14773,7 +14823,7 @@ conjunts
 \series bold
 ZFC
 \series default
- és una teoria que descriu ambdues de manera ambigüa i que la introducció
+ és una teoria que descriu ambdues de manera ambigua i que la introducció
  de 
 \series bold
 CH
@@ -15464,7 +15514,7 @@ punt a punt
 a comença a fer coses que s'aparten de l'ideal d'espai tridimensional del
  que parteix el teorema.
  Quan ens trobem coses com les partícules elementals i la física quàntica
- la idealitat contínua d'un espai euclidi ple d'una substància igualment
+ la idealitat contínua d'un espai euclidià ple d'una substància igualment
  contínua deixa de ser aplicable.
 \end_layout
 
