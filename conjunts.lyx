@@ -2106,7 +2106,43 @@ fila
 
 \begin_layout Plain Layout
 Haurem de buscar-nos la vida per declarar els conceptes de manera explícita.
- Es una mica com la llengua dels ents.
+ En comptes de dir 
+\begin_inset Quotes fld
+\end_inset
+
+aquesta frase és mentida
+\begin_inset Quotes frd
+\end_inset
+
+ haurem de dir coses com 
+\begin_inset Quotes fld
+\end_inset
+
+
+\begin_inset Quotes fls
+\end_inset
+
+esdevé falsa quan va precedida per ella mateixa entre cometes
+\begin_inset Quotes frs
+\end_inset
+
+ esdevé falsa quan va precedida per ella mateixa entre cometes
+\begin_inset Quotes frd
+\end_inset
+
+.
+ I en comptes de 
+\begin_inset Quotes fld
+\end_inset
+
+aquest sistema
+\begin_inset Quotes frd
+\end_inset
+
+ hem de fer una especificació perfectament funcional del sistema dins del
+ sistema mateix.
+ En aquest sentit s'assembla una mica al llenguatge dels ents de l'univers
+ Tolkien, on el nom de cada cosa era la història completa d'aquella cosa.
 \end_layout
 
 \end_inset
@@ -2138,8 +2174,8 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-El que va haver de fer en Gödel per dur a terme això va ser d'alguna manera
- 
+El que va haver de fer en Gödel per dur a terme això, doncs, va ser d'alguna
+ manera 
 \begin_inset Quotes fld
 \end_inset
 
@@ -4826,6 +4862,13 @@ fila
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "induccio"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4916,7 +4959,7 @@ En matemàtiques també volem arribar a conclusions generals d'una manera
 
 \begin_layout Itemize
 Requerim un total rigor i per tant hem d'estar estrictament segurs que podem
- parlar per tots els corbs.
+ parlar per a tots els corbs.
 \end_layout
 
 \begin_layout Itemize
@@ -5045,7 +5088,7 @@ Donat que sabem que serà cert que
 \begin_inset Formula $P$
 \end_inset
 
- es donarà per totes les 
+ es donarà per a totes les 
 \begin_inset Formula $n∈ℕ$
 \end_inset
 
@@ -5238,7 +5281,7 @@ axioma d'especificació
 \begin_inset Formula $B$
 \end_inset
 
- format per tots aquells elements del conjunt 
+ format per a tots aquells elements del conjunt 
 \begin_inset Formula $A$
 \end_inset
 
@@ -7652,7 +7695,7 @@ fila
 \begin_inset Formula $\left\{ \varnothing,\left\{ a\right\} ,\left\{ b\right\} ,\left\{ a,b\right\} \right\} $
 \end_inset
 
- format per tots aquells 
+ format per a tots aquells 
 \begin_inset Formula $X\subseteq\left\{ a,b\right\} $
 \end_inset
 
@@ -10691,27 +10734,15 @@ reflexivitat
 \shape italic
 transitivitat
 \shape default
-: 
-\series bold
-si
-\series default
- 
+: si 
 \begin_inset Formula $a\leq b$
 \end_inset
 
- 
-\series bold
-i
-\series default
- 
+ i 
 \begin_inset Formula $b\leq c$
 \end_inset
 
- 
-\series bold
-aleshores
-\series default
- 
+ aleshores 
 \begin_inset Formula $a\leq c$
 \end_inset
 
@@ -10723,27 +10754,15 @@ aleshores
 \shape italic
 antisimetria
 \shape default
-: 
-\series bold
-si
-\series default
- 
+: si 
 \begin_inset Formula $a\leq b$
 \end_inset
 
- 
-\series bold
-i
-\series default
- 
+ i 
 \begin_inset Formula $b\leq a$
 \end_inset
 
- 
-\series bold
-aleshores
-\series default
- 
+ aleshores 
 \begin_inset Formula $a=b$
 \end_inset
 
@@ -10759,11 +10778,7 @@ totalitat
 \begin_inset Formula $a\leq b$
 \end_inset
 
- 
-\series bold
-o
-\series default
- 
+ o 
 \begin_inset Formula $b\leq a$
 \end_inset
 
@@ -11668,6 +11683,8 @@ fila
 Aquest cop no serà tan fàcil de fer això perquè d'entrada estem tractant
  amb conjunts infinits en comptes de parells.
  Una manera d'escollir aquest representant únic són el que se'n diuen 
+\shape italic
+
 \begin_inset Quotes fld
 \end_inset
 
@@ -11675,6 +11692,8 @@ talls de Dedekind
 \begin_inset Quotes frd
 \end_inset
 
+
+\shape default
 .
  Sí, el mateix Dedekind que va voler definir l'infinit sense fer servir
  el concepte de nombre.
@@ -11710,11 +11729,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Un 
-\shape italic
-tall de Dedekind
-\shape default
- és un conjunt de racionals 
+Un tall de Dedekind és un conjunt de racionals 
 \begin_inset Formula $A$
 \end_inset
 
@@ -12096,7 +12111,7 @@ Per la propietat quarta dels talls de Dedekind, existeix un
 \begin_inset Formula $C$
 \end_inset
 
- format per tots els nombres racionals 
+ format per a tots els nombres racionals 
 \begin_inset Formula $r$
 \end_inset
 
@@ -13501,7 +13516,7 @@ Si recordem el cas particular que ens ocupa i del que potser ja ens hem
 
 , és a dir, tots nombres positius.
  Això vol dir que cada element de la seqüència de sumes parcials tindrà
- un valor més gran que l'anterior perquè 
+ un valor més gran que l'anterior donat que si 
 \begin_inset Formula $s_{i+1}=s_{i}+a_{i}$
 \end_inset
 
@@ -14463,7 +14478,7 @@ Seguint aquest procediment, podrem anar definit tota una seqüència de
 \begin_inset Formula $x_{n}$
 \end_inset
 
- en la que per tot 
+ en la que per a tot 
 \begin_inset Formula $n\inℕ$
 \end_inset
 
@@ -15185,7 +15200,7 @@ axioma de l'elecció
 \begin_inset Formula $f$
 \end_inset
 
- tal que per tota 
+ tal que per a tota 
 \begin_inset Formula $A\in X$
 \end_inset
 
@@ -15750,8 +15765,8 @@ estàndard
 
 : quan no ens trobem explorant els fonaments mateixos de les matemàtiques
  o se'ns indica el contrari explícitament, els teoremes que trobem en qualsevol
- text matemàtic són en darrer terme conseqüències lògiques estrictes dels
- nou axiomes de teoria de conjunts que hem explicat:
+ text matemàtic són (es pretén que siguin, si més no) en darrer terme conseqüènc
+ies lògiques estrictes dels nou axiomes de teoria de conjunts que hem explicat:
 \end_layout
 
 \begin_layout Itemize
@@ -17840,7 +17855,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Per tota la resta es pot demostrar que es pot definir com a mínim un bon
+Per a tota la resta es pot demostrar que es pot definir com a mínim un bon
  ordre fent servir l'axioma de l'elecció.
 \end_layout
 
@@ -18670,7 +18685,7 @@ Havíem vist que una manera de generar conjunts amb cardinalitats estrictament
 \begin_inset Formula $2^{A}$
 \end_inset
 
- format per tots els subconjunts de 
+ format per a tots els subconjunts de 
 \begin_inset Formula $A$
 \end_inset
 
@@ -18907,7 +18922,7 @@ Aquestes fórmules volen dir que
 \begin_inset Formula $i<ω$
 \end_inset
 
-, i així per tota la resta d'ordinals.
+, i així per a tota la resta d'ordinals.
 \end_layout
 
 \end_inset
@@ -21464,7 +21479,25 @@ fila
 
 \begin_layout Plain Layout
 Aquestes definicions recursives funcionen perquè existeix el principi d'inducció
- del que també vam parlar.
+ del que també vam parlar
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "induccio"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -21808,7 +21841,7 @@ El pas d'inducció per aquests nombres consistirà en verificar que si la
 \begin_inset Formula $P$
 \end_inset
 
- es dóna per tota la seqüència d'ordinals anteriors a ell aleshores també
+ es dóna per a tota la seqüència d'ordinals anteriors a ell aleshores també
  la té ell.
 \end_layout
 
@@ -21857,8 +21890,7 @@ Recapitulant, el principi d'inducció transfinita consisteix en que si una
 \end_layout
 
 \begin_layout Itemize
-Per a tot 
-\begin_inset Formula $α$
+\begin_inset Formula $\forallα$
 \end_inset
 
  ordinal, 
@@ -21869,12 +21901,11 @@ Per a tot
 \end_layout
 
 \begin_layout Itemize
-Per a tot 
-\begin_inset Formula $\lambda$
+\begin_inset Formula $\forall\lambda$
 \end_inset
 
- ordinal límit, per a tot 
-\begin_inset Formula $α<λ$
+ ordinal límit, 
+\begin_inset Formula $\forallα<λ$
 \end_inset
 
 , 
@@ -21895,6 +21926,39 @@ llavors podem dir que per a tot
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+(
+\series bold
+notació
+\series default
+: 
+\begin_inset Formula $\forall$
+\end_inset
+
+ és el símbol matemàtic que significa 
+\shape italic
+
+\begin_inset Quotes fld
+\end_inset
+
+per a tot
+\begin_inset Quotes frd
+\end_inset
+
+
+\shape default
+).
 \end_layout
 
 \end_inset
