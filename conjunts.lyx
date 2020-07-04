@@ -352,8 +352,9 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-En concret, al segle XIX, que és quan en Cantor i en Dedekind per qui em
- demanaven abans operaven, la cosa anava així.
+En concret, al segle XIX, que és quan gent com Georg Cantor i en Richard
+ Dedekind van començar a treballar conceptes com el de conjunt i el d'infinit,
+ la cosa anava així.
 \end_layout
 
 \end_inset
@@ -8439,9 +8440,9 @@ Per tant doncs, com que hem vist abans que
 \end_inset
 
 .
- O sigui que donat un conjunt qualsevol sempre n'existeix un altre conjunt
- amb una cardinalitat estrictament més gran que és concretament el seu conjunt
- potència.
+ O sigui que donat un conjunt qualsevol sempre existeix com a mínim un altre
+ conjunt amb una cardinalitat estrictament superior que és concretament
+ el seu conjunt potència.
 \end_layout
 
 \end_inset
@@ -8473,11 +8474,11 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Fins i tot per un conjunt infinit com 
+Fins i tot per a un conjunt infinit com 
 \begin_inset Formula $ℕ$
 \end_inset
 
- tenim que 
+ tindrem que 
 \begin_inset Formula $|2^{ℕ}|>|ℕ|$
 \end_inset
 
@@ -8517,7 +8518,8 @@ I també tindrem un
 \begin_inset Formula $2^{2^{\mathbb{N}}}$
 \end_inset
 
- que serà un altre infinit més gran que l'infinit de 
+ que serà una altra cardinalitat infinita estrictament més gran que la cardinali
+tat infinita de 
 \begin_inset Formula $2^{ℕ}$
 \end_inset
 
@@ -8554,8 +8556,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-I més enllà, de fet.
- Ja que la seqüència infinita de conjunts 
+I més enllà, de fet, donat que la seqüència infinita de conjunts 
 \begin_inset Formula $ℕ$
 \end_inset
 
@@ -8572,11 +8573,11 @@ I més enllà, de fet.
 \end_inset
 
 , \SpecialChar ldots
- la podem unir en un sol conjunt amb l'axioma de la unió.
- I aquest conjunt enorme fins i tot dins l'espècie dels conjunts infinits
- també tindrà un conjunt potència que serà estrictament més gran.
- Amb el que si volem podrem tornar a fer tot el procés que acabem de fer
- amb 
+ la podem unir en un sol conjunt amb l'axioma de la unió, i aquest conjunt
+ enorme fins i tot dins l'espècie dels conjunts infinits també tindrà un
+ conjunt potència que serà estrictament més gran que tots els de la seqüència.
+ I aquest nou conjunt el podrem fer servir com a llavor de tot el procés
+ que acabem de fer amb 
 \begin_inset Formula $ℕ$
 \end_inset
 
@@ -8672,7 +8673,9 @@ A l'escola es sol explicar restringit al cas de
  i intentant posar-lo en bijecció no amb la seva potència sinó amb el conjunt
  dels nombres reals i construint aquesta bijecció fent una cosa rara amb
  els dígits.
- Però és que allà no foten mai res bé.
+ 
+\strikeout on
+Però és que allà no foten mai res bé.
 \end_layout
 
 \end_inset
@@ -8708,11 +8711,11 @@ Per veure que aquest conjunt de nombres reals
 \begin_inset Formula $ℝ$
 \end_inset
 
- té efectivament la mateixa cardinalitat de 
+ té efectivament la mateixa cardinalitat que 
 \begin_inset Formula $2^{ℕ}$
 \end_inset
 
- primer hauríem de saber què carai és això dels nombres reals.
+ abans hauríem de saber què carai és això dels nombres reals.
 \end_layout
 
 \end_inset
@@ -8786,7 +8789,7 @@ Hem vist que un nombre natural és en realitat un conjunt que construïm per
 \begin_inset Formula $\varnothing$
 \end_inset
 
- que és el nombre zero.
+ que és el que prenem com a nombre zero.
 \end_layout
 
 \end_inset
@@ -8818,7 +8821,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Podem definir les relacions d'ordre 
+Les relacions d'ordre 
 \begin_inset Formula $<$
 \end_inset
 
@@ -8826,7 +8829,8 @@ Podem definir les relacions d'ordre
 \begin_inset Formula $\leq$
 \end_inset
 
- entre nombres naturals com les relacions entre conjunts 
+ entre nombres naturals tal com les coneixem resulten ser equivalents a
+ les relacions 
 \begin_inset Formula $\in$
 \end_inset
 
@@ -8834,7 +8838,7 @@ Podem definir les relacions d'ordre
 \begin_inset Formula $\subseteq$
 \end_inset
 
-, respectivament.
+ entre els conjunts que els representen, respectivament.
 \end_layout
 
 \end_inset
@@ -8870,8 +8874,6 @@ Un cop tenim això ens podem pràcticament oblidar de l'estructura interna
  d'aquests nombres naturals en tant que conjunts i tractar-los com els hem
  vist sempre abans de saber que eren de fet conjunts: com entitats abstractes
  de les que només ens interessen les seves propietats 
-\shape italic
-
 \begin_inset Quotes fld
 \end_inset
 
@@ -8879,8 +8881,6 @@ externes
 \begin_inset Quotes frd
 \end_inset
 
-
-\shape default
 .
 \end_layout
 
@@ -9344,7 +9344,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-No obstant té el problema que el nombre 
+Aquesta operació, no obstant té el problema que el nombre 
 \begin_inset Formula $c$
 \end_inset
 
@@ -9397,7 +9397,8 @@ tancats
 \shape default
  respecte a l'operació de resta.
  Com sí que ho són respecte l'operació de suma: donats dos nombres naturals
- qualssevol existeix la seva suma que és un altre nombre natural.
+ qualssevol existeix el resultat de l'operació suma i és un altre nombre
+ natural.
 \end_layout
 
 \end_inset
@@ -9497,9 +9498,10 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Però que alhora mantinguessin totes les propietats que tenen els nombres
- naturals, ja que ens interessa seguir fent amb ells tot el que hem estat
- fent amb els nombres naturals.
+Però que alhora incloguessin tots els nombres naturals tot i mantenint les
+ seves propietats en les operacions que ja tinguem definides, ja que ens
+ interessa seguir fent amb ells tot el que hem estat fent amb els nombres
+ naturals.
  Només volem estendre'ls per representar una mena de concepte més sofisticat
  però que inclou l'anterior.
 \end_layout
@@ -9533,10 +9535,9 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Com que el que volem és que la resta de dos d'aquesta nova mena de nombres
- ens doni, a diferència del que passava amb els naturals, un altre nombre
- d'aquesta mateixa mena el que fem és representar-los precisament com una
- resta de naturals de manera abstracta: `
+Com que el que volem és que aquesta nova mena de nombres sigui una extensió
+ dels naturals tancada respecte la resta el que fem és representar-los precisame
+nt com una resta de naturals de manera abstracta: `
 \begin_inset Formula $a-b$
 \end_inset
 
@@ -9890,7 +9891,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-D'aquests nous nombres-resta en diem 
+Del conjunt d'aquests nous nombres-resta en diem 
 \shape italic
 
 \begin_inset Quotes fld
@@ -10582,7 +10583,7 @@ D'això els grecs se'n van adonar i es van preguntar a veure què diantre
  I no van ser capaços de respondre.
  Aquesta qüestió no començaria a respondre's adequadament fins la il·lustració.
  Newton, Leibniz i tot l'assumpte del càlcul infinitesimal.
- Quedaven uns 2,000 anys encara.
+ Quedaven uns 2000 anys encara.
 \end_layout
 
 \end_inset
@@ -10614,10 +10615,10 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-L'eina que necessitem per modelar l'espai que ens envolta, que és el que
- volien en definitiva aquests geòmetres de la Grècia antiga, és alguna mena
- de nombres amb els que puguem representar la noció intuïtiva que tenim
- dels punts d'una recta.
+L'eina que necessitem per modelar l'espai que ens envolta, que és l'objectiu
+ que tenien en definitiva aquests geòmetres de la Grècia antiga, és alguna
+ mena de nombres amb els que puguem representar la noció intuïtiva que tenim
+ dels punts d'una línia recta.
 \end_layout
 
 \end_inset
@@ -10654,8 +10655,8 @@ I els nombres racionals
 gairebé
 \shape default
  serveixen per això.
- Tenen el que es diu un ordre total igual que tenen els punts d'una recta
- i són densos igual que ho són els punts d'una recta.
+ Tenen un ordre total igual que tenen els punts d'una recta i també són
+ densos igual que ho són els punts d'una recta.
 \end_layout
 
 \end_inset
@@ -10864,7 +10865,8 @@ fila
 \begin_layout Plain Layout
 Aquestes propietats les compleixen tant els punts de la recta com els nombres
  racionals.
- I això despista molt.
+ I això pot fer pensar que els nombres racionals són un model adequat per
+ representar la noció del conjunt de punts en una línia recta.
 \end_layout
 
 \end_inset
@@ -10898,9 +10900,9 @@ fila
 \begin_layout Plain Layout
 El problema és que els punts d'una recta tal com els intuïm tenen una altra
  propietat subtil que els grecs tot i que apropar-s'hi bastant no van arribar
- a copsar del tot.
- Perquè és una cosa difícil d'abstreure i aïllar conceptualment com a element
- fonamental.
+ a saber copsar del tot, perquè és una cosa difícil d'abstreure i aïllar
+ conceptualment com a element fonamental.
+ I els nombres racionals resulta que no la tenen.
 \end_layout
 
 \end_inset
@@ -10941,17 +10943,21 @@ Imaginem un conjunt
 acotat
 \shape default
 .
- És a dir, que aquests punts no s'estenguin per tota la recta sinó que existeixi
- una 
+ És a dir, que aquests (potser infinits) punts no s'estenguin per tota la
+ recta sinó que existeixi una 
 \shape italic
 cota
 \shape default
- damunt la recta per la que tots els punts de 
+ en la recta tal que estigui situada en una posició tant o més extrema a
+ la dreta que tots els punts de 
 \begin_inset Formula $A$
 \end_inset
 
- es trobin situats cap al costat esquerre de la cota i corresponguin, per
- tant, a un nombre més petit.
+; dit d'una altra manera, tots els punts de 
+\begin_inset Formula $A$
+\end_inset
+
+ es trobin situats a la banda esquerra d'aquesta cota.
 \end_layout
 
 \end_inset
@@ -11089,11 +11095,11 @@ Quan el conjunt
 \begin_inset Formula $A$
 \end_inset
 
- sigui finit aquest suprem coincidirà amb el punt màxim del conjunt 
+ sigui finit aquest suprem coincidirà amb l'element màxim del conjunt 
 \begin_inset Formula $A$
 \end_inset
 
-, però en conjunts infinits no ha de ser necessàriament un punt de 
+, però en conjunts infinits no ha de ser necessàriament un element de 
 \begin_inset Formula $A$
 \end_inset
 
@@ -11213,7 +11219,7 @@ Suposem que
 \begin_inset Formula $2\inℚ$
 \end_inset
 
- és cota de 
+ és una cota superior del conjunt 
 \begin_inset Formula $A$
 \end_inset
 
@@ -11284,7 +11290,7 @@ status open
 \begin_inset Graphics
 	filename figures/aquiles.png
 	lyxscale 50
-	width 150bp
+	width 200bp
 
 \end_inset
 
@@ -11347,12 +11353,12 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Les successives distàncies entre Aquil·les i la tortuga serien el conjunt
+Les successives distàncies entre Aquil·les i la tortuga serien com el conjunt
  
 \begin_inset Formula $A$
 \end_inset
 
- i l'esdeveniment d'atrapar-la el suprem que estem trobant.
+ i l'esdeveniment d'atrapar-la com el suprem que estem trobant.
  De la mateixa manera que el suprem d'un conjunt acotat de nombres racionals
  pot no ser un racional, dins el cap de nombres racionals que tenien els
  grecs aquest esdeveniment no arribava mai.
@@ -11465,7 +11471,7 @@ continu
 \shape default
 .
  Ni els nombres naturals, ni els enters, ni els racionals són conjunts continus.
- Dels conjunts que no son continus en diem 
+ D'aquests altres conjunts, els que no son continus en diem 
 \shape italic
 discrets
 \shape default
@@ -11502,9 +11508,9 @@ fila
 
 \begin_layout Plain Layout
 El procediment d'obtenir un continu a partir del conjunt discret dels racionals
- és el mateix que quan hem volgut tancar els naturals respecte la resta
- per obtenir els enters o els enters respecte la divisió per obtenir els
- racionals.
+ és anàleg al que hem seguit quan hem volgut tancar els naturals respecte
+ la resta per obtenir els enters o els enters respecte la divisió per obtenir
+ els racionals.
 \end_layout
 
 \end_inset
@@ -11612,8 +11618,9 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Igual que ens havia passat amb la resta i la divisió, el suprem de conjunts
- diferents ens pot resultar en el mateix nombre real.
+Igual que ens havia passat amb la resta de naturals i la divisió d'enters,
+ el suprem de conjunts de racionals diferents ens pot resultar en el mateix
+ nombre real.
 \end_layout
 
 \end_inset
@@ -11682,7 +11689,7 @@ fila
 \begin_layout Plain Layout
 Aquest cop no serà tan fàcil de fer això perquè d'entrada estem tractant
  amb conjunts infinits en comptes de parells.
- Una manera d'escollir aquest representant únic són el que se'n diuen 
+ Una manera d'escollir aquest representant únic són el que s'anomenen 
 \shape italic
 
 \begin_inset Quotes fld
@@ -11894,7 +11901,7 @@ Fixem-nos ara en les característiques que té la relació
 \begin_inset Formula $\subseteq$
 \end_inset
 
- respecte als talls de Dedekind.
+ respecte als conjunts que són talls de Dedekind.
 \end_layout
 
 \end_inset
@@ -11967,9 +11974,12 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-A més, amb els talls de Dedekind en particular complirà la propietat de
- la totalitat a causa del tercer punt de la nostra definició del que és
- un tall de Dedekind i que la relació 
+A més, amb els talls de Dedekind en particular, 
+\begin_inset Formula $\subseteq$
+\end_inset
+
+ complirà la propietat de la totalitat a causa del tercer punt de la definició
+ i que la relació 
 \begin_inset Formula $\leq$
 \end_inset
 
@@ -12424,8 +12434,8 @@ Això vol dir que el nombre real
 \series bold
 3
 \series default
- de fet el podem veure en teoria de conjunts el conjunt de tots els nombres
- racionals que són estrictament més petits que 3.
+ de fet el podem veure en teoria de conjunts com el conjunt de tots els
+ nombres racionals que són estrictament més petits que 3.
  I el nombre real 
 \begin_inset Formula $\mathbf{\sqrt{\mathbf{2}}}$
 \end_inset
@@ -12511,7 +12521,7 @@ En notació, del conjunt dels nombres reals en diem
 
  .
  Com que els representem fent servir conjunts de racionals la seva cardinalitat
- ha de ser com a màxim la del conjunt dels conjunts de racionals, o siguis
+ ha de ser com a màxim la del conjunt dels conjunts de racionals, o sia
  
 \begin_inset Formula $|ℝ|\leq|2^{ℚ}|$
 \end_inset
@@ -12672,7 +12682,7 @@ Aplicant l'axioma de reemplaçament sobre aquest
 \end_inset
 
 , obtindrem un 
-\begin_inset Formula $f(X)$
+\begin_inset Formula $g(X)$
 \end_inset
 
  que serà un subconjunt dels nombres racionals.
@@ -12764,7 +12774,8 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-El resultat és, doncs, un nombre racional entre 
+El resultat és doncs, si més no en aquests exemples finits, un nombre racional
+ entre 
 \begin_inset Formula $0$
 \end_inset
 
@@ -12994,7 +13005,7 @@ Tanmateix tenim un problema amb això que és fer el sumatori d'un conjunt
  De fet ni tant sols hem definit exactament què vol dir fer el sumatori
  d'un conjunt finit de nombres.
  Intuïtivament sembla bastant clar què és el que vol dir però per fer les
- coses de manera ben fonamentada i rigorosa ho hauríem de definir-ho.
+ coses de manera ben fonamentada i rigorosa hauríem de definir-ho.
 \end_layout
 
 \end_inset
