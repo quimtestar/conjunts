@@ -164,7 +164,7 @@ arrayrulecolor{taula}
 
 
 \begin_inset Tabular
-<lyxtabular version="3" rows="465" columns="2">
+<lyxtabular version="3" rows="466" columns="2">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="100text%">
@@ -13043,7 +13043,7 @@ binària
 \shape default
  interna dels nombres naturals, és a dir, que actua sobre parells de nombres,
  no sobre conjunts.
- I a més ara necessitem una funció suma pels nombres racionals.
+ I a més ara necessitem una funció suma pels nombres racionals, no els naturals.
 \end_layout
 
 \end_inset
@@ -13076,8 +13076,8 @@ fila
 
 \begin_layout Plain Layout
 La resposta a això darrer és una qüestió de definició.
- Es tracta de definir una funció suma de racionals que sigui consistent
- amb la suma que ja hem definit, amb les propietats algebraiques que volem
+ Es tracta de definir una funció suma que sigui consistent amb la suma de
+ naturals que ja hem definit, amb les propietats algebraiques que volem
  que tingui, i amb la nostra visió intuïtiva de l'ajuntament de les quantitats
  que representen els nombres racionals.
  La suma de nombres enters a partir de la de naturals es defineix així:
@@ -13170,15 +13170,15 @@ Si arrangem els elements del conjunt
 \begin_inset Formula $(a_{0},a_{1},a_{2},\ldots)$
 \end_inset
 
- podem definir una suma acumulada parcial d'una manera recursiva tal com
- hem definit la suma anteriorment:
+ podem definir una suma acumulada d'una manera recursiva sobre la seqüència
+ d'aquesta manera:
 \end_layout
 
 \begin_layout Plain Layout
 \begin_inset Formula 
 \begin{eqnarray*}
-\sum_{i=0}^{0}a_{i} & = & 0\\
-\sum_{i=0}^{n+1}a_{i} & = & \left(\sum_{i=0}^{n}a_{i}\right)+a_{n}
+\sum\left(\right) & = & 0\\
+\sum\left(a_{0},a_{1},a_{2},\ldots,a_{n-1},a_{n}\right) & = & \sum\left(a_{0},a_{1},a_{2},\ldots,a_{n-1}\right)+a_{n}
 \end{eqnarray*}
 
 \end_inset
@@ -13215,7 +13215,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Per un conjunt 
+Per a un conjunt 
 \begin_inset Formula $A=\{a_{0,}a_{1},a_{2},\ldots,a_{n-1}\}$
 \end_inset
 
@@ -13229,7 +13229,7 @@ Per un conjunt
 \begin_layout Plain Layout
 \begin_inset Formula 
 \[
-\sum A=\sum_{i=0}^{n}a_{i}
+\sum A=\sum\{a_{0,}a_{1},a_{2},\ldots,a_{n-1}\}=\sum\left(a_{0,}a_{1},a_{2},\ldots,a_{n-1}\right)
 \]
 
 \end_inset
@@ -13276,10 +13276,10 @@ Per exemple, la suma del conjunt
 \begin_layout Plain Layout
 \begin_inset Formula 
 \begin{eqnarray*}
-\sum\{2,3,5\} & = & \sum_{i=0}^{3}a_{i}\\
- & = & \left(\sum_{i=0}^{2}a_{i}\right)+5\\
- & = & \left(\left(\sum_{i=0}^{1}a_{i}\right)+3\right)+5\\
- & = & \left(\left(\left(\sum_{i=0}^{0}a_{i}\right)+2\right)+3\right)+5\\
+\sum\{2,3,5\} & = & \sum\left(2,3,5\right)\\
+ & = & \sum\left(2,3\right)+5\\
+ & = & \left(\sum\left(2\right)+3\right)+5\\
+ & = & \left(\left(\left(\sum\left(\right)\right)+2\right)+3\right)+5\\
  & = & ((0+2)+3)+5\\
  & = & 10
 \end{eqnarray*}
@@ -13380,23 +13380,13 @@ Però com podem definir la suma si el conjunt
 \begin_inset Formula $A$
 \end_inset
 
- és infinit? En el cas finit hem dit que la suma total de 
-\begin_inset Formula $A$
+ és infinit? No podem aplicar la definició que hem donat a seqüències infinites
+ perquè en el cas general aquesta fa ús de l'element final 
+\begin_inset Formula $a_{n}$
 \end_inset
 
- seria l'element final de la seqüència 
-\begin_inset Formula $\sum_{i=0}^{n}a_{i}$
-\end_inset
-
-, la que correspon a què 
-\begin_inset Formula $n$
-\end_inset
-
- és la quantitat total d'elements que té 
-\begin_inset Formula $A$
-\end_inset
-
- perquè és quan ja els hem sumat tots.
+ de la seqüència.
+ I una seqüència infinita no té element final, segueix indefinidament.
 \end_layout
 
 \end_inset
@@ -13428,8 +13418,84 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Ara, però, la seqüència 
-\begin_inset Formula $s_{n}=\sum_{i=0}^{n}a_{i}$
+Si ens fixem en el desenvolupament del cas finit, el que fem és calcular
+ les sumes de les subseqüències inicials començant pel cas trivial 
+\begin_inset Formula $\sum\left(\right)=0$
+\end_inset
+
+ i hi anem afegint l'element successiu fins a acabar.
+ Anem a anomenar 
+\begin_inset Formula $s_{i}$
+\end_inset
+
+ a aquesta seqüència de sumes parcials.
+ Tindrem:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{eqnarray*}
+s_{0} & = & \sum\left(\right)=0\\
+s_{1} & = & \sum\left(a_{0}\right)=\sum\left(\right)+a_{0}=s_{0}+a_{0}=a_{0}\\
+s_{2} & = & \sum\left(a_{0},a_{1}\right)=\sum\left(a_{0}\right)+a_{1}=s_{1}+a_{1}=a_{0}+a_{1}\\
+s_{3} & = & \sum\left(a_{0},a_{1},a_{2}\right)=\sum\left(a_{0},a_{1}\right)+a_{2}=s_{2}+a_{2}=a_{0}+a_{1}+a_{2}\\
+ & \vdots\\
+s_{n+1} & = & \sum\left(a_{0},a_{1},\ldots,a_{n}\right)=s_{n}+a_{n}=a_{0}+a_{1}+\cdots+a_{n}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Amb un 
+\begin_inset Formula $A$
+\end_inset
+
+ finit la suma 
+\begin_inset Formula $\sum A$
+\end_inset
+
+ correspondria exactament a 
+\begin_inset Formula $s_{|A|}$
+\end_inset
+
+.
+ Amb 
+\begin_inset Formula $A$
+\end_inset
+
+ infinit, però, aquesta seqüència 
+\begin_inset Formula $s_{n}$
 \end_inset
 
  seguirà indefinidament sense tenir cap final i no podrem dir en cap moment
@@ -13584,8 +13650,8 @@ Això vol dir que aquell valor límit cap al que ens dirigim també ha de ser
 
  serà el més petit.
  Aquest concepte ja el coneixem i es diu suprem.
- Recordem que el suprem d'un conjunt infinit de nombres racionals podia
- ser un nombre irracional però real.
+ Recordem que el suprem d'un conjunt infinit de nombres racionals és un
+ nombre real que pot ser irracional.
  Això és el que ens passarà per exemple amb el conjunt de nombres primers
  tal com havíem vist.
 \end_layout
@@ -13619,8 +13685,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-I amb això ja tenim definida d'una forma perfectament fonamentada la funció
- 
+I amb això ja tenim definida d'una manera fonamentada la funció 
 \family roman
 \series medium
 \shape up
@@ -13643,7 +13708,8 @@ I amb això ja tenim definida d'una forma perfectament fonamentada la funció
 
  que té la propietat de no col·lisionar en el mateix nombre real de sortida
  amb cap parell de conjunts d'entrada diferents.
- Dit d'una altra manera, és una bijecció amb un cert subconjunt dels reals.
+ Dit d'una altra manera, és una bijecció entre els conjunts de conjunts
+ de naturals i un cert subconjunt dels reals.
 \end_layout
 
 \end_inset
@@ -13726,7 +13792,7 @@ Aquest fet i particularment la desigualtat
 \begin_inset Formula $|ℕ|<|ℝ|$
 \end_inset
 
- que se'n deriva té conseqüències profundes més enllà de la matemàtica.
+ que se'n deriva té conseqüències profundes que van més enllà de la matemàtica.
 \end_layout
 
 \end_inset
@@ -13760,8 +13826,8 @@ fila
 \begin_layout Plain Layout
 Per una banda el món físic en el que vivim immersos se'ns presenta en formes
  que gairebé sempre inclouen directa o indirectament nombres reals.
- O potser més ben dit, aquella noció de recta formada per punts que ens
- ha creat la necessitat de descobrir-los.
+ O potser més ben dit, aquella noció de línia recta formada per una continuïtat
+ de punts que ens ha creat la necessitat de descobrir-los.
 \end_layout
 
 \end_inset
@@ -13793,8 +13859,9 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-La distància que separa dos punts de l'espai físic és un nombre real, el
- temps que transcorre entre dos esdeveniments és un nombre real.
+La distància que separa dos punts de l'espai físic (tal com la percebem)
+ és un nombre real, el temps que transcorre entre dos esdeveniments (tal
+ com els percebem) és un nombre real.
  Les variables dels models que creem per representar el comportament de
  qualsevol sistema físic gairebé sempre són nombres reals o derivats.
 \end_layout
@@ -13907,7 +13974,7 @@ fila
 I això inclou el llenguatge natural, qualsevol notació matemàtica formal,
  els llenguatges formals amb els que programem ordinadors i representem
  les seves dades, la manera com especifiquem els plànols per construir una
- màquina, etc.
+ màquina, etcètera.
 \end_layout
 
 \end_inset
@@ -14145,8 +14212,8 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-El que no sabem és si existeixen altres cardinalitats intermèdies al començament
- d'aquesta jerarquia de conjunts infinits.
+El que no sabem és si existeixen altres cardinalitats intermèdies en aquesta
+ jerarquia de conjunts infinits.
 \end_layout
 
 \end_inset
