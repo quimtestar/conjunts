@@ -1835,6 +1835,13 @@ fila
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "incompletesa"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -14104,6 +14111,13 @@ fila
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "numerables"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -14617,11 +14631,12 @@ Aquesta seqüència funciona com una bijecció entre
 \begin_inset Formula $|ℕ|≤|X|$
 \end_inset
 
-: 
+, que es pot identificar amb qualsevol conjunt que sigui Dedekind-infinit;
+ 
 \begin_inset Formula $ℕ$
 \end_inset
 
- té la cardinalitat mínima que pot tenir un conjunt Dedekind-infinit.
+ té, per tant, la cardinalitat mínima que pot tenir un conjunt Dedekind-infinit.
 \end_layout
 
 \end_inset
@@ -14752,9 +14767,26 @@ fila
 
 \begin_layout Plain Layout
 Anteriorment hem parlat de la incompletesa dels sistemes axiomàtics que
- va demostrar Gödel: qualsevol sistema axiomàtic que sigui consistent i
- que abasti l'aritmètica bàsica tindrà qüestions que no s'hi podran demostrar
- ni refutar.
+ va demostrar Gödel
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "incompletesa"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+: qualsevol sistema axiomàtic que sigui consistent i que abasti l'aritmètica
+ bàsica tindrà qüestions que no s'hi podran demostrar ni refutar.
 \end_layout
 
 \end_inset
@@ -14931,8 +14963,8 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Una altra manera d'entendre això és pensar que existeixen dos ens abstractes
- separats als que podem anomenar indistintament 
+Una altra manera d'entendre això és pensar que en el món intel·ligible existeixe
+n dos ens abstractes separats als que podem anomenar indistintament 
 \begin_inset Quotes fld
 \end_inset
 
@@ -15056,9 +15088,9 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Si algun dia es topa amb alguna gran conjectura necessita de la hipòtesi
- del continu o de la seva negació per ser demostrada i es decideix que convé
- que aquesta conjectura tingui una demostració dins de la matemàtica estàndard,
+Si algun dia hom topa amb alguna gran conjectura que necessita de la hipòtesi
+ del continu (o de la seva negació) per ser demostrada i es decideix que
+ convé que aquesta conjectura es doni per certa dins de la matemàtica estàndard,
  doncs possiblement es revisi aquest conveni i deixarem de fer servir 
 \series bold
 ZFC
@@ -15067,11 +15099,11 @@ ZFC
 \series bold
 ZFC+CH
 \series default
- o 
+ (o 
 \series bold
 ZFC+¬CH
 \series default
-.
+).
 \end_layout
 
 \end_inset
@@ -15319,7 +15351,7 @@ fila
 
 \begin_layout Plain Layout
 És a dir, que la funció 
-\begin_inset Formula $f(X)$
+\begin_inset Formula $f$
 \end_inset
 
  elegeix un element per cada conjunt dels que formen 
@@ -16074,7 +16106,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Amb ells, mica en mica hem anat descobrint una complexitat important en
+I amb ells, mica en mica hem anat descobrint una complexitat important en
  el món que hi ha a l'altre costat del llindar de la infinitat.
 \end_layout
 
@@ -16271,8 +16303,8 @@ fila
 De la mateixa manera que generalitzant els nombres naturals vam descobrir
  altres tipus de nombres que ens poden servir per abstreure conceptes més
  amplis que el que és la cardinalitat dels conjunts finits, voldríem ara
- alguna mena de nombres que ens permetés abstreure sobre conceptes la cardinalit
-at de també els conjunts infinits.
+ alguna mena de nombres que ens permetés abstreure sobre conceptes tals
+ com la cardinalitat de també els conjunts infinits.
 \end_layout
 
 \end_inset
@@ -16482,8 +16514,9 @@ fila
 
 \begin_layout Plain Layout
 Però a més té una altra propietat que aquests altres conjunts ordenats no
- tenen: tots els conjunts de nombres naturals tenen un element mínim, més
- petit que tots els altres elements del conjunt.
+ tenen: tots els conjunts no buits de nombres naturals tenen un element
+ mínim, que forma part del conjunt i és més petit que tots els altres elements
+ del conjunt.
  El mínim del conjunt de nombres primers 
 \begin_inset Formula $\left\{ 2,3,5,7,\ldots\right\} $
 \end_inset
@@ -16805,7 +16838,7 @@ fila
 
 \begin_layout Plain Layout
 Cadascuna d'aquestes possibles bijeccions ens determina de fet una relació
- bon ordre diferent en el conjunt 
+ de bon ordre diferent en el conjunt 
 \begin_inset Formula $\left\{ a,b,c\right\} $
 \end_inset
 
@@ -16928,7 +16961,7 @@ fila
 Les dues propietats dels nombres naturals que hem vist (ser ben ordenats
  i que cadascun sigui el conjunt de tots els que són més petits que ell)
  es poden generalitzar i estendre a una classe de conjunts molt més general
- que els que es poden generar aplicant la funció successor.
+ que els que es poden generar només aplicant la funció successor.
 \end_layout
 
 \end_inset
@@ -17031,7 +17064,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-En aquest context d'aquest conjunt no en direm 
+En aquest context però no en direm conjunt 
 \begin_inset Formula $ℕ$
 \end_inset
 
@@ -17076,7 +17109,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Però potser no perquè de fet no està al final de res.
+Encara quende fet no està al final de res.
  A aquest 
 \begin_inset Formula $\omega$
 \end_inset
@@ -17319,8 +17352,8 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-La quantitat d'objectes d'aquesta classe de conjunts que hi ha és absurdament
- gran.
+La quantitat d'objectes d'aquesta classe de nombres/conjunts que hi ha és
+ absurdament gran.
  I això és bastant literal en el sentit que 
 \series bold
 ZFC
@@ -17613,7 +17646,7 @@ fila
 
 \begin_layout Plain Layout
 Amb els nombres infinits això no passa i el comptatge és sensible a l'ordre
- particular en que ens trobem el conjunt.
+ particular en què ens trobem el conjunt.
 \end_layout
 
 \end_inset
@@ -17650,7 +17683,7 @@ Per exemple, si comptem els nombres naturals mateixos en el seu ordre natural
 \begin_inset Formula $\leq$
 \end_inset
 
- tal com l'entenem habitualment, o sia: 
+ tal com l'entenem habitualment: 
 \begin_inset Formula $0,1,2,3,4,…$
 \end_inset
 
@@ -17717,7 +17750,16 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Però també els podríem ordenar posant el zero al final, així com 
+Però també podem definir un ordre alternatiu a l'habitual tal que el nombre
+ més petit de tots sigui el 
+\begin_inset Formula $1$
+\end_inset
+
+ en comptes del 
+\begin_inset Formula $0$
+\end_inset
+
+ i aquest estigui situat a l'extrem superior, així com 
 \begin_inset Formula $(1,2,3,4,\ldots,n,\ldots,0)$
 \end_inset
 
@@ -17792,7 +17834,8 @@ fila
 \begin_layout Plain Layout
 Per tant els ordinals tal qual no serveixen per representar la cardinalitat
  dels conjunts infinits donat que la cardinalitat per definició ha de ser
- independent de l'ordre particular en que comptem els elements.
+ independent de l'ordre particular en que comptem els elements: cada conjunt
+ només pot tenir una cardinalitat.
 \end_layout
 
 \end_inset
@@ -17900,8 +17943,26 @@ fila
 
 \begin_layout Plain Layout
 Amb els conjunts que són numerables no hi ha problema perquè la bijecció
- amb els naturals que per definició existeix es pot fer servir per definir
- un ordre que serà igual de ben ordenat que ho són els nombres naturals.
+ amb els naturals que per definició existeix
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "numerables"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ es pot fer servir per definir un ordre que serà igual de ben ordenat que
+ ho són els nombres naturals.
 \end_layout
 
 \end_inset
@@ -18001,9 +18062,9 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-De manera que sense tenir necessàriament idea d'exactament com és en detall,
- amb l'axioma de l'elecció sabem que existeix almenys un bon ordre per als
- reals i també per a qualsevol altre conjunt.
+De manera que sense tenir necessàriament idea de com és aquest bon ordre,
+ amb l'axioma de l'elecció sabem que n'existeix almenys un per als reals
+ i també per a qualsevol altre conjunt.
 \end_layout
 
 \end_inset
@@ -18043,8 +18104,8 @@ teorema del bon ordre
 \shape default
  només ens assegura que per a cada conjunt un bon ordre existeix, però no
  ens diu res sobre com és.
- No sabrem quin nombre anirà abans de quin altre en cap dels com a mínim
- un bons ordres que té el conjunt dels nombres reals.
+ No sabrem quin nombre anirà abans de quin altre en cap dels (com a mínim
+ un) bons ordres que té el conjunt dels nombres reals.
 \end_layout
 
 \end_inset
@@ -18150,8 +18211,8 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-I, donat que els ordinals són ben ordenats, sabem qualsevol conjunt d'ells
- sempre tindrà un element mínim.
+I, donat que els ordinals són ben ordenats, sabem que qualsevol conjunt
+ d'ells sempre tindrà un element mínim.
  Aquest element mínim el podem fer servir per representar les cardinalitats.
  I en direm 
 \shape italic
@@ -18190,8 +18251,8 @@ fila
 
 \begin_layout Plain Layout
 En el cas dels conjunts finits, el conjunt d'ordinals equipotents amb cadascun
- està format per un sol element, que és exactament el nombre natural que
- havíem dit que representaria la cardinalitat quan ho limitàvem a conjunts
+ d'ells està format per un sol element, que és exactament el nombre natural
+ que havíem dit que representaria la cardinalitat quan ho limitàvem a conjunts
  finits.
 \end_layout
 
@@ -19000,7 +19061,15 @@ Aquestes fórmules volen dir que
 \begin_inset Formula $i<ω$
 \end_inset
 
-, i així per a tota la resta d'ordinals.
+, i així per a tota la resta de 
+\begin_inset Formula $\beth_{i}$
+\end_inset
+
+ amb 
+\begin_inset Formula $i$
+\end_inset
+
+ ordinal.
 \end_layout
 
 \end_inset
@@ -19141,6 +19210,10 @@ Així doncs, una nova manera de formular la nostra ja entranyable hipòtesi
 \begin_inset Formula $ℵ_{1}=ℶ_{1}$
 \end_inset
 
+, ja que 
+\begin_inset Formula $|\mathbb{R}|=2^{|\mathbb{N}|}=2^{\beth_{0}}=\text{ℶ}_{1}$
+\end_inset
+
 .
 \end_layout
 
@@ -19237,7 +19310,7 @@ ZFC
 \series bold
 ZF
 \series default
- sense sense axioma de l'elecció es pot demostrar l'axioma de l'elecció.
+ (sense sense l'axioma de l'elecció) es pot demostrar l'axioma de l'elecció.
 \end_layout
 
 \end_inset
@@ -19277,7 +19350,8 @@ ZF+GCH
 \series bold
 ZFC
 \series default
- i algunes coses més i alhora és consistent si també ho és 
+ (i possiblement algunes coses més) i alhora és consistent si també ho és
+ 
 \series bold
 ZFC
 \series default
@@ -19358,7 +19432,7 @@ normals
 \end_inset
 
  senzillament no estiguin suficientment dotades per resoldre-les, com en
- el seu moment va passar amb la hipòtesi del continu de Cantor.
+ el seu moment es va veure amb la hipòtesi del continu de Cantor.
 \end_layout
 
 \end_inset
@@ -19433,7 +19507,25 @@ fila
 
 \begin_layout Plain Layout
 Tot això sabent que mai les podrem dotar suficientment com per a resoldre-ho
- tot.
+ absolutament tot, pels teoremes d'incompletesa de Gödel
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "incompletesa"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -19645,7 +19737,7 @@ fila
 \series bold
 ZFC
 \series default
- tampoc ho està quin dels dos si 
+ tampoc ho està quin dels dos (
 \begin_inset Formula $ℵ_{2}$
 \end_inset
 
@@ -19653,7 +19745,7 @@ ZFC
 \begin_inset Formula $ℶ_{1}$
 \end_inset
 
- és més gran, però sí que està determinat que el resultat de la suma serà
+) és més gran, però sí que està determinat que el resultat de la suma serà
  igual a un dels dos.
  Sí que està perfectament determinat, en canvi, que 
 \begin_inset Formula $\text{ℵ}_{\omega}+\text{ℶ}_{1}=\text{ℵ}_{\omega}$
@@ -20097,10 +20189,12 @@ Si multipliquem els ordinals
 (0,0) & \rightarrow & 0\\
 (1,0) & \rightarrow & 1\\
 (2,0) & \rightarrow & 2\\
+(3,0) & \rightarrow & 3\\
  & \vdots\\
 (0,1) & \rightarrow & ω\\
 (1,1) & \rightarrow & ω+1\\
 (2,1) & \rightarrow & ω+2\\
+(3,1) & \rightarrow & ω+3\\
  & \vdots
 \end{array}
 \]
@@ -20352,7 +20446,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-O sigui, si 
+És a dir, si tenim els conjunts 
 \begin_inset Formula $A=\left\{ a_{0},a_{1},a_{2},a_{3},a_{4}\right\} $
 \end_inset
 
@@ -20360,7 +20454,7 @@ O sigui, si
 \begin_inset Formula $B=\left\{ b_{0},b_{1},b_{2}\right\} $
 \end_inset
 
-, la funció 
+, aleshores les funcions 
 \begin_inset Formula $f:B→A$
 \end_inset
 
@@ -20383,7 +20477,30 @@ f(b_{2}) & = & a_{2}
 \end_layout
 
 \begin_layout Plain Layout
-És un element de 
+i 
+\begin_inset Formula $g:B\rightarrow A$
+\end_inset
+
+ definida com:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{array}{ccc}
+g(b_{0}) & = & a_{0}\\
+g(b_{1}) & = & a_{3}\\
+g(b_{2}) & = & a_{4}
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+són elements del conjunt 
 \begin_inset Formula $A^{B}$
 \end_inset
 
@@ -20429,7 +20546,8 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-El conjunt de totes funcions reals de variable real és doncs 
+El conjunt de totes funcions reals de variable real és doncs la potenciació
+ de conjunts 
 \begin_inset Formula $ℝ^{ℝ}$
 \end_inset
 
@@ -20618,8 +20736,8 @@ I de la mateixa manera, podem expressar el producte
 \begin_inset Formula $A^{n}$
 \end_inset
 
-: el producte (cartesià) i potència de conjunts és consistent amb el producte
- i potència de nombres que ja coneixem.
+: la relació entre el producte (cartesià) i la potència de conjunts és consisten
+ts amb la que hi ha entre el producte i la potència de nombres que ja coneixem.
 \end_layout
 
 \end_inset
@@ -20667,7 +20785,7 @@ Donat un conjunt
 \begin_inset Formula $A$
 \end_inset
 
- cap a 
+ cap al conjunt 
 \begin_inset Formula $2=\left\{ 0,1\right\} $
 \end_inset
 
@@ -20764,8 +20882,25 @@ fila
 
 \begin_layout Plain Layout
 Això és precisament el que havíem definit com a conjunt potència en parlar
- de l'axioma del conjunt potència i que havíem expressat en notació com
- a 
+ de l'axioma del conjunt potència
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "potencia"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ i que havíem expressat en notació com a 
 \begin_inset Formula $2^{A}$
 \end_inset
 
@@ -20988,7 +21123,7 @@ fila
 
 \begin_layout Plain Layout
 Si tenim una funció 
-\begin_inset Formula $f$
+\begin_inset Formula $f:\mathbb{N}\rightarrow\mathbb{N}$
 \end_inset
 
  qualsevol tal que per exemple:
@@ -21121,12 +21256,12 @@ Això resulta en un nombre real que serà únic per a cada funció
 \end_inset
 
  i d'aquí 
-\begin_inset Formula $ℵ_{0}^{ℵ_{0}}\leq2_{0}^{ℵ}=ℶ_{1}$
+\begin_inset Formula $ℵ_{0}^{ℵ_{0}}\leqℶ_{1}$
 \end_inset
 
 .
  Per altra banda també tenim que 
-\begin_inset Formula $ℵ_{0}^{ℵ_{0}}\geq2_{0}^{ℵ}$
+\begin_inset Formula $ℵ_{0}^{ℵ_{0}}\geq2^{ℵ_{0}}=\text{ℶ}_{1}$
 \end_inset
 
  ja que 
@@ -21174,8 +21309,8 @@ El conjunt de funcions reals de variable real és
 \begin_inset Formula $ℝ^{ℝ}$
 \end_inset
 
- i la seva cardinalitat la podem deduir fent servir aritmètica cardinal
- i prou:
+ i la seva cardinalitat la podem deduir fent servir només les propietats
+ de l'aritmètica cardinal:
 \end_layout
 
 \begin_layout Plain Layout
@@ -21266,8 +21401,8 @@ natural
 \begin_inset Quotes frd
 \end_inset
 
- a partir dels ordres dels operands hem dit: el resultat de l'operació és
- l'ordinal que representa aquest ordre.
+ a partir dels ordres dels operands i hem dit: el resultat de l'operació
+ és l'ordinal que representa aquest ordre.
 \end_layout
 
 \end_inset
@@ -21332,9 +21467,10 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-No sabem ordenar les funcions entre naturals de manera que qualsevol conjunt
- de funcions tingui un element mínim.
- Igual com tampoc ho sabem fer amb els nombres reals, de fet.
+Igual que no sabem ordenar els nombres reals de manera que qualsevol conjunt
+ no buit de reals tingui un element mínim, tampoc ho sabem fer amb les funcions
+ entre naturals que, com hem vist, són un conjunt equipotent amb el dels
+ nombres reals.
 \end_layout
 
 \end_inset
@@ -21366,13 +21502,37 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-En l'ordre considerat natural dels nombres reals conjunts com l'interval
- obert 
+En l'ordre considerat natural dels nombres reals, aquell que entenem normalment
+ quan diem coses com 
+\begin_inset Formula $x\leq y$
+\end_inset
+
+, conjunts com l'interval obert 
 \begin_inset Formula $(0,1)$
 \end_inset
 
- no tenen element mínim i per tant no és un bon ordre.
- El mateix passaria amb qualsevol ordre de volguéssim definir explícitament.
+ no tenen element mínim i per tant no pot ser un bon ordre: el 
+\begin_inset Formula $0$
+\end_inset
+
+ no forma part de l'interval i per a qualsevol 
+\begin_inset Formula $x>0$
+\end_inset
+
+ existirà un 
+\begin_inset Formula $y$
+\end_inset
+
+ tal que 
+\begin_inset Formula $0<y<x$
+\end_inset
+
+ que farà que 
+\begin_inset Formula $x$
+\end_inset
+
+ no pugui ser el mínim.
+ I el mateix ens passaria amb qualsevol ordre alternatiu de volguéssim descriure.
 \end_layout
 
 \end_inset
@@ -21410,7 +21570,7 @@ ZFC
 \series default
 .
  Per assegurar que cada conjunt té un bon ordre encara que no siguem capaços
- de definir explícitament quin és.
+ de descriure explícitament com és.
 \end_layout
 
 \end_inset
@@ -21443,7 +21603,7 @@ fila
 
 \begin_layout Plain Layout
 Però per definir una operació amb nombres ordinals el que ens caldria és
- un bon ordre definit explícitament i això no ho tenim.
+ un bon ordre definit descriptivament i això no ho tenim.
 \end_layout
 
 \end_inset
@@ -21719,7 +21879,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-La inducció sobre nombres naturals en, donada una propietat 
+La inducció sobre nombres naturals consisteix en, donada una propietat 
 \begin_inset Formula $P$
 \end_inset
 
@@ -22253,7 +22413,7 @@ fila
 
 \begin_layout Plain Layout
 De fet aquesta esquema és precisament el que vam fer servir quan vam definir
- els nombres cardinals infinits àlef i bet
+ els nombres cardinals infinits bet
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -22271,8 +22431,8 @@ noprefix "false"
 
 \end_inset
 
-, tot i que encara no havíem definit els ordinals límit ni la inducció transfini
-ta.
+, tot i que encara no havíem parlat dels ordinals límit ni de la inducció
+ transfinita.
 \end_layout
 
 \end_inset
@@ -22434,7 +22594,7 @@ fila
 
 \begin_layout Plain Layout
 Aquestes definicions fan la suma i la multiplicació d'ordinals consistents
- amb les de naturals que coneixem i a més coincideix amb la que vam donar
+ amb les de naturals que coneixem i a més coincideixen amb les que vam donar
  més informalment aquí
 \begin_inset script superscript
 
@@ -22554,14 +22714,14 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-És interessant que en aquest cas aquesta operació és inconsistent amb la
- potenciació de nombres cardinals tal com l'havíem definit; per una banda:
- 
+És interessant que en aquest cas l'operació sobre ordinals és inconsistent
+ amb la potenciació de nombres cardinals tal com l'havíem definit; per una
+ banda: 
 \begin_inset Formula $2^{ω}=\sup\left\{ 2^{i}\mid i<ω\right\} =\sup\left\{ 1,2,4,8,16,32,\ldots\right\} =ω$
 \end_inset
 
 , mentre que alhora: 
-\begin_inset Formula $2^{|ω|}=2^{ℵ_{0}}=ℶ_{1}>\text{ℵ}_{0}=|ω|$
+\begin_inset Formula $2^{|ω|}=2^{ℵ_{0}}=ℶ_{1}>|ω|$
 \end_inset
 
 .
@@ -22597,9 +22757,9 @@ fila
 
 \begin_layout Plain Layout
 La potenciació de nombres ordinals i la de nombres cardinals són ambdues
- extensions de la de nombres naturals, la primera entesa com a multiplicació
- iterada i l'altra com a cardinalitat del conjunt potència, però resulten
- ser operacions completament diferents.
+ extensions de la de nombres naturals, però resulten ser operacions completament
+ diferents perquè la primera estén la potenciació de naturals entesa com
+ a multiplicació iterada i l'altra com a cardinalitat del conjunt potència.
 \end_layout
 
 \end_inset
