@@ -6,7 +6,6 @@
 \origin unavailable
 \textclass article
 \begin_preamble
-\usepackage{lmodern}
 \usepackage{colortbl}
 \usepackage{xcolor}
 \usepackage[scale=1]{ccicons}
@@ -28,7 +27,7 @@
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
-\use_microtype true
+\use_microtype false
 \use_dash_ligatures true
 \graphics default
 \default_output_format default
