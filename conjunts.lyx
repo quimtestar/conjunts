@@ -164,7 +164,7 @@ arrayrulecolor{taula}
 
 
 \begin_inset Tabular
-<lyxtabular version="3" rows="466" columns="2">
+<lyxtabular version="3" rows="469" columns="2">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="100text%">
@@ -512,8 +512,8 @@ conjunt buit
 
 
 \shape default
- que respon a una propietat abstracta que no compleix cap cosa i per tant
- no té cap element i el 
+ que respon a una propietat trivial abstracta que no compleix cap cosa i
+ per tant no té cap element i el 
 \shape italic
 conjunt universal 
 \begin_inset Formula $𝕌$
@@ -521,8 +521,8 @@ conjunt universal
 
 
 \shape default
- que respon a una propietat abstracta que compleixen totes les coses i per
- tant totes les coses en són elements.
+ que respon a una propietat trivial abstracta que compleixen totes les coses
+ i per tant totes les coses en són elements.
 \end_layout
 
 \end_inset
@@ -554,8 +554,12 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Després van venir el segle XX i un paio que es deia Bertrand Russell que
- es va posar a pensar molt fort sobre aquests conceptes.
+Després van venir el segle XX i un 
+\strikeout on
+paio
+\strikeout default
+ matemàtic i filòsof que es deia Bertrand Russell que es va posar a pensar
+ molt fort sobre aquests conceptes.
 \end_layout
 
 \end_inset
@@ -587,7 +591,15 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Considerem un moment el conjunt universal que hem esmentat fa una estona.
+Considerem un moment el conjunt universal 
+\shape italic
+
+\begin_inset Formula $𝕌$
+\end_inset
+
+
+\shape default
+ que hem esmentat fa una estona.
  Hem dit que és aquell conjunt tal que totes les coses en són elements.
  I en particular, com que ell mateix és també una cosa doncs tenim que serà
  un element de si mateix.
@@ -810,8 +822,8 @@ I si en canvi suposem que
 \end_inset
 
  no és element d'ell mateix, això vol dir que no compleix la propietat de
- no ser un element d'ell mateix, cosa que implica que sí que ho és, contradient
- altre cop la hipòtesi.
+ no ser un element d'ell mateix, cosa que implica que sí que és un element
+ d'ell mateix, contradient altre cop la hipòtesi.
 \end_layout
 
 \end_inset
@@ -938,8 +950,8 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-El problema és que si tenim una matemàtica que admet l'existència de coses
- que alhora demostrablement no poden existir com aquest conjunt 
+El problema és que si tenim una ciència matemàtica que implica l'existència
+ de coses que demostrablement no poden existir com aquest conjunt 
 \shape italic
 
 \begin_inset Formula $K$
@@ -947,8 +959,50 @@ El problema és que si tenim una matemàtica que admet l'existència de coses
 
 
 \shape default
-, aleshores cap resultat que ens proporcioni aquesta ciència té algun valor
- perquè aquest resultat podria ser tant veritat com mentida.
+, aleshores cap dels resultats que ens proporcioni aquesta ciència té cap
+ mena de valor.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Això és així donat que, per l'anomenat 
+\shape italic
+principi d'explosió
+\shape default
+ de la lògica clàssica, aquest resultat tant podria ser veritat com mentida.
+ Perquè descansa sobre l'existència i alhora la inexistència d'un determinat
+ conjunt i 
+\shape italic
+ex contradictione sequitur quodlibet
+\shape default
+: d'una contradicció se'n segueix qualsevol cosa.
 \end_layout
 
 \end_inset
@@ -1007,13 +1061,6 @@ fila
 \end_inset
 
 
-\begin_inset CommandInset label
-LatexCommand label
-name "pur"
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -1029,8 +1076,49 @@ Tant és així que de fet es pot arribar a desenvolupar tota la matemàtica
 conjunt pur
 \shape default
 .
- Un conjunt pur és un conjunt tal que tots els seus elements són alhora
- conjunts purs.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "pur"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Un 
+\shape italic
+conjunt pur
+\shape default
+ és un conjunt tal que tots els seus elements són alhora conjunts purs.
  Dit d'una altra manera: tots i cadascun dels elements d'un conjunt pur
  són conjunts tals que tots i cadascun dels seus elements són conjunts tals
  que \SpecialChar ldots
@@ -1127,8 +1215,8 @@ existeix el conjunt
 
  necessitarem justificar aquesta existència seguint aquestes regles, entre
  les que de ben segur no hi haurà l'axioma que deia que ho podíem afirmar
- directament perquè, tal com hem vist, aquest axioma ens condueix directament
- cap a una paradoxa.
+ directament perquè, tal com hem vist, ens condueix directament cap a una
+ contradicció.
 \end_layout
 
 \end_inset
@@ -1321,9 +1409,8 @@ complet
 \shape default
 : que doni resposta a totes les qüestions que ens puguem plantejar sobre
  teoria de conjunts.
- O dit d'una altra manera, que donat qualsevol enunciat en el que apareguin
- conjunts, o ell o bé la seva negació es puguin demostrar a partir dels
- axiomes.
+ O, dit d'una altra manera, que donat qualsevol enunciat que parli de conjunts,
+ o bé ell o bé la seva negació es puguin demostrar a partir dels axiomes.
 \end_layout
 
 \end_inset
@@ -1505,7 +1592,7 @@ fila
 De fet tampoc és que sigui un posicionament tan insensat, si vas a mirar.
  Estem dient que el que fem és plasmar la nostra intuïció de conjunt com
  un joc de regles formals i l'infinit en si és un concepte que té ramificacions
- que desafien la intuïció.
+ que sovint desafien aquesta intuïció.
 \end_layout
 
 \end_inset
@@ -1583,8 +1670,7 @@ fila
 \begin_layout Plain Layout
 Posem que ens trobem treballant a la recepció d'un hotel que té infinites
  habitacions.
- I que estem plens fins la bandera.
- Totes les habitacions ocupades.
+ I que estem plens fins la bandera; totes les habitacions ocupades.
  En aquell moment arriba un client nou que vol una habitació.
 \end_layout
 
@@ -1617,9 +1703,9 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-La nostra experiència limitada als hotels finits ens diu que si tenim un
- hotel complet i arriba un client nou, no el podrem acomodar i li hem de
- dir que sentint-ho molt s'haurà de buscar un altre establiment.
+La nostra experiència limitada als hotels finits ens diu que quan tenim
+ l'hotel complet i arriba un client nou, no el podrem acomodar i li hem
+ de dir que sentint-ho molt s'haurà de buscar un altre establiment.
 \end_layout
 
 \end_inset
@@ -1652,7 +1738,7 @@ fila
 
 \begin_layout Plain Layout
 Però en un hotel infinit sí que podrem obtenir una habitació lliure per
- ell encara que partim de tenir-les totes ocupades.
+ a ell encara que partim de tenir-les totes ocupades.
  Tot el que hem de fer és agafar cada client de l'habitació 
 \shape italic
 
@@ -1661,7 +1747,7 @@ Però en un hotel infinit sí que podrem obtenir una habitació lliure per
 
 
 \shape default
- i moure'l cap a la 
+ i fer-lo moure cap a la 
 \shape italic
 
 \begin_inset Formula $n+1$
@@ -1669,15 +1755,9 @@ Però en un hotel infinit sí que podrem obtenir una habitació lliure per
 
 
 \shape default
- i després donar-li l'habitació 
-\shape italic
-
-\begin_inset Formula $0$
-\end_inset
-
-
-\shape default
- que ha quedat lliure al nou hoste.
+.
+ Això ens deixa lliure la primera habitació de totes on podrem feliçment
+ acollir al nou hoste.
 \end_layout
 
 \end_inset
@@ -1720,8 +1800,8 @@ noprefix "false"
 
 \end_inset
 
- dels que hem dit abans i per tant en la nostra teoria de conjunts no hi
- ha d'haver infinits.
+ dels que hem dit abans i que per tant en una bona teoria de conjunts no
+ ha d'admetre l'existència de conjunts infinits.
 \end_layout
 
 \end_inset
@@ -1754,64 +1834,10 @@ fila
 
 \begin_layout Plain Layout
 Per altra banda, una matemàtica construïda només sobre conjunts finits és
- difícil que arribi a assolir la potència que té la normal de tota la vida.
+ difícil que arribi a assolir la potència que té la matemàtica habitual
+ amb la que treballem normalment.
  Com fas per exemple geometria analítica si no pots dir que un segment està
  format per infinits punts? Doncs ni idea.
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-fila
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Els punts 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:consistencia"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- i 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:complet"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, és a dir, que el sistema axiomàtic que adoptem per la teoria de conjunts
- a sigui consistent i complet, en canvi, sí que són qüestions perfectament
- objectivables.
- Però aquí entren Kurt Gödel i els seus teoremes d'incompletesa.
 \end_layout
 
 \end_inset
@@ -1850,19 +1876,34 @@ name "incompletesa"
 \begin_inset Text
 
 \begin_layout Plain Layout
-Gödel es va adonar que donat un sistema de la mena que estem tractant que
- sigui prou potent com per respondre qüestions aritmètiques bàsiques, seria
- possible traduir una afirmació com 
-\begin_inset Quotes fld
+Els punts 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:consistencia"
+plural "false"
+caps "false"
+noprefix "false"
+
 \end_inset
 
-aquesta afirmació no és demostrable en aquest sistema
-\begin_inset Quotes frd
+ i 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:complet"
+plural "false"
+caps "false"
+noprefix "false"
+
 \end_inset
 
- en forma d'equació aritmètica que a continuació podríem introduir dins
- del propi sistema perquè ens proporcionés una resposta, generant una paradoxa
- de l'estil de la que hem vist abans amb Russell.
+, és a dir, que el sistema axiomàtic que adoptem per la teoria de conjunts
+ a sigui consistent i complet, en canvi, sí que són qüestions perfectament
+ objectivables.
+ Però aquí és on entren Kurt Gödel i els seus 
+\shape italic
+teoremes d'incompletesa
+\shape default
+.
 \end_layout
 
 \end_inset
@@ -1894,11 +1935,109 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Per tant no és possible que si el nostre sistema és consistent sigui alhora
+Gödel fou un lògic i matemàtic que un bon dia es va adonar que donat qualsevol
+ sistema de la mena que estem tractant que sigui prou potent com per respondre
+ qüestions aritmètiques bàsiques, és possible traduir un enunciat tal com
+ 
+\begin_inset Quotes fld
+\end_inset
+
+aquesta afirmació no és demostrable en aquest sistema
+\begin_inset Quotes frd
+\end_inset
+
+ en forma d'equació aritmètica que a continuació podem introduir dins del
+ propi sistema perquè ens proporcioni una resposta.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Si suposem que el aquest sistema és alhora consistent i complet, ens trobem
+ davant una paradoxa de l'estil que hem vist abans amb Russell
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "russell"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+: l'enunciat no pot ser veritat perquè diu que ell mateix no és demostrable
+ però estem suposant completesa i per tant que tots els enunciats veritables
+ tenen demostració, ni pot ser mentida perquè aleshores hauria de ser demostrabl
+e i estem suposant consistència i per tant que no hi ha falsedats demostrables.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I per tant no és possible que si el nostre sistema és consistent sigui alhora
  complet i pugui resoldre totes les qüestions que li plantegem.
  Sempre hi haurà coses que des dels nostres axiomes no podrem ni demostrar
  ni refutar.
- Terrible.
+ I això és terrible.
 \end_layout
 
 \end_inset
