@@ -164,7 +164,7 @@ arrayrulecolor{taula}
 
 
 \begin_inset Tabular
-<lyxtabular version="3" rows="469" columns="2">
+<lyxtabular version="3" rows="472" columns="2">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="100text%">
@@ -2082,7 +2082,7 @@ aquesta afirmació no és demostrable en aquest sistema
 \strikeout on
 una liada
 \strikeout default
- un sarau en ella mateixa bastant important.
+ un sarau en ell mateix bastant important.
 \end_layout
 
 \end_inset
@@ -2166,7 +2166,7 @@ aquesta frase és mentida
 
  creant una paradoxa d'autoreferència i qui ho sent de seguida entén la
  broma sense que el cervell li entri en un bucle infinit en processar-ho
- ni agafar-li una embòlia ni morir-se ni res.
+ ni agafar-li una embòlia ni morir-se ni res d'això.
 \end_layout
 
 \end_inset
@@ -2200,11 +2200,15 @@ fila
 \begin_layout Plain Layout
 Però fer-li aquest mateix joc a un sistema formal fet per distingir allò
  veritable d'allò fals d'una manera ben fonamentada és força més complicat.
- No tindrem manera de dir 
+ No podrem dir 
 \begin_inset Quotes fld
 \end_inset
 
-aquesta frase
+
+\series bold
+aquesta
+\series default
+ frase
 \begin_inset Quotes frd
 \end_inset
 
@@ -2212,13 +2216,17 @@ aquesta frase
 \begin_inset Quotes fld
 \end_inset
 
-aquest sistema
+
+\series bold
+aquest
+\series default
+ sistema
 \begin_inset Quotes frd
 \end_inset
 
  així amb un adjectiu demostratiu 
 \strikeout on
-i a cascar-la
+i a prendre vent
 \strikeout default
 .
 \end_layout
@@ -2252,8 +2260,9 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Haurem de buscar-nos la vida per declarar els conceptes de manera explícita.
- En comptes de dir 
+Haurem de buscar-nos la vida per declarar els conceptes de manera explícita
+ sense fer salts metalingüístics: per exemple, si fos en llenguatge natural,
+ en comptes de dir 
 \begin_inset Quotes fld
 \end_inset
 
@@ -2261,7 +2270,7 @@ aquesta frase és mentida
 \begin_inset Quotes frd
 \end_inset
 
- haurem de dir coses com 
+ diríem coses com 
 \begin_inset Quotes fld
 \end_inset
 
@@ -2277,8 +2286,48 @@ esdevé falsa quan va precedida per ella mateixa entre cometes
 \begin_inset Quotes frd
 \end_inset
 
+, fent així una especificació ben fonamentada de la frase a la que ens referim
+ sense fer la trampa d'indicar-la amb un 
+\begin_inset Quotes fld
+\end_inset
+
+aquesta
+\begin_inset Quotes frd
+\end_inset
+
 .
- I en comptes de 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+De la mateixa manera, en comptes de dir 
 \begin_inset Quotes fld
 \end_inset
 
@@ -2286,10 +2335,8 @@ aquest sistema
 \begin_inset Quotes frd
 \end_inset
 
- hem de fer una especificació perfectament funcional del sistema dins del
- sistema mateix.
- En aquest sentit s'assembla una mica al llenguatge dels ents de l'univers
- Tolkien, on el nom de cada cosa era la història completa d'aquella cosa.
+ haurem de fer una especificació perfectament funcional del sistema dins
+ del sistema mateix.
 \end_layout
 
 \end_inset
@@ -2363,7 +2410,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-El cop d'intuïció que devia fer falta per afrontar tota aquesta feinada
+El cop d'intuïció que devia fer falta per fer front a tota aquesta feinada
  avorridíssima amb la convicció que al final hi ha una conclusió formal
  valuosa és una cosa que sempre m'ha admirat bastant.
 \end_layout
@@ -2865,7 +2912,8 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Aquest fet és una part essencial del discórrer matemàtic, de fet.
+Aquesta característica de la igualtat és una part essencial del discórrer
+ matemàtic, de fet.
  En canvi, en el món sensible si veiem un cotxe igual pel nostre no necessàriame
 nt ha de ser el nostre i si fem amb ell el que faríem amb el nostre podem
  tenir problemes amb qui tingui encarregada la tasca de protegir la propietat
@@ -2901,7 +2949,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-És obvi que a causa d'això discórrer en el món sensible ha de ser per força
+És obvi que a causa d'això manegar-se pel món sensible ha de ser per força
  molt més esgotador, feixuc i desagradable.
  No saps mai si dues coses iguals són la mateixa o no, casum l'olla.
 \end_layout
@@ -3230,12 +3278,72 @@ fila
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D'aquest objecte 
+\begin_inset Formula $w$
+\end_inset
+
+ quan ens convingui en podrem tornar a recuperar els seus dos components:
+ 
+\begin_inset Formula $a$
+\end_inset
+
+ és aquell que és element alhora dels dos elements de 
+\begin_inset Formula $w$
+\end_inset
+
+ i 
+\begin_inset Formula $b$
+\end_inset
+
+ és aquell que és element d'exactament un element de 
+\begin_inset Formula $w$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "parell-ordenat"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Aquesta estructura ens interessa per la seva asimetria.
- No és el mateix 
+Però a més aquesta estructura ens interessa per la seva asimetria: no és
+ el mateix 
 \begin_inset Formula $\left\{ \left\{ a\right\} ,\left\{ a,b\right\} \right\} $
 \end_inset
 
@@ -3331,21 +3439,17 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Amb parells ordenats podem construir alhora llistes finites d'elements:
- 
-\begin_inset Formula $[a,b,c,d,e]$
-\end_inset
-
- = 
-\begin_inset Formula $((((a,b),c),d),e)$
+Amb parells ordenats podem construir alhora altres estructures com llistes
+ finites d'elements de la forma 
+\begin_inset Formula $(((((\varnothing,a),b),c),d),e)$
 \end_inset
 
 .
- Tot i que en matemàtiques normalment en diem 
+ D'això normalment en direm 
 \shape italic
 tuples
 \shape default
- i les escrivim en la forma 
+ i les escriurem simplificadament així: 
 \begin_inset Formula $(a,b,c,d,e)$
 \end_inset
 
@@ -3461,7 +3565,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-És a dir que si tenim el conjunt 
+És a dir que si tenim el conjunt de conjunts 
 \begin_inset Formula $\left\{ \left\{ a,b\right\} ,\left\{ c,d\right\} ,\left\{ e\right\} \right\} $
 \end_inset
 
@@ -3502,7 +3606,7 @@ fila
 
 \begin_layout Plain Layout
 Combinant els axiomes d'emparellament i d'unió podem fer l'operació d'unió
- binària de tota la vida, o sigui, l'operació que pren dos conjunts i uneix
+ binària de tota la vida, és a dir, l'operació que pren dos conjunts i uneix
  els seus elements en un de sol: donats els conjunts 
 \begin_inset Formula $A$
 \end_inset
@@ -3697,8 +3801,11 @@ noprefix "false"
 \shape italic
 zero
 \shape default
-) i del resultat d'aplicar-li la funció successor, el conjunt d'un sol element
- que és el conjunt buit, en direm 
+) i del resultat d'aplicar-li la funció successor, és a dir 
+\begin_inset Formula $S(\boldsymbol{0})=\boldsymbol{0}\cup\left\{ \boldsymbol{0}\right\} =\left\{ \boldsymbol{0}\right\} $
+\end_inset
+
+, el conjunt que només té un sol element que és el zero, en direm 
 \begin_inset Formula $\boldsymbol{1}$
 \end_inset
 
@@ -3866,7 +3973,8 @@ noprefix "false"
 
 \end_inset
 
- amb unes característiques i propietats particulars.
+que poden ser construïts d'una manera sistemàtica i que tenen unes característiq
+ues i propietats particulars.
 \end_layout
 
 \end_inset
@@ -4662,9 +4770,9 @@ fila
 
 \begin_layout Plain Layout
 Això amb els conjunts finits no passa.
- Si a un conjunt finit li trèiem un element, el resultat té estrictament
+ Si a un conjunt finit li traiem un element, el resultat té estrictament
  menys elements que l'original.
- El que vindria a ser al que estem acostumats que passi a la nostra quotidianita
+ El que vindria a ser el que estem acostumats que passi a la nostra quotidianita
 t finita.
 \end_layout
 
@@ -4810,16 +4918,8 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-I això és perquè, encara que sempre fem servir la paraula 
-\begin_inset Quotes fld
-\end_inset
-
-conjunt
-\begin_inset Quotes frd
-\end_inset
-
-, sistemes axiomàtics diferents poden estar parlant de coses (lleugerament)
- diferents.
+I això és perquè, encara que sempre fem servir el terme `conjunt', sistemes
+ axiomàtics diferents poden estar parlant de coses (lleugerament) diferents.
 \end_layout
 
 \end_inset
@@ -5681,9 +5781,9 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Era per això, de fet, que volíem l'axioma de comprensió, no pas per generar
- contradiccions que ens fessin replantejar els fonaments de tota la matemàtica
- i la solidesa de la seva connexió amb la veritat.
+Era per això, de fet, que volíem tenir un axioma de comprensió, no pas per
+ generar contradiccions que ens fessin replantejar els fonaments de tota
+ la matemàtica i la solidesa de la seva connexió amb la veritat.
 \end_layout
 
 \end_inset
@@ -5809,7 +5909,25 @@ fila
 
 \begin_layout Plain Layout
 Per fer servir aquest axioma d'especificació per crear una paradoxa a l'estil
- Russell hauríem de fer alguna cosa com 
+ de Bertrand Russell
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "russell"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ hauríem de fer alguna cosa com 
 \begin_inset Formula $K=\left\{ A\in𝕌\mid A\notin A\right\} $
 \end_inset
 
@@ -5881,7 +5999,7 @@ Necessitaríem demostrar prèviament l'existència d'aquest conjunt universal
 ZFC
 \series default
  no es pot fer.
- De fet es pot demostrar la 
+ De fet estem en camí de demostrar la 
 \series bold
 no
 \series default
@@ -5917,33 +6035,15 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Si comencem suposant que existeix un conjunt universal, l'axioma de comprensió
- sense restriccions esdevé un corol·lari de l'axioma d'especificació, simplement
- fent 
+Si el conjunt universal existís, el que hem anomenat axioma de comprensió
+ sense restriccions seria una proposició perfectament vàlida com a corol·lari
+ de l'axioma d'especificació, simplement fent 
 \begin_inset Formula $A=𝕌$
 \end_inset
 
 .
- I aquest axioma de comprensió sense restriccions hem vist abans que ens
- porta cap a la paradoxa de Russell
-\begin_inset script superscript
-
-\begin_layout Plain Layout
-\begin_inset CommandInset ref
-LatexCommand eqref
-reference "russell"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-, un contrasentit.
+ I exactament igual que ens passava quan el teníem com a axioma, ens portaria
+ cap al contrasentit de la paradoxa de Russell.
  Per tant la hipòtesi que existeix un conjunt universal ha de ser forçosament
  falsa.
 \end_layout
@@ -6319,15 +6419,7 @@ I encara més, ens descarta qualsevol seqüència infinita de la forma
 
  encara que el cicle no es repeteixi mai.
  Tota seqüència de descens que es faci seguint la relació 
-\begin_inset Quotes fld
-\end_inset
-
-
 \begin_inset Formula $\in$
-\end_inset
-
-
-\begin_inset Quotes frd
 \end_inset
 
  
@@ -6439,11 +6531,11 @@ fila
 
 \begin_layout Plain Layout
 I d'aquí es deriva que construccions basades en aquesta funció com la dels
- nombres natural tenen una estructura 
+ nombres naturals tenen una estructura 
 \shape italic
 ordenada
 \shape default
-: si l'aplicació successiva de la funció successor a un nombre 
+: si l'aplicació repetida de la funció successor a un nombre 
 \begin_inset Formula $a$
 \end_inset
 
@@ -6460,6 +6552,62 @@ ordenada
 \end_inset
 
 .
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fila
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Per tant, si 
+\begin_inset Formula $a$
+\end_inset
+
+ i 
+\begin_inset Formula $b$
+\end_inset
+
+ no són el mateix nombre, pot ser el cas que 
+\begin_inset Formula $a$
+\end_inset
+
+ es trobi abans de 
+\begin_inset Formula $b$
+\end_inset
+
+ o bé que 
+\begin_inset Formula $b$
+\end_inset
+
+ es trobi abans que 
+\begin_inset Formula $a$
+\end_inset
+
+, però ambdues coses alhora no.
 \end_layout
 
 \end_inset
@@ -6687,9 +6835,9 @@ L'
 \shape italic
 axioma de reemplaçament
 \shape default
- diu que si tenim un conjunt domini qualsevol i una funció que existeixi
- dins la teoria de conjunts aleshores també existeix el conjunt imatge format
- pels resultats de la funció aplicats a cada element del domini.
+ diu que si tenim un conjunt i una funció que operi sobre conjunts qualssevol
+ aleshores també existeix el conjunt imatge format pels resultats de la
+ funció aplicats a cada element del conjunt.
 \end_layout
 
 \end_inset
@@ -6726,29 +6874,11 @@ O sia, que si tenim per exemple el conjunt
 \end_inset
 
  i la funció 
-\begin_inset Formula $f(x)=\{x$
+\begin_inset Formula $f(x)=\{x\}$
 \end_inset
 
-}, que donat un element ens retorna el conjunt format només per aquell element,
- que podíem construir amb l'axioma d'emparellament
-\begin_inset script superscript
-
-\begin_layout Plain Layout
-\begin_inset CommandInset ref
-LatexCommand eqref
-reference "emparellament"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-, aleshores per l'axioma de reemplaçament existeix el conjunt 
+, que donat un element ens retorna el conjunt format només per aquell element,
+ aleshores per l'axioma de reemplaçament existeix el conjunt 
 \begin_inset Formula $f(A)=\left\{ f(a),f(b),f(c),f(d)\right\} =\left\{ \left\{ a\right\} ,\left\{ b\right\} ,\left\{ c\right\} ,\left\{ d\right\} \right\} $
 \end_inset
 
@@ -6793,8 +6923,26 @@ Una altra cosa que també podríem fer amb aquest axioma és aplicar-ho a un
 \begin_inset Formula $f(x)=(x,b)$
 \end_inset
 
-, fent servir aquells parells ordenats que també havíem construït quan parlàvem
- de l'axioma d'emparellament i un element 
+, fent servir aquells parells ordenats
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "parell-ordenat"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ que havíem dit com construir quan parlàvem de l'axioma d'emparellament
+ amb un element 
 \begin_inset Formula $b$
 \end_inset
 
@@ -6835,20 +6983,13 @@ Això ens donaria el conjunt de parells ordenats
 \end_inset
 
 .
- Aquesta maniobra que hem fet sobre el conjunt 
-\begin_inset Formula $A$
-\end_inset
-
- que podríem fer per a qualsevol element 
+ Ara bé, com que en aquesta construcció l'element 
 \begin_inset Formula $b$
 \end_inset
 
- que volguéssim la podem fer servir per definir una funció de 
-\begin_inset Formula $b$
-\end_inset
-
- tal com 
-\begin_inset Formula $g(b)=\left\{ (a_{0},b),(a_{1},b),(a_{2},b)\right\} $
+ pot ser qualsevol que vulguem podem fer-la servir per definir una nova
+ funció 
+\begin_inset Formula $g(y)=\left\{ (a_{0},y),(a_{1},y),(a_{2},y)\right\} $
 \end_inset
 
 .
@@ -6997,7 +7138,7 @@ producte cartesià
 \shape default
  i és un altre dels conceptes importantíssims en matemàtiques.
  Per exemple, per jugar a barcos.
- Les jugades són parells ordenats i el taulells són productes cartesians.
+ Si les jugades són parells ordenats, els taulells són productes cartesians.
 \end_layout
 
 \end_inset
@@ -7029,8 +7170,8 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Havíem vist anteriorment que comptar consisteix bàsicament en trobar bijeccions
- entre conjunts.
+Havíem vist anteriorment que comptar consisteix bàsicament en trobar una
+ bijecció entre un conjunt i un representant de la seva cardinalitat.
  Anem a veure què passa quan comptem els elements dels productes cartesians.
 \end_layout
 
@@ -7143,6 +7284,19 @@ fila
 \end_inset
 
 .
+ No és casualitat que el nombre 
+\begin_inset Formula $6$
+\end_inset
+
+ sigui precisament la multiplicació (o producte) dels nombres 
+\begin_inset Formula $3$
+\end_inset
+
+ i 
+\begin_inset Formula $2$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Plain Layout
@@ -7223,8 +7377,8 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-És fàcil inferir que en conjunts finits es compleix que 
-\begin_inset Formula $|A\times B|=|A|\times|B|$
+És fàcil inferir que en conjunts finits es compleix en general que 
+\begin_inset Formula $|A\times B|=\left||A|\times|B|\right|$
 \end_inset
 
 .
@@ -7474,7 +7628,7 @@ I per tant estaríem ometent tots elements de
 \end_inset
 
  on el primer component del parell ordenat és diferent de zero i per tant
- no seria una bijecció.
+ això no és una bijecció.
  Però això no vol dir que la bijecció no existeixi, només que per trobar-la
  potser ens farà falta ser una mica més creatius.
 \end_layout
@@ -7631,8 +7785,8 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-I per tant també podrem establir una correspondència un a un entre tots
- els elements de 
+I per tant també podem establir una correspondència un a un entre tots els
+ elements de 
 \begin_inset Formula $ℕ×ℕ$
 \end_inset
 
@@ -7685,10 +7839,19 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-En aquest moment un es comença a preguntar si aquesta capacitat absorbent
- de les cardinalitats infinites arriba fins a que tots els conjunts infinits
- tinguin la mateixa cardinalitat i simplement haguem de ser més o menys
- enginyosos per trobar la bijecció que els relaciona.
+En aquest moment un es pot començar a preguntar si resultarà que tots els
+ conjunts infinits tindran la mateixa cardinalitat que 
+\begin_inset Formula $\mathbb{N}$
+\end_inset
+
+ i per tant existeix una sola cardinalitat infinita.
+ Es podria pensar que donat un conjunt infinit qualsevol, només es tracta
+ de ser més o menys enginyós per a descobrir quina és la bijecció que la
+ relaciona amb 
+\begin_inset Formula $\mathbb{N}$
+\end_inset
+
+ o amb qualsevol altre conjunt infinit.
 \end_layout
 
 \end_inset
@@ -7720,8 +7883,8 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-I el fet que donats dos conjunts no siguem capaços de trobar aquesta bijecció
- no vol dir que aquesta no existeixi.
+A més, el fet que donats dos conjunts no siguem capaços de trobar aquesta
+ bijecció no vol dir que no existeixi.
  L'absència d'evidència no equival a l'evidència d'absència a la vida en
  general i en la matemàtica especialment.
 \end_layout
@@ -7878,15 +8041,19 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Si hi afegim un nou element 
-\begin_inset Formula $c$
-\end_inset
-
-, el conjunt potència de 
+El conjunt de subconjunts de 
 \begin_inset Formula $\left\{ a,b,c\right\} $
 \end_inset
 
- seran tots els subconjunts de 
+, que és igual a 
+\begin_inset Formula $\left\{ a,b\right\} $
+\end_inset
+
+ després d'afegir-hi un nou element 
+\begin_inset Formula $c$
+\end_inset
+
+, seran tots els subconjunts de 
 \begin_inset Formula $\left\{ a,b\right\} $
 \end_inset
 
@@ -7930,11 +8097,11 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-És a dir que el conjunt potència de 
+És a dir que els elements del conjunt potència de 
 \begin_inset Formula $\left\{ a,b,c\right\} $
 \end_inset
 
- seran per un costat els mateixos quatre de 
+ seran per un costat els mateixos quatre del conjunt potència de 
 \begin_inset Formula $\left\{ a,b\right\} $
 \end_inset
 
@@ -7971,7 +8138,7 @@ fila
 \end_inset
 
 .
- En total, vuit.
+ En total, vuit elements.
 \end_layout
 
 \end_inset
@@ -8003,8 +8170,8 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-O sigui, que quan afegim un element a un conjunt la cardinalitat del seu
- conjunt potència, si més no en conjunts finits, se'ns duplica.
+Observem doncs que quan afegim un element a un conjunt la cardinalitat del
+ seu conjunt potència, si més no en conjunts finits, se'ns duplica.
 \end_layout
 
 \end_inset
@@ -8037,8 +8204,8 @@ fila
 
 \begin_layout Plain Layout
 El conjunt potència del conjunt buit serà el conjunt format per l'únic subconjun
-t que hi ha del conjunt buit que és el mateix conjunt buit, o sigui el conjunt
- amb un sol element 
+t que té el conjunt buit: el mateix conjunt buit.
+ Per tant serà el conjunt d'un sol element 
 \begin_inset Formula $\left\{ \varnothing\right\} $
 \end_inset
 
@@ -8114,15 +8281,7 @@ fila
 No exactament per això, sinó per una qüestió de fet més general però fortament
  relacionada amb aquesta, la notació que modernament es fa servir per indicar
  el conjunt potència del conjunt A és 
-\begin_inset Quotes fld
-\end_inset
-
-
 \begin_inset Formula $2^{A}$
-\end_inset
-
-
-\begin_inset Quotes frd
 \end_inset
 
 .
@@ -8202,11 +8361,11 @@ Com que en l'aritmètica de
 \begin_inset Formula $2^{n}>n$
 \end_inset
 
- per qualsevol 
+ per a qualsevol 
 \begin_inset Formula $n$
 \end_inset
 
- doncs podem deduir que en el que es refereix a conjunts finits 
+, tenim que en el que es refereix a conjunts finits 
 \begin_inset Formula $|2^{A}|>|A|$
 \end_inset
 
@@ -8502,12 +8661,12 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Que 
-\begin_inset Formula $φ(K)\in K$
+Per tal com hem definit el conjunt 
+\begin_inset Formula $K$
 \end_inset
 
- tal com hem definit el conjunt 
-\begin_inset Formula $K$
+, que 
+\begin_inset Formula $φ(K)\in K$
 \end_inset
 
  voldria dir que 
@@ -8532,7 +8691,7 @@ Que
 \end_inset
 
 .
- Això és una contradicció i per tant la hipòtesi que existia una bijecció
+ Això és una contradicció i per tant la hipòtesi que existeix una bijecció
  entre 
 \begin_inset Formula $2^{A}$
 \end_inset
@@ -17248,7 +17407,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Encara quende fet no està al final de res.
+Encara que de fet no està al final de res.
  A aquest 
 \begin_inset Formula $\omega$
 \end_inset
@@ -22969,7 +23128,7 @@ ccbysa
 \family typewriter
 \size scriptsize
 \color lightgray
-Aquesta obra està subjecta a una llicència de 
+Aquest text està subjecte a una llicència de 
 \begin_inset CommandInset href
 LatexCommand href
 name "Reconeixement-CompartirIgual 4.0 Internacional de Creative Commons"
