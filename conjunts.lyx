@@ -38,7 +38,7 @@
 \spacing single
 \use_hyperref true
 \pdf_title "El fil de tuiter sobre teoria de conjunts™"
-\pdf_author "@quimtestar"
+\pdf_author "https://twitter.com/quimtestar"
 \pdf_subject "Teoria de conjunts"
 \pdf_keywords "teoria, conjunts, matemàtica, fonaments"
 \pdf_bookmarks true
