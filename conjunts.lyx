@@ -7378,7 +7378,7 @@ fila
 
 \begin_layout Plain Layout
 És fàcil inferir que en conjunts finits es compleix en general que 
-\begin_inset Formula $|A\times B|=\left||A|\times|B|\right|$
+\begin_inset Formula $|A\times B|=|A|·|B|$
 \end_inset
 
 .
