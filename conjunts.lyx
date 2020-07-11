@@ -163,6 +163,9 @@ arrayrulecolor{taula}
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Tabular
 <lyxtabular version="3" rows="472" columns="2">
 <features islongtable="true" longtabularalignment="center">
@@ -23081,6 +23084,30 @@ La potenciació de nombres ordinals i la de nombres cardinals són ambdues
 \align center
 
 \family typewriter
+\size tiny
+\color lightgray
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\family typewriter
 \size scriptsize
 \color gray
 \begin_inset Box Boxed
@@ -23138,6 +23165,31 @@ literal "false"
 \end_inset
 
 .
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\family typewriter
+\size tiny
+\color lightgray
+[
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://twitter.com/quimtestar/status/1053196842106830848
+\end_layout
+
+\end_inset
+
+]
 \end_layout
 
 \end_inset
