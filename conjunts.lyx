@@ -37,8 +37,8 @@
 \paperfontsize default
 \spacing single
 \use_hyperref true
-\pdf_title "El fil de tuiter sobre teoria de conjunts™"
-\pdf_author "https://twitter.com/quimtestar"
+\pdf_title "El fil de t̶u̶i̶t̶e̶r̶ mastodon sobre teoria de conjunts™"
+\pdf_author "https://mastodon.social/@poliedres"
 \pdf_subject "Teoria de conjunts"
 \pdf_keywords "teoria, conjunts, matemàtica, fonaments"
 \pdf_bookmarks true
@@ -1982,8 +1982,8 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Si suposem que el aquest sistema és alhora consistent i complet, ens trobem
- davant una paradoxa de l'estil que hem vist abans amb Russell
+Si suposem que el sistema és alhora consistent i complet, ens trobem davant
+ una paradoxa de l'estil que hem vist abans amb Russell
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -2662,7 +2662,7 @@ hoice
 \shape default
 .
  Quan parlem de conjunts sense dir res més s'entén que ens referim exactament
- a aquells ens que compleixen aquests axiomes i no a una altra cosa.
+ a aquells que deriven d'aquests axiomes i no a una altra cosa.
 \end_layout
 
 \end_inset
@@ -2698,9 +2698,12 @@ El sistema axiomàtic
 \series bold
 ZFC
 \series default
- consta de nou axiomes i em temo que tuiter no és un lloc gaire adequat
- per entrar a detallar-los un per un, ja que seria una cosa feixuga i avorridíss
-ima.
+ consta de nou axiomes i em temo que 
+\strikeout on
+tuiter
+\strikeout default
+ mastodon no és un lloc gaire adequat per entrar a detallar-los un per un,
+ ja que seria una cosa feixuga i avorridíssima.
 \end_layout
 
 \end_inset
@@ -2858,7 +2861,8 @@ Quan diem
 \begin_inset Quotes frd
 \end_inset
 
-, inherentment a això va lligat que a qualsevol proposició on veiem un 
+, inherentment a això hi va lligat que a qualsevol proposició on veiem un
+ 
 \begin_inset Quotes fld
 \end_inset
 
@@ -2882,8 +2886,9 @@ Quan diem
 \begin_inset Quotes frd
 \end_inset
 
- i la seva validesa no es veu afectada pel canvi, perquè són la mateixa
- cosa i tenen exactament les mateixes propietats.
+ i la seva validesa no es veu afectada pel canvi, perquè ambdues expressions
+ identifiquen la mateixa cosa i per tant tenen exactament les mateixes propietat
+s.
 \end_layout
 
 \end_inset
@@ -2917,10 +2922,10 @@ fila
 \begin_layout Plain Layout
 Aquesta característica de la igualtat és una part essencial del discórrer
  matemàtic, de fet.
- En canvi, en el món sensible si veiem un cotxe igual pel nostre no necessàriame
-nt ha de ser el nostre i si fem amb ell el que faríem amb el nostre podem
- tenir problemes amb qui tingui encarregada la tasca de protegir la propietat
- privada.
+ En canvi, en el món sensible si veiem un objecte que és igual que un de
+ nostre no necessàriament ha de ser el nostre i si fem amb ell el que faríem
+ amb el nostre podem tenir problemes amb qui tingui encarregada la tasca
+ de protegir la propietat privada.
 \end_layout
 
 \end_inset
@@ -3029,7 +3034,7 @@ Per exemple, la propietat de ser un element d'un tercer conjunt donat.
 
 
 \shape default
-, i 
+ i 
 \shape italic
 
 \begin_inset Formula $A∈C$
@@ -3037,7 +3042,7 @@ Per exemple, la propietat de ser un element d'un tercer conjunt donat.
 
 
 \shape default
-, podem estar segurs que 
+ aleshores podem estar segurs que 
 \shape italic
 
 \begin_inset Formula $B∈C$
@@ -3045,9 +3050,8 @@ Per exemple, la propietat de ser un element d'un tercer conjunt donat.
 
 
 \shape default
-.
- I això és en virtut d'aquest primer axioma.
- Saludem tots a l'axioma d'extensionalitat.
+, i això és en virtut d'aquest primer axioma.
+ Saludem doncs tots a l'axioma d'extensionalitat.
 \end_layout
 
 \end_inset
@@ -3286,7 +3290,7 @@ fila
 
 \begin_layout Plain Layout
 D'aquest objecte 
-\begin_inset Formula $w$
+\begin_inset Formula $\omega$
 \end_inset
 
  quan ens convingui en podrem tornar a recuperar els seus dos components:
@@ -3295,7 +3299,7 @@ D'aquest objecte
 \end_inset
 
  és aquell que és element alhora dels dos elements de 
-\begin_inset Formula $w$
+\begin_inset Formula $\omega$
 \end_inset
 
  i 
@@ -3303,7 +3307,7 @@ D'aquest objecte
 \end_inset
 
  és aquell que és element d'exactament un element de 
-\begin_inset Formula $w$
+\begin_inset Formula $\omega$
 \end_inset
 
 .
@@ -3448,7 +3452,7 @@ Amb parells ordenats podem construir alhora altres estructures com llistes
 \end_inset
 
 .
- D'això normalment en direm 
+ D'aquests objectes normalment en direm 
 \shape italic
 tuples
 \shape default
@@ -3608,9 +3612,12 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Combinant els axiomes d'emparellament i d'unió podem fer l'operació d'unió
- binària de tota la vida, és a dir, l'operació que pren dos conjunts i uneix
- els seus elements en un de sol: donats els conjunts 
+Combinant els axiomes d'emparellament i d'unió podem fer l'operació d'
+\shape italic
+unió binària
+\shape default
+ de tota la vida, és a dir, l'operació que pren dos conjunts i uneix els
+ seus elements en un de sol: donats els conjunts 
 \begin_inset Formula $A$
 \end_inset
 
@@ -3626,7 +3633,7 @@ Combinant els axiomes d'emparellament i d'unió podem fer l'operació d'unió
 \begin_inset Formula $\bigcup\left\{ A,B\right\} =A\cup B$
 \end_inset
 
-
+.
 \end_layout
 
 \end_inset
@@ -4070,7 +4077,7 @@ Més formalment, existeix un conjunt
 \end_inset
 
  tenim que també 
-\begin_inset Formula $x\cup\left\{ x\right\} \in I$
+\begin_inset Formula $S(x)=x\cup\left\{ x\right\} \in I$
 \end_inset
 
 .
@@ -5203,8 +5210,8 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-En matemàtiques també volem arribar a conclusions generals d'una manera
- anàloga però:
+En matemàtiques també volem arribar a conclusions generals partint de casos
+ particulars d'una manera anàloga però:
 \end_layout
 
 \begin_layout Itemize
@@ -5378,8 +5385,8 @@ Podem demostrar, doncs, infinites coses (que
 \begin_inset Formula $P$
 \end_inset
 
- es dóna per cadascun dels infinits nombres naturals) amb una demostració
- finita, un raonament format per un conjunt finit de passos lògics.
+ es dóna per a cadascun dels infinits nombres naturals) amb una demostració
+ finita, és a dir, un raonament format per un conjunt finit de passos lògics.
  I això és una eina potentíssima.
 \end_layout
 
@@ -6048,7 +6055,11 @@ Si el conjunt universal existís, el que hem anomenat axioma de comprensió
  I exactament igual que ens passava quan el teníem com a axioma, ens portaria
  cap al contrasentit de la paradoxa de Russell.
  Per tant la hipòtesi que existeix un conjunt universal ha de ser forçosament
- falsa.
+ falsa en el context de 
+\series bold
+ZFC
+\series default
+.
 \end_layout
 
 \end_inset
@@ -6273,8 +6284,12 @@ Aquest
 \begin_inset Formula $\left\{ A\right\} $
 \end_inset
 
- ni tampoc 
+ ni tampoc un 
 \begin_inset Formula $A$
+\end_inset
+
+ tal que 
+\begin_inset Formula $A∈A$
 \end_inset
 
 .
@@ -6539,19 +6554,19 @@ I d'aquí es deriva que construccions basades en aquesta funció com la dels
 ordenada
 \shape default
 : si l'aplicació repetida de la funció successor a un nombre 
-\begin_inset Formula $a$
+\begin_inset Formula $n$
 \end_inset
 
  ens porta fins a 
-\begin_inset Formula $b$
+\begin_inset Formula $m$
 \end_inset
 
 , subsegüents aplicacions des de 
-\begin_inset Formula $b$
+\begin_inset Formula $m$
 \end_inset
 
- ja no ens podran tornar fins el nombre 
-\begin_inset Formula $a$
+ ja no ens podran tornar fins al nombre 
+\begin_inset Formula $n$
 \end_inset
 
 .
@@ -6587,27 +6602,27 @@ fila
 
 \begin_layout Plain Layout
 Per tant, si 
-\begin_inset Formula $a$
+\begin_inset Formula $n$
 \end_inset
 
  i 
-\begin_inset Formula $b$
+\begin_inset Formula $m$
 \end_inset
 
  no són el mateix nombre, pot ser el cas que 
-\begin_inset Formula $a$
+\begin_inset Formula $n$
 \end_inset
 
  es trobi abans de 
-\begin_inset Formula $b$
+\begin_inset Formula $m$
 \end_inset
 
  o bé que 
-\begin_inset Formula $b$
+\begin_inset Formula $m$
 \end_inset
 
  es trobi abans que 
-\begin_inset Formula $a$
+\begin_inset Formula $n$
 \end_inset
 
 , però ambdues coses alhora no.
@@ -6651,19 +6666,19 @@ relació antisimètrica
 \end_inset
 
  és una relació antisimètrica perquè si tenim que 
-\begin_inset Formula $a≤b$
+\begin_inset Formula $n≤m$
 \end_inset
 
- i 
-\begin_inset Formula $b≤a$
+ i alhora que 
+\begin_inset Formula $n≤m$
 \end_inset
 
- aleshores 
-\begin_inset Formula $a=b$
+, aleshores es dona que 
+\begin_inset Formula $n=m$
 \end_inset
 
 .
- Les relacions d'ordre com 
+ Totes les relacions d'ordre com 
 \begin_inset Formula $≤$
 \end_inset
 
@@ -6838,9 +6853,9 @@ L'
 \shape italic
 axioma de reemplaçament
 \shape default
- diu que si tenim un conjunt i una funció que operi sobre conjunts qualssevol
- aleshores també existeix el conjunt imatge format pels resultats de la
- funció aplicats a cada element del conjunt.
+ diu que si tenim un conjunt i una funció que operi sobre els elements d'aquest
+ conjunt aleshores també existeix el conjunt imatge format pels resultats
+ de la funció aplicats a cada element del conjunt.
 \end_layout
 
 \end_inset
@@ -6917,8 +6932,12 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Una altra cosa que també podríem fer amb aquest axioma és aplicar-ho a un
- conjunt 
+Una altra cosa que també podríem fer amb aquest axioma és, donat un element
+ 
+\begin_inset Formula $b$
+\end_inset
+
+ arbitrari, aplicar-lo a un conjunt 
 \begin_inset Formula $A=\left\{ a_{0},a_{1},a_{2}\right\} $
 \end_inset
 
@@ -6944,12 +6963,7 @@ noprefix "false"
 
 \end_inset
 
- que havíem dit com construir quan parlàvem de l'axioma d'emparellament
- amb un element 
-\begin_inset Formula $b$
-\end_inset
-
- arbitrari.
+ que havíem explicat com construir quan parlàvem de l'axioma d'emparellament.
 \end_layout
 
 \end_inset
@@ -7173,8 +7187,8 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Havíem vist anteriorment que comptar consisteix bàsicament en trobar una
- bijecció entre un conjunt i un representant de la seva cardinalitat.
+Havíem vist anteriorment que comptar consisteix essencialment en trobar
+ una bijecció entre un conjunt i un representant de la seva cardinalitat.
  Anem a veure què passa quan comptem els elements dels productes cartesians.
 \end_layout
 
@@ -7207,7 +7221,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Per exemple, si fem el producte cartesià del conjunt 
+Per exemple, si fem el producte cartesià dels conjunts 
 \begin_inset Formula $3=\left\{ 0,1,2\right\} $
 \end_inset
 
@@ -7310,45 +7324,39 @@ fila
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "33col%"
+height "0.125pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \size footnotesize
-(
-\series bold
-notació
-\series default
-: 
 \begin_inset Formula $|A|$
 \end_inset
 
- vol dir 
+: 
 \shape italic
+la cardinalitat de A.
+\end_layout
 
-\begin_inset Quotes fld
-\end_inset
+\begin_layout Plain Layout
 
-la cardinalitat de A
-\begin_inset Quotes frd
-\end_inset
-
-
-\shape default
- i 
+\size footnotesize
 \begin_inset Formula $A\times B$
 \end_inset
 
- vol dir 
+: 
 \shape italic
-
-\begin_inset Quotes fld
-\end_inset
-
 el producte cartesià de A i B
-\begin_inset Quotes frd
-\end_inset
-
-
 \shape default
-).
+.
 \end_layout
 
 \end_inset
@@ -7526,7 +7534,7 @@ I per tant encara que a primer cop d'ull ens pogués semblar alguna altra
 \begin_inset Formula $|ℕ×3|=|ℕ|$
 \end_inset
 
-
+.
 \end_layout
 
 \end_inset
@@ -7921,8 +7929,8 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Per demostrar que la bijecció entre dos conjunts no existeix més enllà de
- la nostra capacitat de trobar-la o imaginar-nos-la ens cal alguna mena
+Per a demostrar que la bijecció entre dos conjunts no existeix més enllà
+ de la nostra capacitat de trobar-la o imaginar-nos-la ens cal alguna mena
  d'argument més fort i rigorós.
  I això és el que va descobrir en Georg Cantor.
  Però abans ens caldrà parlar del següent axioma.
@@ -8411,7 +8419,7 @@ Si volguéssim generalitzar això a qualsevol tipus de conjunt finit o infinit
 \end_inset
 
  i el conjunt de singletons 
-\begin_inset Formula $\left\{ \left\{ a0\right\} ,\left\{ a1\right\} ,\left\{ a2\right\} ,\ldots\right\} $
+\begin_inset Formula $A^{*}=\left\{ \left\{ a_{0}\right\} ,\left\{ a_{1}\right\} ,\left\{ a_{2}\right\} ,\ldots\right\} $
 \end_inset
 
  que és un subconjunt de 
@@ -8419,10 +8427,13 @@ Si volguéssim generalitzar això a qualsevol tipus de conjunt finit o infinit
 \end_inset
 
  i per tant: 
-\begin_inset Formula $|2^{A}|\geq|A|$
+\begin_inset Formula $|2^{A}|\geq|A^{*}|=|A|$
 \end_inset
 
 .
+ Això ja ens descarta que el conjunt potència d'un conjunt pugui tenir una
+ cardinalitat estrictament menor que el conjunt original.
+ Només pot ser igual o més gran.
 \end_layout
 
 \end_inset
@@ -8491,7 +8502,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Posem un conjunt 
+Posem un conjunt (no necessàriament finit) 
 \begin_inset Formula $A$
 \end_inset
 
@@ -8566,13 +8577,13 @@ De totes aquestes correspondències en algunes es donarà el cas que
 \end_inset
 
  i en d'altres no.
- En la mostra d'exemple que he posat es donaria per la segona i la quarta
- i no es donaria en la segona i la tercera.
- I podem construir un conjunt 
+ En la mostra d'exemple que he posat es donaria en el segon i quart cas
+ i no es donaria en el primer i el tercer.
+ Aleshores podem construir un conjunt 
 \begin_inset Formula $K$
 \end_inset
 
- amb totes les 
+ amb tots els 
 \begin_inset Formula $φ(W)$
 \end_inset
 
@@ -8628,7 +8639,7 @@ Aquest conjunt
 \begin_inset Formula $φ(K)$
 \end_inset
 
- que pot pertànyer o no pertànyer a 
+ que pot pertànyer o no pertànyer al mateix 
 \begin_inset Formula $K$
 \end_inset
 
@@ -8689,7 +8700,11 @@ Per tal com hem definit el conjunt
 \begin_inset Formula $φ(K)\notin K$
 \end_inset
 
- voldria dir que és d'aquells tals que 
+ voldria dir que és d'aquells elements de 
+\begin_inset Formula $2^{A}$
+\end_inset
+
+ tals que 
 \begin_inset Formula $φ(K)\in K$
 \end_inset
 
@@ -8881,9 +8896,9 @@ I més enllà, de fet, donat que la seqüència infinita de conjunts
 \end_inset
 
 , \SpecialChar ldots
- la podem unir en un sol conjunt amb l'axioma de la unió, i aquest conjunt
- enorme fins i tot dins l'espècie dels conjunts infinits també tindrà un
- conjunt potència que serà estrictament més gran que tots els de la seqüència.
+ la podem unir en un sol conjunt fent servir l'axioma de la unió, i aquest
+ conjunt enorme fins i tot dins l'espècie dels conjunts infinits també tindrà
+ un conjunt potència que serà estrictament més gran que tots els de la seqüència.
  I aquest nou conjunt el podrem fer servir com a llavor de tot el procés
  que acabem de fer amb 
 \begin_inset Formula $ℕ$
@@ -8980,7 +8995,7 @@ A l'escola es sol explicar restringit al cas de
 
  i intentant posar-lo en bijecció no amb la seva potència sinó amb el conjunt
  dels nombres reals i construint aquesta bijecció fent una cosa rara amb
- els dígits.
+ els dígits de cada nombre real.
  
 \strikeout on
 Però és que allà no foten mai res bé.
@@ -9222,7 +9237,7 @@ fila
 
 \begin_layout Plain Layout
 A partir d'aquí podem fer coses com per exemple demostrar, fent servir els
- axiomes que hem vist i la deducció purament lògica, que per cada nombre
+ axiomes que hem vist i la deducció purament lògica, que per a cada nombre
  natural 
 \begin_inset Formula $n$
 \end_inset
@@ -9652,7 +9667,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Aquesta operació, no obstant té el problema que el nombre 
+Aquesta operació, no obstant, té el problema que el nombre 
 \begin_inset Formula $c$
 \end_inset
 
@@ -9704,9 +9719,9 @@ Els matemàtics expressen aquest fet dient que els nombres naturals no són
 tancats
 \shape default
  respecte a l'operació de resta.
- Com sí que ho són respecte l'operació de suma: donats dos nombres naturals
- qualssevol existeix el resultat de l'operació suma i és un altre nombre
- natural.
+ Com sí que ho són respecte a l'operació de suma: donats dos nombres naturals
+ qualssevol existeix el resultat de l'operació suma i aquest és un altre
+ nombre natural.
 \end_layout
 
 \end_inset
@@ -9810,7 +9825,7 @@ Però que alhora incloguessin tots els nombres naturals tot i mantenint les
  seves propietats en les operacions que ja tinguem definides, ja que ens
  interessa seguir fent amb ells tot el que hem estat fent amb els nombres
  naturals.
- Només volem estendre'ls per representar una mena de concepte més sofisticat
+ Només volem estendre'ls per a representar una mena de concepte més sofisticat
  però que inclou l'anterior.
 \end_layout
 
@@ -10009,7 +10024,7 @@ ZFC
 \begin_inset Formula $5-8$
 \end_inset
 
-' que `
+' o que `
 \begin_inset Formula $0-3$
 \end_inset
 
@@ -10199,7 +10214,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Del conjunt d'aquests nous nombres-resta en diem 
+D'aquests nous nombres-resta en diem 
 \shape italic
 
 \begin_inset Quotes fld
@@ -10665,7 +10680,7 @@ Posem que volem expressar aquesta longitud en forma de fracció irreductible
 
 .
  O sigui 
-\begin_inset Formula $a^{2}=2·b$
+\begin_inset Formula $a^{2}=2·b^{2}$
 \end_inset
 
 .
@@ -10705,7 +10720,7 @@ Com que
 \end_inset
 
  és igual a 2 multiplicat per alguna cosa (
-\begin_inset Formula $b$
+\begin_inset Formula $b^{2}$
 \end_inset
 
 ) aleshores 
@@ -10923,10 +10938,10 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-L'eina que necessitem per modelar l'espai que ens envolta, que és l'objectiu
- que tenien en definitiva aquests geòmetres de la Grècia antiga, és alguna
- mena de nombres amb els que puguem representar la noció intuïtiva que tenim
- dels punts d'una línia recta.
+L'eina matemàtica que necessitem per a modelar l'espai que ens envolta,
+ que és l'objectiu que tenien en definitiva aquests geòmetres de la Grècia
+ antiga, és alguna mena de nombres amb els que puguem representar la noció
+ intuïtiva que tenim dels punts d'una línia recta.
 \end_layout
 
 \end_inset
@@ -10963,8 +10978,15 @@ I els nombres racionals
 gairebé
 \shape default
  serveixen per això.
- Tenen un ordre total igual que tenen els punts d'una recta i també són
- densos igual que ho són els punts d'una recta.
+ Tenen un 
+\shape italic
+ordre total
+\shape default
+ igual que tenen els punts d'una recta i també són 
+\shape italic
+densos
+\shape default
+ igual que ho són els punts d'una recta.
 \end_layout
 
 \end_inset
@@ -11127,7 +11149,7 @@ Un ordre és
 \shape italic
 dens
 \shape default
- si per cada 
+ si per a cada 
 \begin_inset Formula $a<b$
 \end_inset
 
@@ -11307,13 +11329,17 @@ En aquesta situació existirà un punt de la recta que essent més gran o igual
 \end_inset
 
 .
- D'aquest punt en diem 
+ D'aquest punt diem que és el 
 \shape italic
 
 \begin_inset Quotes fld
 \end_inset
 
-suprem
+suprem del conjunt 
+\begin_inset Formula $A$
+\end_inset
+
+
 \begin_inset Quotes frd
 \end_inset
 
@@ -11420,7 +11446,7 @@ Quan el conjunt
 \begin_inset Formula $A$
 \end_inset
 
- és acotat el seu suprem existeix.
+ és acotat el seu suprem existeix dins la recta.
 \end_layout
 
 \end_inset
@@ -11669,7 +11695,7 @@ Les successives distàncies entre Aquil·les i la tortuga serien com el conjunt
  i l'esdeveniment d'atrapar-la com el suprem que estem trobant.
  De la mateixa manera que el suprem d'un conjunt acotat de nombres racionals
  pot no ser un racional, dins el cap de nombres racionals que tenien els
- grecs aquest esdeveniment no arribava mai.
+ grecs aquest esdeveniment no podia arribar mai.
 \end_layout
 
 \end_inset
@@ -11960,7 +11986,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Per fer una representació precisa escollirem un únic representant canònic
+Per a fer una representació precisa escollirem un únic representant canònic
  d'entre tots els que ens donen el mateix real.
  De la mateixa manera que en els enters vam escollir aquells parells on
  hi havia un zero o en els racionals els que feien una fracció irreductible.
@@ -12337,16 +12363,16 @@ Com que
 \end_inset
 
  s'ha de donar que 
-\begin_inset Formula $A\subset B$
+\begin_inset Formula $A\subsetneq B$
 \end_inset
 
  o bé que 
-\begin_inset Formula $B\subset A$
+\begin_inset Formula $B\subsetneq A$
 \end_inset
 
 .
  Suposem sense perdre generalitat que el cas és 
-\begin_inset Formula $A\subset B$
+\begin_inset Formula $A\subsetneq B$
 \end_inset
 
 .
@@ -12475,7 +12501,7 @@ Es pot comprovar que aquest conjunt
 
  tal com l'hem definit té efectivament totes les propietats que defineixen
  un tall de Dedekind i que a més es dona que 
-\begin_inset Formula $A\subset C\subset B$
+\begin_inset Formula $A\subsetneq C\subsetneq B$
 \end_inset
 
 .
@@ -12516,7 +12542,7 @@ fila
 
 \begin_layout Plain Layout
 Suposem ara que tenim un conjunt no buit de talls de Dedekind 
-\begin_inset Formula $\varGamma=\{A_{o},A_{1},A_{2},A_{3},\ldots\}$
+\begin_inset Formula $\varGamma=\{A_{0},A_{1},A_{2},A_{3},\ldots\}$
 \end_inset
 
  que pot ser infinit però es dona el cas que existeix un altre tall de Dedekind
@@ -12699,8 +12725,8 @@ Per tant, els talls de Dedekind amb la relació
 \begin_inset Formula $\subseteq$
 \end_inset
 
- tenen totes les propietats necessàries per ser considerades un continu,
- i és el que farem servir per representar els nombres reals en la teoria
+ tenen totes les propietats necessàries per a ser considerats un continu,
+ i és el que farem servir per a representar els nombres reals en la teoria
  de conjunts; el real representat és el valor suprem de tots els nombres
  racionals que conformen el tall o bé la frontera de la partició de 
 \begin_inset Formula $\mathbb{Q}$
@@ -12784,7 +12810,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-I qualsevol tractament matemàtic que es fa amb ells es pot fer en darrera
+I qualsevol tractament matemàtic que es faci amb ells es pot fer en darrera
  instància amb teoremes i operacions de teoria de conjunts estrictament.
  En aquest sentit, tot aquell fato dels límits, derivades, integrals i la
  resta de l'estudi dels nombres reals que es fa en el càlcul infinitesimal
@@ -23086,6 +23112,7 @@ La potenciació de nombres ordinals i la de nombres cardinals són ambdues
 \family typewriter
 \size tiny
 \color lightgray
+apta
 \begin_inset Box Frameless
 position "t"
 hor_pos "c"
