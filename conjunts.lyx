@@ -12902,7 +12902,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Per veure que alhora 
+Per a veure que alhora 
 \begin_inset Formula $|2^{ℕ}|\leq|ℝ|$
 \end_inset
 
@@ -12914,7 +12914,7 @@ injectiva
 \begin_inset Formula $f:2^{\text{ℕ}}\rightarrow\mathbb{R}$
 \end_inset
 
- , és a dir una bijecció entre 
+, és a dir una bijecció entre 
 \begin_inset Formula $2^{ℕ}$
 \end_inset
 
@@ -13134,13 +13134,14 @@ El resultat és doncs, si més no en aquests exemples finits, un nombre racional
 \end_inset
 
  en cas contrari.
- Donat això és força clar que per dos conjunts diferents la funció 
+ Donat això és força clar que per a dos conjunts diferents la funció 
 \begin_inset Formula $f$
 \end_inset
 
  ens donarà nombres diferents, ja que la seva representació decimal haurà
- de diferir en com a mínim una posició, allí on els conjunts d'entrada siguin
- diferents.
+ de diferir en com a mínim una posició, aquella que correspongui al com
+ a mínim un element que ha de pertànyer a un dels dos conjunts i no pertànyer
+ a l'altre, si és que són realment diferents.
 \end_layout
 
 \end_inset
@@ -13253,7 +13254,12 @@ f(\left\{ 0,2,4,6,8,\ldots\right\} ) & = & \sum\left\{ \frac{1}{10^{0}},\frac{1}
  & = & 1+\nicefrac{1}{99}\\
 \\
 f(\left\{ 2,3,5,7,11,\ldots\right\} ) & = & \sum\left\{ \frac{1}{10^{2}},\frac{1}{10^{3}},\frac{1}{10^{5}},\frac{1}{10^{7}},\frac{1}{10^{11}},\ldots\right\} \\
- & = & 0.01101010001\ldots
+ & = & 0.01101010001\ldots\\
+\\
+f(\mathbb{N}) & = & f(\{0,1,2,3,\ldots\})\\
+ & = & \sum\left\{ \frac{1}{10^{0}},\frac{1}{10^{1}},\frac{1}{10^{2}},\frac{1}{10^{3}},\ldots\right\} \\
+ & = & 1.11111\ldots\\
+ & = & 1.\bar{1}=1+\nicefrac{1}{9}=\nicefrac{10}{9}
 \end{eqnarray*}
 
 \end_inset
@@ -13291,7 +13297,7 @@ fila
 
 \begin_layout Plain Layout
 En alguns (molts, de fet, gairebé tots) casos de conjunts infinits de naturals
- com aquest darrer dels nombres primers el resultat de la funció 
+ com aquest anterior dels nombres primers el resultat de la funció 
 \begin_inset Formula $f$
 \end_inset
 
