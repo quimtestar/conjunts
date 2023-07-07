@@ -4842,6 +4842,13 @@ fila
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "dedekind_infinit"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -13619,7 +13626,7 @@ Per exemple, la suma del conjunt
 \sum\{2,3,5\} & = & \sum\left(2,3,5\right)\\
  & = & \sum\left(2,3\right)+5\\
  & = & \left(\sum\left(2\right)+3\right)+5\\
- & = & \left(\left(\left(\sum\left(\right)\right)+2\right)+3\right)+5\\
+ & = & \left(\left(\sum\left(\right)+2\right)+3\right)+5\\
  & = & ((0+2)+3)+5\\
  & = & 10
 \end{eqnarray*}
@@ -13931,7 +13938,7 @@ Si recordem el cas particular que ens ocupa i del que potser ja ens hem
 \begin_inset Formula $\frac{1}{10^{k}}$
 \end_inset
 
-, és a dir, tots nombres positius.
+, és a dir, tots ells nombres positius.
  Això vol dir que cada element de la seqüència de sumes parcials tindrà
  un valor més gran que l'anterior donat que si 
 \begin_inset Formula $s_{i+1}=s_{i}+a_{i}$
@@ -14049,7 +14056,7 @@ I amb això ja tenim definida d'una manera fonamentada la funció
  que té la propietat de no col·lisionar en el mateix nombre real de sortida
  amb cap parell de conjunts d'entrada diferents.
  Dit d'una altra manera, és una bijecció entre els conjunts de conjunts
- de naturals i un cert subconjunt dels reals.
+ de nombres naturals i un cert subconjunt dels nombres reals.
 \end_layout
 
 \end_inset
@@ -14517,15 +14524,15 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Però també hi ha uns altres conjunts equipotents amb 
-\begin_inset Formula $2^{ℕ}$
-\end_inset
-
- com 
+Però també hi ha uns altres conjunts com 
 \begin_inset Formula $ℝ$
 \end_inset
 
- que són estrictament més grans.
+ que són equipotents amb 
+\begin_inset Formula $2^{ℕ}$
+\end_inset
+
+ i per tant estrictament més grans.
  I després conjunts encara més i més estrictament grans que podem anar construin
 t tot aplicant l'operació de potència de conjunts als conjunts que ja tinguem.
 \end_layout
@@ -14641,7 +14648,25 @@ fila
 
 \begin_layout Plain Layout
 La primera qüestió és força assequible si partim de la definició d'infinitat
- de Dedekind que vam veure.
+ de Dedekind que vam veure
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "dedekind_infinit"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
