@@ -4315,7 +4315,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename figures/bijection.svg
+	filename figures/pdf/bijection.pdf
 	width 100bp
 
 \end_inset
@@ -7738,7 +7738,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename figures/pairing_natural.svg
+	filename figures/pdf/pairing_natural.pdf
 	width 150bp
 	clip
 
@@ -10618,7 +10618,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename figures/diagonal.svg
+	filename figures/pdf/diagonal.pdf
 	width 100bp
 
 \end_inset
@@ -11383,7 +11383,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename figures/suprem.svg
+	filename figures/pdf/suprem.pdf
 	width 90text%
 
 \end_inset
