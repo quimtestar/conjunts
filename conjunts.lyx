@@ -14871,7 +14871,7 @@ De la mateixa manera, farem
 \end_inset
 
  pel mateix motiu que abans.
- Tampoc pot ser igual a 
+ I tampoc pot ser igual a 
 \begin_inset Formula $x_{1}$
 \end_inset
 
@@ -14924,7 +14924,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-Seguint aquest procediment, podrem anar definit tota una seqüència de 
+Seguint aquest procediment, podrem anar definint tota una seqüència de 
 \begin_inset Formula $x_{n}$
 \end_inset
 
@@ -14944,7 +14944,7 @@ Seguint aquest procediment, podrem anar definit tota una seqüència de
 \begin_inset Formula $x_{n}$
 \end_inset
 
- és diferent de tots els altres.
+ és diferent de tots els altres elements de la seqüència.
 \end_layout
 
 \end_inset
@@ -15035,11 +15035,7 @@ L'altra qüestió, si
 \begin_inset Formula $ℕ$
 \end_inset
 
-, 
-\strikeout on
-té més enhúndia
-\strikeout default
- és més complexa.
+, és més complexa.
 \end_layout
 
 \end_inset
@@ -15177,7 +15173,7 @@ fila
 
 \begin_layout Plain Layout
 Doncs bé, el mateix Gödel va contribuir a demostrar que aquest és el cas
- de la hipòtesi del continu en el sistema 
+ de la hipòtesi del continu en el sistema axiomàtic 
 \series bold
 ZFC
 \series default
@@ -15244,7 +15240,7 @@ h
 \series default
 ypothesis
 \shape default
-), que seria tant consistent com 
+), que seria tant consistent com ho és 
 \series bold
 ZFC
 \series default
@@ -15493,8 +15489,8 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-De fet, això és vindria a ser el que succeí amb el darrer axioma que ens
- falta, l'axioma de l'elecció.
+De fet, això vindria a ser el que succeí amb el darrer axioma que ens falta,
+ l'axioma de l'elecció.
 \end_layout
 
 \end_inset
@@ -15532,7 +15528,7 @@ Es va trobar que era independent del sistema axiomàtic format pel conjunt
 ZF
 \series default
 , i va resultar que és necessari per sostenir part de la matemàtica que
- es va considerar de és desitjable que sigui sostinguda.
+ es va considerar que és desitjable que sigui sostinguda.
 \end_layout
 
 \end_inset
@@ -16219,7 +16215,7 @@ fila
 \begin_inset Text
 
 \begin_layout Plain Layout
-I amb això acabaríem l'exposició de la teoria de conjunts 
+I amb això acabem l'exposició de la teoria de conjunts 
 \series bold
 ZFC
 \series default
@@ -16625,7 +16621,7 @@ fila
 Tot i amb això, mentre ho fem ens oblidem d'aquest fet i dediquem tota la
  nostra capacitat mental a l'abstracció pura, sense malgastar pensament
  en particularitats irrellevants.
- Això ens permet arribar a llocs que serien altrament impensables.
+ Això ens permet arribar a llocs que serien altrament inassolibles.
  Però d'això ja en vam parlar.
 \end_layout
 
