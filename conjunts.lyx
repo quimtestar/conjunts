@@ -3298,7 +3298,7 @@ D'aquest objecte
 \begin_inset Formula $a$
 \end_inset
 
- és aquell que és element alhora dels dos elements de 
+ és aquell que és element alhora de tots els elements de 
 \begin_inset Formula $\omega$
 \end_inset
 
@@ -3306,7 +3306,7 @@ D'aquest objecte
 \begin_inset Formula $b$
 \end_inset
 
- és aquell que és element d'exactament un element de 
+ és aquell que és element d'exactament un dels elements de 
 \begin_inset Formula $\omega$
 \end_inset
 
@@ -3349,8 +3349,8 @@ name "parell-ordenat"
 \begin_inset Text
 
 \begin_layout Plain Layout
-Però a més aquesta estructura ens interessa per la seva asimetria: no és
- el mateix 
+Però a més aquesta estructura ens interessa per la seva asimetria: en general
+ no és el mateix 
 \begin_inset Formula $\left\{ \left\{ a\right\} ,\left\{ a,b\right\} \right\} $
 \end_inset
 
@@ -3358,7 +3358,11 @@ Però a més aquesta estructura ens interessa per la seva asimetria: no és
 \begin_inset Formula $\left\{ \left\{ b\right\} ,\left\{ b,a\right\} \right\} $
 \end_inset
 
-.
+ (només ho és quan 
+\begin_inset Formula $a=b$
+\end_inset
+
+).
  I com que és asimètrica podem definir-hi un ordre, dir que un element va
  davant de l'altre.
  Per això en diem 
