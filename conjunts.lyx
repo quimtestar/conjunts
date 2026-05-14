@@ -3290,7 +3290,7 @@ fila
 
 \begin_layout Plain Layout
 D'aquest objecte 
-\begin_inset Formula $\omega$
+\begin_inset Formula $p$
 \end_inset
 
  quan ens convingui en podrem tornar a recuperar els seus dos components:
@@ -3299,7 +3299,7 @@ D'aquest objecte
 \end_inset
 
  és aquell que és element alhora de tots els elements de 
-\begin_inset Formula $\omega$
+\begin_inset Formula $p$
 \end_inset
 
  i 
@@ -3307,7 +3307,7 @@ D'aquest objecte
 \end_inset
 
  és aquell que és element d'exactament un dels elements de 
-\begin_inset Formula $\omega$
+\begin_inset Formula $p$
 \end_inset
 
 .
@@ -6681,7 +6681,7 @@ relació antisimètrica
 \end_inset
 
  i alhora que 
-\begin_inset Formula $n≤m$
+\begin_inset Formula $m≤n$
 \end_inset
 
 , aleshores es dona que 
@@ -21148,7 +21148,7 @@ Donat un conjunt
 \end_inset
 
  si 
-\begin_inset Formula $a\in A'$
+\begin_inset Formula $a\notin A'$
 \end_inset
 
  i 
